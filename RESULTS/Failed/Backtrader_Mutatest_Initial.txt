@@ -1,0 +1,540 @@
+2023-11-02 20:54:59,328: Running clean trial
+============================= test session starts ==============================
+platform linux -- Python 3.8.16, pytest-6.2.5, py-1.11.0, pluggy-1.0.0 -- /usr/local/python-env/py38/bin/python3.8
+cachedir: .pytest_cache
+rootdir: /s/bach/m/under/bdavis43/CS514/Project/backtrader
+plugins: cov-3.0.0
+collecting ... collected 82 items
+
+tests/test_analyzer-sqn.py::test_run PASSED                              [  1%]
+tests/test_analyzer-timereturn.py::test_run PASSED                       [  2%]
+tests/test_comminfo.py::test_run PASSED                                  [  3%]
+tests/test_data_multiframe.py::test_run PASSED                           [  4%]
+tests/test_data_replay.py::test_run PASSED                               [  6%]
+tests/test_data_resample.py::test_run PASSED                             [  7%]
+tests/test_ind_accdecosc.py::test_run PASSED                             [  8%]
+tests/test_ind_aroonoscillator.py::test_run PASSED                       [  9%]
+tests/test_ind_aroonupdown.py::test_run PASSED                           [ 10%]
+tests/test_ind_atr.py::test_run PASSED                                   [ 12%]
+tests/test_ind_awesomeoscillator.py::test_run PASSED                     [ 13%]
+tests/test_ind_bbands.py::test_run PASSED                                [ 14%]
+tests/test_ind_cci.py::test_run PASSED                                   [ 15%]
+tests/test_ind_dema.py::test_run PASSED                                  [ 17%]
+tests/test_ind_demaenvelope.py::test_run PASSED                          [ 18%]
+tests/test_ind_demaosc.py::test_run PASSED                               [ 19%]
+tests/test_ind_dm.py::test_run PASSED                                    [ 20%]
+tests/test_ind_dma.py::test_run PASSED                                   [ 21%]
+tests/test_ind_downmove.py::test_run PASSED                              [ 23%]
+tests/test_ind_dpo.py::test_run PASSED                                   [ 24%]
+tests/test_ind_dv2.py::test_run PASSED                                   [ 25%]
+tests/test_ind_ema.py::test_run PASSED                                   [ 26%]
+tests/test_ind_emaenvelope.py::test_run PASSED                           [ 28%]
+tests/test_ind_emaosc.py::test_run PASSED                                [ 29%]
+tests/test_ind_envelope.py::test_run PASSED                              [ 30%]
+tests/test_ind_heikinashi.py::test_run PASSED                            [ 31%]
+tests/test_ind_highest.py::test_run PASSED                               [ 32%]
+tests/test_ind_hma.py::test_run PASSED                                   [ 34%]
+tests/test_ind_ichimoku.py::test_run PASSED                              [ 35%]
+tests/test_ind_kama.py::test_run PASSED                                  [ 36%]
+tests/test_ind_kamaenvelope.py::test_run PASSED                          [ 37%]
+tests/test_ind_kamaosc.py::test_run PASSED                               [ 39%]
+tests/test_ind_kst.py::test_run PASSED                                   [ 40%]
+tests/test_ind_lowest.py::test_run PASSED                                [ 41%]
+tests/test_ind_lrsi.py::test_run PASSED                                  [ 42%]
+tests/test_ind_macdhisto.py::test_run PASSED                             [ 43%]
+tests/test_ind_minperiod.py::test_run PASSED                             [ 45%]
+tests/test_ind_momentum.py::test_run PASSED                              [ 46%]
+tests/test_ind_momentumoscillator.py::test_run PASSED                    [ 47%]
+tests/test_ind_oscillator.py::test_run PASSED                            [ 48%]
+tests/test_ind_pctchange.py::test_run PASSED                             [ 50%]
+tests/test_ind_pctrank.py::test_run PASSED                               [ 51%]
+tests/test_ind_pgo.py::test_run PASSED                                   [ 52%]
+tests/test_ind_ppo.py::test_run PASSED                                   [ 53%]
+tests/test_ind_pposhort.py::test_run PASSED                              [ 54%]
+tests/test_ind_priceosc.py::test_run PASSED                              [ 56%]
+tests/test_ind_rmi.py::test_run PASSED                                   [ 57%]
+tests/test_ind_roc.py::test_run PASSED                                   [ 58%]
+tests/test_ind_rsi.py::test_run PASSED                                   [ 59%]
+tests/test_ind_rsi_safe.py::test_run PASSED                              [ 60%]
+tests/test_ind_sma.py::test_run PASSED                                   [ 62%]
+tests/test_ind_smaenvelope.py::test_run PASSED                           [ 63%]
+tests/test_ind_smaosc.py::test_run PASSED                                [ 64%]
+tests/test_ind_smma.py::test_run PASSED                                  [ 65%]
+tests/test_ind_smmaenvelope.py::test_run PASSED                          [ 67%]
+tests/test_ind_smmaosc.py::test_run PASSED                               [ 68%]
+tests/test_ind_stochastic.py::test_run PASSED                            [ 69%]
+tests/test_ind_stochasticfull.py::test_run PASSED                        [ 70%]
+tests/test_ind_sumn.py::test_run PASSED                                  [ 71%]
+tests/test_ind_tema.py::test_run PASSED                                  [ 73%]
+tests/test_ind_temaenvelope.py::test_run PASSED                          [ 74%]
+tests/test_ind_temaosc.py::test_run PASSED                               [ 75%]
+tests/test_ind_trix.py::test_run PASSED                                  [ 76%]
+tests/test_ind_tsi.py::test_run PASSED                                   [ 78%]
+tests/test_ind_ultosc.py::test_run PASSED                                [ 79%]
+tests/test_ind_upmove.py::test_run PASSED                                [ 80%]
+tests/test_ind_vortex.py::test_run PASSED                                [ 81%]
+tests/test_ind_williamsad.py::test_run PASSED                            [ 82%]
+tests/test_ind_williamsr.py::test_run PASSED                             [ 84%]
+tests/test_ind_wma.py::test_run PASSED                                   [ 85%]
+tests/test_ind_wmaenvelope.py::test_run PASSED                           [ 86%]
+tests/test_ind_wmaosc.py::test_run PASSED                                [ 87%]
+tests/test_ind_zlema.py::test_run PASSED                                 [ 89%]
+tests/test_ind_zlind.py::test_run PASSED                                 [ 90%]
+tests/test_metaclass.py::test_run PASSED                                 [ 91%]
+tests/test_order.py::test_run PASSED                                     [ 92%]
+tests/test_position.py::test_run PASSED                                  [ 93%]
+tests/test_strategy_optimized.py::test_run PASSED                        [ 95%]
+tests/test_strategy_unoptimized.py::test_run PASSED                      [ 96%]
+tests/test_study_fractal.py::test_run PASSED                             [ 97%]
+tests/test_trade.py::test_run PASSED                                     [ 98%]
+tests/test_writer.py::test_run PASSED                                    [100%]
+
+=============================== warnings summary ===============================
+backtrader/cerebro.py:670
+  /s/bach/m/under/bdavis43/CS514/Project/backtrader/backtrader/cerebro.py:670: DeprecationWarning: invalid escape sequence \*
+    '''Adds a callback to get messages which would be handled by the
+
+backtrader/cerebro.py:712
+  /s/bach/m/under/bdavis43/CS514/Project/backtrader/backtrader/cerebro.py:712: DeprecationWarning: invalid escape sequence \*
+    '''Adds a callback to get messages which would be handled by the
+
+tests/test_analyzer-sqn.py:37
+  /s/bach/m/under/bdavis43/CS514/Project/backtrader/tests/test_analyzer-sqn.py:37: PytestCollectionWarning: cannot collect test class 'TestStrategy' because it has a __init__ constructor (from: tests/test_analyzer-sqn.py)
+    class TestStrategy(bt.Strategy):
+
+tests/test_analyzer-timereturn.py:37
+  /s/bach/m/under/bdavis43/CS514/Project/backtrader/tests/test_analyzer-timereturn.py:37: PytestCollectionWarning: cannot collect test class 'TestStrategy' because it has a __init__ constructor (from: tests/test_analyzer-timereturn.py)
+    class TestStrategy(bt.Strategy):
+
+tests/test_metaclass.py:23
+  /s/bach/m/under/bdavis43/CS514/Project/backtrader/tests/test_metaclass.py:23: PytestCollectionWarning: cannot collect test class 'TestFrompackages' because it has a __init__ constructor (from: tests/test_metaclass.py)
+    class TestFrompackages(testcommon.SampleParamsHolder):
+
+tests/test_strategy_optimized.py:63
+  /s/bach/m/under/bdavis43/CS514/Project/backtrader/tests/test_strategy_optimized.py:63: PytestCollectionWarning: cannot collect test class 'TestStrategy' because it has a __init__ constructor (from: tests/test_strategy_optimized.py)
+    class TestStrategy(bt.Strategy):
+
+tests/test_strategy_unoptimized.py:56
+  /s/bach/m/under/bdavis43/CS514/Project/backtrader/tests/test_strategy_unoptimized.py:56: PytestCollectionWarning: cannot collect test class 'TestStrategy' because it has a __init__ constructor (from: tests/test_strategy_unoptimized.py)
+    class TestStrategy(bt.Strategy):
+
+tests/test_writer.py:35
+  /s/bach/m/under/bdavis43/CS514/Project/backtrader/tests/test_writer.py:35: PytestCollectionWarning: cannot collect test class 'TestStrategy' because it has a __init__ constructor (from: tests/test_writer.py)
+    class TestStrategy(bt.Strategy):
+
+-- Docs: https://docs.pytest.org/en/stable/warnings.html
+================== 82 passed, 8 warnings in 62.29s (0:01:02) ===================
+2023-11-02 20:56:02,227: [92m1 mutation targets found in backtrader/signal.py AST.[0m
+2023-11-02 20:56:02,230: [92m40 mutation targets found in backtrader/position.py AST.[0m
+2023-11-02 20:56:02,230: [92m2 mutation targets found in backtrader/sizer.py AST.[0m
+2023-11-02 20:56:02,237: [92m95 mutation targets found in backtrader/lineseries.py AST.[0m
+2023-11-02 20:56:02,241: [92m48 mutation targets found in backtrader/functions.py AST.[0m
+2023-11-02 20:56:02,242: [92m35 mutation targets found in backtrader/broker.py AST.[0m
+2023-11-02 20:56:02,253: [92m241 mutation targets found in backtrader/feed.py AST.[0m
+2023-11-02 20:56:02,259: [92m125 mutation targets found in backtrader/order.py AST.[0m
+2023-11-02 20:56:02,274: [92m319 mutation targets found in backtrader/cerebro.py AST.[0m
+2023-11-02 20:56:02,276: [92m24 mutation targets found in backtrader/store.py AST.[0m
+2023-11-02 20:56:02,276: [93m0 mutation targets found in backtrader/errors.py AST.[0m
+2023-11-02 20:56:02,290: [92m48 mutation targets found in backtrader/metabase.py AST.[0m
+2023-11-02 20:56:02,295: [92m91 mutation targets found in backtrader/analyzer.py AST.[0m
+2023-11-02 20:56:02,297: [92m49 mutation targets found in backtrader/tradingcal.py AST.[0m
+2023-11-02 20:56:02,300: [92m68 mutation targets found in backtrader/comminfo.py AST.[0m
+2023-11-02 20:56:02,300: [93m0 mutation targets found in backtrader/version.py AST.[0m
+2023-11-02 20:56:02,317: [92m418 mutation targets found in backtrader/strategy.py AST.[0m
+2023-11-02 20:56:02,326: [92m143 mutation targets found in backtrader/linebuffer.py AST.[0m
+2023-11-02 20:56:02,327: [92m10 mutation targets found in backtrader/mathsupport.py AST.[0m
+2023-11-02 20:56:02,329: [92m68 mutation targets found in backtrader/writer.py AST.[0m
+2023-11-02 20:56:02,331: [92m15 mutation targets found in backtrader/indicator.py AST.[0m
+2023-11-02 20:56:02,334: [93m0 mutation targets found in backtrader/__init__.py AST.[0m
+2023-11-02 20:56:02,336: [92m5 mutation targets found in backtrader/observer.py AST.[0m
+2023-11-02 20:56:02,339: [92m85 mutation targets found in backtrader/timer.py AST.[0m
+2023-11-02 20:56:02,347: [92m300 mutation targets found in backtrader/resamplerfilter.py AST.[0m
+2023-11-02 20:56:02,351: [92m72 mutation targets found in backtrader/talib.py AST.[0m
+2023-11-02 20:56:02,356: [92m102 mutation targets found in backtrader/lineiterator.py AST.[0m
+2023-11-02 20:56:02,357: [92m3 mutation targets found in backtrader/flt.py AST.[0m
+2023-11-02 20:56:02,359: [92m40 mutation targets found in backtrader/trade.py AST.[0m
+2023-11-02 20:56:02,362: [92m33 mutation targets found in backtrader/lineroot.py AST.[0m
+2023-11-02 20:56:02,366: [92m41 mutation targets found in backtrader/dataseries.py AST.[0m
+2023-11-02 20:56:02,368: [92m12 mutation targets found in backtrader/fillers.py AST.[0m
+2023-11-02 20:56:02,369: [92m38 mutation targets found in backtrader/observers/broker.py AST.[0m
+2023-11-02 20:56:02,371: [92m38 mutation targets found in backtrader/observers/buysell.py AST.[0m
+2023-11-02 20:56:02,374: [92m11 mutation targets found in backtrader/observers/benchmark.py AST.[0m
+2023-11-02 20:56:02,376: [92m23 mutation targets found in backtrader/observers/drawdown.py AST.[0m
+2023-11-02 20:56:02,377: [93m0 mutation targets found in backtrader/observers/__init__.py AST.[0m
+2023-11-02 20:56:02,380: [92m22 mutation targets found in backtrader/observers/trades.py AST.[0m
+2023-11-02 20:56:02,381: [92m7 mutation targets found in backtrader/observers/timereturn.py AST.[0m
+2023-11-02 20:56:02,382: [92m9 mutation targets found in backtrader/observers/logreturns.py AST.[0m
+2023-11-02 20:56:02,398: [92m427 mutation targets found in backtrader/brokers/bbroker.py AST.[0m
+2023-11-02 20:56:02,403: [92m72 mutation targets found in backtrader/brokers/vcbroker.py AST.[0m
+2023-11-02 20:56:02,404: [93m0 mutation targets found in backtrader/brokers/__init__.py AST.[0m
+2023-11-02 20:56:02,409: [92m74 mutation targets found in backtrader/brokers/oandabroker.py AST.[0m
+2023-11-02 20:56:02,415: [92m119 mutation targets found in backtrader/brokers/ibbroker.py AST.[0m
+2023-11-02 20:56:02,423: [92m195 mutation targets found in backtrader/btrun/btrun.py AST.[0m
+2023-11-02 20:56:02,424: [93m0 mutation targets found in backtrader/btrun/__init__.py AST.[0m
+2023-11-02 20:56:02,424: [92m2 mutation targets found in backtrader/commissions/__init__.py AST.[0m
+2023-11-02 20:56:02,425: [92m8 mutation targets found in backtrader/sizers/percents_sizer.py AST.[0m
+2023-11-02 20:56:02,426: [93m0 mutation targets found in backtrader/sizers/__init__.py AST.[0m
+2023-11-02 20:56:02,427: [92m17 mutation targets found in backtrader/sizers/fixedsize.py AST.[0m
+2023-11-02 20:56:02,428: [92m5 mutation targets found in backtrader/strategies/sma_crossover.py AST.[0m
+2023-11-02 20:56:02,428: [93m0 mutation targets found in backtrader/strategies/__init__.py AST.[0m
+2023-11-02 20:56:02,430: [92m10 mutation targets found in backtrader/feeds/btcsv.py AST.[0m
+2023-11-02 20:56:02,432: [92m42 mutation targets found in backtrader/feeds/vchartfile.py AST.[0m
+2023-11-02 20:56:02,437: [92m72 mutation targets found in backtrader/feeds/yahoo.py AST.[0m
+2023-11-02 20:56:02,439: [92m33 mutation targets found in backtrader/feeds/csvgeneric.py AST.[0m
+2023-11-02 20:56:02,445: [92m148 mutation targets found in backtrader/feeds/oanda.py AST.[0m
+2023-11-02 20:56:02,446: [92m19 mutation targets found in backtrader/feeds/chainer.py AST.[0m
+2023-11-02 20:56:02,453: [92m216 mutation targets found in backtrader/feeds/ibdata.py AST.[0m
+2023-11-02 20:56:02,455: [92m9 mutation targets found in backtrader/feeds/blaze.py AST.[0m
+2023-11-02 20:56:02,489: [92m49 mutation targets found in backtrader/feeds/pandafeed.py AST.[0m
+2023-11-02 20:56:02,491: [92m34 mutation targets found in backtrader/feeds/vchart.py AST.[0m
+2023-11-02 20:56:02,491: [93m0 mutation targets found in backtrader/feeds/sierrachart.py AST.[0m
+2023-11-02 20:56:02,494: [93m0 mutation targets found in backtrader/feeds/mt4csv.py AST.[0m
+2023-11-02 20:56:02,500: [92m167 mutation targets found in backtrader/feeds/vcdata.py AST.[0m
+2023-11-02 20:56:02,502: [92m16 mutation targets found in backtrader/feeds/influxfeed.py AST.[0m
+2023-11-02 20:56:02,505: [93m0 mutation targets found in backtrader/feeds/__init__.py AST.[0m
+2023-11-02 20:56:02,507: [92m37 mutation targets found in backtrader/feeds/quandl.py AST.[0m
+2023-11-02 20:56:02,510: [92m61 mutation targets found in backtrader/feeds/rollover.py AST.[0m
+2023-11-02 20:56:02,511: [92m11 mutation targets found in backtrader/feeds/vchartcsv.py AST.[0m
+2023-11-02 20:56:02,515: [92m38 mutation targets found in backtrader/filters/datafiller.py AST.[0m
+2023-11-02 20:56:02,516: [92m21 mutation targets found in backtrader/filters/calendardays.py AST.[0m
+2023-11-02 20:56:02,517: [92m22 mutation targets found in backtrader/filters/heikinashi.py AST.[0m
+2023-11-02 20:56:02,519: [92m53 mutation targets found in backtrader/filters/renko.py AST.[0m
+2023-11-02 20:56:02,520: [92m14 mutation targets found in backtrader/filters/bsplitter.py AST.[0m
+2023-11-02 20:56:02,521: [92m9 mutation targets found in backtrader/filters/datafilter.py AST.[0m
+2023-11-02 20:56:02,526: [92m37 mutation targets found in backtrader/filters/session.py AST.[0m
+2023-11-02 20:56:02,527: [93m0 mutation targets found in backtrader/filters/__init__.py AST.[0m
+2023-11-02 20:56:02,528: [92m14 mutation targets found in backtrader/filters/daysteps.py AST.[0m
+2023-11-02 20:56:02,530: [92m13 mutation targets found in backtrader/analyzers/periodstats.py AST.[0m
+2023-11-02 20:56:02,531: [92m13 mutation targets found in backtrader/analyzers/calmar.py AST.[0m
+2023-11-02 20:56:02,534: [92m8 mutation targets found in backtrader/analyzers/sqn.py AST.[0m
+2023-11-02 20:56:02,536: [92m7 mutation targets found in backtrader/analyzers/leverage.py AST.[0m
+2023-11-02 20:56:02,537: [92m10 mutation targets found in backtrader/analyzers/positions.py AST.[0m
+2023-11-02 20:56:02,538: [92m16 mutation targets found in backtrader/analyzers/transactions.py AST.[0m
+2023-11-02 20:56:02,540: [92m20 mutation targets found in backtrader/analyzers/drawdown.py AST.[0m
+2023-11-02 20:56:02,542: [92m21 mutation targets found in backtrader/analyzers/returns.py AST.[0m
+2023-11-02 20:56:02,544: [92m27 mutation targets found in backtrader/analyzers/logreturnsrolling.py AST.[0m
+2023-11-02 20:56:02,546: [92m12 mutation targets found in backtrader/analyzers/annualreturn.py AST.[0m
+2023-11-02 20:56:02,549: [92m10 mutation targets found in backtrader/analyzers/pyfolio.py AST.[0m
+2023-11-02 20:56:02,549: [93m0 mutation targets found in backtrader/analyzers/__init__.py AST.[0m
+2023-11-02 20:56:02,551: [92m24 mutation targets found in backtrader/analyzers/vwr.py AST.[0m
+2023-11-02 20:56:02,556: [92m43 mutation targets found in backtrader/analyzers/sharpe.py AST.[0m
+2023-11-02 20:56:02,559: [92m67 mutation targets found in backtrader/analyzers/tradeanalyzer.py AST.[0m
+2023-11-02 20:56:02,561: [92m31 mutation targets found in backtrader/analyzers/timereturn.py AST.[0m
+2023-11-02 20:56:02,564: [93m0 mutation targets found in backtrader/signals/__init__.py AST.[0m
+2023-11-02 20:56:02,566: [92m2 mutation targets found in backtrader/indicators/smma.py AST.[0m
+2023-11-02 20:56:02,567: [92m12 mutation targets found in backtrader/indicators/hurst.py AST.[0m
+2023-11-02 20:56:02,569: [92m26 mutation targets found in backtrader/indicators/directionalmove.py AST.[0m
+2023-11-02 20:56:02,570: [92m3 mutation targets found in backtrader/indicators/tsi.py AST.[0m
+2023-11-02 20:56:02,571: [92m13 mutation targets found in backtrader/indicators/heikinashi.py AST.[0m
+2023-11-02 20:56:02,572: [92m3 mutation targets found in backtrader/indicators/percentrank.py AST.[0m
+2023-11-02 20:56:02,575: [92m3 mutation targets found in backtrader/indicators/rmi.py AST.[0m
+2023-11-02 20:56:02,576: [92m8 mutation targets found in backtrader/indicators/mabase.py AST.[0m
+2023-11-02 20:56:02,576: [92m3 mutation targets found in backtrader/indicators/ema.py AST.[0m
+2023-11-02 20:56:02,578: [92m10 mutation targets found in backtrader/indicators/ols.py AST.[0m
+2023-11-02 20:56:02,579: [92m6 mutation targets found in backtrader/indicators/momentum.py AST.[0m
+2023-11-02 20:56:02,579: [92m6 mutation targets found in backtrader/indicators/dema.py AST.[0m
+2023-11-02 20:56:02,580: [92m5 mutation targets found in backtrader/indicators/wma.py AST.[0m
+2023-11-02 20:56:02,582: [92m18 mutation targets found in backtrader/indicators/rsi.py AST.[0m
+2023-11-02 20:56:02,585: [92m11 mutation targets found in backtrader/indicators/bollinger.py AST.[0m
+2023-11-02 20:56:02,587: [92m7 mutation targets found in backtrader/indicators/vortex.py AST.[0m
+2023-11-02 20:56:02,588: [92m5 mutation targets found in backtrader/indicators/dpo.py AST.[0m
+2023-11-02 20:56:02,590: [92m17 mutation targets found in backtrader/indicators/aroon.py AST.[0m
+2023-11-02 20:56:02,591: [92m4 mutation targets found in backtrader/indicators/zlema.py AST.[0m
+2023-11-02 20:56:02,595: [92m11 mutation targets found in backtrader/indicators/kama.py AST.[0m
+2023-11-02 20:56:02,597: [92m13 mutation targets found in backtrader/indicators/stochastic.py AST.[0m
+2023-11-02 20:56:02,598: [92m8 mutation targets found in backtrader/indicators/trix.py AST.[0m
+2023-11-02 20:56:02,599: [92m4 mutation targets found in backtrader/indicators/dv2.py AST.[0m
+2023-11-02 20:56:02,600: [92m1 mutation targets found in backtrader/indicators/kst.py AST.[0m
+2023-11-02 20:56:02,600: [92m2 mutation targets found in backtrader/indicators/prettygoodoscillator.py AST.[0m
+2023-11-02 20:56:02,601: [92m17 mutation targets found in backtrader/indicators/zlind.py AST.[0m
+2023-11-02 20:56:02,604: [92m13 mutation targets found in backtrader/indicators/deviation.py AST.[0m
+2023-11-02 20:56:02,606: [92m1 mutation targets found in backtrader/indicators/accdecoscillator.py AST.[0m
+2023-11-02 20:56:02,607: [92m9 mutation targets found in backtrader/indicators/ichimoku.py AST.[0m
+2023-11-02 20:56:02,610: [92m20 mutation targets found in backtrader/indicators/crossover.py AST.[0m
+2023-11-02 20:56:02,611: [92m59 mutation targets found in backtrader/indicators/lrsi.py AST.[0m
+2023-11-02 20:56:02,614: [92m90 mutation targets found in backtrader/indicators/pivotpoint.py AST.[0m
+2023-11-02 20:56:02,616: [92m3 mutation targets found in backtrader/indicators/hadelta.py AST.[0m
+2023-11-02 20:56:02,618: [93m0 mutation targets found in backtrader/indicators/__init__.py AST.[0m
+2023-11-02 20:56:02,620: [92m56 mutation targets found in backtrader/indicators/psar.py AST.[0m
+2023-11-02 20:56:02,621: [92m7 mutation targets found in backtrader/indicators/williams.py AST.[0m
+2023-11-02 20:56:02,625: [92m3 mutation targets found in backtrader/indicators/atr.py AST.[0m
+2023-11-02 20:56:02,627: [92m15 mutation targets found in backtrader/indicators/ultimateoscillator.py AST.[0m
+2023-11-02 20:56:02,627: [92m1 mutation targets found in backtrader/indicators/sma.py AST.[0m
+2023-11-02 20:56:02,628: [92m3 mutation targets found in backtrader/indicators/hma.py AST.[0m
+2023-11-02 20:56:02,629: [92m3 mutation targets found in backtrader/indicators/macd.py AST.[0m
+2023-11-02 20:56:02,631: [92m17 mutation targets found in backtrader/indicators/envelope.py AST.[0m
+2023-11-02 20:56:02,634: [92m2 mutation targets found in backtrader/indicators/percentchange.py AST.[0m
+2023-11-02 20:56:02,636: [92m3 mutation targets found in backtrader/indicators/awesomeoscillator.py AST.[0m
+2023-11-02 20:56:02,637: [92m8 mutation targets found in backtrader/indicators/cci.py AST.[0m
+2023-11-02 20:56:02,639: [92m16 mutation targets found in backtrader/indicators/oscillator.py AST.[0m
+2023-11-02 20:56:02,640: [92m8 mutation targets found in backtrader/indicators/priceoscillator.py AST.[0m
+2023-11-02 20:56:02,645: [92m66 mutation targets found in backtrader/indicators/basicops.py AST.[0m
+2023-11-02 20:56:02,646: [92m6 mutation targets found in backtrader/indicators/dma.py AST.[0m
+2023-11-02 20:56:02,648: [92m7 mutation targets found in backtrader/indicators/contrib/vortex.py AST.[0m
+2023-11-02 20:56:02,648: [93m0 mutation targets found in backtrader/indicators/contrib/__init__.py AST.[0m
+2023-11-02 20:56:02,664: [92m371 mutation targets found in backtrader/stores/ibstore.py AST.[0m
+2023-11-02 20:56:02,666: [92m11 mutation targets found in backtrader/stores/vchartfile.py AST.[0m
+2023-11-02 20:56:02,671: [92m99 mutation targets found in backtrader/stores/vcstore.py AST.[0m
+2023-11-02 20:56:02,673: [93m0 mutation targets found in backtrader/stores/__init__.py AST.[0m
+2023-11-02 20:56:02,683: [92m179 mutation targets found in backtrader/stores/oandastore.py AST.[0m
+2023-11-02 20:56:02,686: [92m2 mutation targets found in backtrader/utils/flushfile.py AST.[0m
+2023-11-02 20:56:02,687: [92m9 mutation targets found in backtrader/utils/py3.py AST.[0m
+2023-11-02 20:56:02,688: [92m15 mutation targets found in backtrader/utils/ordereddefaultdict.py AST.[0m
+2023-11-02 20:56:02,690: [92m39 mutation targets found in backtrader/utils/autodict.py AST.[0m
+2023-11-02 20:56:02,693: [92m67 mutation targets found in backtrader/utils/dateintern.py AST.[0m
+2023-11-02 20:56:02,695: [93m0 mutation targets found in backtrader/utils/date.py AST.[0m
+2023-11-02 20:56:02,696: [93m0 mutation targets found in backtrader/utils/__init__.py AST.[0m
+2023-11-02 20:56:02,696: [93m0 mutation targets found in backtrader/studies/__init__.py AST.[0m
+2023-11-02 20:56:02,697: [92m13 mutation targets found in backtrader/studies/contrib/fractal.py AST.[0m
+2023-11-02 20:56:02,697: [93m0 mutation targets found in backtrader/studies/contrib/__init__.py AST.[0m
+2023-11-02 20:56:02,700: [92m54 mutation targets found in backtrader/plot/locator.py AST.[0m
+2023-11-02 20:56:02,702: [92m15 mutation targets found in backtrader/plot/utils.py AST.[0m
+2023-11-02 20:56:02,711: [92m100 mutation targets found in backtrader/plot/finance.py AST.[0m
+2023-11-02 20:56:02,717: [92m24 mutation targets found in backtrader/plot/formatters.py AST.[0m
+2023-11-02 20:56:02,721: [92m106 mutation targets found in backtrader/plot/multicursor.py AST.[0m
+2023-11-02 20:56:02,789: [92m339 mutation targets found in backtrader/plot/plot.py AST.[0m
+2023-11-02 20:56:02,790: [92m1 mutation targets found in backtrader/plot/__init__.py AST.[0m
+2023-11-02 20:56:02,791: [92m12 mutation targets found in backtrader/plot/scheme.py AST.[0m
+2023-11-02 20:56:02,791: Setting random.seed to: 514
+2023-11-02 20:56:02,791: Coverage file does not exist, proceeding to sample from all targets.
+2023-11-02 20:56:02,827: Total sample space size: 7144
+2023-11-02 20:56:02,827: [92mSelecting 10 locations from 7144 potentials.[0m
+2023-11-02 20:56:02,827: Starting individual mutation trials!
+2023-11-02 20:56:02,827: Running parallel (multi-processor) dispatch mode. CPUs: 12
+2023-11-02 20:56:03,352: Current target location: fillers.py, LocIndex(ast_class='BinOp', lineno=68, col_offset=19, op_type=<class '_ast.Mult'>, end_lineno=68, end_col_offset=55)
+2023-11-02 20:56:03,485: Current target location: ibbroker.py, LocIndex(ast_class='If', lineno=161, col_offset=8, op_type='If_Statement', end_lineno=169, end_col_offset=66)
+2023-11-02 20:56:03,612: Current target location: plot.py, LocIndex(ast_class='If', lineno=877, col_offset=12, op_type='If_Statement', end_lineno=883, end_col_offset=46)
+2023-11-02 20:56:03,756: Current target location: resamplerfilter.py, LocIndex(ast_class='NameConstant', lineno=285, col_offset=22, op_type=True, end_lineno=285, end_col_offset=26)
+2023-11-02 20:56:03,910: Current target location: comminfo.py, LocIndex(ast_class='NameConstant', lineno=245, col_offset=59, op_type=False, end_lineno=245, end_col_offset=64)
+2023-11-02 20:56:04,070: Current target location: btrun.py, LocIndex(ast_class='BoolOp', lineno=376, col_offset=16, op_type=<class '_ast.Or'>, end_lineno=376, end_col_offset=30)
+2023-11-02 20:56:04,275: Current target location: directionalmove.py, LocIndex(ast_class='If', lineno=94, col_offset=8, op_type='If_Statement', end_lineno=99, end_col_offset=48)
+2023-11-02 20:56:04,436: Current target location: dma.py, LocIndex(ast_class='BinOp', lineno=65, col_offset=19, op_type=<class '_ast.Mult'>, end_lineno=65, end_col_offset=64)
+2023-11-02 20:56:04,578: Current target location: resamplerfilter.py, LocIndex(ast_class='If', lineno=175, col_offset=8, op_type='If_Statement', end_lineno=179, end_col_offset=44)
+2023-11-02 20:56:04,711: Current target location: datafiller.py, LocIndex(ast_class='NameConstant', lineno=101, col_offset=15, op_type=True, end_lineno=101, end_col_offset=19)
+2023-11-02 20:57:57,709: [91mResult: Survived at backtrader/btrun/btrun.py: (376, 16)[0m
+2023-11-02 20:57:59,116: [91mResult: Survived at backtrader/plot/plot.py: (877, 12)[0m
+2023-11-02 20:57:59,328: [91mResult: Survived at backtrader/indicators/directionalmove.py: (94, 8)[0m
+2023-11-02 20:57:59,747: [91mResult: Survived at backtrader/fillers.py: (68, 19)[0m
+2023-11-02 20:58:00,128: [91mResult: Survived at backtrader/resamplerfilter.py: (285, 22)[0m
+2023-11-02 20:58:00,400: [91mResult: Survived at backtrader/brokers/ibbroker.py: (161, 8)[0m
+2023-11-02 20:58:00,667: [91mResult: Survived at backtrader/indicators/dma.py: (65, 19)[0m
+2023-11-02 20:58:00,778: [91mResult: Survived at backtrader/comminfo.py: (245, 59)[0m
+2023-11-02 20:58:01,038: [91mResult: Survived at backtrader/filters/datafiller.py: (101, 15)[0m
+2023-11-02 20:58:01,670: [91mResult: Survived at backtrader/resamplerfilter.py: (175, 8)[0m
+2023-11-02 20:59:45,469: [91mResult: Survived at backtrader/plot/plot.py: (877, 12)[0m
+2023-11-02 20:59:46,069: [91mResult: Survived at backtrader/resamplerfilter.py: (285, 22)[0m
+2023-11-02 20:59:46,180: [92mResult: Detected at backtrader/indicators/directionalmove.py: (94, 8)[0m
+2023-11-02 20:59:46,396: [91mResult: Survived at backtrader/comminfo.py: (245, 59)[0m
+2023-11-02 20:59:46,408: [91mResult: Survived at backtrader/filters/datafiller.py: (101, 15)[0m
+2023-11-02 20:59:46,629: [91mResult: Survived at backtrader/fillers.py: (68, 19)[0m
+2023-11-02 20:59:47,138: [91mResult: Survived at backtrader/indicators/dma.py: (65, 19)[0m
+2023-11-02 20:59:47,731: [91mResult: Survived at backtrader/brokers/ibbroker.py: (161, 8)[0m
+2023-11-02 20:59:48,260: [91mResult: Survived at backtrader/resamplerfilter.py: (175, 8)[0m
+2023-11-02 21:00:51,188: [91mResult: Survived at backtrader/indicators/dma.py: (65, 19)[0m
+2023-11-02 21:00:52,425: [91mResult: Survived at backtrader/fillers.py: (68, 19)[0m
+2023-11-02 21:01:54,970: [91mResult: Survived at backtrader/indicators/dma.py: (65, 19)[0m
+2023-11-02 21:01:57,696: [91mResult: Survived at backtrader/fillers.py: (68, 19)[0m
+2023-11-02 21:03:00,009: [91mResult: Survived at backtrader/indicators/dma.py: (65, 19)[0m
+2023-11-02 21:03:02,227: [91mResult: Survived at backtrader/fillers.py: (68, 19)[0m
+2023-11-02 21:04:04,452: [91mResult: Survived at backtrader/indicators/dma.py: (65, 19)[0m
+2023-11-02 21:04:05,945: [91mResult: Survived at backtrader/fillers.py: (68, 19)[0m
+2023-11-02 21:04:05,965: Cleaning up parallel cache dir .mutatest_cache.
+2023-11-02 21:04:05,968: .mutatest_cache is not empty and cannot be removed.
+2023-11-02 21:04:06,147: Running clean trial
+============================= test session starts ==============================
+platform linux -- Python 3.8.16, pytest-6.2.5, py-1.11.0, pluggy-1.0.0 -- /usr/local/python-env/py38/bin/python3.8
+cachedir: .pytest_cache
+rootdir: /s/bach/m/under/bdavis43/CS514/Project/backtrader
+plugins: cov-3.0.0
+collecting ... collected 82 items
+
+tests/test_analyzer-sqn.py::test_run PASSED                              [  1%]
+tests/test_analyzer-timereturn.py::test_run PASSED                       [  2%]
+tests/test_comminfo.py::test_run PASSED                                  [  3%]
+tests/test_data_multiframe.py::test_run PASSED                           [  4%]
+tests/test_data_replay.py::test_run PASSED                               [  6%]
+tests/test_data_resample.py::test_run PASSED                             [  7%]
+tests/test_ind_accdecosc.py::test_run PASSED                             [  8%]
+tests/test_ind_aroonoscillator.py::test_run PASSED                       [  9%]
+tests/test_ind_aroonupdown.py::test_run PASSED                           [ 10%]
+tests/test_ind_atr.py::test_run PASSED                                   [ 12%]
+tests/test_ind_awesomeoscillator.py::test_run PASSED                     [ 13%]
+tests/test_ind_bbands.py::test_run PASSED                                [ 14%]
+tests/test_ind_cci.py::test_run PASSED                                   [ 15%]
+tests/test_ind_dema.py::test_run PASSED                                  [ 17%]
+tests/test_ind_demaenvelope.py::test_run PASSED                          [ 18%]
+tests/test_ind_demaosc.py::test_run PASSED                               [ 19%]
+tests/test_ind_dm.py::test_run PASSED                                    [ 20%]
+tests/test_ind_dma.py::test_run PASSED                                   [ 21%]
+tests/test_ind_downmove.py::test_run PASSED                              [ 23%]
+tests/test_ind_dpo.py::test_run PASSED                                   [ 24%]
+tests/test_ind_dv2.py::test_run PASSED                                   [ 25%]
+tests/test_ind_ema.py::test_run PASSED                                   [ 26%]
+tests/test_ind_emaenvelope.py::test_run PASSED                           [ 28%]
+tests/test_ind_emaosc.py::test_run PASSED                                [ 29%]
+tests/test_ind_envelope.py::test_run PASSED                              [ 30%]
+tests/test_ind_heikinashi.py::test_run PASSED                            [ 31%]
+tests/test_ind_highest.py::test_run PASSED                               [ 32%]
+tests/test_ind_hma.py::test_run PASSED                                   [ 34%]
+tests/test_ind_ichimoku.py::test_run PASSED                              [ 35%]
+tests/test_ind_kama.py::test_run PASSED                                  [ 36%]
+tests/test_ind_kamaenvelope.py::test_run PASSED                          [ 37%]
+tests/test_ind_kamaosc.py::test_run PASSED                               [ 39%]
+tests/test_ind_kst.py::test_run PASSED                                   [ 40%]
+tests/test_ind_lowest.py::test_run PASSED                                [ 41%]
+tests/test_ind_lrsi.py::test_run PASSED                                  [ 42%]
+tests/test_ind_macdhisto.py::test_run PASSED                             [ 43%]
+tests/test_ind_minperiod.py::test_run PASSED                             [ 45%]
+tests/test_ind_momentum.py::test_run PASSED                              [ 46%]
+tests/test_ind_momentumoscillator.py::test_run PASSED                    [ 47%]
+tests/test_ind_oscillator.py::test_run PASSED                            [ 48%]
+tests/test_ind_pctchange.py::test_run PASSED                             [ 50%]
+tests/test_ind_pctrank.py::test_run PASSED                               [ 51%]
+tests/test_ind_pgo.py::test_run PASSED                                   [ 52%]
+tests/test_ind_ppo.py::test_run PASSED                                   [ 53%]
+tests/test_ind_pposhort.py::test_run PASSED                              [ 54%]
+tests/test_ind_priceosc.py::test_run PASSED                              [ 56%]
+tests/test_ind_rmi.py::test_run PASSED                                   [ 57%]
+tests/test_ind_roc.py::test_run PASSED                                   [ 58%]
+tests/test_ind_rsi.py::test_run PASSED                                   [ 59%]
+tests/test_ind_rsi_safe.py::test_run PASSED                              [ 60%]
+tests/test_ind_sma.py::test_run PASSED                                   [ 62%]
+tests/test_ind_smaenvelope.py::test_run PASSED                           [ 63%]
+tests/test_ind_smaosc.py::test_run PASSED                                [ 64%]
+tests/test_ind_smma.py::test_run PASSED                                  [ 65%]
+tests/test_ind_smmaenvelope.py::test_run PASSED                          [ 67%]
+tests/test_ind_smmaosc.py::test_run PASSED                               [ 68%]
+tests/test_ind_stochastic.py::test_run PASSED                            [ 69%]
+tests/test_ind_stochasticfull.py::test_run PASSED                        [ 70%]
+tests/test_ind_sumn.py::test_run PASSED                                  [ 71%]
+tests/test_ind_tema.py::test_run PASSED                                  [ 73%]
+tests/test_ind_temaenvelope.py::test_run PASSED                          [ 74%]
+tests/test_ind_temaosc.py::test_run PASSED                               [ 75%]
+tests/test_ind_trix.py::test_run PASSED                                  [ 76%]
+tests/test_ind_tsi.py::test_run PASSED                                   [ 78%]
+tests/test_ind_ultosc.py::test_run PASSED                                [ 79%]
+tests/test_ind_upmove.py::test_run PASSED                                [ 80%]
+tests/test_ind_vortex.py::test_run PASSED                                [ 81%]
+tests/test_ind_williamsad.py::test_run PASSED                            [ 82%]
+tests/test_ind_williamsr.py::test_run PASSED                             [ 84%]
+tests/test_ind_wma.py::test_run PASSED                                   [ 85%]
+tests/test_ind_wmaenvelope.py::test_run PASSED                           [ 86%]
+tests/test_ind_wmaosc.py::test_run PASSED                                [ 87%]
+tests/test_ind_zlema.py::test_run PASSED                                 [ 89%]
+tests/test_ind_zlind.py::test_run PASSED                                 [ 90%]
+tests/test_metaclass.py::test_run PASSED                                 [ 91%]
+tests/test_order.py::test_run PASSED                                     [ 92%]
+tests/test_position.py::test_run PASSED                                  [ 93%]
+tests/test_strategy_optimized.py::test_run PASSED                        [ 95%]
+tests/test_strategy_unoptimized.py::test_run PASSED                      [ 96%]
+tests/test_study_fractal.py::test_run PASSED                             [ 97%]
+tests/test_trade.py::test_run PASSED                                     [ 98%]
+tests/test_writer.py::test_run PASSED                                    [100%]
+
+=============================== warnings summary ===============================
+backtrader/cerebro.py:670
+  /s/bach/m/under/bdavis43/CS514/Project/backtrader/backtrader/cerebro.py:670: DeprecationWarning: invalid escape sequence \*
+    '''Adds a callback to get messages which would be handled by the
+
+backtrader/cerebro.py:712
+  /s/bach/m/under/bdavis43/CS514/Project/backtrader/backtrader/cerebro.py:712: DeprecationWarning: invalid escape sequence \*
+    '''Adds a callback to get messages which would be handled by the
+
+tests/test_analyzer-sqn.py:37
+  /s/bach/m/under/bdavis43/CS514/Project/backtrader/tests/test_analyzer-sqn.py:37: PytestCollectionWarning: cannot collect test class 'TestStrategy' because it has a __init__ constructor (from: tests/test_analyzer-sqn.py)
+    class TestStrategy(bt.Strategy):
+
+tests/test_analyzer-timereturn.py:37
+  /s/bach/m/under/bdavis43/CS514/Project/backtrader/tests/test_analyzer-timereturn.py:37: PytestCollectionWarning: cannot collect test class 'TestStrategy' because it has a __init__ constructor (from: tests/test_analyzer-timereturn.py)
+    class TestStrategy(bt.Strategy):
+
+tests/test_metaclass.py:23
+  /s/bach/m/under/bdavis43/CS514/Project/backtrader/tests/test_metaclass.py:23: PytestCollectionWarning: cannot collect test class 'TestFrompackages' because it has a __init__ constructor (from: tests/test_metaclass.py)
+    class TestFrompackages(testcommon.SampleParamsHolder):
+
+tests/test_strategy_optimized.py:63
+  /s/bach/m/under/bdavis43/CS514/Project/backtrader/tests/test_strategy_optimized.py:63: PytestCollectionWarning: cannot collect test class 'TestStrategy' because it has a __init__ constructor (from: tests/test_strategy_optimized.py)
+    class TestStrategy(bt.Strategy):
+
+tests/test_strategy_unoptimized.py:56
+  /s/bach/m/under/bdavis43/CS514/Project/backtrader/tests/test_strategy_unoptimized.py:56: PytestCollectionWarning: cannot collect test class 'TestStrategy' because it has a __init__ constructor (from: tests/test_strategy_unoptimized.py)
+    class TestStrategy(bt.Strategy):
+
+tests/test_writer.py:35
+  /s/bach/m/under/bdavis43/CS514/Project/backtrader/tests/test_writer.py:35: PytestCollectionWarning: cannot collect test class 'TestStrategy' because it has a __init__ constructor (from: tests/test_writer.py)
+    class TestStrategy(bt.Strategy):
+
+-- Docs: https://docs.pytest.org/en/stable/warnings.html
+================== 82 passed, 8 warnings in 62.70s (0:01:02) ===================
+2023-11-02 21:05:09,455: CLI Report:
+
+Mutatest diagnostic summary
+===========================
+ - Source location: /s/bach/m/under/bdavis43/CS514/Project/backtrader/backtrader
+ - Test commands: ['py.test', '-v']
+ - Mode: f
+ - Excluded files: []
+ - N locations input: 10
+ - Random seed: 514
+
+Random sample details
+---------------------
+ - Total locations mutated: 10
+ - Total locations identified: 7144
+ - Location sample coverage: 0.14 %
+
+
+Running time details
+--------------------
+ - Clean trial 1 run time: 0:01:02.829758
+ - Clean trial 2 run time: 0:01:03.307096
+ - Mutation trials total run time: 0:08:03.807056
+
+2023-11-02 21:05:09,456: Trial Summary Report:
+
+Overall mutation trial summary
+==============================
+ - SURVIVED: 26
+ - DETECTED: 1
+ - TOTAL RUNS: 27
+ - RUN DATETIME: 2023-11-02 21:05:09.455563
+
+2023-11-02 21:05:09,456: Detected mutations:[92m
+
+DETECTED
+--------
+ - backtrader/indicators/directionalmove.py: (l: 94, c: 8) - mutation from If_Statement to If_False[0m
+
+2023-11-02 21:05:09,456: Timedout mutations:
+
+2023-11-02 21:05:09,456: Surviving mutations:[91m
+
+SURVIVED
+--------
+ - backtrader/btrun/btrun.py: (l: 376, c: 16) - mutation from <class '_ast.Or'> to <class '_ast.And'>
+ - backtrader/comminfo.py: (l: 245, c: 59) - mutation from False to True
+ - backtrader/comminfo.py: (l: 245, c: 59) - mutation from False to None
+ - backtrader/filters/datafiller.py: (l: 101, c: 15) - mutation from True to False
+ - backtrader/filters/datafiller.py: (l: 101, c: 15) - mutation from True to None
+ - backtrader/indicators/directionalmove.py: (l: 94, c: 8) - mutation from If_Statement to If_True
+ - backtrader/indicators/dma.py: (l: 65, c: 19) - mutation from <class '_ast.Mult'> to <class '_ast.Sub'>
+ - backtrader/indicators/dma.py: (l: 65, c: 19) - mutation from <class '_ast.Mult'> to <class '_ast.Mod'>
+ - backtrader/indicators/dma.py: (l: 65, c: 19) - mutation from <class '_ast.Mult'> to <class '_ast.Add'>
+ - backtrader/indicators/dma.py: (l: 65, c: 19) - mutation from <class '_ast.Mult'> to <class '_ast.Div'>
+ - backtrader/indicators/dma.py: (l: 65, c: 19) - mutation from <class '_ast.Mult'> to <class '_ast.FloorDiv'>
+ - backtrader/indicators/dma.py: (l: 65, c: 19) - mutation from <class '_ast.Mult'> to <class '_ast.Pow'>
+ - backtrader/fillers.py: (l: 68, c: 19) - mutation from <class '_ast.Mult'> to <class '_ast.Div'>
+ - backtrader/fillers.py: (l: 68, c: 19) - mutation from <class '_ast.Mult'> to <class '_ast.Pow'>
+ - backtrader/fillers.py: (l: 68, c: 19) - mutation from <class '_ast.Mult'> to <class '_ast.FloorDiv'>
+ - backtrader/fillers.py: (l: 68, c: 19) - mutation from <class '_ast.Mult'> to <class '_ast.Add'>
+ - backtrader/fillers.py: (l: 68, c: 19) - mutation from <class '_ast.Mult'> to <class '_ast.Mod'>
+ - backtrader/fillers.py: (l: 68, c: 19) - mutation from <class '_ast.Mult'> to <class '_ast.Sub'>
+ - backtrader/brokers/ibbroker.py: (l: 161, c: 8) - mutation from If_Statement to If_True
+ - backtrader/brokers/ibbroker.py: (l: 161, c: 8) - mutation from If_Statement to If_False
+ - backtrader/plot/plot.py: (l: 877, c: 12) - mutation from If_Statement to If_True
+ - backtrader/plot/plot.py: (l: 877, c: 12) - mutation from If_Statement to If_False
+ - backtrader/resamplerfilter.py: (l: 175, c: 8) - mutation from If_Statement to If_False
+ - backtrader/resamplerfilter.py: (l: 175, c: 8) - mutation from If_Statement to If_True
+ - backtrader/resamplerfilter.py: (l: 285, c: 22) - mutation from True to None
+ - backtrader/resamplerfilter.py: (l: 285, c: 22) - mutation from True to False[0m
+

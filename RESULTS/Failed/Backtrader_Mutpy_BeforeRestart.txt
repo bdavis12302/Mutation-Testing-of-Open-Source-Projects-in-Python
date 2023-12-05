@@ -1,0 +1,1309 @@
+[*] Start mutation process:
+   - targets: backtrader
+   - tests: tests
+[*] 82 tests passed:
+   - test_ind_kst [0.98569 s]
+   - test_ind_ichimoku [0.68154 s]
+   - test_ind_awesomeoscillator [0.58590 s]
+   - test_ind_aroonupdown [0.57289 s]
+   - test_ind_highest [0.53146 s]
+   - test_ind_minperiod [0.82905 s]
+   - test_ind_kamaosc [0.61168 s]
+   - test_ind_emaenvelope [0.53712 s]
+   - test_ind_emaosc [0.51372 s]
+   - test_metaclass [0.19570 s]
+   - test_ind_rsi_safe [0.69044 s]
+   - test_writer [0.65290 s]
+   - test_ind_aroonoscillator [0.57638 s]
+   - test_ind_oscillator [0.54493 s]
+   - test_ind_kama [0.80841 s]
+   - test_ind_lrsi [0.51140 s]
+   - test_ind_momentumoscillator [0.51459 s]
+   - test_ind_ema [0.52252 s]
+   - test_ind_ppo [0.66167 s]
+   - test_ind_smaenvelope [0.55817 s]
+   - test_ind_temaosc [0.62294 s]
+   - test_ind_sma [0.53054 s]
+   - test_strategy_optimized [27.67597 s]
+   - test_analyzer-timereturn [0.94307 s]
+   - test_ind_pgo [0.67936 s]
+   - test_trade [0.19060 s]
+   - test_analyzer-sqn [1.84015 s]
+   - test_ind_pctchange [0.50449 s]
+   - test_ind_smmaenvelope [0.53265 s]
+   - test_ind_tsi [0.63585 s]
+   - test_ind_sumn [0.49568 s]
+   - test_data_resample [0.40503 s]
+   - test_ind_ultosc [0.76096 s]
+   - test_ind_williamsr [0.59898 s]
+   - test_order [0.20265 s]
+   - test_ind_heikinashi [0.19918 s]
+   - test_ind_cci [0.67173 s]
+   - test_ind_trix [0.60756 s]
+   - test_ind_accdecosc [0.64167 s]
+   - test_ind_kamaenvelope [0.54311 s]
+   - test_ind_smma [0.50077 s]
+   - test_ind_envelope [0.56328 s]
+   - test_ind_vortex [0.73466 s]
+   - test_study_fractal [0.50839 s]
+   - test_data_replay [0.23983 s]
+   - testcommon [0.21269 s]
+   - test_ind_hma [0.63619 s]
+   - test_position [0.20221 s]
+   - test_comminfo [0.20629 s]
+   - test_ind_demaosc [0.58467 s]
+   - test_ind_dm [0.88827 s]
+   - test_ind_stochasticfull [0.66019 s]
+   - test_ind_pposhort [0.62140 s]
+   - test_ind_pctrank [0.57076 s]
+   - test_ind_atr [0.61933 s]
+   - test_ind_bbands [0.66929 s]
+   - test_data_multiframe [0.82854 s]
+   - test_ind_rmi [0.63987 s]
+   - test_ind_lowest [0.49788 s]
+   - test_ind_downmove [0.50079 s]
+   - test_ind_smaosc [0.52949 s]
+   - test_ind_smmaosc [0.52833 s]
+   - test_ind_stochastic [0.65385 s]
+   - test_ind_dema [0.56823 s]
+   - test_ind_wmaenvelope [0.61061 s]
+   - test_ind_tema [0.60716 s]
+   - test_ind_macdhisto [0.61392 s]
+   - test_ind_rsi [0.65215 s]
+   - test_ind_zlind [0.58850 s]
+   - test_ind_momentum [0.69872 s]
+   - test_ind_demaenvelope [0.58924 s]
+   - test_ind_priceosc [0.56270 s]
+   - test_ind_dpo [0.54169 s]
+   - test_ind_temaenvelope [0.62524 s]
+   - test_ind_wma [0.51822 s]
+   - test_ind_dma [0.75507 s]
+   - test_strategy_unoptimized [1.47548 s]
+   - test_ind_roc [0.51607 s]
+   - test_ind_williamsad [0.67381 s]
+   - test_ind_zlema [0.55650 s]
+   - test_ind_wmaosc [0.52593 s]
+   - test_ind_upmove [0.49855 s]
+   - test_ind_dv2 [0.57134 s]
+[*] Start mutants generation and execution:
+   - [#   1] AOR backtrader.analyzer: [60.76450 s] survived
+   - [#   2] AOR backtrader.analyzer: [60.59813 s] survived
+   - [#   3] AOR backtrader.analyzer: [60.72869 s] survived
+   - [#   4] AOR backtrader.analyzer: [60.79765 s] survived
+   - [#   5] AOR backtrader.analyzer: [60.38122 s] survived
+   - [#   6] AOR backtrader.analyzer: [59.52537 s] survived
+   - [#   7] AOR backtrader.analyzer: [59.29400 s] survived
+   - [#   8] AOR backtrader.analyzer: [59.69053 s] survived
+   - [#   9] AOR backtrader.analyzer: [59.72848 s] survived
+   - [#  10] AOR backtrader.analyzer: [59.44920 s] survived
+   - [#  11] AOR backtrader.analyzer: [59.81948 s] survived
+   - [#  12] AOR backtrader.analyzer: [59.80591 s] survived
+   - [#  13] AOR backtrader.analyzer: [59.63641 s] survived
+   - [#  14] AOR backtrader.analyzer: [59.88981 s] survived
+   - [#  15] AOR backtrader.analyzer: [60.58084 s] survived
+   - [#  16] AOR backtrader.analyzer: [59.59108 s] survived
+   - [#  17] AOR backtrader.analyzer: [59.58634 s] survived
+   - [#  18] AOR backtrader.analyzer: [66.23532 s] survived
+   - [#  19] AOR backtrader.analyzer: [59.96700 s] survived
+   - [#  20] AOR backtrader.analyzer: [59.90287 s] survived
+   - [#  21] AOR backtrader.analyzer: [59.84922 s] survived
+   - [#  22] AOR backtrader.analyzer: [59.59164 s] survived
+   - [#  23] AOR backtrader.analyzer: [59.10752 s] survived
+   - [#  24] AOR backtrader.analyzer: [58.56779 s] survived
+   - [#  25] AOR backtrader.analyzer: [58.48286 s] survived
+   - [#  26] AOR backtrader.analyzer: [59.03973 s] survived
+   - [#  27] AOR backtrader.analyzer: [58.32551 s] survived
+   - [#  28] AOR backtrader.analyzer: [58.51331 s] survived
+   - [#  29] AOR backtrader.analyzer: [58.41279 s] survived
+   - [#  30] AOR backtrader.analyzer: [58.24086 s] survived
+   - [#  31] AOR backtrader.analyzer: [58.48975 s] survived
+   - [#  32] AOR backtrader.analyzer: [58.38834 s] survived
+   - [#  33] AOR backtrader.analyzer: [58.23065 s] survived
+   - [#  34] AOR backtrader.analyzer: [58.31767 s] survived
+   - [#  35] AOR backtrader.analyzer: [58.69095 s] survived
+   - [#  36] AOR backtrader.analyzer: [58.78594 s] survived
+   - [#  37] AOR backtrader.analyzer: [58.13988 s] survived
+   - [#  38] AOR backtrader.analyzer: [58.04625 s] survived
+   - [#  39] AOR backtrader.analyzer: [58.21215 s] survived
+   - [#  40] AOR backtrader.analyzer: [59.57727 s] survived
+   - [#  41] AOR backtrader.analyzer: [59.55342 s] survived
+   - [#  42] AOR backtrader.analyzer: [59.65256 s] survived
+   - [#  43] AOR backtrader.analyzer: [59.65801 s] survived
+   - [#  44] AOR backtrader.analyzer: [59.87943 s] survived
+   - [#  45] AOR backtrader.analyzer: [59.96486 s] survived
+   - [#  46] AOR backtrader.analyzer: [59.88560 s] survived
+   - [#  47] AOR backtrader.analyzer: [59.65446 s] survived
+   - [#  48] AOR backtrader.analyzer: [59.75880 s] survived
+   - [#  49] AOR backtrader.analyzer: [59.57666 s] survived
+   - [#  50] AOR backtrader.analyzer: [60.53205 s] survived
+   - [#  51] AOR backtrader.analyzer: [59.66658 s] survived
+   - [#  52] ASR backtrader.analyzer: [59.47101 s] survived
+   - [#  53] ASR backtrader.analyzer: [59.56680 s] survived
+   - [#  54] ASR backtrader.analyzer: [59.43376 s] survived
+   - [#  55] ASR backtrader.analyzer: [59.36915 s] survived
+   - [#  56] ASR backtrader.analyzer: [59.71508 s] survived
+   - [#  57] ASR backtrader.analyzer: [59.67790 s] survived
+   - [#  58] ASR backtrader.analyzer: [59.71962 s] survived
+   - [#  59] COD backtrader.analyzer: [59.41641 s] survived
+   - [#  60] COI backtrader.analyzer: [60.00607 s] survived
+   - [#  61] COI backtrader.analyzer: [59.41520 s] survived
+   - [#  62] COI backtrader.analyzer: [59.37291 s] survived
+   - [#  63] COI backtrader.analyzer: [59.59474 s] survived
+   - [#  64] COI backtrader.analyzer: [60.08500 s] survived
+   - [#  65] COI backtrader.analyzer: [0.00000 s] incompetent
+   - [#  66] COI backtrader.analyzer: [0.00000 s] incompetent
+   - [#  67] COI backtrader.analyzer: [59.93457 s] survived
+   - [#  68] COI backtrader.analyzer: [60.16243 s] survived
+   - [#  69] COI backtrader.analyzer: [59.90014 s] survived
+   - [#  70] COI backtrader.analyzer: [59.70025 s] survived
+   - [#  71] COI backtrader.analyzer: [59.59153 s] survived
+   - [#  72] COI backtrader.analyzer: [59.81206 s] survived
+   - [#  73] COI backtrader.analyzer: [59.97377 s] survived
+   - [#  74] COI backtrader.analyzer: [59.84866 s] survived
+   - [#  75] COI backtrader.analyzer: [59.86512 s] survived
+   - [#  76] COI backtrader.analyzer: [59.62676 s] survived
+   - [#  77] COI backtrader.analyzer: [60.16700 s] survived
+   - [#  78] COI backtrader.analyzer: [60.60685 s] survived
+   - [#  79] COI backtrader.analyzer: [60.40126 s] survived
+   - [#  80] COI backtrader.analyzer: [60.53966 s] survived
+   - [#  81] COI backtrader.analyzer: [60.32771 s] survived
+   - [#  82] COI backtrader.analyzer: [60.60830 s] survived
+   - [#  83] COI backtrader.analyzer: [59.78809 s] survived
+   - [#  84] COI backtrader.analyzer: [59.61666 s] survived
+   - [#  85] IHD backtrader.analyzer: [58.91234 s] survived
+   - [#  86] IOD backtrader.analyzer: [58.52317 s] survived
+   - [#  87] IOD backtrader.analyzer: [58.66458 s] survived
+   - [#  88] IOD backtrader.analyzer: [59.68551 s] survived
+   - [#  89] IOD backtrader.analyzer: [59.80201 s] survived
+   - [#  90] IOD backtrader.analyzer: [59.25544 s] survived
+   - [#  91] IOD backtrader.analyzer: [58.30748 s] survived
+   - [#  92] IOD backtrader.analyzer: [58.60155 s] survived
+   - [#  93] IOP backtrader.analyzer: [58.25871 s] survived
+   - [#  94] LCR backtrader.analyzer: [58.60973 s] survived
+   - [#  95] LCR backtrader.analyzer: [58.44399 s] survived
+   - [#  96] LCR backtrader.analyzer: [58.41148 s] survived
+   - [#  97] LCR backtrader.analyzer: [58.40135 s] survived
+   - [#  98] ROR backtrader.analyzer: [58.64861 s] survived
+   - [#  99] ROR backtrader.analyzer: [58.98789 s] survived
+   - [# 100] ROR backtrader.analyzer: [58.43944 s] survived
+   - [# 101] ROR backtrader.analyzer: [58.63084 s] survived
+   - [# 102] ROR backtrader.analyzer: [58.76587 s] survived
+   - [# 103] ROR backtrader.analyzer: [58.47674 s] survived
+   - [# 104] ROR backtrader.analyzer: [58.62640 s] survived
+   - [# 105] ROR backtrader.analyzer: [58.78709 s] survived
+   - [# 106] ROR backtrader.analyzer: [58.59367 s] survived
+   - [# 107] ROR backtrader.analyzer: [58.65156 s] survived
+   - [# 108] ROR backtrader.analyzer: [58.57099 s] survived
+   - [# 109] ROR backtrader.analyzer: [58.60626 s] survived
+   - [# 110] ROR backtrader.analyzer: [58.43671 s] survived
+   - [# 111] ROR backtrader.analyzer: [58.17628 s] survived
+   - [# 112] ROR backtrader.analyzer: [58.68832 s] survived
+   - [# 113] ROR backtrader.analyzer: [58.41836 s] survived
+   - [# 114] ROR backtrader.analyzer: [58.51960 s] survived
+   - [# 115] ROR backtrader.analyzer: [58.25925 s] survived
+   - [# 116] ROR backtrader.analyzer: [58.08851 s] survived
+   - [# 117] ROR backtrader.analyzer: [58.32018 s] survived
+   - [# 118] SCD backtrader.analyzer: [58.45624 s] survived
+   - [# 119] SCI backtrader.analyzer: [58.55069 s] survived
+   - [# 120] SCI backtrader.analyzer: [58.73554 s] survived
+   - [# 121] SCI backtrader.analyzer: [0.00000 s] incompetent
+   - [# 122] SCI backtrader.analyzer: [58.21608 s] survived
+   - [# 123] SCI backtrader.analyzer: [58.92654 s] survived
+   - [# 124] SCI backtrader.analyzer: [58.44565 s] survived
+   - [# 125] AOD backtrader.analyzers.annualreturn: [58.80911 s] survived
+   - [# 126] AOD backtrader.analyzers.annualreturn: [58.57821 s] survived
+   - [# 127] AOD backtrader.analyzers.annualreturn: [58.88721 s] survived
+   - [# 128] AOD backtrader.analyzers.annualreturn: [58.78520 s] survived
+   - [# 129] AOD backtrader.analyzers.annualreturn: [58.90539 s] survived
+   - [# 130] AOR backtrader.analyzers.annualreturn: [58.97421 s] survived
+   - [# 131] AOR backtrader.analyzers.annualreturn: [58.82683 s] survived
+   - [# 132] AOR backtrader.analyzers.annualreturn: [59.00160 s] survived
+   - [# 133] AOR backtrader.analyzers.annualreturn: [58.58789 s] survived
+   - [# 134] AOR backtrader.analyzers.annualreturn: [58.97779 s] survived
+   - [# 135] AOR backtrader.analyzers.annualreturn: [59.06135 s] survived
+   - [# 136] AOR backtrader.analyzers.annualreturn: [58.97641 s] survived
+   - [# 137] AOR backtrader.analyzers.annualreturn: [59.18782 s] survived
+   - [# 138] AOR backtrader.analyzers.annualreturn: [58.49345 s] survived
+   - [# 139] AOR backtrader.analyzers.annualreturn: [58.80618 s] survived
+   - [# 140] AOR backtrader.analyzers.annualreturn: [58.78712 s] survived
+   - [# 141] AOR backtrader.analyzers.annualreturn: [58.60390 s] survived
+   - [# 142] COD backtrader.analyzers.annualreturn: [58.69590 s] survived
+   - [# 143] COI backtrader.analyzers.annualreturn: [58.65584 s] survived
+   - [# 144] COI backtrader.analyzers.annualreturn: [58.84032 s] survived
+   - [# 145] COI backtrader.analyzers.annualreturn: [58.93237 s] survived
+   - [# 146] IOD backtrader.analyzers.annualreturn: [58.91881 s] survived
+   - [# 147] IOD backtrader.analyzers.annualreturn: [79.93368 s] survived
+   - [# 148] ROR backtrader.analyzers.annualreturn: [59.39799 s] survived
+   - [# 149] ROR backtrader.analyzers.annualreturn: [58.71335 s] survived
+   - [# 150] ROR backtrader.analyzers.annualreturn: [58.95634 s] survived
+   - [# 151] ROR backtrader.analyzers.annualreturn: [58.87967 s] survived
+   - [# 152] SCI backtrader.analyzers.annualreturn: [58.96924 s] survived
+   - [# 153] SCI backtrader.analyzers.annualreturn: [59.27400 s] survived
+   - [# 154] AOD backtrader.analyzers.calmar: [59.30717 s] survived
+   - [# 155] AOR backtrader.analyzers.calmar: [58.87018 s] survived
+   - [# 156] AOR backtrader.analyzers.calmar: [58.78158 s] survived
+   - [# 157] AOR backtrader.analyzers.calmar: [58.92832 s] survived
+   - [# 158] AOR backtrader.analyzers.calmar: [58.78653 s] survived
+   - [# 159] AOR backtrader.analyzers.calmar: [58.46632 s] survived
+   - [# 160] AOR backtrader.analyzers.calmar: [58.40677 s] survived
+   - [# 161] AOR backtrader.analyzers.calmar: [58.32734 s] survived
+   - [# 162] AOR backtrader.analyzers.calmar: [58.49178 s] survived
+   - [# 163] AOR backtrader.analyzers.calmar: [58.24020 s] survived
+   - [# 164] AOR backtrader.analyzers.calmar: [59.01659 s] survived
+   - [# 165] COD backtrader.analyzers.calmar: [58.80153 s] survived
+   - [# 166] COD backtrader.analyzers.calmar: [58.95102 s] survived
+   - [# 167] COI backtrader.analyzers.calmar: [58.48523 s] survived
+   - [# 168] COI backtrader.analyzers.calmar: [58.71356 s] survived
+   - [# 169] COI backtrader.analyzers.calmar: [58.46292 s] survived
+   - [# 170] IHD backtrader.analyzers.calmar: [58.74222 s] survived
+   - [# 171] IHD backtrader.analyzers.calmar: [58.68953 s] survived
+   - [# 172] IOD backtrader.analyzers.calmar: [58.70889 s] survived
+   - [# 173] IOD backtrader.analyzers.calmar: [58.78414 s] survived
+   - [# 174] IOD backtrader.analyzers.calmar: [58.83475 s] survived
+   - [# 175] IOD backtrader.analyzers.calmar: [58.97202 s] survived
+   - [# 176] LCR backtrader.analyzers.calmar: [59.12595 s] survived
+   - [# 177] SCI backtrader.analyzers.calmar: [59.20611 s] survived
+   - [# 178] SCI backtrader.analyzers.calmar: [58.77826 s] survived
+   - [# 179] SCI backtrader.analyzers.calmar: [58.67185 s] survived
+   - [# 180] SCI backtrader.analyzers.calmar: [59.41546 s] survived
+   - [# 181] AOR backtrader.analyzers.drawdown: [59.12876 s] survived
+   - [# 182] AOR backtrader.analyzers.drawdown: [59.49082 s] survived
+   - [# 183] AOR backtrader.analyzers.drawdown: [58.73697 s] survived
+   - [# 184] AOR backtrader.analyzers.drawdown: [59.74949 s] survived
+   - [# 185] AOR backtrader.analyzers.drawdown: [58.62111 s] survived
+   - [# 186] AOR backtrader.analyzers.drawdown: [58.67367 s] survived
+   - [# 187] AOR backtrader.analyzers.drawdown: [58.60306 s] survived
+   - [# 188] AOR backtrader.analyzers.drawdown: [58.45002 s] survived
+   - [# 189] AOR backtrader.analyzers.drawdown: [58.44197 s] survived
+   - [# 190] AOR backtrader.analyzers.drawdown: [58.66498 s] survived
+   - [# 191] AOR backtrader.analyzers.drawdown: [58.59186 s] survived
+   - [# 192] AOR backtrader.analyzers.drawdown: [58.48591 s] survived
+   - [# 193] AOR backtrader.analyzers.drawdown: [58.67881 s] survived
+   - [# 194] ASR backtrader.analyzers.drawdown: [59.07477 s] survived
+   - [# 195] COD backtrader.analyzers.drawdown: [58.98813 s] survived
+   - [# 196] COD backtrader.analyzers.drawdown: [59.33609 s] survived
+   - [# 197] COI backtrader.analyzers.drawdown: [58.95257 s] survived
+   - [# 198] COI backtrader.analyzers.drawdown: [59.26659 s] survived
+   - [# 199] COI backtrader.analyzers.drawdown: [58.31726 s] survived
+   - [# 200] COI backtrader.analyzers.drawdown: [58.54683 s] survived
+   - [# 201] COI backtrader.analyzers.drawdown: [58.54327 s] survived
+   - [# 202] IHD backtrader.analyzers.drawdown: [58.77128 s] survived
+   - [# 203] IHD backtrader.analyzers.drawdown: [58.74840 s] survived
+   - [# 204] IOD backtrader.analyzers.drawdown: [59.16645 s] survived
+   - [# 205] IOD backtrader.analyzers.drawdown: [59.03594 s] survived
+   - [# 206] IOD backtrader.analyzers.drawdown: [59.02535 s] survived
+   - [# 207] IOD backtrader.analyzers.drawdown: [58.42515 s] survived
+   - [# 208] IOD backtrader.analyzers.drawdown: [58.87532 s] survived
+   - [# 209] IOD backtrader.analyzers.drawdown: [58.69658 s] survived
+   - [# 210] IOD backtrader.analyzers.drawdown: [59.20807 s] survived
+   - [# 211] IOD backtrader.analyzers.drawdown: [59.03801 s] survived
+   - [# 212] IOP backtrader.analyzers.drawdown: [59.29279 s] survived
+   - [# 213] IOP backtrader.analyzers.drawdown: [59.28166 s] survived
+   - [# 214] ROR backtrader.analyzers.drawdown: [59.58490 s] survived
+   - [# 215] ROR backtrader.analyzers.drawdown: [59.11636 s] survived
+   - [# 216] SCD backtrader.analyzers.drawdown: [58.56445 s] survived
+   - [# 217] SCD backtrader.analyzers.drawdown: [58.99036 s] survived
+   - [# 218] SCI backtrader.analyzers.drawdown: [59.08329 s] survived
+   - [# 219] SCI backtrader.analyzers.drawdown: [59.43521 s] survived
+   - [# 220] SCI backtrader.analyzers.drawdown: [60.60981 s] survived
+   - [# 221] SCI backtrader.analyzers.drawdown: [60.69228 s] survived
+   - [# 222] SCI backtrader.analyzers.drawdown: [60.27190 s] survived
+   - [# 223] SCI backtrader.analyzers.drawdown: [60.21936 s] survived
+   - [# 224] AOR backtrader.analyzers.leverage: [60.20186 s] survived
+   - [# 225] AOR backtrader.analyzers.leverage: [61.37657 s] survived
+   - [# 226] AOR backtrader.analyzers.leverage: [90.67117 s] survived
+   - [# 227] COD backtrader.analyzers.leverage: [103.46234 s] survived
+   - [# 228] COI backtrader.analyzers.leverage: [104.56394 s] survived
+   - [# 229] COI backtrader.analyzers.leverage: [104.43755 s] survived
+   - [# 230] IHD backtrader.analyzers.leverage: [104.64230 s] survived
+   - [# 231] IOD backtrader.analyzers.leverage: [104.60184 s] survived
+   - [# 232] IOD backtrader.analyzers.leverage: [105.08073 s] survived
+   - [# 233] IOD backtrader.analyzers.leverage: [105.17017 s] survived
+   - [# 234] SCI backtrader.analyzers.leverage: [105.39245 s] survived
+   - [# 235] SCI backtrader.analyzers.leverage: [105.66885 s] survived
+   - [# 236] SCI backtrader.analyzers.leverage: [60.20204 s] survived
+   - [# 237] AOR backtrader.analyzers.logreturnsrolling: [59.97801 s] survived
+   - [# 238] AOR backtrader.analyzers.logreturnsrolling: [59.65109 s] survived
+   - [# 239] AOR backtrader.analyzers.logreturnsrolling: [59.88020 s] survived
+   - [# 240] AOR backtrader.analyzers.logreturnsrolling: [59.83886 s] survived
+   - [# 241] AOR backtrader.analyzers.logreturnsrolling: [59.81673 s] survived
+   - [# 242] COD backtrader.analyzers.logreturnsrolling: [59.67791 s] survived
+   - [# 243] COD backtrader.analyzers.logreturnsrolling: [59.88286 s] survived
+   - [# 244] COI backtrader.analyzers.logreturnsrolling: [59.63319 s] survived
+   - [# 245] COI backtrader.analyzers.logreturnsrolling: [59.85445 s] survived
+   - [# 246] COI backtrader.analyzers.logreturnsrolling: [59.50321 s] survived
+   - [# 247] COI backtrader.analyzers.logreturnsrolling: [59.64615 s] survived
+   - [# 248] COI backtrader.analyzers.logreturnsrolling: [345.48422 s] survived
+   - [# 249] IHD backtrader.analyzers.logreturnsrolling: [61.04431 s] survived
+   - [# 250] IOD backtrader.analyzers.logreturnsrolling: [61.06952 s] survived
+   - [# 251] IOD backtrader.analyzers.logreturnsrolling: [59.50475 s] survived
+   - [# 252] IOD backtrader.analyzers.logreturnsrolling: [59.46516 s] survived
+   - [# 253] IOP backtrader.analyzers.logreturnsrolling: [59.50326 s] survived
+   - [# 254] IOP backtrader.analyzers.logreturnsrolling: [59.73578 s] survived
+   - [# 255] LCR backtrader.analyzers.logreturnsrolling: [59.65064 s] survived
+   - [# 256] ROR backtrader.analyzers.logreturnsrolling: [59.27315 s] survived
+   - [# 257] ROR backtrader.analyzers.logreturnsrolling: [59.29943 s] survived
+   - [# 258] SCD backtrader.analyzers.logreturnsrolling: [59.59296 s] survived
+   - [# 259] SCD backtrader.analyzers.logreturnsrolling: [59.43069 s] survived
+   - [# 260] SCI backtrader.analyzers.logreturnsrolling: [59.64648 s] survived
+   - [# 261] ASR backtrader.analyzers.periodstats: [59.01451 s] survived
+   - [# 262] ASR backtrader.analyzers.periodstats: [59.73811 s] survived
+   - [# 263] ASR backtrader.analyzers.periodstats: [60.18695 s] survived
+   - [# 264] ASR backtrader.analyzers.periodstats: [59.38698 s] survived
+   - [# 265] COI backtrader.analyzers.periodstats: [59.54935 s] survived
+   - [# 266] COI backtrader.analyzers.periodstats: [60.00936 s] survived
+   - [# 267] COI backtrader.analyzers.periodstats: [60.04996 s] survived
+   - [# 268] IHD backtrader.analyzers.periodstats: [59.35005 s] survived
+   - [# 269] IOD backtrader.analyzers.periodstats: [59.56931 s] survived
+   - [# 270] IOD backtrader.analyzers.periodstats: [59.47982 s] survived
+   - [# 271] ROR backtrader.analyzers.periodstats: [59.82052 s] survived
+   - [# 272] ROR backtrader.analyzers.periodstats: [60.13989 s] survived
+   - [# 273] ROR backtrader.analyzers.periodstats: [61.13046 s] survived
+   - [# 274] ROR backtrader.analyzers.periodstats: [59.15997 s] survived
+   - [# 275] ROR backtrader.analyzers.periodstats: [59.35949 s] survived
+   - [# 276] ROR backtrader.analyzers.periodstats: [59.09100 s] survived
+   - [# 277] SCI backtrader.analyzers.periodstats: [60.26270 s] survived
+   - [# 278] SCI backtrader.analyzers.periodstats: [63.62986 s] survived
+   - [# 279] AOR backtrader.analyzers.positions: [63.39141 s] survived
+   - [# 280] AOR backtrader.analyzers.positions: [66.10612 s] survived
+   - [# 281] AOR backtrader.analyzers.positions: [64.22330 s] survived
+   - [# 282] AOR backtrader.analyzers.positions: [60.16301 s] survived
+   - [# 283] AOR backtrader.analyzers.positions: [58.84117 s] survived
+   - [# 284] COI backtrader.analyzers.positions: [58.85813 s] survived
+   - [# 285] COI backtrader.analyzers.positions: [58.57458 s] survived
+   - [# 286] COI backtrader.analyzers.positions: [58.75159 s] survived
+   - [# 287] IHD backtrader.analyzers.positions: [59.01466 s] survived
+   - [# 288] IOD backtrader.analyzers.positions: [58.93550 s] survived
+   - [# 289] IOD backtrader.analyzers.positions: [59.09359 s] survived
+   - [# 290] LCR backtrader.analyzers.positions: [59.47943 s] survived
+   - [# 291] ROR backtrader.analyzers.positions: [59.25675 s] survived
+   - [# 292] ROR backtrader.analyzers.positions: [59.10333 s] survived
+   - [# 293] SCI backtrader.analyzers.positions: [59.25858 s] survived
+   - [# 294] SCI backtrader.analyzers.positions: [58.79424 s] survived
+   - [# 295] AOD backtrader.analyzers.pyfolio: [58.93763 s] survived
+   - [# 296] AOR backtrader.analyzers.pyfolio: [58.95464 s] survived
+   - [# 297] AOR backtrader.analyzers.pyfolio: [59.18073 s] survived
+   - [# 298] AOR backtrader.analyzers.pyfolio: [58.92237 s] survived
+   - [# 299] IHD backtrader.analyzers.pyfolio: [58.87708 s] survived
+   - [# 300] IOD backtrader.analyzers.pyfolio: [58.83219 s] survived
+   - [# 301] IOD backtrader.analyzers.pyfolio: [59.34043 s] survived
+   - [# 302] IOP backtrader.analyzers.pyfolio: [59.39500 s] survived
+   - [# 303] SCD backtrader.analyzers.pyfolio: [59.37119 s] survived
+   - [# 304] SCI backtrader.analyzers.pyfolio: [58.68372 s] survived
+   - [# 305] SIR backtrader.analyzers.pyfolio: [59.04741 s] survived
+   - [# 306] AOR backtrader.analyzers.returns: [58.47449 s] survived
+   - [# 307] AOR backtrader.analyzers.returns: [58.57851 s] survived
+   - [# 308] AOR backtrader.analyzers.returns: [58.73634 s] survived
+   - [# 309] AOR backtrader.analyzers.returns: [58.60696 s] survived
+   - [# 310] AOR backtrader.analyzers.returns: [58.34438 s] survived
+   - [# 311] AOR backtrader.analyzers.returns: [58.67257 s] survived
+   - [# 312] AOR backtrader.analyzers.returns: [58.66311 s] survived
+   - [# 313] AOR backtrader.analyzers.returns: [58.71185 s] survived
+   - [# 314] AOR backtrader.analyzers.returns: [58.33286 s] survived
+   - [# 315] AOR backtrader.analyzers.returns: [58.41699 s] survived
+   - [# 316] ASR backtrader.analyzers.returns: [58.60207 s] survived
+   - [# 317] COD backtrader.analyzers.returns: [58.83193 s] survived
+   - [# 318] COD backtrader.analyzers.returns: [58.53785 s] survived
+   - [# 319] COI backtrader.analyzers.returns: [58.50073 s] survived
+   - [# 320] COI backtrader.analyzers.returns: [58.69630 s] survived
+   - [# 321] COI backtrader.analyzers.returns: [58.86163 s] survived
+   - [# 322] COI backtrader.analyzers.returns: [58.63201 s] survived
+   - [# 323] COI backtrader.analyzers.returns: [58.99778 s] survived
+   - [# 324] COI backtrader.analyzers.returns: [58.71636 s] survived
+   - [# 325] EHD backtrader.analyzers.returns: [58.56149 s] survived
+   - [# 326] EXS backtrader.analyzers.returns: [58.80817 s] survived
+   - [# 327] IHD backtrader.analyzers.returns: [59.11627 s] survived
+   - [# 328] IOD backtrader.analyzers.returns: [58.79447 s] survived
+   - [# 329] IOD backtrader.analyzers.returns: [59.20092 s] survived
+   - [# 330] IOP backtrader.analyzers.returns: [59.52182 s] survived
+   - [# 331] IOP backtrader.analyzers.returns: [59.07343 s] survived
+   - [# 332] LCR backtrader.analyzers.returns: [58.72605 s] survived
+   - [# 333] ROR backtrader.analyzers.returns: [59.14145 s] survived
+   - [# 334] ROR backtrader.analyzers.returns: [58.63116 s] survived
+   - [# 335] ROR backtrader.analyzers.returns: [58.81256 s] survived
+   - [# 336] ROR backtrader.analyzers.returns: [58.72779 s] survived
+   - [# 337] SCD backtrader.analyzers.returns: [58.72168 s] survived
+   - [# 338] SCD backtrader.analyzers.returns: [58.60770 s] survived
+   - [# 339] AOR backtrader.analyzers.sharpe: [60.90464 s] survived
+   - [# 340] AOR backtrader.analyzers.sharpe: [71.95880 s] survived
+   - [# 341] AOR backtrader.analyzers.sharpe: [59.72207 s] survived
+   - [# 342] AOR backtrader.analyzers.sharpe: [59.02064 s] survived
+   - [# 343] AOR backtrader.analyzers.sharpe: [58.94483 s] survived
+   - [# 344] AOR backtrader.analyzers.sharpe: [58.51465 s] survived
+   - [# 345] AOR backtrader.analyzers.sharpe: [59.42924 s] survived
+   - [# 346] AOR backtrader.analyzers.sharpe: [58.60190 s] survived
+   - [# 347] AOR backtrader.analyzers.sharpe: [59.00512 s] survived
+   - [# 348] AOR backtrader.analyzers.sharpe: [58.71549 s] survived
+   - [# 349] AOR backtrader.analyzers.sharpe: [58.48056 s] survived
+   - [# 350] AOR backtrader.analyzers.sharpe: [59.07342 s] survived
+   - [# 351] AOR backtrader.analyzers.sharpe: [59.15231 s] survived
+   - [# 352] AOR backtrader.analyzers.sharpe: [58.60426 s] survived
+   - [# 353] AOR backtrader.analyzers.sharpe: [58.51739 s] survived
+   - [# 354] AOR backtrader.analyzers.sharpe: [58.57470 s] survived
+   - [# 355] COI backtrader.analyzers.sharpe: [59.13938 s] survived
+   - [# 356] COI backtrader.analyzers.sharpe: [58.62310 s] survived
+   - [# 357] COI backtrader.analyzers.sharpe: [58.54270 s] survived
+   - [# 358] COI backtrader.analyzers.sharpe: [58.75446 s] survived
+   - [# 359] COI backtrader.analyzers.sharpe: [58.81090 s] survived
+   - [# 360] COI backtrader.analyzers.sharpe: [58.57884 s] survived
+   - [# 361] COI backtrader.analyzers.sharpe: [59.40158 s] survived
+   - [# 362] COI backtrader.analyzers.sharpe: [59.16163 s] survived
+   - [# 363] COI backtrader.analyzers.sharpe: [58.83956 s] survived
+   - [# 364] COI backtrader.analyzers.sharpe: [58.94609 s] survived
+   - [# 365] EHD backtrader.analyzers.sharpe: [58.51909 s] survived
+   - [# 366] EXS backtrader.analyzers.sharpe: [58.45347 s] survived
+   - [# 367] IHD backtrader.analyzers.sharpe: [58.69382 s] survived
+   - [# 368] IHD backtrader.analyzers.sharpe: [58.70229 s] survived
+   - [# 369] IOD backtrader.analyzers.sharpe: [58.72078 s] survived
+   - [# 370] IOD backtrader.analyzers.sharpe: [58.92876 s] survived
+   - [# 371] IOP backtrader.analyzers.sharpe: [58.99509 s] survived
+   - [# 372] LCR backtrader.analyzers.sharpe: [58.53129 s] survived
+   - [# 373] LCR backtrader.analyzers.sharpe: [58.49458 s] survived
+   - [# 374] ROR backtrader.analyzers.sharpe: [58.43130 s] survived
+   - [# 375] SCD backtrader.analyzers.sharpe: [58.86489 s] survived
+   - [# 376] SCI backtrader.analyzers.sharpe: [58.65542 s] survived
+   - [# 377] AOR backtrader.analyzers.sqn: [4.54129 s] killed by tests/test_analyzer-sqn.py::test_run
+   - [# 378] AOR backtrader.analyzers.sqn: [4.09077 s] killed by tests/test_analyzer-sqn.py::test_run
+   - [# 379] AOR backtrader.analyzers.sqn: [4.15514 s] killed by tests/test_analyzer-sqn.py::test_run
+   - [# 380] AOR backtrader.analyzers.sqn: [4.13288 s] killed by tests/test_analyzer-sqn.py::test_run
+   - [# 381] AOR backtrader.analyzers.sqn: [4.14171 s] killed by tests/test_analyzer-sqn.py::test_run
+   - [# 382] ASR backtrader.analyzers.sqn: [4.39514 s] killed by tests/test_analyzer-sqn.py::test_run
+   - [# 383] COI backtrader.analyzers.sqn: [4.09261 s] killed by tests/test_analyzer-sqn.py::test_run
+   - [# 384] COI backtrader.analyzers.sqn: [4.14125 s] killed by tests/test_analyzer-sqn.py::test_run
+   - [# 385] EHD backtrader.analyzers.sqn: [4.32999 s] killed by tests/test_analyzer-sqn.py::test_run
+   - [# 386] EXS backtrader.analyzers.sqn: [4.21601 s] killed by tests/test_analyzer-sqn.py::test_run
+   - [# 387] IOD backtrader.analyzers.sqn: [4.17661 s] killed by tests/test_analyzer-sqn.py::test_run
+   - [# 388] IOD backtrader.analyzers.sqn: [4.12396 s] killed by tests/test_analyzer-sqn.py::test_run
+   - [# 389] IOD backtrader.analyzers.sqn: [4.10814 s] killed by tests/test_analyzer-sqn.py::test_run
+   - [# 390] IOD backtrader.analyzers.sqn: [4.09602 s] killed by tests/test_analyzer-sqn.py::test_run
+   - [# 391] IOP backtrader.analyzers.sqn: [4.15053 s] killed by tests/test_analyzer-sqn.py::test_run
+   - [# 392] ROR backtrader.analyzers.sqn: [4.43428 s] killed by tests/test_analyzer-sqn.py::test_run
+   - [# 393] ROR backtrader.analyzers.sqn: [4.14102 s] killed by tests/test_analyzer-sqn.py::test_run
+   - [# 394] ROR backtrader.analyzers.sqn: [4.13381 s] killed by tests/test_analyzer-sqn.py::test_run
+   - [# 395] SCD backtrader.analyzers.sqn: [4.08854 s] killed by tests/test_analyzer-sqn.py::test_run
+   - [# 396] SCI backtrader.analyzers.sqn: [4.11960 s] killed by tests/test_analyzer-sqn.py::test_run
+   - [# 397] SCI backtrader.analyzers.sqn: [4.16053 s] killed by tests/test_analyzer-sqn.py::test_run
+   - [# 398] SCI backtrader.analyzers.sqn: [4.17432 s] killed by tests/test_analyzer-sqn.py::test_run
+   - [# 399] AOR backtrader.analyzers.timereturn: [4.17469 s] killed by tests/test_analyzer-sqn.py::test_run
+   - [# 400] AOR backtrader.analyzers.timereturn: [4.14136 s] killed by tests/test_analyzer-sqn.py::test_run
+   - [# 401] AOR backtrader.analyzers.timereturn: [4.14480 s] killed by tests/test_analyzer-sqn.py::test_run
+   - [# 402] COD backtrader.analyzers.timereturn: [4.12694 s] killed by tests/test_analyzer-sqn.py::test_run
+   - [# 403] COD backtrader.analyzers.timereturn: [4.13192 s] killed by tests/test_analyzer-sqn.py::test_run
+   - [# 404] COI backtrader.analyzers.timereturn: [4.15625 s] killed by tests/test_analyzer-sqn.py::test_run
+   - [# 405] COI backtrader.analyzers.timereturn: [4.07962 s] killed by tests/test_analyzer-sqn.py::test_run
+   - [# 406] COI backtrader.analyzers.timereturn: [4.13439 s] killed by tests/test_analyzer-sqn.py::test_run
+   - [# 407] COI backtrader.analyzers.timereturn: [4.38553 s] killed by tests/test_analyzer-sqn.py::test_run
+   - [# 408] COI backtrader.analyzers.timereturn: [4.15505 s] killed by tests/test_analyzer-sqn.py::test_run
+   - [# 409] COI backtrader.analyzers.timereturn: [4.16934 s] killed by tests/test_analyzer-sqn.py::test_run
+   - [# 410] COI backtrader.analyzers.timereturn: [4.14299 s] killed by tests/test_analyzer-sqn.py::test_run
+   - [# 411] COI backtrader.analyzers.timereturn: [4.12257 s] killed by tests/test_analyzer-sqn.py::test_run
+   - [# 412] IHD backtrader.analyzers.timereturn: [4.09644 s] killed by tests/test_analyzer-sqn.py::test_run
+   - [# 413] IOD backtrader.analyzers.timereturn: [4.14509 s] killed by tests/test_analyzer-sqn.py::test_run
+   - [# 414] IOD backtrader.analyzers.timereturn: [4.13431 s] killed by tests/test_analyzer-sqn.py::test_run
+   - [# 415] IOD backtrader.analyzers.timereturn: [4.14533 s] killed by tests/test_analyzer-sqn.py::test_run
+   - [# 416] IOD backtrader.analyzers.timereturn: [4.13141 s] killed by tests/test_analyzer-sqn.py::test_run
+   - [# 417] IOP backtrader.analyzers.timereturn: [4.06792 s] killed by tests/test_analyzer-sqn.py::test_run
+   - [# 418] IOP backtrader.analyzers.timereturn: [4.15829 s] killed by tests/test_analyzer-sqn.py::test_run
+   - [# 419] LCR backtrader.analyzers.timereturn: [4.15357 s] killed by tests/test_analyzer-sqn.py::test_run
+   - [# 420] SCD backtrader.analyzers.timereturn: [4.18962 s] killed by tests/test_analyzer-sqn.py::test_run
+   - [# 421] SCD backtrader.analyzers.timereturn: [4.12012 s] killed by tests/test_analyzer-sqn.py::test_run
+   - [# 422] SCI backtrader.analyzers.timereturn: [4.34750 s] killed by tests/test_analyzer-sqn.py::test_run
+   - [# 423] SCI backtrader.analyzers.timereturn: [4.13046 s] killed by tests/test_analyzer-sqn.py::test_run
+   - [# 424] AOR backtrader.analyzers.tradeanalyzer: [4.11216 s] killed by tests/test_analyzer-sqn.py::test_run
+   - [# 425] AOR backtrader.analyzers.tradeanalyzer: [4.12163 s] killed by tests/test_analyzer-sqn.py::test_run
+   - [# 426] AOR backtrader.analyzers.tradeanalyzer: [4.12401 s] killed by tests/test_analyzer-sqn.py::test_run
+   - [# 427] AOR backtrader.analyzers.tradeanalyzer: [4.09099 s] killed by tests/test_analyzer-sqn.py::test_run
+   - [# 428] AOR backtrader.analyzers.tradeanalyzer: [4.14237 s] killed by tests/test_analyzer-sqn.py::test_run
+   - [# 429] AOR backtrader.analyzers.tradeanalyzer: [4.10384 s] killed by tests/test_analyzer-sqn.py::test_run
+   - [# 430] AOR backtrader.analyzers.tradeanalyzer: [4.14800 s] killed by tests/test_analyzer-sqn.py::test_run
+   - [# 431] AOR backtrader.analyzers.tradeanalyzer: [4.15097 s] killed by tests/test_analyzer-sqn.py::test_run
+   - [# 432] AOR backtrader.analyzers.tradeanalyzer: [4.11009 s] killed by tests/test_analyzer-sqn.py::test_run
+   - [# 433] AOR backtrader.analyzers.tradeanalyzer: [4.13661 s] killed by tests/test_analyzer-sqn.py::test_run
+   - [# 434] AOR backtrader.analyzers.tradeanalyzer: [4.12698 s] killed by tests/test_analyzer-sqn.py::test_run
+   - [# 435] AOR backtrader.analyzers.tradeanalyzer: [4.21296 s] killed by tests/test_analyzer-sqn.py::test_run
+   - [# 436] AOR backtrader.analyzers.tradeanalyzer: [4.14159 s] killed by tests/test_analyzer-sqn.py::test_run
+   - [# 437] AOR backtrader.analyzers.tradeanalyzer: [4.38734 s] killed by tests/test_analyzer-sqn.py::test_run
+   - [# 438] AOR backtrader.analyzers.tradeanalyzer: [4.12019 s] killed by tests/test_analyzer-sqn.py::test_run
+   - [# 439] AOR backtrader.analyzers.tradeanalyzer: [4.09307 s] killed by tests/test_analyzer-sqn.py::test_run
+   - [# 440] AOR backtrader.analyzers.tradeanalyzer: [4.13094 s] killed by tests/test_analyzer-sqn.py::test_run
+   - [# 441] AOR backtrader.analyzers.tradeanalyzer: [4.12756 s] killed by tests/test_analyzer-sqn.py::test_run
+   - [# 442] AOR backtrader.analyzers.tradeanalyzer: [4.15028 s] killed by tests/test_analyzer-sqn.py::test_run
+   - [# 443] AOR backtrader.analyzers.tradeanalyzer: [4.14562 s] killed by tests/test_analyzer-sqn.py::test_run
+   - [# 444] AOR backtrader.analyzers.tradeanalyzer: [4.11151 s] killed by tests/test_analyzer-sqn.py::test_run
+   - [# 445] AOR backtrader.analyzers.tradeanalyzer: [4.13341 s] killed by tests/test_analyzer-sqn.py::test_run
+   - [# 446] AOR backtrader.analyzers.tradeanalyzer: [4.12472 s] killed by tests/test_analyzer-sqn.py::test_run
+   - [# 447] AOR backtrader.analyzers.tradeanalyzer: [4.15664 s] killed by tests/test_analyzer-sqn.py::test_run
+   - [# 448] AOR backtrader.analyzers.tradeanalyzer: [4.12893 s] killed by tests/test_analyzer-sqn.py::test_run
+   - [# 449] AOR backtrader.analyzers.tradeanalyzer: [4.08273 s] killed by tests/test_analyzer-sqn.py::test_run
+   - [# 450] AOR backtrader.analyzers.tradeanalyzer: [4.16956 s] killed by tests/test_analyzer-sqn.py::test_run
+   - [# 451] AOR backtrader.analyzers.tradeanalyzer: [4.12747 s] killed by tests/test_analyzer-sqn.py::test_run
+   - [# 452] AOR backtrader.analyzers.tradeanalyzer: [4.43274 s] killed by tests/test_analyzer-sqn.py::test_run
+   - [# 453] AOR backtrader.analyzers.tradeanalyzer: [4.14894 s] killed by tests/test_analyzer-sqn.py::test_run
+   - [# 454] AOR backtrader.analyzers.tradeanalyzer: [4.05626 s] killed by tests/test_analyzer-sqn.py::test_run
+   - [# 455] AOR backtrader.analyzers.tradeanalyzer: [4.11889 s] killed by tests/test_analyzer-sqn.py::test_run
+   - [# 456] AOR backtrader.analyzers.tradeanalyzer: [4.12166 s] killed by tests/test_analyzer-sqn.py::test_run
+   - [# 457] AOR backtrader.analyzers.tradeanalyzer: [4.12305 s] killed by tests/test_analyzer-sqn.py::test_run
+   - [# 458] AOR backtrader.analyzers.tradeanalyzer: [4.13611 s] killed by tests/test_analyzer-sqn.py::test_run
+   - [# 459] AOR backtrader.analyzers.tradeanalyzer: [4.06606 s] killed by tests/test_analyzer-sqn.py::test_run
+   - [# 460] AOR backtrader.analyzers.tradeanalyzer: [4.10935 s] killed by tests/test_analyzer-sqn.py::test_run
+   - [# 461] AOR backtrader.analyzers.tradeanalyzer: [4.10242 s] killed by tests/test_analyzer-sqn.py::test_run
+   - [# 462] AOR backtrader.analyzers.tradeanalyzer: [4.15378 s] killed by tests/test_analyzer-sqn.py::test_run
+   - [# 463] AOR backtrader.analyzers.tradeanalyzer: [4.15082 s] killed by tests/test_analyzer-sqn.py::test_run
+   - [# 464] AOR backtrader.analyzers.tradeanalyzer: [4.11384 s] killed by tests/test_analyzer-sqn.py::test_run
+   - [# 465] AOR backtrader.analyzers.tradeanalyzer: [4.13541 s] killed by tests/test_analyzer-sqn.py::test_run
+   - [# 466] AOR backtrader.analyzers.tradeanalyzer: [4.11686 s] killed by tests/test_analyzer-sqn.py::test_run
+   - [# 467] AOR backtrader.analyzers.tradeanalyzer: [4.39674 s] killed by tests/test_analyzer-sqn.py::test_run
+   - [# 468] AOR backtrader.analyzers.tradeanalyzer: [4.15369 s] killed by tests/test_analyzer-sqn.py::test_run
+   - [# 469] AOR backtrader.analyzers.tradeanalyzer: [4.13336 s] killed by tests/test_analyzer-sqn.py::test_run
+   - [# 470] AOR backtrader.analyzers.tradeanalyzer: [4.13897 s] killed by tests/test_analyzer-sqn.py::test_run
+   - [# 471] AOR backtrader.analyzers.tradeanalyzer: [4.09981 s] killed by tests/test_analyzer-sqn.py::test_run
+   - [# 472] AOR backtrader.analyzers.tradeanalyzer: [4.11688 s] killed by tests/test_analyzer-sqn.py::test_run
+   - [# 473] AOR backtrader.analyzers.tradeanalyzer: [4.14227 s] killed by tests/test_analyzer-sqn.py::test_run
+   - [# 474] AOR backtrader.analyzers.tradeanalyzer: [4.16610 s] killed by tests/test_analyzer-sqn.py::test_run
+   - [# 475] AOR backtrader.analyzers.tradeanalyzer: [4.14590 s] killed by tests/test_analyzer-sqn.py::test_run
+   - [# 476] AOR backtrader.analyzers.tradeanalyzer: [4.07750 s] killed by tests/test_analyzer-sqn.py::test_run
+   - [# 477] AOR backtrader.analyzers.tradeanalyzer: [4.13045 s] killed by tests/test_analyzer-sqn.py::test_run
+   - [# 478] AOR backtrader.analyzers.tradeanalyzer: [4.14962 s] killed by tests/test_analyzer-sqn.py::test_run
+   - [# 479] AOR backtrader.analyzers.tradeanalyzer: [4.22856 s] killed by tests/test_analyzer-sqn.py::test_run
+   - [# 480] ASR backtrader.analyzers.tradeanalyzer: [4.15701 s] killed by tests/test_analyzer-sqn.py::test_run
+   - [# 481] ASR backtrader.analyzers.tradeanalyzer: [4.10165 s] killed by tests/test_analyzer-sqn.py::test_run
+   - [# 482] ASR backtrader.analyzers.tradeanalyzer: [4.43180 s] killed by tests/test_analyzer-sqn.py::test_run
+   - [# 483] ASR backtrader.analyzers.tradeanalyzer: [4.10469 s] killed by tests/test_analyzer-sqn.py::test_run
+   - [# 484] ASR backtrader.analyzers.tradeanalyzer: [4.13200 s] killed by tests/test_analyzer-sqn.py::test_run
+   - [# 485] ASR backtrader.analyzers.tradeanalyzer: [4.16278 s] killed by tests/test_analyzer-sqn.py::test_run
+   - [# 486] ASR backtrader.analyzers.tradeanalyzer: [4.11694 s] killed by tests/test_analyzer-sqn.py::test_run
+   - [# 487] ASR backtrader.analyzers.tradeanalyzer: [4.16950 s] killed by tests/test_analyzer-sqn.py::test_run
+   - [# 488] ASR backtrader.analyzers.tradeanalyzer: [4.11917 s] killed by tests/test_analyzer-sqn.py::test_run
+   - [# 489] ASR backtrader.analyzers.tradeanalyzer: [4.12940 s] killed by tests/test_analyzer-sqn.py::test_run
+   - [# 490] ASR backtrader.analyzers.tradeanalyzer: [4.12776 s] killed by tests/test_analyzer-sqn.py::test_run
+   - [# 491] ASR backtrader.analyzers.tradeanalyzer: [4.06741 s] killed by tests/test_analyzer-sqn.py::test_run
+   - [# 492] ASR backtrader.analyzers.tradeanalyzer: [4.16876 s] killed by tests/test_analyzer-sqn.py::test_run
+   - [# 493] ASR backtrader.analyzers.tradeanalyzer: [4.11164 s] killed by tests/test_analyzer-sqn.py::test_run
+   - [# 494] ASR backtrader.analyzers.tradeanalyzer: [4.11426 s] killed by tests/test_analyzer-sqn.py::test_run
+   - [# 495] ASR backtrader.analyzers.tradeanalyzer: [4.13199 s] killed by tests/test_analyzer-sqn.py::test_run
+   - [# 496] ASR backtrader.analyzers.tradeanalyzer: [4.07057 s] killed by tests/test_analyzer-sqn.py::test_run
+   - [# 497] ASR backtrader.analyzers.tradeanalyzer: [4.40008 s] killed by tests/test_analyzer-sqn.py::test_run
+   - [# 498] ASR backtrader.analyzers.tradeanalyzer: [4.09293 s] killed by tests/test_analyzer-sqn.py::test_run
+   - [# 499] ASR backtrader.analyzers.tradeanalyzer: [4.12320 s] killed by tests/test_analyzer-sqn.py::test_run
+   - [# 500] COD backtrader.analyzers.tradeanalyzer: [4.14647 s] killed by tests/test_analyzer-sqn.py::test_run
+   - [# 501] COD backtrader.analyzers.tradeanalyzer: [4.13259 s] killed by tests/test_analyzer-sqn.py::test_run
+   - [# 502] COI backtrader.analyzers.tradeanalyzer: [4.12834 s] killed by tests/test_analyzer-sqn.py::test_run
+   - [# 503] COI backtrader.analyzers.tradeanalyzer: [4.07694 s] killed by tests/test_analyzer-sqn.py::test_run
+   - [# 504] COI backtrader.analyzers.tradeanalyzer: [4.09852 s] killed by tests/test_analyzer-sqn.py::test_run
+   - [# 505] IOD backtrader.analyzers.tradeanalyzer: [4.02583 s] killed by tests/test_analyzer-sqn.py::test_run
+   - [# 506] IOD backtrader.analyzers.tradeanalyzer: [4.01355 s] killed by tests/test_analyzer-sqn.py::test_run
+   - [# 507] IOD backtrader.analyzers.tradeanalyzer: [4.05187 s] killed by tests/test_analyzer-sqn.py::test_run
+   - [# 508] IOP backtrader.analyzers.tradeanalyzer: [4.03271 s] killed by tests/test_analyzer-sqn.py::test_run
+   - [# 509] LCR backtrader.analyzers.tradeanalyzer: [4.01946 s] killed by tests/test_analyzer-sqn.py::test_run
+   - [# 510] LCR backtrader.analyzers.tradeanalyzer: [4.02296 s] killed by tests/test_analyzer-sqn.py::test_run
+   - [# 511] LCR backtrader.analyzers.tradeanalyzer: [4.06487 s] killed by tests/test_analyzer-sqn.py::test_run
+   - [# 512] LCR backtrader.analyzers.tradeanalyzer: [4.27921 s] killed by tests/test_analyzer-sqn.py::test_run
+   - [# 513] LCR backtrader.analyzers.tradeanalyzer: [3.97945 s] killed by tests/test_analyzer-sqn.py::test_run
+   - [# 514] LCR backtrader.analyzers.tradeanalyzer: [4.04269 s] killed by tests/test_analyzer-sqn.py::test_run
+   - [# 515] LCR backtrader.analyzers.tradeanalyzer: [4.02732 s] killed by tests/test_analyzer-sqn.py::test_run
+   - [# 516] LCR backtrader.analyzers.tradeanalyzer: [3.99050 s] killed by tests/test_analyzer-sqn.py::test_run
+   - [# 517] LCR backtrader.analyzers.tradeanalyzer: [4.01384 s] killed by tests/test_analyzer-sqn.py::test_run
+   - [# 518] LCR backtrader.analyzers.tradeanalyzer: [3.97059 s] killed by tests/test_analyzer-sqn.py::test_run
+   - [# 519] LCR backtrader.analyzers.tradeanalyzer: [4.03335 s] killed by tests/test_analyzer-sqn.py::test_run
+   - [# 520] LCR backtrader.analyzers.tradeanalyzer: [4.00680 s] killed by tests/test_analyzer-sqn.py::test_run
+   - [# 521] LCR backtrader.analyzers.tradeanalyzer: [4.04816 s] killed by tests/test_analyzer-sqn.py::test_run
+   - [# 522] LCR backtrader.analyzers.tradeanalyzer: [4.02852 s] killed by tests/test_analyzer-sqn.py::test_run
+   - [# 523] LCR backtrader.analyzers.tradeanalyzer: [3.98878 s] killed by tests/test_analyzer-sqn.py::test_run
+   - [# 524] LCR backtrader.analyzers.tradeanalyzer: [4.04413 s] killed by tests/test_analyzer-sqn.py::test_run
+   - [# 525] LCR backtrader.analyzers.tradeanalyzer: [4.01323 s] killed by tests/test_analyzer-sqn.py::test_run
+   - [# 526] LCR backtrader.analyzers.tradeanalyzer: [3.96158 s] killed by tests/test_analyzer-sqn.py::test_run
+   - [# 527] LCR backtrader.analyzers.tradeanalyzer: [4.30293 s] killed by tests/test_analyzer-sqn.py::test_run
+   - [# 528] ROR backtrader.analyzers.tradeanalyzer: [3.99567 s] killed by tests/test_analyzer-sqn.py::test_run
+   - [# 529] ROR backtrader.analyzers.tradeanalyzer: [4.01082 s] killed by tests/test_analyzer-sqn.py::test_run
+   - [# 530] ROR backtrader.analyzers.tradeanalyzer: [4.01721 s] killed by tests/test_analyzer-sqn.py::test_run
+   - [# 531] ROR backtrader.analyzers.tradeanalyzer: [3.93665 s] killed by tests/test_analyzer-sqn.py::test_run
+   - [# 532] ROR backtrader.analyzers.tradeanalyzer: [4.01376 s] killed by tests/test_analyzer-sqn.py::test_run
+   - [# 533] SCD backtrader.analyzers.tradeanalyzer: [3.98168 s] killed by tests/test_analyzer-sqn.py::test_run
+   - [# 534] SCI backtrader.analyzers.tradeanalyzer: [4.00459 s] killed by tests/test_analyzer-sqn.py::test_run
+   - [# 535] SCI backtrader.analyzers.tradeanalyzer: [4.02670 s] killed by tests/test_analyzer-sqn.py::test_run
+   - [# 536] AOD backtrader.analyzers.transactions: [3.95564 s] killed by tests/test_analyzer-sqn.py::test_run
+   - [# 537] AOR backtrader.analyzers.transactions: [4.03143 s] killed by tests/test_analyzer-sqn.py::test_run
+   - [# 538] AOR backtrader.analyzers.transactions: [3.98796 s] killed by tests/test_analyzer-sqn.py::test_run
+   - [# 539] AOR backtrader.analyzers.transactions: [4.00728 s] killed by tests/test_analyzer-sqn.py::test_run
+   - [# 540] AOR backtrader.analyzers.transactions: [4.01053 s] killed by tests/test_analyzer-sqn.py::test_run
+   - [# 541] BCR backtrader.analyzers.transactions: [3.95974 s] killed by tests/test_analyzer-sqn.py::test_run
+   - [# 542] COD backtrader.analyzers.transactions: [4.25658 s] killed by tests/test_analyzer-sqn.py::test_run
+   - [# 543] COI backtrader.analyzers.transactions: [3.99552 s] killed by tests/test_analyzer-sqn.py::test_run
+   - [# 544] COI backtrader.analyzers.transactions: [3.99857 s] killed by tests/test_analyzer-sqn.py::test_run
+   - [# 545] COI backtrader.analyzers.transactions: [3.99902 s] killed by tests/test_analyzer-sqn.py::test_run
+   - [# 546] COI backtrader.analyzers.transactions: [3.95803 s] killed by tests/test_analyzer-sqn.py::test_run
+   - [# 547] COI backtrader.analyzers.transactions: [4.01311 s] killed by tests/test_analyzer-sqn.py::test_run
+   - [# 548] COI backtrader.analyzers.transactions: [4.01846 s] killed by tests/test_analyzer-sqn.py::test_run
+   - [# 549] IHD backtrader.analyzers.transactions: [4.01254 s] killed by tests/test_analyzer-sqn.py::test_run
+   - [# 550] IOD backtrader.analyzers.transactions: [4.00121 s] killed by tests/test_analyzer-sqn.py::test_run
+   - [# 551] IOD backtrader.analyzers.transactions: [3.98705 s] killed by tests/test_analyzer-sqn.py::test_run
+   - [# 552] IOD backtrader.analyzers.transactions: [4.12747 s] killed by tests/test_analyzer-sqn.py::test_run
+   - [# 553] IOP backtrader.analyzers.transactions: [4.03384 s] killed by tests/test_analyzer-sqn.py::test_run
+   - [# 554] SCD backtrader.analyzers.transactions: [4.00875 s] killed by tests/test_analyzer-sqn.py::test_run
+   - [# 555] SCI backtrader.analyzers.transactions: [4.02774 s] killed by tests/test_analyzer-sqn.py::test_run
+   - [# 556] SCI backtrader.analyzers.transactions: [3.97561 s] killed by tests/test_analyzer-sqn.py::test_run
+   - [# 557] SIR backtrader.analyzers.transactions: [4.26881 s] killed by tests/test_analyzer-sqn.py::test_run
+   - [# 558] AOD backtrader.analyzers.vwr: [4.16119 s] killed by tests/test_analyzer-sqn.py::test_run
+   - [# 559] AOD backtrader.analyzers.vwr: [4.15743 s] killed by tests/test_analyzer-sqn.py::test_run
+   - [# 560] AOD backtrader.analyzers.vwr: [4.14884 s] killed by tests/test_analyzer-sqn.py::test_run
+   - [# 561] AOD backtrader.analyzers.vwr: [4.12235 s] killed by tests/test_analyzer-sqn.py::test_run
+   - [# 562] AOR backtrader.analyzers.vwr: [4.14814 s] killed by tests/test_analyzer-sqn.py::test_run
+   - [# 563] AOR backtrader.analyzers.vwr: [4.13035 s] killed by tests/test_analyzer-sqn.py::test_run
+   - [# 564] AOR backtrader.analyzers.vwr: [4.13686 s] killed by tests/test_analyzer-sqn.py::test_run
+   - [# 565] AOR backtrader.analyzers.vwr: [4.17028 s] killed by tests/test_analyzer-sqn.py::test_run
+   - [# 566] AOR backtrader.analyzers.vwr: [4.10269 s] killed by tests/test_analyzer-sqn.py::test_run
+   - [# 567] AOR backtrader.analyzers.vwr: [4.01948 s] killed by tests/test_analyzer-sqn.py::test_run
+   - [# 568] AOR backtrader.analyzers.vwr: [4.00877 s] killed by tests/test_analyzer-sqn.py::test_run
+   - [# 569] AOR backtrader.analyzers.vwr: [4.01536 s] killed by tests/test_analyzer-sqn.py::test_run
+   - [# 570] AOR backtrader.analyzers.vwr: [4.02720 s] killed by tests/test_analyzer-sqn.py::test_run
+   - [# 571] AOR backtrader.analyzers.vwr: [3.99460 s] killed by tests/test_analyzer-sqn.py::test_run
+   - [# 572] AOR backtrader.analyzers.vwr: [4.26834 s] killed by tests/test_analyzer-sqn.py::test_run
+   - [# 573] AOR backtrader.analyzers.vwr: [4.03517 s] killed by tests/test_analyzer-sqn.py::test_run
+   - [# 574] AOR backtrader.analyzers.vwr: [4.01868 s] killed by tests/test_analyzer-sqn.py::test_run
+   - [# 575] AOR backtrader.analyzers.vwr: [4.01452 s] killed by tests/test_analyzer-sqn.py::test_run
+   - [# 576] AOR backtrader.analyzers.vwr: [3.97510 s] killed by tests/test_analyzer-sqn.py::test_run
+   - [# 577] AOR backtrader.analyzers.vwr: [4.03071 s] killed by tests/test_analyzer-sqn.py::test_run
+   - [# 578] AOR backtrader.analyzers.vwr: [4.00973 s] killed by tests/test_analyzer-sqn.py::test_run
+   - [# 579] AOR backtrader.analyzers.vwr: [4.02375 s] killed by tests/test_analyzer-sqn.py::test_run
+   - [# 580] AOR backtrader.analyzers.vwr: [4.04273 s] killed by tests/test_analyzer-sqn.py::test_run
+   - [# 581] COD backtrader.analyzers.vwr: [4.02066 s] killed by tests/test_analyzer-sqn.py::test_run
+   - [# 582] COD backtrader.analyzers.vwr: [4.00054 s] killed by tests/test_analyzer-sqn.py::test_run
+   - [# 583] COI backtrader.analyzers.vwr: [4.04175 s] killed by tests/test_analyzer-sqn.py::test_run
+   - [# 584] COI backtrader.analyzers.vwr: [4.01767 s] killed by tests/test_analyzer-sqn.py::test_run
+   - [# 585] COI backtrader.analyzers.vwr: [4.01763 s] killed by tests/test_analyzer-sqn.py::test_run
+   - [# 586] COI backtrader.analyzers.vwr: [3.98067 s] killed by tests/test_analyzer-sqn.py::test_run
+   - [# 587] IHD backtrader.analyzers.vwr: [4.24474 s] killed by tests/test_analyzer-sqn.py::test_run
+   - [# 588] IOD backtrader.analyzers.vwr: [4.01018 s] killed by tests/test_analyzer-sqn.py::test_run
+   - [# 589] IOD backtrader.analyzers.vwr: [3.99938 s] killed by tests/test_analyzer-sqn.py::test_run
+   - [# 590] IOD backtrader.analyzers.vwr: [4.00409 s] killed by tests/test_analyzer-sqn.py::test_run
+   - [# 591] IOD backtrader.analyzers.vwr: [3.99776 s] killed by tests/test_analyzer-sqn.py::test_run
+   - [# 592] IOP backtrader.analyzers.vwr: [3.98833 s] killed by tests/test_analyzer-sqn.py::test_run
+   - [# 593] IOP backtrader.analyzers.vwr: [4.02389 s] killed by tests/test_analyzer-sqn.py::test_run
+   - [# 594] SCD backtrader.analyzers.vwr: [3.96350 s] killed by tests/test_analyzer-sqn.py::test_run
+   - [# 595] SCD backtrader.analyzers.vwr: [4.15367 s] killed by tests/test_analyzer-sqn.py::test_run
+   - [# 596] SCI backtrader.analyzers.vwr: [4.01629 s] killed by tests/test_analyzer-sqn.py::test_run
+   - [# 597] SCI backtrader.analyzers.vwr: [4.03628 s] killed by tests/test_analyzer-sqn.py::test_run
+   - [# 598] COD backtrader.broker: [4.16080 s] killed by tests/test_analyzer-sqn.py::test_run
+   - [# 599] COD backtrader.broker: [4.06848 s] killed by tests/test_analyzer-sqn.py::test_run
+   - [# 600] COI backtrader.broker: [4.13646 s] killed by tests/test_analyzer-sqn.py::test_run
+   - [# 601] COI backtrader.broker: [4.09453 s] killed by tests/test_analyzer-sqn.py::test_run
+   - [# 602] COI backtrader.broker: [4.36645 s] killed by tests/test_analyzer-sqn.py::test_run
+   - [# 603] COI backtrader.broker: [4.14069 s] killed by tests/test_analyzer-sqn.py::test_run
+   - [# 604] IOD backtrader.broker: [4.01881 s] killed by tests/test_analyzer-sqn.py::test_run
+   - [# 605] IOP backtrader.broker: [4.00217 s] killed by tests/test_analyzer-sqn.py::test_run
+   - [# 606] SCD backtrader.broker: [3.98391 s] killed by tests/test_analyzer-sqn.py::test_run
+   - [# 607] AOD backtrader.brokers.bbroker: [0.36959 s] killed by tests/test_writer.py::test_run
+   - [# 608] AOD backtrader.brokers.bbroker: [0.36593 s] killed by tests/test_writer.py::test_run
+   - [# 609] AOD backtrader.brokers.bbroker: [0.35685 s] killed by tests/test_writer.py::test_run
+   - [# 610] AOD backtrader.brokers.bbroker: [0.34639 s] killed by tests/test_writer.py::test_run
+   - [# 611] AOD backtrader.brokers.bbroker: [0.35533 s] killed by tests/test_writer.py::test_run
+   - [# 612] AOD backtrader.brokers.bbroker: [0.36065 s] killed by tests/test_writer.py::test_run
+   - [# 613] AOD backtrader.brokers.bbroker: [0.51594 s] killed by tests/test_writer.py::test_run
+   - [# 614] AOD backtrader.brokers.bbroker: [0.37313 s] killed by tests/test_writer.py::test_run
+   - [# 615] AOR backtrader.brokers.bbroker: [0.35519 s] killed by tests/test_writer.py::test_run
+   - [# 616] AOR backtrader.brokers.bbroker: [0.34714 s] killed by tests/test_writer.py::test_run
+   - [# 617] AOR backtrader.brokers.bbroker: [0.36001 s] killed by tests/test_writer.py::test_run
+   - [# 618] AOR backtrader.brokers.bbroker: [0.36617 s] killed by tests/test_writer.py::test_run
+   - [# 619] AOR backtrader.brokers.bbroker: [0.35608 s] killed by tests/test_writer.py::test_run
+   - [# 620] AOR backtrader.brokers.bbroker: [0.34675 s] killed by tests/test_writer.py::test_run
+   - [# 621] AOR backtrader.brokers.bbroker: [0.36284 s] killed by tests/test_writer.py::test_run
+   - [# 622] AOR backtrader.brokers.bbroker: [0.35963 s] killed by tests/test_writer.py::test_run
+   - [# 623] AOR backtrader.brokers.bbroker: [0.36456 s] killed by tests/test_writer.py::test_run
+   - [# 624] AOR backtrader.brokers.bbroker: [0.36018 s] killed by tests/test_writer.py::test_run
+   - [# 625] AOR backtrader.brokers.bbroker: [0.36532 s] killed by tests/test_writer.py::test_run
+   - [# 626] AOR backtrader.brokers.bbroker: [0.35859 s] killed by tests/test_writer.py::test_run
+   - [# 627] AOR backtrader.brokers.bbroker: [0.36010 s] killed by tests/test_writer.py::test_run
+   - [# 628] AOR backtrader.brokers.bbroker: [0.35502 s] killed by tests/test_writer.py::test_run
+   - [# 629] AOR backtrader.brokers.bbroker: [0.36382 s] killed by tests/test_writer.py::test_run
+   - [# 630] AOR backtrader.brokers.bbroker: [0.35865 s] killed by tests/test_writer.py::test_run
+   - [# 631] AOR backtrader.brokers.bbroker: [0.36192 s] killed by tests/test_writer.py::test_run
+   - [# 632] AOR backtrader.brokers.bbroker: [0.36657 s] killed by tests/test_writer.py::test_run
+   - [# 633] AOR backtrader.brokers.bbroker: [0.35329 s] killed by tests/test_writer.py::test_run
+   - [# 634] AOR backtrader.brokers.bbroker: [0.35408 s] killed by tests/test_writer.py::test_run
+   - [# 635] AOR backtrader.brokers.bbroker: [0.35480 s] killed by tests/test_writer.py::test_run
+   - [# 636] AOR backtrader.brokers.bbroker: [0.36287 s] killed by tests/test_writer.py::test_run
+   - [# 637] AOR backtrader.brokers.bbroker: [0.35567 s] killed by tests/test_writer.py::test_run
+   - [# 638] AOR backtrader.brokers.bbroker: [0.36312 s] killed by tests/test_writer.py::test_run
+   - [# 639] AOR backtrader.brokers.bbroker: [0.36651 s] killed by tests/test_writer.py::test_run
+   - [# 640] AOR backtrader.brokers.bbroker: [0.36099 s] killed by tests/test_writer.py::test_run
+   - [# 641] AOR backtrader.brokers.bbroker: [0.35348 s] killed by tests/test_writer.py::test_run
+   - [# 642] AOR backtrader.brokers.bbroker: [0.36752 s] killed by tests/test_writer.py::test_run
+   - [# 643] AOR backtrader.brokers.bbroker: [0.35119 s] killed by tests/test_writer.py::test_run
+   - [# 644] AOR backtrader.brokers.bbroker: [0.36714 s] killed by tests/test_writer.py::test_run
+   - [# 645] AOR backtrader.brokers.bbroker: [0.36740 s] killed by tests/test_writer.py::test_run
+   - [# 646] AOR backtrader.brokers.bbroker: [0.36151 s] killed by tests/test_writer.py::test_run
+   - [# 647] AOR backtrader.brokers.bbroker: [0.36047 s] killed by tests/test_writer.py::test_run
+   - [# 648] AOR backtrader.brokers.bbroker: [0.36158 s] killed by tests/test_writer.py::test_run
+   - [# 649] AOR backtrader.brokers.bbroker: [0.36572 s] killed by tests/test_writer.py::test_run
+   - [# 650] AOR backtrader.brokers.bbroker: [0.35317 s] killed by tests/test_writer.py::test_run
+   - [# 651] AOR backtrader.brokers.bbroker: [0.36998 s] killed by tests/test_writer.py::test_run
+   - [# 652] AOR backtrader.brokers.bbroker: [0.35393 s] killed by tests/test_writer.py::test_run
+   - [# 653] AOR backtrader.brokers.bbroker: [0.36634 s] killed by tests/test_writer.py::test_run
+   - [# 654] AOR backtrader.brokers.bbroker: [0.35909 s] killed by tests/test_writer.py::test_run
+   - [# 655] AOR backtrader.brokers.bbroker: [0.35260 s] killed by tests/test_writer.py::test_run
+   - [# 656] AOR backtrader.brokers.bbroker: [0.36725 s] killed by tests/test_writer.py::test_run
+   - [# 657] AOR backtrader.brokers.bbroker: [0.35801 s] killed by tests/test_writer.py::test_run
+   - [# 658] AOR backtrader.brokers.bbroker: [0.35876 s] killed by tests/test_writer.py::test_run
+   - [# 659] AOR backtrader.brokers.bbroker: [0.37296 s] killed by tests/test_writer.py::test_run
+   - [# 660] AOR backtrader.brokers.bbroker: [0.36648 s] killed by tests/test_writer.py::test_run
+   - [# 661] AOR backtrader.brokers.bbroker: [0.36165 s] killed by tests/test_writer.py::test_run
+   - [# 662] AOR backtrader.brokers.bbroker: [0.38598 s] killed by tests/test_writer.py::test_run
+   - [# 663] ASR backtrader.brokers.bbroker: [0.35179 s] killed by tests/test_writer.py::test_run
+   - [# 664] ASR backtrader.brokers.bbroker: [0.36566 s] killed by tests/test_writer.py::test_run
+   - [# 665] ASR backtrader.brokers.bbroker: [0.36249 s] killed by tests/test_writer.py::test_run
+   - [# 666] ASR backtrader.brokers.bbroker: [0.36714 s] killed by tests/test_writer.py::test_run
+   - [# 667] ASR backtrader.brokers.bbroker: [0.36109 s] killed by tests/test_writer.py::test_run
+   - [# 668] ASR backtrader.brokers.bbroker: [0.35777 s] killed by tests/test_writer.py::test_run
+   - [# 669] ASR backtrader.brokers.bbroker: [0.70039 s] killed by tests/test_writer.py::test_run
+   - [# 670] ASR backtrader.brokers.bbroker: [0.75718 s] killed by tests/test_writer.py::test_run
+   - [# 671] ASR backtrader.brokers.bbroker: [0.75539 s] killed by tests/test_writer.py::test_run
+   - [# 672] ASR backtrader.brokers.bbroker: [0.87010 s] killed by tests/test_writer.py::test_run
+   - [# 673] ASR backtrader.brokers.bbroker: [1.13060 s] killed by tests/test_writer.py::test_run
+   - [# 674] ASR backtrader.brokers.bbroker: [0.59913 s] killed by tests/test_writer.py::test_run
+   - [# 675] ASR backtrader.brokers.bbroker: [0.60260 s] killed by tests/test_writer.py::test_run
+   - [# 676] ASR backtrader.brokers.bbroker: [0.60352 s] killed by tests/test_writer.py::test_run
+   - [# 677] ASR backtrader.brokers.bbroker: [0.60799 s] killed by tests/test_writer.py::test_run
+   - [# 678] ASR backtrader.brokers.bbroker: [0.61206 s] killed by tests/test_writer.py::test_run
+   - [# 679] ASR backtrader.brokers.bbroker: [0.58223 s] killed by tests/test_writer.py::test_run
+   - [# 680] ASR backtrader.brokers.bbroker: [0.59882 s] killed by tests/test_writer.py::test_run
+   - [# 681] ASR backtrader.brokers.bbroker: [0.59823 s] killed by tests/test_writer.py::test_run
+   - [# 682] ASR backtrader.brokers.bbroker: [0.36275 s] killed by tests/test_writer.py::test_run
+   - [# 683] ASR backtrader.brokers.bbroker: [0.36135 s] killed by tests/test_writer.py::test_run
+   - [# 684] ASR backtrader.brokers.bbroker: [0.36265 s] killed by tests/test_writer.py::test_run
+   - [# 685] ASR backtrader.brokers.bbroker: [0.35190 s] killed by tests/test_writer.py::test_run
+   - [# 686] ASR backtrader.brokers.bbroker: [0.36022 s] killed by tests/test_writer.py::test_run
+   - [# 687] ASR backtrader.brokers.bbroker: [0.35709 s] killed by tests/test_writer.py::test_run
+   - [# 688] ASR backtrader.brokers.bbroker: [0.35278 s] killed by tests/test_writer.py::test_run
+   - [# 689] ASR backtrader.brokers.bbroker: [0.35711 s] killed by tests/test_writer.py::test_run
+   - [# 690] ASR backtrader.brokers.bbroker: [0.35508 s] killed by tests/test_writer.py::test_run
+   - [# 691] BCR backtrader.brokers.bbroker: [0.92307 s] killed by tests/test_writer.py::test_run
+   - [# 692] BCR backtrader.brokers.bbroker: [0.77404 s] killed by tests/test_writer.py::test_run
+   - [# 693] BCR backtrader.brokers.bbroker: [0.95725 s] killed by tests/test_writer.py::test_run
+   - [# 694] BCR backtrader.brokers.bbroker: [0.35741 s] killed by tests/test_writer.py::test_run
+   - [# 695] BCR backtrader.brokers.bbroker: [0.42225 s] killed by tests/test_writer.py::test_run
+   - [# 696] COD backtrader.brokers.bbroker: [1.10704 s] killed by tests/test_writer.py::test_run
+   - [# 697] COD backtrader.brokers.bbroker: [0.92592 s] killed by tests/test_writer.py::test_run
+   - [# 698] COD backtrader.brokers.bbroker: [0.35603 s] killed by tests/test_writer.py::test_run
+   - [# 699] COD backtrader.brokers.bbroker: [0.37169 s] killed by tests/test_writer.py::test_run
+   - [# 700] COD backtrader.brokers.bbroker: [1.90139 s] killed by tests/test_writer.py::test_run
+   - [# 701] COD backtrader.brokers.bbroker: [0.51584 s] killed by tests/test_writer.py::test_run
+   - [# 702] COD backtrader.brokers.bbroker: [0.36377 s] killed by tests/test_writer.py::test_run
+   - [# 703] COD backtrader.brokers.bbroker: [0.40423 s] killed by tests/test_writer.py::test_run
+   - [# 704] COD backtrader.brokers.bbroker: [0.35468 s] killed by tests/test_writer.py::test_run
+   - [# 705] COD backtrader.brokers.bbroker: [0.35439 s] killed by tests/test_writer.py::test_run
+   - [# 706] COD backtrader.brokers.bbroker: [1.02261 s] killed by tests/test_writer.py::test_run
+   - [# 707] COD backtrader.brokers.bbroker: [0.43571 s] killed by tests/test_writer.py::test_run
+   - [# 708] COD backtrader.brokers.bbroker: [0.46549 s] killed by tests/test_writer.py::test_run
+   - [# 709] COD backtrader.brokers.bbroker: [0.45257 s] killed by tests/test_writer.py::test_run
+   - [# 710] COD backtrader.brokers.bbroker: [0.46952 s] killed by tests/test_writer.py::test_run
+   - [# 711] COD backtrader.brokers.bbroker: [0.36668 s] killed by tests/test_writer.py::test_run
+   - [# 712] COD backtrader.brokers.bbroker: [0.41257 s] killed by tests/test_writer.py::test_run
+   - [# 713] COD backtrader.brokers.bbroker: [0.37013 s] killed by tests/test_writer.py::test_run
+   - [# 714] COD backtrader.brokers.bbroker: [0.36249 s] killed by tests/test_writer.py::test_run
+   - [# 715] COD backtrader.brokers.bbroker: [0.36871 s] killed by tests/test_writer.py::test_run
+   - [# 716] COI backtrader.brokers.bbroker: [0.37668 s] killed by tests/test_writer.py::test_run
+   - [# 717] COI backtrader.brokers.bbroker: [0.36279 s] killed by tests/test_writer.py::test_run
+   - [# 718] COI backtrader.brokers.bbroker: [0.35898 s] killed by tests/test_writer.py::test_run
+   - [# 719] COI backtrader.brokers.bbroker: [0.36546 s] killed by tests/test_writer.py::test_run
+   - [# 720] COI backtrader.brokers.bbroker: [0.35693 s] killed by tests/test_writer.py::test_run
+   - [# 721] COI backtrader.brokers.bbroker: [0.35541 s] killed by tests/test_writer.py::test_run
+   - [# 722] COI backtrader.brokers.bbroker: [0.36547 s] killed by tests/test_writer.py::test_run
+   - [# 723] COI backtrader.brokers.bbroker: [0.36440 s] killed by tests/test_writer.py::test_run
+   - [# 724] COI backtrader.brokers.bbroker: [0.37011 s] killed by tests/test_writer.py::test_run
+   - [# 725] COI backtrader.brokers.bbroker: [0.36296 s] killed by tests/test_writer.py::test_run
+   - [# 726] COI backtrader.brokers.bbroker: [0.37558 s] killed by tests/test_writer.py::test_run
+   - [# 727] COI backtrader.brokers.bbroker: [0.36349 s] killed by tests/test_writer.py::test_run
+   - [# 728] COI backtrader.brokers.bbroker: [0.35871 s] killed by tests/test_writer.py::test_run
+   - [# 729] COI backtrader.brokers.bbroker: [0.35758 s] killed by tests/test_writer.py::test_run
+   - [# 730] COI backtrader.brokers.bbroker: [0.35264 s] killed by tests/test_writer.py::test_run
+   - [# 731] COI backtrader.brokers.bbroker: [0.34588 s] killed by tests/test_writer.py::test_run
+   - [# 732] COI backtrader.brokers.bbroker: [0.36007 s] killed by tests/test_writer.py::test_run
+   - [# 733] COI backtrader.brokers.bbroker: [0.35903 s] killed by tests/test_writer.py::test_run
+   - [# 734] COI backtrader.brokers.bbroker: [0.35780 s] killed by tests/test_writer.py::test_run
+   - [# 735] COI backtrader.brokers.bbroker: [0.35779 s] killed by tests/test_writer.py::test_run
+   - [# 736] COI backtrader.brokers.bbroker: [0.36027 s] killed by tests/test_writer.py::test_run
+   - [# 737] COI backtrader.brokers.bbroker: [0.35638 s] killed by tests/test_writer.py::test_run
+   - [# 738] COI backtrader.brokers.bbroker: [0.35458 s] killed by tests/test_writer.py::test_run
+   - [# 739] COI backtrader.brokers.bbroker: [0.35488 s] killed by tests/test_writer.py::test_run
+   - [# 740] COI backtrader.brokers.bbroker: [0.35814 s] killed by tests/test_writer.py::test_run
+   - [# 741] COI backtrader.brokers.bbroker: [0.35744 s] killed by tests/test_writer.py::test_run
+   - [# 742] COI backtrader.brokers.bbroker: [0.34761 s] killed by tests/test_writer.py::test_run
+   - [# 743] COI backtrader.brokers.bbroker: [0.36014 s] killed by tests/test_writer.py::test_run
+   - [# 744] COI backtrader.brokers.bbroker: [0.36323 s] killed by tests/test_writer.py::test_run
+   - [# 745] COI backtrader.brokers.bbroker: [0.35766 s] killed by tests/test_writer.py::test_run
+   - [# 746] COI backtrader.brokers.bbroker: [0.36437 s] killed by tests/test_writer.py::test_run
+   - [# 747] COI backtrader.brokers.bbroker: [0.36487 s] killed by tests/test_writer.py::test_run
+   - [# 748] COI backtrader.brokers.bbroker: [0.35553 s] killed by tests/test_writer.py::test_run
+   - [# 749] COI backtrader.brokers.bbroker: [0.35589 s] killed by tests/test_writer.py::test_run
+   - [# 750] COI backtrader.brokers.bbroker: [0.35611 s] killed by tests/test_writer.py::test_run
+   - [# 751] COI backtrader.brokers.bbroker: [0.35694 s] killed by tests/test_writer.py::test_run
+   - [# 752] COI backtrader.brokers.bbroker: [0.35154 s] killed by tests/test_writer.py::test_run
+   - [# 753] COI backtrader.brokers.bbroker: [0.36155 s] killed by tests/test_writer.py::test_run
+   - [# 754] COI backtrader.brokers.bbroker: [0.35735 s] killed by tests/test_writer.py::test_run
+   - [# 755] COI backtrader.brokers.bbroker: [0.35184 s] killed by tests/test_writer.py::test_run
+   - [# 756] COI backtrader.brokers.bbroker: [0.35956 s] killed by tests/test_writer.py::test_run
+   - [# 757] COI backtrader.brokers.bbroker: [0.35171 s] killed by tests/test_writer.py::test_run
+   - [# 758] COI backtrader.brokers.bbroker: [0.35733 s] killed by tests/test_writer.py::test_run
+   - [# 759] COI backtrader.brokers.bbroker: [0.35644 s] killed by tests/test_writer.py::test_run
+   - [# 760] COI backtrader.brokers.bbroker: [0.35456 s] killed by tests/test_writer.py::test_run
+   - [# 761] COI backtrader.brokers.bbroker: [0.34909 s] killed by tests/test_writer.py::test_run
+   - [# 762] COI backtrader.brokers.bbroker: [0.35620 s] killed by tests/test_writer.py::test_run
+   - [# 763] COI backtrader.brokers.bbroker: [0.35975 s] killed by tests/test_writer.py::test_run
+   - [# 764] COI backtrader.brokers.bbroker: [0.36782 s] killed by tests/test_writer.py::test_run
+   - [# 765] COI backtrader.brokers.bbroker: [0.35732 s] killed by tests/test_writer.py::test_run
+   - [# 766] COI backtrader.brokers.bbroker: [0.35244 s] killed by tests/test_writer.py::test_run
+   - [# 767] COI backtrader.brokers.bbroker: [0.35916 s] killed by tests/test_writer.py::test_run
+   - [# 768] COI backtrader.brokers.bbroker: [0.35184 s] killed by tests/test_writer.py::test_run
+   - [# 769] COI backtrader.brokers.bbroker: [0.36466 s] killed by tests/test_writer.py::test_run
+   - [# 770] COI backtrader.brokers.bbroker: [0.35580 s] killed by tests/test_writer.py::test_run
+   - [# 771] COI backtrader.brokers.bbroker: [0.35354 s] killed by tests/test_writer.py::test_run
+   - [# 772] COI backtrader.brokers.bbroker: [0.34912 s] killed by tests/test_writer.py::test_run
+   - [# 773] COI backtrader.brokers.bbroker: [0.35953 s] killed by tests/test_writer.py::test_run
+   - [# 774] COI backtrader.brokers.bbroker: [0.35711 s] killed by tests/test_writer.py::test_run
+   - [# 775] COI backtrader.brokers.bbroker: [0.35029 s] killed by tests/test_writer.py::test_run
+   - [# 776] COI backtrader.brokers.bbroker: [0.35444 s] killed by tests/test_writer.py::test_run
+   - [# 777] COI backtrader.brokers.bbroker: [0.37192 s] killed by tests/test_writer.py::test_run
+   - [# 778] COI backtrader.brokers.bbroker: [0.34958 s] killed by tests/test_writer.py::test_run
+   - [# 779] COI backtrader.brokers.bbroker: [0.34667 s] killed by tests/test_writer.py::test_run
+   - [# 780] COI backtrader.brokers.bbroker: [0.35904 s] killed by tests/test_writer.py::test_run
+   - [# 781] COI backtrader.brokers.bbroker: [0.35392 s] killed by tests/test_writer.py::test_run
+   - [# 782] COI backtrader.brokers.bbroker: [0.35790 s] killed by tests/test_writer.py::test_run
+   - [# 783] COI backtrader.brokers.bbroker: [0.36772 s] killed by tests/test_writer.py::test_run
+   - [# 784] COI backtrader.brokers.bbroker: [0.38071 s] killed by tests/test_writer.py::test_run
+   - [# 785] COI backtrader.brokers.bbroker: [0.38975 s] killed by tests/test_writer.py::test_run
+   - [# 786] COI backtrader.brokers.bbroker: [0.38587 s] killed by tests/test_writer.py::test_run
+   - [# 787] COI backtrader.brokers.bbroker: [0.38286 s] killed by tests/test_writer.py::test_run
+   - [# 788] COI backtrader.brokers.bbroker: [0.37133 s] killed by tests/test_writer.py::test_run
+   - [# 789] COI backtrader.brokers.bbroker: [0.36749 s] killed by tests/test_writer.py::test_run
+   - [# 790] COI backtrader.brokers.bbroker: [0.37210 s] killed by tests/test_writer.py::test_run
+   - [# 791] COI backtrader.brokers.bbroker: [0.36722 s] killed by tests/test_writer.py::test_run
+   - [# 792] COI backtrader.brokers.bbroker: [0.36194 s] killed by tests/test_writer.py::test_run
+   - [# 793] COI backtrader.brokers.bbroker: [0.36421 s] killed by tests/test_writer.py::test_run
+   - [# 794] COI backtrader.brokers.bbroker: [0.36611 s] killed by tests/test_writer.py::test_run
+   - [# 795] COI backtrader.brokers.bbroker: [0.37139 s] killed by tests/test_writer.py::test_run
+   - [# 796] COI backtrader.brokers.bbroker: [0.36361 s] killed by tests/test_writer.py::test_run
+   - [# 797] COI backtrader.brokers.bbroker: [0.36177 s] killed by tests/test_writer.py::test_run
+   - [# 798] COI backtrader.brokers.bbroker: [0.36474 s] killed by tests/test_writer.py::test_run
+   - [# 799] COI backtrader.brokers.bbroker: [0.36526 s] killed by tests/test_writer.py::test_run
+   - [# 800] COI backtrader.brokers.bbroker: [0.36023 s] killed by tests/test_writer.py::test_run
+   - [# 801] COI backtrader.brokers.bbroker: [0.35747 s] killed by tests/test_writer.py::test_run
+   - [# 802] COI backtrader.brokers.bbroker: [0.37229 s] killed by tests/test_writer.py::test_run
+   - [# 803] COI backtrader.brokers.bbroker: [0.36675 s] killed by tests/test_writer.py::test_run
+   - [# 804] COI backtrader.brokers.bbroker: [0.35945 s] killed by tests/test_writer.py::test_run
+   - [# 805] COI backtrader.brokers.bbroker: [0.36594 s] killed by tests/test_writer.py::test_run
+   - [# 806] COI backtrader.brokers.bbroker: [0.35479 s] killed by tests/test_writer.py::test_run
+   - [# 807] COI backtrader.brokers.bbroker: [0.35745 s] killed by tests/test_writer.py::test_run
+   - [# 808] COI backtrader.brokers.bbroker: [0.36396 s] killed by tests/test_writer.py::test_run
+   - [# 809] COI backtrader.brokers.bbroker: [0.35773 s] killed by tests/test_writer.py::test_run
+   - [# 810] COI backtrader.brokers.bbroker: [0.35905 s] killed by tests/test_writer.py::test_run
+   - [# 811] COI backtrader.brokers.bbroker: [0.35836 s] killed by tests/test_writer.py::test_run
+   - [# 812] COI backtrader.brokers.bbroker: [0.35270 s] killed by tests/test_writer.py::test_run
+   - [# 813] COI backtrader.brokers.bbroker: [0.35947 s] killed by tests/test_writer.py::test_run
+   - [# 814] COI backtrader.brokers.bbroker: [0.36339 s] killed by tests/test_writer.py::test_run
+   - [# 815] COI backtrader.brokers.bbroker: [0.35854 s] killed by tests/test_writer.py::test_run
+   - [# 816] COI backtrader.brokers.bbroker: [0.35293 s] killed by tests/test_writer.py::test_run
+   - [# 817] COI backtrader.brokers.bbroker: [0.36027 s] killed by tests/test_writer.py::test_run
+   - [# 818] COI backtrader.brokers.bbroker: [0.35424 s] killed by tests/test_writer.py::test_run
+   - [# 819] COI backtrader.brokers.bbroker: [0.35037 s] killed by tests/test_writer.py::test_run
+   - [# 820] COI backtrader.brokers.bbroker: [0.35557 s] killed by tests/test_writer.py::test_run
+   - [# 821] COI backtrader.brokers.bbroker: [0.34767 s] killed by tests/test_writer.py::test_run
+   - [# 822] COI backtrader.brokers.bbroker: [0.35059 s] killed by tests/test_writer.py::test_run
+   - [# 823] COI backtrader.brokers.bbroker: [0.36480 s] killed by tests/test_writer.py::test_run
+   - [# 824] COI backtrader.brokers.bbroker: [0.36151 s] killed by tests/test_writer.py::test_run
+   - [# 825] COI backtrader.brokers.bbroker: [0.35331 s] killed by tests/test_writer.py::test_run
+   - [# 826] COI backtrader.brokers.bbroker: [0.36261 s] killed by tests/test_writer.py::test_run
+   - [# 827] COI backtrader.brokers.bbroker: [0.35549 s] killed by tests/test_writer.py::test_run
+   - [# 828] COI backtrader.brokers.bbroker: [0.36015 s] killed by tests/test_writer.py::test_run
+   - [# 829] COI backtrader.brokers.bbroker: [0.36213 s] killed by tests/test_writer.py::test_run
+   - [# 830] COI backtrader.brokers.bbroker: [0.36992 s] killed by tests/test_writer.py::test_run
+   - [# 831] COI backtrader.brokers.bbroker: [0.37079 s] killed by tests/test_writer.py::test_run
+   - [# 832] COI backtrader.brokers.bbroker: [0.35459 s] killed by tests/test_writer.py::test_run
+   - [# 833] COI backtrader.brokers.bbroker: [0.35782 s] killed by tests/test_writer.py::test_run
+   - [# 834] COI backtrader.brokers.bbroker: [0.36242 s] killed by tests/test_writer.py::test_run
+   - [# 835] COI backtrader.brokers.bbroker: [0.35784 s] killed by tests/test_writer.py::test_run
+   - [# 836] COI backtrader.brokers.bbroker: [0.35636 s] killed by tests/test_writer.py::test_run
+   - [# 837] COI backtrader.brokers.bbroker: [0.35130 s] killed by tests/test_writer.py::test_run
+   - [# 838] COI backtrader.brokers.bbroker: [0.34935 s] killed by tests/test_writer.py::test_run
+   - [# 839] COI backtrader.brokers.bbroker: [0.35680 s] killed by tests/test_writer.py::test_run
+   - [# 840] COI backtrader.brokers.bbroker: [0.35183 s] killed by tests/test_writer.py::test_run
+   - [# 841] COI backtrader.brokers.bbroker: [0.34937 s] killed by tests/test_writer.py::test_run
+   - [# 842] COI backtrader.brokers.bbroker: [0.36072 s] killed by tests/test_writer.py::test_run
+   - [# 843] COI backtrader.brokers.bbroker: [0.36628 s] killed by tests/test_writer.py::test_run
+   - [# 844] COI backtrader.brokers.bbroker: [0.43227 s] killed by tests/test_writer.py::test_run
+   - [# 845] COI backtrader.brokers.bbroker: [0.36316 s] killed by tests/test_writer.py::test_run
+   - [# 846] COI backtrader.brokers.bbroker: [0.36459 s] killed by tests/test_writer.py::test_run
+   - [# 847] COI backtrader.brokers.bbroker: [0.35592 s] killed by tests/test_writer.py::test_run
+   - [# 848] COI backtrader.brokers.bbroker: [0.36371 s] killed by tests/test_writer.py::test_run
+   - [# 849] COI backtrader.brokers.bbroker: [0.36097 s] killed by tests/test_writer.py::test_run
+   - [# 850] COI backtrader.brokers.bbroker: [0.36556 s] killed by tests/test_writer.py::test_run
+   - [# 851] COI backtrader.brokers.bbroker: [0.36818 s] killed by tests/test_writer.py::test_run
+   - [# 852] COI backtrader.brokers.bbroker: [0.36369 s] killed by tests/test_writer.py::test_run
+   - [# 853] EHD backtrader.brokers.bbroker: [0.35734 s] killed by tests/test_writer.py::test_run
+   - [# 854] EHD backtrader.brokers.bbroker: [0.36907 s] killed by tests/test_writer.py::test_run
+   - [# 855] EHD backtrader.brokers.bbroker: [0.54201 s] killed by tests/test_writer.py::test_run
+   - [# 856] EHD backtrader.brokers.bbroker: [0.36963 s] killed by tests/test_writer.py::test_run
+   - [# 857] EXS backtrader.brokers.bbroker: [0.36346 s] killed by tests/test_writer.py::test_run
+   - [# 858] EXS backtrader.brokers.bbroker: [0.35476 s] killed by tests/test_writer.py::test_run
+   - [# 859] EXS backtrader.brokers.bbroker: [0.36805 s] killed by tests/test_writer.py::test_run
+   - [# 860] IHD backtrader.brokers.bbroker: [0.36233 s] killed by tests/test_writer.py::test_run
+   - [# 861] IHD backtrader.brokers.bbroker: [0.36563 s] killed by tests/test_writer.py::test_run
+   - [# 862] IHD backtrader.brokers.bbroker: [0.37098 s] killed by tests/test_writer.py::test_run
+   - [# 863] IHD backtrader.brokers.bbroker: [0.36599 s] killed by tests/test_writer.py::test_run
+   - [# 864] IHD backtrader.brokers.bbroker: [0.35811 s] killed by tests/test_writer.py::test_run
+   - [# 865] IHD backtrader.brokers.bbroker: [0.35446 s] killed by tests/test_writer.py::test_run
+   - [# 866] IOD backtrader.brokers.bbroker: [0.36099 s] killed by tests/test_writer.py::test_run
+   - [# 867] IOD backtrader.brokers.bbroker: [0.36414 s] killed by tests/test_writer.py::test_run
+   - [# 868] IOD backtrader.brokers.bbroker: [0.00000 s] incompetent
+   - [# 869] IOD backtrader.brokers.bbroker: [0.00000 s] incompetent
+   - [# 870] IOD backtrader.brokers.bbroker: [0.00000 s] incompetent
+   - [# 871] IOD backtrader.brokers.bbroker: [0.00000 s] incompetent
+   - [# 872] IOD backtrader.brokers.bbroker: [0.35835 s] killed by tests/test_writer.py::test_run
+   - [# 873] IOD backtrader.brokers.bbroker: [0.35356 s] killed by tests/test_writer.py::test_run
+   - [# 874] IOD backtrader.brokers.bbroker: [0.36714 s] killed by tests/test_writer.py::test_run
+   - [# 875] IOD backtrader.brokers.bbroker: [0.36506 s] killed by tests/test_writer.py::test_run
+   - [# 876] IOD backtrader.brokers.bbroker: [0.35753 s] killed by tests/test_writer.py::test_run
+   - [# 877] IOD backtrader.brokers.bbroker: [0.36824 s] killed by tests/test_writer.py::test_run
+   - [# 878] IOD backtrader.brokers.bbroker: [0.36482 s] killed by tests/test_writer.py::test_run
+   - [# 879] IOD backtrader.brokers.bbroker: [0.35575 s] killed by tests/test_writer.py::test_run
+   - [# 880] IOP backtrader.brokers.bbroker: [0.36107 s] killed by tests/test_writer.py::test_run
+   - [# 881] IOP backtrader.brokers.bbroker: [0.37272 s] killed by tests/test_writer.py::test_run
+   - [# 882] LCR backtrader.brokers.bbroker: [0.50339 s] killed by tests/test_writer.py::test_run
+   - [# 883] LCR backtrader.brokers.bbroker: [0.49721 s] killed by tests/test_writer.py::test_run
+   - [# 884] LCR backtrader.brokers.bbroker: [0.51011 s] killed by tests/test_writer.py::test_run
+   - [# 885] LCR backtrader.brokers.bbroker: [0.49491 s] killed by tests/test_writer.py::test_run
+   - [# 886] LCR backtrader.brokers.bbroker: [0.37158 s] killed by tests/test_writer.py::test_run
+   - [# 887] LCR backtrader.brokers.bbroker: [0.36208 s] killed by tests/test_writer.py::test_run
+   - [# 888] LCR backtrader.brokers.bbroker: [0.36184 s] killed by tests/test_writer.py::test_run
+   - [# 889] LCR backtrader.brokers.bbroker: [0.36614 s] killed by tests/test_writer.py::test_run
+   - [# 890] LCR backtrader.brokers.bbroker: [0.36922 s] killed by tests/test_writer.py::test_run
+   - [# 891] LCR backtrader.brokers.bbroker: [0.36901 s] killed by tests/test_writer.py::test_run
+   - [# 892] LCR backtrader.brokers.bbroker: [0.36453 s] killed by tests/test_writer.py::test_run
+   - [# 893] LCR backtrader.brokers.bbroker: [0.35712 s] killed by tests/test_writer.py::test_run
+   - [# 894] LCR backtrader.brokers.bbroker: [0.37866 s] killed by tests/test_writer.py::test_run
+   - [# 895] LCR backtrader.brokers.bbroker: [0.36722 s] killed by tests/test_writer.py::test_run
+   - [# 896] LCR backtrader.brokers.bbroker: [0.37443 s] killed by tests/test_writer.py::test_run
+   - [# 897] LCR backtrader.brokers.bbroker: [0.36346 s] killed by tests/test_writer.py::test_run
+   - [# 898] LCR backtrader.brokers.bbroker: [0.37171 s] killed by tests/test_writer.py::test_run
+   - [# 899] LCR backtrader.brokers.bbroker: [0.37248 s] killed by tests/test_writer.py::test_run
+   - [# 900] LCR backtrader.brokers.bbroker: [0.37302 s] killed by tests/test_writer.py::test_run
+   - [# 901] LCR backtrader.brokers.bbroker: [0.35951 s] killed by tests/test_writer.py::test_run
+   - [# 902] LCR backtrader.brokers.bbroker: [0.37504 s] killed by tests/test_writer.py::test_run
+   - [# 903] LCR backtrader.brokers.bbroker: [0.36768 s] killed by tests/test_writer.py::test_run
+   - [# 904] LCR backtrader.brokers.bbroker: [0.36966 s] killed by tests/test_writer.py::test_run
+   - [# 905] ROR backtrader.brokers.bbroker: [0.36349 s] killed by tests/test_writer.py::test_run
+   - [# 906] ROR backtrader.brokers.bbroker: [0.37104 s] killed by tests/test_writer.py::test_run
+   - [# 907] ROR backtrader.brokers.bbroker: [0.36717 s] killed by tests/test_writer.py::test_run
+   - [# 908] ROR backtrader.brokers.bbroker: [0.35324 s] killed by tests/test_writer.py::test_run
+   - [# 909] ROR backtrader.brokers.bbroker: [0.37406 s] killed by tests/test_writer.py::test_run
+   - [# 910] ROR backtrader.brokers.bbroker: [0.35739 s] killed by tests/test_writer.py::test_run
+   - [# 911] ROR backtrader.brokers.bbroker: [0.37766 s] killed by tests/test_writer.py::test_run
+   - [# 912] ROR backtrader.brokers.bbroker: [0.50522 s] killed by tests/test_writer.py::test_run
+   - [# 913] ROR backtrader.brokers.bbroker: [0.49350 s] killed by tests/test_writer.py::test_run
+   - [# 914] ROR backtrader.brokers.bbroker: [0.50600 s] killed by tests/test_writer.py::test_run
+   - [# 915] ROR backtrader.brokers.bbroker: [0.48924 s] killed by tests/test_writer.py::test_run
+   - [# 916] ROR backtrader.brokers.bbroker: [0.49803 s] killed by tests/test_writer.py::test_run
+   - [# 917] ROR backtrader.brokers.bbroker: [0.48933 s] killed by tests/test_writer.py::test_run
+   - [# 918] ROR backtrader.brokers.bbroker: [0.49505 s] killed by tests/test_writer.py::test_run
+   - [# 919] ROR backtrader.brokers.bbroker: [0.50215 s] killed by tests/test_writer.py::test_run
+   - [# 920] ROR backtrader.brokers.bbroker: [0.48989 s] killed by tests/test_writer.py::test_run
+   - [# 921] ROR backtrader.brokers.bbroker: [0.48426 s] killed by tests/test_writer.py::test_run
+   - [# 922] ROR backtrader.brokers.bbroker: [0.49676 s] killed by tests/test_writer.py::test_run
+   - [# 923] ROR backtrader.brokers.bbroker: [0.49062 s] killed by tests/test_writer.py::test_run
+   - [# 924] ROR backtrader.brokers.bbroker: [0.47795 s] killed by tests/test_writer.py::test_run
+   - [# 925] ROR backtrader.brokers.bbroker: [0.49363 s] killed by tests/test_writer.py::test_run
+   - [# 926] ROR backtrader.brokers.bbroker: [0.48729 s] killed by tests/test_writer.py::test_run
+   - [# 927] ROR backtrader.brokers.bbroker: [0.48652 s] killed by tests/test_writer.py::test_run
+   - [# 928] ROR backtrader.brokers.bbroker: [0.50015 s] killed by tests/test_writer.py::test_run
+   - [# 929] ROR backtrader.brokers.bbroker: [0.49402 s] killed by tests/test_writer.py::test_run
+   - [# 930] ROR backtrader.brokers.bbroker: [0.48817 s] killed by tests/test_writer.py::test_run
+   - [# 931] ROR backtrader.brokers.bbroker: [0.50227 s] killed by tests/test_writer.py::test_run
+   - [# 932] ROR backtrader.brokers.bbroker: [0.49709 s] killed by tests/test_writer.py::test_run
+   - [# 933] ROR backtrader.brokers.bbroker: [0.50612 s] killed by tests/test_writer.py::test_run
+   - [# 934] ROR backtrader.brokers.bbroker: [0.51032 s] killed by tests/test_writer.py::test_run
+   - [# 935] ROR backtrader.brokers.bbroker: [0.52604 s] killed by tests/test_writer.py::test_run
+   - [# 936] ROR backtrader.brokers.bbroker: [0.49047 s] killed by tests/test_writer.py::test_run
+   - [# 937] ROR backtrader.brokers.bbroker: [0.50783 s] killed by tests/test_writer.py::test_run
+   - [# 938] ROR backtrader.brokers.bbroker: [0.49677 s] killed by tests/test_writer.py::test_run
+   - [# 939] ROR backtrader.brokers.bbroker: [0.48703 s] killed by tests/test_writer.py::test_run
+   - [# 940] ROR backtrader.brokers.bbroker: [0.50570 s] killed by tests/test_writer.py::test_run
+   - [# 941] ROR backtrader.brokers.bbroker: [0.48915 s] killed by tests/test_writer.py::test_run
+   - [# 942] ROR backtrader.brokers.bbroker: [0.48228 s] killed by tests/test_writer.py::test_run
+   - [# 943] ROR backtrader.brokers.bbroker: [0.49724 s] killed by tests/test_writer.py::test_run
+   - [# 944] ROR backtrader.brokers.bbroker: [0.48968 s] killed by tests/test_writer.py::test_run
+   - [# 945] ROR backtrader.brokers.bbroker: [0.51259 s] killed by tests/test_writer.py::test_run
+   - [# 946] ROR backtrader.brokers.bbroker: [0.50509 s] killed by tests/test_writer.py::test_run
+   - [# 947] ROR backtrader.brokers.bbroker: [0.48549 s] killed by tests/test_writer.py::test_run
+   - [# 948] ROR backtrader.brokers.bbroker: [0.49753 s] killed by tests/test_writer.py::test_run
+   - [# 949] ROR backtrader.brokers.bbroker: [0.50646 s] killed by tests/test_writer.py::test_run
+   - [# 950] ROR backtrader.brokers.bbroker: [0.47748 s] killed by tests/test_writer.py::test_run
+   - [# 951] ROR backtrader.brokers.bbroker: [0.49726 s] killed by tests/test_writer.py::test_run
+   - [# 952] ROR backtrader.brokers.bbroker: [0.49946 s] killed by tests/test_writer.py::test_run
+   - [# 953] ROR backtrader.brokers.bbroker: [0.49014 s] killed by tests/test_writer.py::test_run
+   - [# 954] ROR backtrader.brokers.bbroker: [0.50771 s] killed by tests/test_writer.py::test_run
+   - [# 955] ROR backtrader.brokers.bbroker: [0.49942 s] killed by tests/test_writer.py::test_run
+   - [# 956] ROR backtrader.brokers.bbroker: [0.49330 s] killed by tests/test_writer.py::test_run
+   - [# 957] ROR backtrader.brokers.bbroker: [0.49243 s] killed by tests/test_writer.py::test_run
+   - [# 958] ROR backtrader.brokers.bbroker: [0.48570 s] killed by tests/test_writer.py::test_run
+   - [# 959] ROR backtrader.brokers.bbroker: [0.47447 s] killed by tests/test_writer.py::test_run
+   - [# 960] ROR backtrader.brokers.bbroker: [0.49183 s] killed by tests/test_writer.py::test_run
+   - [# 961] ROR backtrader.brokers.bbroker: [0.48898 s] killed by tests/test_writer.py::test_run
+   - [# 962] ROR backtrader.brokers.bbroker: [0.48875 s] killed by tests/test_writer.py::test_run
+   - [# 963] ROR backtrader.brokers.bbroker: [0.49065 s] killed by tests/test_writer.py::test_run
+   - [# 964] ROR backtrader.brokers.bbroker: [0.48760 s] killed by tests/test_writer.py::test_run
+   - [# 965] ROR backtrader.brokers.bbroker: [0.48807 s] killed by tests/test_writer.py::test_run
+   - [# 966] ROR backtrader.brokers.bbroker: [0.48924 s] killed by tests/test_writer.py::test_run
+   - [# 967] ROR backtrader.brokers.bbroker: [0.49774 s] killed by tests/test_writer.py::test_run
+   - [# 968] ROR backtrader.brokers.bbroker: [0.49555 s] killed by tests/test_writer.py::test_run
+   - [# 969] ROR backtrader.brokers.bbroker: [0.51498 s] killed by tests/test_writer.py::test_run
+   - [# 970] ROR backtrader.brokers.bbroker: [0.51629 s] killed by tests/test_writer.py::test_run
+   - [# 971] ROR backtrader.brokers.bbroker: [0.50569 s] killed by tests/test_writer.py::test_run
+   - [# 972] ROR backtrader.brokers.bbroker: [0.49245 s] killed by tests/test_writer.py::test_run
+   - [# 973] ROR backtrader.brokers.bbroker: [0.48462 s] killed by tests/test_writer.py::test_run
+   - [# 974] ROR backtrader.brokers.bbroker: [0.49748 s] killed by tests/test_writer.py::test_run
+   - [# 975] ROR backtrader.brokers.bbroker: [0.48824 s] killed by tests/test_writer.py::test_run
+   - [# 976] ROR backtrader.brokers.bbroker: [0.50430 s] killed by tests/test_writer.py::test_run
+   - [# 977] ROR backtrader.brokers.bbroker: [0.50593 s] killed by tests/test_writer.py::test_run
+   - [# 978] ROR backtrader.brokers.bbroker: [0.49313 s] killed by tests/test_writer.py::test_run
+   - [# 979] ROR backtrader.brokers.bbroker: [0.55227 s] killed by tests/test_writer.py::test_run
+   - [# 980] ROR backtrader.brokers.bbroker: [0.36494 s] killed by tests/test_writer.py::test_run
+   - [# 981] ROR backtrader.brokers.bbroker: [0.36360 s] killed by tests/test_writer.py::test_run
+   - [# 982] ROR backtrader.brokers.bbroker: [0.35695 s] killed by tests/test_writer.py::test_run
+   - [# 983] ROR backtrader.brokers.bbroker: [0.35036 s] killed by tests/test_writer.py::test_run
+   - [# 984] ROR backtrader.brokers.bbroker: [0.35939 s] killed by tests/test_writer.py::test_run
+   - [# 985] ROR backtrader.brokers.bbroker: [0.37282 s] killed by tests/test_writer.py::test_run
+   - [# 986] ROR backtrader.brokers.bbroker: [0.36003 s] killed by tests/test_writer.py::test_run
+   - [# 987] ROR backtrader.brokers.bbroker: [0.35346 s] killed by tests/test_writer.py::test_run
+   - [# 988] ROR backtrader.brokers.bbroker: [0.34645 s] killed by tests/test_writer.py::test_run
+   - [# 989] ROR backtrader.brokers.bbroker: [0.37151 s] killed by tests/test_writer.py::test_run
+   - [# 990] SCD backtrader.brokers.bbroker: [0.52946 s] killed by tests/test_writer.py::test_run
+   - [# 991] SCD backtrader.brokers.bbroker: [0.50021 s] killed by tests/test_writer.py::test_run
+   - [# 992] SCI backtrader.brokers.bbroker: [0.48793 s] killed by tests/test_writer.py::test_run
+   - [# 993] SCI backtrader.brokers.bbroker: [0.49473 s] killed by tests/test_writer.py::test_run
+   - [# 994] SCI backtrader.brokers.bbroker: [0.49953 s] killed by tests/test_writer.py::test_run
+   - [# 995] SCI backtrader.brokers.bbroker: [0.51206 s] killed by tests/test_writer.py::test_run
+   - [# 996] SCI backtrader.brokers.bbroker: [0.49396 s] killed by tests/test_writer.py::test_run
+   - [# 997] SCI backtrader.brokers.bbroker: [0.50106 s] killed by tests/test_writer.py::test_run
+   - [# 998] SCI backtrader.brokers.bbroker: [0.49654 s] killed by tests/test_writer.py::test_run
+   - [# 999] SCI backtrader.brokers.bbroker: [0.48594 s] killed by tests/test_writer.py::test_run
+   - [#1000] SCI backtrader.brokers.bbroker: [0.49751 s] killed by tests/test_writer.py::test_run
+   - [#1001] SCI backtrader.brokers.bbroker: [0.49119 s] killed by tests/test_writer.py::test_run
+   - [#1002] SCI backtrader.brokers.bbroker: [0.48714 s] killed by tests/test_writer.py::test_run
+   - [#1003] SCI backtrader.brokers.bbroker: [0.49262 s] killed by tests/test_writer.py::test_run
+   - [#1004] SIR backtrader.brokers.bbroker: [0.47402 s] killed by tests/test_writer.py::test_run
+   - [#1005] AOD backtrader.brokers.vcbroker: [0.47064 s] killed by tests/test_writer.py::test_run
+   - [#1006] AOD backtrader.brokers.vcbroker: [0.47693 s] killed by tests/test_writer.py::test_run
+   - [#1007] AOR backtrader.brokers.vcbroker: [0.49020 s] killed by tests/test_writer.py::test_run
+   - [#1008] AOR backtrader.brokers.vcbroker: [0.47047 s] killed by tests/test_writer.py::test_run
+   - [#1009] AOR backtrader.brokers.vcbroker: [0.48052 s] killed by tests/test_writer.py::test_run
+   - [#1010] AOR backtrader.brokers.vcbroker: [0.47859 s] killed by tests/test_writer.py::test_run
+   - [#1011] AOR backtrader.brokers.vcbroker: [0.46754 s] killed by tests/test_writer.py::test_run
+   - [#1012] AOR backtrader.brokers.vcbroker: [0.46335 s] killed by tests/test_writer.py::test_run
+   - [#1013] AOR backtrader.brokers.vcbroker: [0.47227 s] killed by tests/test_writer.py::test_run
+   - [#1014] AOR backtrader.brokers.vcbroker: [0.46914 s] killed by tests/test_writer.py::test_run
+   - [#1015] AOR backtrader.brokers.vcbroker: [0.46629 s] killed by tests/test_writer.py::test_run
+   - [#1016] ASR backtrader.brokers.vcbroker: [0.47556 s] killed by tests/test_writer.py::test_run
+   - [#1017] ASR backtrader.brokers.vcbroker: [0.48643 s] killed by tests/test_writer.py::test_run
+   - [#1018] ASR backtrader.brokers.vcbroker: [0.48645 s] killed by tests/test_writer.py::test_run
+   - [#1019] BCR backtrader.brokers.vcbroker: [0.48918 s] killed by tests/test_writer.py::test_run
+   - [#1020] BCR backtrader.brokers.vcbroker: [0.36500 s] killed by tests/test_writer.py::test_run
+   - [#1021] COD backtrader.brokers.vcbroker: [0.36990 s] killed by tests/test_writer.py::test_run
+   - [#1022] COI backtrader.brokers.vcbroker: [0.36296 s] killed by tests/test_writer.py::test_run
+   - [#1023] COI backtrader.brokers.vcbroker: [0.36069 s] killed by tests/test_writer.py::test_run
+   - [#1024] COI backtrader.brokers.vcbroker: [0.36443 s] killed by tests/test_writer.py::test_run
+   - [#1025] COI backtrader.brokers.vcbroker: [0.36391 s] killed by tests/test_writer.py::test_run
+   - [#1026] COI backtrader.brokers.vcbroker: [0.36499 s] killed by tests/test_writer.py::test_run
+   - [#1027] COI backtrader.brokers.vcbroker: [0.36581 s] killed by tests/test_writer.py::test_run
+   - [#1028] COI backtrader.brokers.vcbroker: [0.36202 s] killed by tests/test_writer.py::test_run
+   - [#1029] COI backtrader.brokers.vcbroker: [0.35955 s] killed by tests/test_writer.py::test_run
+   - [#1030] COI backtrader.brokers.vcbroker: [0.35669 s] killed by tests/test_writer.py::test_run
+   - [#1031] COI backtrader.brokers.vcbroker: [0.35973 s] killed by tests/test_writer.py::test_run
+   - [#1032] COI backtrader.brokers.vcbroker: [0.36676 s] killed by tests/test_writer.py::test_run
+   - [#1033] COI backtrader.brokers.vcbroker: [0.36404 s] killed by tests/test_writer.py::test_run
+   - [#1034] COI backtrader.brokers.vcbroker: [0.37228 s] killed by tests/test_writer.py::test_run
+   - [#1035] COI backtrader.brokers.vcbroker: [0.36638 s] killed by tests/test_writer.py::test_run
+   - [#1036] COI backtrader.brokers.vcbroker: [0.35012 s] killed by tests/test_writer.py::test_run
+   - [#1037] COI backtrader.brokers.vcbroker: [0.35474 s] killed by tests/test_writer.py::test_run
+   - [#1038] COI backtrader.brokers.vcbroker: [0.35562 s] killed by tests/test_writer.py::test_run
+   - [#1039] COI backtrader.brokers.vcbroker: [0.35101 s] killed by tests/test_writer.py::test_run
+   - [#1040] COI backtrader.brokers.vcbroker: [0.36281 s] killed by tests/test_writer.py::test_run
+   - [#1041] COI backtrader.brokers.vcbroker: [0.35906 s] killed by tests/test_writer.py::test_run
+   - [#1042] COI backtrader.brokers.vcbroker: [0.34277 s] killed by tests/test_writer.py::test_run
+   - [#1043] COI backtrader.brokers.vcbroker: [0.36007 s] killed by tests/test_writer.py::test_run
+   - [#1044] COI backtrader.brokers.vcbroker: [0.36967 s] killed by tests/test_writer.py::test_run
+   - [#1045] EHD backtrader.brokers.vcbroker: [0.36767 s] killed by tests/test_writer.py::test_run
+   - [#1046] EHD backtrader.brokers.vcbroker: [0.35717 s] killed by tests/test_writer.py::test_run
+   - [#1047] EHD backtrader.brokers.vcbroker: [0.35903 s] killed by tests/test_writer.py::test_run
+   - [#1048] EXS backtrader.brokers.vcbroker: [0.35532 s] killed by tests/test_writer.py::test_run
+   - [#1049] EXS backtrader.brokers.vcbroker: [0.38320 s] killed by tests/test_writer.py::test_run
+   - [#1050] EXS backtrader.brokers.vcbroker: [0.36062 s] killed by tests/test_writer.py::test_run
+   - [#1051] IHD backtrader.brokers.vcbroker: [0.35801 s] killed by tests/test_writer.py::test_run
+   - [#1052] IOD backtrader.brokers.vcbroker: [0.36526 s] killed by tests/test_writer.py::test_run
+   - [#1053] IOD backtrader.brokers.vcbroker: [0.37017 s] killed by tests/test_writer.py::test_run
+   - [#1054] IOD backtrader.brokers.vcbroker: [0.35833 s] killed by tests/test_writer.py::test_run
+   - [#1055] IOD backtrader.brokers.vcbroker: [0.36131 s] killed by tests/test_writer.py::test_run
+   - [#1056] IOD backtrader.brokers.vcbroker: [0.36495 s] killed by tests/test_writer.py::test_run
+   - [#1057] IOD backtrader.brokers.vcbroker: [0.36570 s] killed by tests/test_writer.py::test_run
+   - [#1058] IOD backtrader.brokers.vcbroker: [0.36812 s] killed by tests/test_writer.py::test_run
+   - [#1059] IOD backtrader.brokers.vcbroker: [0.36963 s] killed by tests/test_writer.py::test_run
+   - [#1060] IOD backtrader.brokers.vcbroker: [0.36491 s] killed by tests/test_writer.py::test_run
+   - [#1061] IOD backtrader.brokers.vcbroker: [0.37071 s] killed by tests/test_writer.py::test_run
+   - [#1062] IOD backtrader.brokers.vcbroker: [0.35640 s] killed by tests/test_writer.py::test_run
+   - [#1063] IOD backtrader.brokers.vcbroker: [0.35521 s] killed by tests/test_writer.py::test_run
+   - [#1064] IOD backtrader.brokers.vcbroker: [0.37390 s] killed by tests/test_writer.py::test_run
+   - [#1065] IOD backtrader.brokers.vcbroker: [0.36775 s] killed by tests/test_writer.py::test_run
+   - [#1066] IOD backtrader.brokers.vcbroker: [0.36388 s] killed by tests/test_writer.py::test_run
+   - [#1067] IOP backtrader.brokers.vcbroker: [0.36616 s] killed by tests/test_writer.py::test_run
+   - [#1068] IOP backtrader.brokers.vcbroker: [0.36833 s] killed by tests/test_writer.py::test_run
+   - [#1069] IOP backtrader.brokers.vcbroker: [0.36417 s] killed by tests/test_writer.py::test_run
+   - [#1070] IOP backtrader.brokers.vcbroker: [0.37677 s] killed by tests/test_writer.py::test_run
+   - [#1071] LCR backtrader.brokers.vcbroker: [0.37691 s] killed by tests/test_writer.py::test_run
+   - [#1072] LCR backtrader.brokers.vcbroker: [0.37642 s] killed by tests/test_writer.py::test_run
+   - [#1073] LCR backtrader.brokers.vcbroker: [0.35777 s] killed by tests/test_writer.py::test_run
+   - [#1074] ROR backtrader.brokers.vcbroker: [0.35968 s] killed by tests/test_writer.py::test_run
+   - [#1075] ROR backtrader.brokers.vcbroker: [0.37579 s] killed by tests/test_writer.py::test_run
+   - [#1076] ROR backtrader.brokers.vcbroker: [0.35951 s] killed by tests/test_writer.py::test_run
+   - [#1077] ROR backtrader.brokers.vcbroker: [0.37738 s] killed by tests/test_writer.py::test_run
+   - [#1078] ROR backtrader.brokers.vcbroker: [0.37024 s] killed by tests/test_writer.py::test_run
+   - [#1079] ROR backtrader.brokers.vcbroker: [0.38218 s] killed by tests/test_writer.py::test_run
+   - [#1080] ROR backtrader.brokers.vcbroker: [0.37421 s] killed by tests/test_writer.py::test_run
+   - [#1081] ROR backtrader.brokers.vcbroker: [0.38399 s] killed by tests/test_writer.py::test_run
+   - [#1082] ROR backtrader.brokers.vcbroker: [0.37099 s] killed by tests/test_writer.py::test_run
+   - [#1083] ROR backtrader.brokers.vcbroker: [0.36435 s] killed by tests/test_writer.py::test_run
+   - [#1084] SCD backtrader.brokers.vcbroker: [0.37793 s] killed by tests/test_writer.py::test_run
+   - [#1085] SCD backtrader.brokers.vcbroker: [0.37046 s] killed by tests/test_writer.py::test_run
+   - [#1086] SCD backtrader.brokers.vcbroker: [0.36817 s] killed by tests/test_writer.py::test_run
+   - [#1087] SCD backtrader.brokers.vcbroker: [0.37876 s] killed by tests/test_writer.py::test_run
+   - [#1088] SCI backtrader.brokers.vcbroker: [0.35694 s] killed by tests/test_writer.py::test_run
+   - [#1089] SCI backtrader.brokers.vcbroker: [0.36866 s] killed by tests/test_writer.py::test_run
+   - [#1090] SCI backtrader.brokers.vcbroker: [0.37891 s] killed by tests/test_writer.py::test_run
+   - [#1091] SCI backtrader.brokers.vcbroker: [0.35605 s] killed by tests/test_writer.py::test_run
+   - [#1092] SCI backtrader.brokers.vcbroker: [0.37540 s] killed by tests/test_writer.py::test_run
+   - [#1093] SCI backtrader.brokers.vcbroker: [0.37535 s] killed by tests/test_writer.py::test_run
+   - [#1094] SCI backtrader.brokers.vcbroker: [0.36622 s] killed by tests/test_writer.py::test_run
+   - [#1095] SCI backtrader.brokers.vcbroker: [0.36364 s] killed by tests/test_writer.py::test_run
+   - [#1096] SCI backtrader.brokers.vcbroker: [0.35906 s] killed by tests/test_writer.py::test_run
+   - [#1097] SCI backtrader.brokers.vcbroker: [0.35849 s] killed by tests/test_writer.py::test_run
+   - [#1098] SCI backtrader.brokers.vcbroker: [0.36060 s] killed by tests/test_writer.py::test_run
+   - [#1099] AOR backtrader.btrun.btrun: [0.36225 s] killed by tests/test_writer.py::test_run
+   - [#1100] AOR backtrader.btrun.btrun: [0.36968 s] killed by tests/test_writer.py::test_run
+   - [#1101] AOR backtrader.btrun.btrun: [0.34945 s] killed by tests/test_writer.py::test_run
+   - [#1102] AOR backtrader.btrun.btrun: [0.36156 s] killed by tests/test_writer.py::test_run
+   - [#1103] AOR backtrader.btrun.btrun: [0.35903 s] killed by tests/test_writer.py::test_run
+   - [#1104] AOR backtrader.btrun.btrun: [0.35412 s] killed by tests/test_writer.py::test_run
+   - [#1105] AOR backtrader.btrun.btrun: [0.36415 s] killed by tests/test_writer.py::test_run
+   - [#1106] AOR backtrader.btrun.btrun: [0.36828 s] killed by tests/test_writer.py::test_run
+   - [#1107] AOR backtrader.btrun.btrun: [0.35656 s] killed by tests/test_writer.py::test_run
+   - [#1108] AOR backtrader.btrun.btrun: [0.35811 s] killed by tests/test_writer.py::test_run
+   - [#1109] AOR backtrader.btrun.btrun: [0.36166 s] killed by tests/test_writer.py::test_run
+   - [#1110] AOR backtrader.btrun.btrun: [0.35542 s] killed by tests/test_writer.py::test_run
+   - [#1111] AOR backtrader.btrun.btrun: [0.35853 s] killed by tests/test_writer.py::test_run
+   - [#1112] AOR backtrader.btrun.btrun: [0.35923 s] killed by tests/test_writer.py::test_run
+   - [#1113] AOR backtrader.btrun.btrun: [0.36552 s] killed by tests/test_writer.py::test_run
+   - [#1114] AOR backtrader.btrun.btrun: [0.35471 s] killed by tests/test_writer.py::test_run
+   - [#1115] AOR backtrader.btrun.btrun: [0.35474 s] killed by tests/test_writer.py::test_run
+   - [#1116] ASR backtrader.btrun.btrun: [0.35952 s] killed by tests/test_writer.py::test_run
+   - [#1117] ASR backtrader.btrun.btrun: [0.36693 s] killed by tests/test_writer.py::test_run
+   - [#1118] ASR backtrader.btrun.btrun: [0.36246 s] killed by tests/test_writer.py::test_run
+   - [#1119] BCR backtrader.btrun.btrun: [0.36005 s] killed by tests/test_writer.py::test_run
+   - [#1120] BCR backtrader.btrun.btrun: [0.35625 s] killed by tests/test_writer.py::test_run
+   - [#1121] BCR backtrader.btrun.btrun: [0.36660 s] killed by tests/test_writer.py::test_run
+   - [#1122] COD backtrader.btrun.btrun: [0.36360 s] killed by tests/test_writer.py::test_run
+   - [#1123] COD backtrader.btrun.btrun: [0.36948 s] killed by tests/test_writer.py::test_run
+   - [#1124] COD backtrader.btrun.btrun: [0.35816 s] killed by tests/test_writer.py::test_run
+   - [#1125] COD backtrader.btrun.btrun: [0.42888 s] killed by tests/test_writer.py::test_run
+   - [#1126] COD backtrader.btrun.btrun: [0.35799 s] killed by tests/test_writer.py::test_run
+   - [#1127] COD backtrader.btrun.btrun: [0.35899 s] killed by tests/test_writer.py::test_run
+   - [#1128] COD backtrader.btrun.btrun: [0.36170 s] killed by tests/test_writer.py::test_run
+   - [#1129] COD backtrader.btrun.btrun: [0.36229 s] killed by tests/test_writer.py::test_run
+   - [#1130] COD backtrader.btrun.btrun: [0.36358 s] killed by tests/test_writer.py::test_run
+   - [#1131] COD backtrader.btrun.btrun: [0.36767 s] killed by tests/test_writer.py::test_run
+   - [#1132] COD backtrader.btrun.btrun: [0.35976 s] killed by tests/test_writer.py::test_run
+   - [#1133] COI backtrader.btrun.btrun: [0.34645 s] killed by tests/test_writer.py::test_run
+   - [#1134] COI backtrader.btrun.btrun: [0.35526 s] killed by tests/test_writer.py::test_run
+   - [#1135] COI backtrader.btrun.btrun: [0.36108 s] killed by tests/test_writer.py::test_run
+   - [#1136] COI backtrader.btrun.btrun: [0.52688 s] killed by tests/test_writer.py::test_run
+   - [#1137] COI backtrader.btrun.btrun: [0.35555 s] killed by tests/test_writer.py::test_run
+   - [#1138] COI backtrader.btrun.btrun: [0.35507 s] killed by tests/test_writer.py::test_run
+   - [#1139] COI backtrader.btrun.btrun: [0.35997 s] killed by tests/test_writer.py::test_run
+   - [#1140] COI backtrader.btrun.btrun: [0.35971 s] killed by tests/test_writer.py::test_run
+   - [#1141] COI backtrader.btrun.btrun: [0.36245 s] killed by tests/test_writer.py::test_run
+   - [#1142] COI backtrader.btrun.btrun: [0.35816 s] killed by tests/test_writer.py::test_run
+   - [#1143] COI backtrader.btrun.btrun: [0.35392 s] killed by tests/test_writer.py::test_run
+   - [#1144] COI backtrader.btrun.btrun: [0.35930 s] killed by tests/test_writer.py::test_run
+   - [#1145] COI backtrader.btrun.btrun: [37.90901 s] killed by tests/test_writer.py::test_run
+   - [#1146] COI backtrader.btrun.btrun: [73.86762 s] killed by tests/test_writer.py::test_run
+   - [#1147] COI backtrader.btrun.btrun: [73.65044 s] killed by tests/test_writer.py::test_run
+   - [#1148] COI backtrader.btrun.btrun: [53.54349 s] killed by tests/test_writer.py::test_run
+   - [#1149] COI backtrader.btrun.btrun: [0.36861 s] killed by tests/test_writer.py::test_run
+   - [#1150] COI backtrader.btrun.btrun: [0.35748 s] killed by tests/test_writer.py::test_run
+   - [#1151] COI backtrader.btrun.btrun: [0.37041 s] killed by tests/test_writer.py::test_run
+   - [#1152] COI backtrader.btrun.btrun: [0.37624 s] killed by tests/test_writer.py::test_run
+   - [#1153] COI backtrader.btrun.btrun: [0.37791 s] killed by tests/test_writer.py::test_run
+   - [#1154] COI backtrader.btrun.btrun: [0.36659 s] killed by tests/test_writer.py::test_run
+   - [#1155] COI backtrader.btrun.btrun: [0.37654 s] killed by tests/test_writer.py::test_run
+   - [#1156] COI backtrader.btrun.btrun: [0.36092 s] killed by tests/test_writer.py::test_run
+   - [#1157] COI backtrader.btrun.btrun: [0.36521 s] killed by tests/test_writer.py::test_run
+   - [#1158] COI backtrader.btrun.btrun: [0.36771 s] killed by tests/test_writer.py::test_run
+   - [#1159] COI backtrader.btrun.btrun: [0.36690 s] killed by tests/test_writer.py::test_run
+   - [#1160] COI backtrader.btrun.btrun: [0.36197 s] killed by tests/test_writer.py::test_run
+   - [#1161] COI backtrader.btrun.btrun: [0.34828 s] killed by tests/test_writer.py::test_run
+   - [#1162] COI backtrader.btrun.btrun: [0.36530 s] killed by tests/test_writer.py::test_run
+   - [#1163] COI backtrader.btrun.btrun: [0.36003 s] killed by tests/test_writer.py::test_run
+   - [#1164] COI backtrader.btrun.btrun: [0.35828 s] killed by tests/test_writer.py::test_run
+   - [#1165] COI backtrader.btrun.btrun: [0.50654 s] killed by tests/test_writer.py::test_run
+   - [#1166] COI backtrader.btrun.btrun: [0.35787 s] killed by tests/test_writer.py::test_run
+   - [#1167] COI backtrader.btrun.btrun: [0.35440 s] killed by tests/test_writer.py::test_run
+   - [#1168] COI backtrader.btrun.btrun: [0.35883 s] killed by tests/test_writer.py::test_run
+   - [#1169] COI backtrader.btrun.btrun: [0.35863 s] killed by tests/test_writer.py::test_run
+   - [#1170] COI backtrader.btrun.btrun: [0.35693 s] killed by tests/test_writer.py::test_run
+   - [#1171] COI backtrader.btrun.btrun: [0.36536 s] killed by tests/test_writer.py::test_run
+   - [#1172] COI backtrader.btrun.btrun: [0.34926 s] killed by tests/test_writer.py::test_run
+   - [#1173] COI backtrader.btrun.btrun: [0.35741 s] killed by tests/test_writer.py::test_run
+   - [#1174] COI backtrader.btrun.btrun: [0.36126 s] killed by tests/test_writer.py::test_run
+   - [#1175] COI backtrader.btrun.btrun: [0.36012 s] killed by tests/test_writer.py::test_run
+   - [#1176] COI backtrader.btrun.btrun: [0.36268 s] killed by tests/test_writer.py::test_run
+   - [#1177] COI backtrader.btrun.btrun: [0.35719 s] killed by tests/test_writer.py::test_run
+   - [#1178] COI backtrader.btrun.btrun: [0.35898 s] killed by tests/test_writer.py::test_run
+   - [#1179] COI backtrader.btrun.btrun: [0.35852 s] killed by tests/test_writer.py::test_run
+   - [#1180] COI backtrader.btrun.btrun: [0.36240 s] killed by tests/test_writer.py::test_run
+   - [#1181] COI backtrader.btrun.btrun: [0.35551 s] killed by tests/test_writer.py::test_run
+   - [#1182] COI backtrader.btrun.btrun: [0.35768 s] killed by tests/test_writer.py::test_run
+   - [#1183] COI backtrader.btrun.btrun: [0.35956 s] killed by tests/test_writer.py::test_run
+   - [#1184] COI backtrader.btrun.btrun: [0.36544 s] killed by tests/test_writer.py::test_run
+   - [#1185] COI backtrader.btrun.btrun: [0.00000 s] incompetent
+   - [#1186] EHD backtrader.btrun.btrun: [0.35471 s] killed by tests/test_writer.py::test_run
+   - [#1187] EHD backtrader.btrun.btrun: [0.00000 s] incompetent
+   - [#1188] EHD backtrader.btrun.btrun: [0.00000 s] incompetent
+   - [#1189] EHD backtrader.btrun.btrun: [0.35243 s] killed by tests/test_writer.py::test_run
+   - [#1190] EHD backtrader.btrun.btrun: [0.35819 s] killed by tests/test_writer.py::test_run
+   - [#1191] EXS backtrader.btrun.btrun: [0.36307 s] killed by tests/test_writer.py::test_run
+   - [#1192] EXS backtrader.btrun.btrun: [0.36123 s] killed by tests/test_writer.py::test_run
+   - [#1193] LCR backtrader.btrun.btrun: [0.35465 s] killed by tests/test_writer.py::test_run
+   - [#1194] LCR backtrader.btrun.btrun: [0.37776 s] killed by tests/test_writer.py::test_run
+   - [#1195] LCR backtrader.btrun.btrun: [0.44453 s] killed by tests/test_writer.py::test_run
+   - [#1196] LCR backtrader.btrun.btrun: [212.05210 s] killed by tests/test_writer.py::test_run
+   - [#1197] LCR backtrader.btrun.btrun: [0.66060 s] killed by tests/test_writer.py::test_run
+   - [#1198] LCR backtrader.btrun.btrun: [0.34547 s] killed by tests/test_writer.py::test_run
+   - [#1199] ROR backtrader.btrun.btrun: [0.34381 s] killed by tests/test_writer.py::test_run
+   - [#1200] ROR backtrader.btrun.btrun: [0.34830 s] killed by tests/test_writer.py::test_run
+   - [#1201] ROR backtrader.btrun.btrun: [0.35865 s] killed by tests/test_writer.py::test_run
+   - [#1202] ROR backtrader.btrun.btrun: [0.37554 s] killed by tests/test_writer.py::test_run
+   - [#1203] ROR backtrader.btrun.btrun: [0.36145 s] killed by tests/test_writer.py::test_run
+   - [#1204] ROR backtrader.btrun.btrun: [0.35339 s] killed by tests/test_writer.py::test_run
+   - [#1205] ROR backtrader.btrun.btrun: [0.38485 s] killed by tests/test_writer.py::test_run
+   - [#1206] ROR backtrader.btrun.btrun: [0.36627 s] killed by tests/test_writer.py::test_run
+   - [#1207] ROR backtrader.btrun.btrun: [0.37088 s] killed by tests/test_writer.py::test_run
+   - [#1208] ROR backtrader.btrun.btrun: [0.37311 s] killed by tests/test_writer.py::test_run
+   - [#1209] ROR backtrader.btrun.btrun: [0.36910 s] killed by tests/test_writer.py::test_run
+   - [#1210] ROR backtrader.btrun.btrun: [0.36944 s] killed by tests/test_writer.py::test_run
+   - [#1211] ROR backtrader.btrun.btrun: [0.36519 s] killed by tests/test_writer.py::test_run
+   - [#1212] ROR backtrader.btrun.btrun: [0.34664 s] killed by tests/test_writer.py::test_run
+   - [#1213] ROR backtrader.btrun.btrun: [0.34697 s] killed by tests/test_writer.py::test_run
+   - [#1214] ROR backtrader.btrun.btrun: [0.35718 s] killed by tests/test_writer.py::test_run
+   - [#1215] ROR backtrader.btrun.btrun: [0.00000 s] incompetent
+   - [#1216] AOR backtrader.cerebro: [0.32621 s] killed by tests/test_writer.py::test_run
+   - [#1217] AOR backtrader.cerebro: [0.32346 s] killed by tests/test_writer.py::test_run
+   - [#1218] AOR backtrader.cerebro: [0.32919 s] killed by tests/test_writer.py::test_run
+   - [#1219] AOR backtrader.cerebro: [0.35760 s] killed by tests/test_writer.py::test_run
+   - [#1220] AOR backtrader.cerebro: [0.35046 s] killed by tests/test_writer.py::test_run
+   - [#1221] AOR backtrader.cerebro: 

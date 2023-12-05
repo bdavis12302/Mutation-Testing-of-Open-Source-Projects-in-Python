@@ -1,0 +1,785 @@
+[*] Start mutation process:
+   - targets: mutpy
+   - tests: mutpy/test
+[*] 122 tests passed:
+   - test.test_commandline [0.00246 s]
+   - test.test_coverage [0.00624 s]
+   - test.test_operators [0.06776 s]
+   - test.test_utils [0.00388 s]
+   - test.test_views [0.00080 s]
+   - test.utils [0.00001 s]
+[*] Start mutants generation and execution:
+   - [#   1] AOR mutpy.codegen: [0.00000 s] incompetent
+   - [#   2] AOR mutpy.codegen: [0.00000 s] incompetent
+   - [#   3] AOR mutpy.codegen: [0.00000 s] incompetent
+   - [#   4] AOR mutpy.codegen: [0.07954 s] killed by test_load_file (test.test_utils.ModulesLoaderTest)
+   - [#   5] AOR mutpy.codegen: [0.07591 s] killed by test_load_file (test.test_utils.ModulesLoaderTest)
+   - [#   6] ASR mutpy.codegen: [0.07818 s] killed by test_load_file (test.test_utils.ModulesLoaderTest)
+   - [#   7] COI mutpy.codegen: [0.07524 s] killed by test_load_file (test.test_utils.ModulesLoaderTest)
+   - [#   8] ROR mutpy.codegen: [0.07894 s] killed by test_load_file (test.test_utils.ModulesLoaderTest)
+   - [#   9] ROR mutpy.codegen: [0.07859 s] killed by test_load_file (test.test_utils.ModulesLoaderTest)
+   - [#  10] AOD mutpy.commandline: [0.07522 s] killed by test_load_file (test.test_utils.ModulesLoaderTest)
+   - [#  11] AOD mutpy.commandline: [0.07959 s] killed by test_load_file (test.test_utils.ModulesLoaderTest)
+   - [#  12] AOD mutpy.commandline: [0.07538 s] killed by test_load_file (test.test_utils.ModulesLoaderTest)
+   - [#  13] AOR mutpy.commandline: [0.07637 s] killed by test_load_file (test.test_utils.ModulesLoaderTest)
+   - [#  14] AOR mutpy.commandline: [0.07568 s] killed by test_load_file (test.test_utils.ModulesLoaderTest)
+   - [#  15] AOR mutpy.commandline: [0.07430 s] killed by test_load_file (test.test_utils.ModulesLoaderTest)
+   - [#  16] ASR mutpy.commandline: [5.00595 s] timeout
+   - [#  17] COI mutpy.commandline: [0.07707 s] killed by test_load_file (test.test_utils.ModulesLoaderTest)
+   - [#  18] COI mutpy.commandline: [0.08171 s] killed by test_load_file (test.test_utils.ModulesLoaderTest)
+   - [#  19] COI mutpy.commandline: [0.07690 s] killed by test_load_file (test.test_utils.ModulesLoaderTest)
+   - [#  20] COI mutpy.commandline: [0.07698 s] killed by test_load_file (test.test_utils.ModulesLoaderTest)
+   - [#  21] COI mutpy.commandline: [0.07563 s] killed by test_load_file (test.test_utils.ModulesLoaderTest)
+   - [#  22] COI mutpy.commandline: [0.00662 s] killed by test_build_mutator_with_operator (test.test_commandline.CommandLineTest)
+   - [#  23] COI mutpy.commandline: [5.00522 s] timeout
+   - [#  24] COI mutpy.commandline: [0.07622 s] killed by test_load_file (test.test_utils.ModulesLoaderTest)
+   - [#  25] COI mutpy.commandline: [0.07837 s] killed by test_load_file (test.test_utils.ModulesLoaderTest)
+   - [#  26] COI mutpy.commandline: [0.08018 s] killed by test_load_file (test.test_utils.ModulesLoaderTest)
+   - [#  27] COI mutpy.commandline: [0.07479 s] killed by test_load_file (test.test_utils.ModulesLoaderTest)
+   - [#  28] COI mutpy.commandline: [0.07652 s] killed by test_load_file (test.test_utils.ModulesLoaderTest)
+   - [#  29] COI mutpy.commandline: [0.07633 s] killed by test_load_file (test.test_utils.ModulesLoaderTest)
+   - [#  30] EHD mutpy.commandline: [0.07355 s] killed by test_load_file (test.test_utils.ModulesLoaderTest)
+   - [#  31] EHD mutpy.commandline: [0.07454 s] killed by test_load_file (test.test_utils.ModulesLoaderTest)
+   - [#  32] EXS mutpy.commandline: [0.07504 s] killed by test_load_file (test.test_utils.ModulesLoaderTest)
+   - [#  33] EXS mutpy.commandline: [0.07356 s] killed by test_load_file (test.test_utils.ModulesLoaderTest)
+   - [#  34] LCR mutpy.commandline: [0.07912 s] killed by test_load_file (test.test_utils.ModulesLoaderTest)
+   - [#  35] LOR mutpy.commandline: [0.07761 s] killed by test_load_file (test.test_utils.ModulesLoaderTest)
+   - [#  36] LOR mutpy.commandline: [0.00701 s] killed by test_build_mutator_with_operator (test.test_commandline.CommandLineTest)
+   - [#  37] LOR mutpy.commandline: [0.00530 s] killed by test_build_mutator_with_disable_operator (test.test_commandline.CommandLineTest)
+   - [#  38] LOR mutpy.commandline: Unsupported operator AOR! Use -l to show all operators.
+[0.00715 s] killed by test_build_mutator_with_disable_operator (test.test_commandline.CommandLineTest)
+   - [#  39] ROR mutpy.commandline: [0.08039 s] killed by test_load_file (test.test_utils.ModulesLoaderTest)
+   - [#  40] ROR mutpy.commandline: [0.07917 s] killed by test_load_file (test.test_utils.ModulesLoaderTest)
+   - [#  41] ROR mutpy.commandline: [0.07593 s] killed by test_load_file (test.test_utils.ModulesLoaderTest)
+   - [#  42] ROR mutpy.commandline: [0.07314 s] killed by test_load_file (test.test_utils.ModulesLoaderTest)
+   - [#  43] ROR mutpy.commandline: [0.07681 s] killed by test_load_file (test.test_utils.ModulesLoaderTest)
+   - [#  44] AOD mutpy.controller: [0.07683 s] killed by test_load_file (test.test_utils.ModulesLoaderTest)
+   - [#  45] AOD mutpy.controller: [0.07583 s] killed by test_load_file (test.test_utils.ModulesLoaderTest)
+   - [#  46] AOD mutpy.controller: [0.07911 s] killed by test_load_file (test.test_utils.ModulesLoaderTest)
+   - [#  47] AOD mutpy.controller: [0.07868 s] killed by test_load_file (test.test_utils.ModulesLoaderTest)
+   - [#  48] AOR mutpy.controller: [0.08191 s] killed by test_load_file (test.test_utils.ModulesLoaderTest)
+   - [#  49] AOR mutpy.controller: [0.07904 s] killed by test_load_file (test.test_utils.ModulesLoaderTest)
+   - [#  50] AOR mutpy.controller: [0.07903 s] killed by test_load_file (test.test_utils.ModulesLoaderTest)
+   - [#  51] AOR mutpy.controller: [0.08103 s] killed by test_load_file (test.test_utils.ModulesLoaderTest)
+   - [#  52] AOR mutpy.controller: [0.07645 s] killed by test_load_file (test.test_utils.ModulesLoaderTest)
+   - [#  53] AOR mutpy.controller: [0.07710 s] killed by test_load_file (test.test_utils.ModulesLoaderTest)
+   - [#  54] AOR mutpy.controller: [0.08087 s] killed by test_load_file (test.test_utils.ModulesLoaderTest)
+   - [#  55] AOR mutpy.controller: [0.08231 s] killed by test_load_file (test.test_utils.ModulesLoaderTest)
+   - [#  56] AOR mutpy.controller: [0.07804 s] killed by test_load_file (test.test_utils.ModulesLoaderTest)
+   - [#  57] AOR mutpy.controller: [0.08576 s] killed by test_load_file (test.test_utils.ModulesLoaderTest)
+   - [#  58] AOR mutpy.controller: [0.07809 s] killed by test_load_file (test.test_utils.ModulesLoaderTest)
+   - [#  59] AOR mutpy.controller: [0.08070 s] killed by test_load_file (test.test_utils.ModulesLoaderTest)
+   - [#  60] AOR mutpy.controller: [0.07529 s] killed by test_load_file (test.test_utils.ModulesLoaderTest)
+   - [#  61] AOR mutpy.controller: [0.07875 s] killed by test_load_file (test.test_utils.ModulesLoaderTest)
+   - [#  62] AOR mutpy.controller: [0.07884 s] killed by test_load_file (test.test_utils.ModulesLoaderTest)
+   - [#  63] ASR mutpy.controller: [0.07679 s] killed by test_load_file (test.test_utils.ModulesLoaderTest)
+   - [#  64] ASR mutpy.controller: [0.07549 s] killed by test_load_file (test.test_utils.ModulesLoaderTest)
+   - [#  65] ASR mutpy.controller: [0.07586 s] killed by test_load_file (test.test_utils.ModulesLoaderTest)
+   - [#  66] ASR mutpy.controller: [0.07716 s] killed by test_load_file (test.test_utils.ModulesLoaderTest)
+   - [#  67] ASR mutpy.controller: [0.07625 s] killed by test_load_file (test.test_utils.ModulesLoaderTest)
+   - [#  68] ASR mutpy.controller: [0.08352 s] killed by test_load_file (test.test_utils.ModulesLoaderTest)
+   - [#  69] ASR mutpy.controller: [0.07710 s] killed by test_load_file (test.test_utils.ModulesLoaderTest)
+   - [#  70] ASR mutpy.controller: [0.08315 s] killed by test_load_file (test.test_utils.ModulesLoaderTest)
+   - [#  71] ASR mutpy.controller: [0.07924 s] killed by test_load_file (test.test_utils.ModulesLoaderTest)
+   - [#  72] BCR mutpy.controller: [0.07452 s] killed by test_load_file (test.test_utils.ModulesLoaderTest)
+   - [#  73] BCR mutpy.controller: [0.08142 s] killed by test_load_file (test.test_utils.ModulesLoaderTest)
+   - [#  74] BCR mutpy.controller: [0.07512 s] killed by test_load_file (test.test_utils.ModulesLoaderTest)
+   - [#  75] BCR mutpy.controller: [0.07580 s] killed by test_load_file (test.test_utils.ModulesLoaderTest)
+   - [#  76] BCR mutpy.controller: [0.07291 s] killed by test_load_file (test.test_utils.ModulesLoaderTest)
+   - [#  77] COD mutpy.controller: [0.07649 s] killed by test_load_file (test.test_utils.ModulesLoaderTest)
+   - [#  78] COD mutpy.controller: [0.08097 s] killed by test_load_file (test.test_utils.ModulesLoaderTest)
+   - [#  79] COD mutpy.controller: [0.08365 s] killed by test_load_file (test.test_utils.ModulesLoaderTest)
+   - [#  80] COI mutpy.controller: [0.08068 s] killed by test_load_file (test.test_utils.ModulesLoaderTest)
+   - [#  81] COI mutpy.controller: [0.08501 s] killed by test_load_file (test.test_utils.ModulesLoaderTest)
+   - [#  82] COI mutpy.controller: [0.08821 s] killed by test_load_file (test.test_utils.ModulesLoaderTest)
+   - [#  83] COI mutpy.controller: [0.07984 s] killed by test_load_file (test.test_utils.ModulesLoaderTest)
+   - [#  84] COI mutpy.controller: [0.08292 s] killed by test_load_file (test.test_utils.ModulesLoaderTest)
+   - [#  85] COI mutpy.controller: [0.08275 s] killed by test_load_file (test.test_utils.ModulesLoaderTest)
+   - [#  86] COI mutpy.controller: [0.07749 s] killed by test_load_file (test.test_utils.ModulesLoaderTest)
+   - [#  87] COI mutpy.controller: [0.07422 s] killed by test_load_file (test.test_utils.ModulesLoaderTest)
+   - [#  88] COI mutpy.controller: [0.07515 s] killed by test_load_file (test.test_utils.ModulesLoaderTest)
+   - [#  89] COI mutpy.controller: [0.07360 s] killed by test_load_file (test.test_utils.ModulesLoaderTest)
+   - [#  90] COI mutpy.controller: [0.07629 s] killed by test_load_file (test.test_utils.ModulesLoaderTest)
+   - [#  91] COI mutpy.controller: [0.07612 s] killed by test_load_file (test.test_utils.ModulesLoaderTest)
+   - [#  92] COI mutpy.controller: [0.07910 s] killed by test_load_file (test.test_utils.ModulesLoaderTest)
+   - [#  93] COI mutpy.controller: [0.07913 s] killed by test_load_file (test.test_utils.ModulesLoaderTest)
+   - [#  94] COI mutpy.controller: [0.07944 s] killed by test_load_file (test.test_utils.ModulesLoaderTest)
+   - [#  95] COI mutpy.controller: [0.07952 s] killed by test_load_file (test.test_utils.ModulesLoaderTest)
+   - [#  96] COI mutpy.controller: [0.07614 s] killed by test_load_file (test.test_utils.ModulesLoaderTest)
+   - [#  97] COI mutpy.controller: [0.07449 s] killed by test_load_file (test.test_utils.ModulesLoaderTest)
+   - [#  98] COI mutpy.controller: [0.07684 s] killed by test_load_file (test.test_utils.ModulesLoaderTest)
+   - [#  99] DDL mutpy.controller: [0.07741 s] killed by test_load_file (test.test_utils.ModulesLoaderTest)
+   - [# 100] DDL mutpy.controller: [0.07920 s] killed by test_load_file (test.test_utils.ModulesLoaderTest)
+   - [# 101] DDL mutpy.controller: [0.08050 s] killed by test_load_file (test.test_utils.ModulesLoaderTest)
+   - [# 102] DDL mutpy.controller: [0.08042 s] killed by test_load_file (test.test_utils.ModulesLoaderTest)
+   - [# 103] EHD mutpy.controller: [0.07918 s] killed by test_load_file (test.test_utils.ModulesLoaderTest)
+   - [# 104] EHD mutpy.controller: [0.07989 s] killed by test_load_file (test.test_utils.ModulesLoaderTest)
+   - [# 105] EHD mutpy.controller: [0.07921 s] killed by test_load_file (test.test_utils.ModulesLoaderTest)
+   - [# 106] EHD mutpy.controller: [0.07421 s] killed by test_load_file (test.test_utils.ModulesLoaderTest)
+   - [# 107] EHD mutpy.controller: [0.07453 s] killed by test_load_file (test.test_utils.ModulesLoaderTest)
+   - [# 108] EHD mutpy.controller: [0.07330 s] killed by test_load_file (test.test_utils.ModulesLoaderTest)
+   - [# 109] EHD mutpy.controller: [0.07375 s] killed by test_load_file (test.test_utils.ModulesLoaderTest)
+   - [# 110] EHD mutpy.controller: [0.07105 s] killed by test_load_file (test.test_utils.ModulesLoaderTest)
+   - [# 111] EHD mutpy.controller: [0.07917 s] killed by test_load_file (test.test_utils.ModulesLoaderTest)
+   - [# 112] EXS mutpy.controller: [0.07851 s] killed by test_load_file (test.test_utils.ModulesLoaderTest)
+   - [# 113] EXS mutpy.controller: [0.08169 s] killed by test_load_file (test.test_utils.ModulesLoaderTest)
+   - [# 114] EXS mutpy.controller: [0.07971 s] killed by test_load_file (test.test_utils.ModulesLoaderTest)
+   - [# 115] EXS mutpy.controller: [0.07718 s] killed by test_load_file (test.test_utils.ModulesLoaderTest)
+   - [# 116] EXS mutpy.controller: [0.07807 s] killed by test_load_file (test.test_utils.ModulesLoaderTest)
+   - [# 117] EXS mutpy.controller: [0.08119 s] killed by test_load_file (test.test_utils.ModulesLoaderTest)
+   - [# 118] EXS mutpy.controller: [0.07907 s] killed by test_load_file (test.test_utils.ModulesLoaderTest)
+   - [# 119] EXS mutpy.controller: [0.07842 s] killed by test_load_file (test.test_utils.ModulesLoaderTest)
+   - [# 120] IOD mutpy.controller: [0.09842 s] killed by test_load_file (test.test_utils.ModulesLoaderTest)
+   - [# 121] IOD mutpy.controller: [0.09924 s] killed by test_load_file (test.test_utils.ModulesLoaderTest)
+   - [# 122] IOD mutpy.controller: [0.10766 s] killed by test_load_file (test.test_utils.ModulesLoaderTest)
+   - [# 123] IOD mutpy.controller: [0.10211 s] killed by test_load_file (test.test_utils.ModulesLoaderTest)
+   - [# 124] IOD mutpy.controller: [0.09758 s] killed by test_load_file (test.test_utils.ModulesLoaderTest)
+   - [# 125] IOP mutpy.controller: [0.09578 s] killed by test_load_file (test.test_utils.ModulesLoaderTest)
+   - [# 126] IOP mutpy.controller: [0.09524 s] killed by test_load_file (test.test_utils.ModulesLoaderTest)
+   - [# 127] IOP mutpy.controller: [0.09613 s] killed by test_load_file (test.test_utils.ModulesLoaderTest)
+   - [# 128] LCR mutpy.controller: [0.09717 s] killed by test_load_file (test.test_utils.ModulesLoaderTest)
+   - [# 129] LCR mutpy.controller: [0.09891 s] killed by test_load_file (test.test_utils.ModulesLoaderTest)
+   - [# 130] LCR mutpy.controller: [0.08243 s] killed by test_load_file (test.test_utils.ModulesLoaderTest)
+   - [# 131] LCR mutpy.controller: [0.08732 s] killed by test_load_file (test.test_utils.ModulesLoaderTest)
+   - [# 132] LCR mutpy.controller: [0.08134 s] killed by test_load_file (test.test_utils.ModulesLoaderTest)
+   - [# 133] LCR mutpy.controller: [0.08050 s] killed by test_load_file (test.test_utils.ModulesLoaderTest)
+   - [# 134] LCR mutpy.controller: [0.07927 s] killed by test_load_file (test.test_utils.ModulesLoaderTest)
+   - [# 135] LCR mutpy.controller: [0.07604 s] killed by test_load_file (test.test_utils.ModulesLoaderTest)
+   - [# 136] ROR mutpy.controller: [0.07716 s] killed by test_load_file (test.test_utils.ModulesLoaderTest)
+   - [# 137] ROR mutpy.controller: [0.07824 s] killed by test_load_file (test.test_utils.ModulesLoaderTest)
+   - [# 138] ROR mutpy.controller: [0.08798 s] killed by test_load_file (test.test_utils.ModulesLoaderTest)
+   - [# 139] ROR mutpy.controller: [0.08376 s] killed by test_load_file (test.test_utils.ModulesLoaderTest)
+   - [# 140] ROR mutpy.controller: [0.08370 s] killed by test_load_file (test.test_utils.ModulesLoaderTest)
+   - [# 141] ROR mutpy.controller: [0.08280 s] killed by test_load_file (test.test_utils.ModulesLoaderTest)
+   - [# 142] ROR mutpy.controller: [0.08203 s] killed by test_load_file (test.test_utils.ModulesLoaderTest)
+   - [# 143] ROR mutpy.controller: [0.08634 s] killed by test_load_file (test.test_utils.ModulesLoaderTest)
+   - [# 144] ROR mutpy.controller: [0.08100 s] killed by test_load_file (test.test_utils.ModulesLoaderTest)
+   - [# 145] ROR mutpy.controller: [0.07753 s] killed by test_load_file (test.test_utils.ModulesLoaderTest)
+   - [# 146] ROR mutpy.controller: [0.08028 s] killed by test_load_file (test.test_utils.ModulesLoaderTest)
+   - [# 147] ROR mutpy.controller: [0.07784 s] killed by test_load_file (test.test_utils.ModulesLoaderTest)
+   - [# 148] SCD mutpy.controller: [0.07864 s] killed by test_load_file (test.test_utils.ModulesLoaderTest)
+   - [# 149] SCD mutpy.controller: [0.08176 s] killed by test_load_file (test.test_utils.ModulesLoaderTest)
+   - [# 150] SCD mutpy.controller: [0.08467 s] killed by test_load_file (test.test_utils.ModulesLoaderTest)
+   - [# 151] SCI mutpy.controller: [0.08407 s] killed by test_load_file (test.test_utils.ModulesLoaderTest)
+   - [# 152] SCI mutpy.controller: [0.08310 s] killed by test_load_file (test.test_utils.ModulesLoaderTest)
+   - [# 153] AOR mutpy.coverage: [5.00627 s] timeout
+   - [# 154] ASR mutpy.coverage: [0.01503 s] killed by test_result (test.test_coverage.CoverageInjectorTest)
+   - [# 155] COD mutpy.coverage: [0.00765 s] killed by test_class_def_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 156] COI mutpy.coverage: [0.00830 s] killed by test_class_def_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 157] COI mutpy.coverage: [0.00877 s] killed by test_class_def_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 158] COI mutpy.coverage: [0.00826 s] killed by test_class_def_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 159] COI mutpy.coverage: [0.01040 s] killed by test_class_def_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 160] COI mutpy.coverage: [5.00561 s] timeout
+   - [# 161] COI mutpy.coverage: [0.01017 s] killed by test_class_def_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 162] COI mutpy.coverage: [0.00781 s] killed by test_class_def_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 163] COI mutpy.coverage: [0.00826 s] killed by test_class_def_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 164] COI mutpy.coverage: [0.00849 s] killed by test_class_def_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 165] DDL mutpy.coverage: [0.07666 s] killed by test_load_file (test.test_utils.ModulesLoaderTest)
+   - [# 166] DDL mutpy.coverage: [0.07737 s] killed by test_load_file (test.test_utils.ModulesLoaderTest)
+   - [# 167] DDL mutpy.coverage: [0.07501 s] killed by test_load_file (test.test_utils.ModulesLoaderTest)
+   - [# 168] IOD mutpy.coverage: [0.00793 s] killed by test_class_def_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 169] IOD mutpy.coverage: [0.00806 s] killed by test_class_def_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 170] IOD mutpy.coverage: [0.00739 s] killed by test_class_def_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 171] IOD mutpy.coverage: [0.07634 s] killed by test_load_file (test.test_utils.ModulesLoaderTest)
+   - [# 172] IOD mutpy.coverage: [0.00687 s] killed by test_class_def_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 173] IOP mutpy.coverage: [0.07639 s] killed by test_load_file (test.test_utils.ModulesLoaderTest)
+   - [# 174] IOP mutpy.coverage: [0.07534 s] killed by test_load_file (test.test_utils.ModulesLoaderTest)
+   - [# 175] LCR mutpy.coverage: [0.00839 s] killed by test_class_def_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 176] LOR mutpy.coverage: [0.01212 s] killed by test_if_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 177] LOR mutpy.coverage: [0.01137 s] killed by test_for_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 178] LOR mutpy.coverage: [0.01106 s] killed by test_for_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 179] ROR mutpy.coverage: [0.00880 s] killed by test_class_def_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 180] ROR mutpy.coverage: [0.01498 s] killed by test_future_statement_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 181] SCD mutpy.coverage: [0.08253 s] killed by test_load_file (test.test_utils.ModulesLoaderTest)
+   - [# 182] SCD mutpy.coverage: [0.08107 s] killed by test_load_file (test.test_utils.ModulesLoaderTest)
+   - [# 183] SCI mutpy.coverage: [0.01661 s] killed by test_result (test.test_coverage.CoverageInjectorTest)
+   - [# 184] SCI mutpy.coverage: [0.07830 s] killed by test_load_file (test.test_utils.ModulesLoaderTest)
+   - [# 185] SCI mutpy.coverage: [0.00758 s] killed by test_class_def_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 186] COD mutpy.operators.arithmetic: [0.00898 s] killed by test_class_def_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 187] COI mutpy.operators.arithmetic: [0.00707 s] killed by test_class_def_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 188] COI mutpy.operators.arithmetic: [0.00694 s] killed by test_class_def_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 189] COI mutpy.operators.arithmetic: [0.00697 s] killed by test_class_def_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 190] COI mutpy.operators.arithmetic: [0.00762 s] killed by test_class_def_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 191] COI mutpy.operators.arithmetic: [0.00764 s] killed by test_class_def_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 192] COI mutpy.operators.arithmetic: [0.00706 s] killed by test_class_def_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 193] COI mutpy.operators.arithmetic: [0.00727 s] killed by test_class_def_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 194] COI mutpy.operators.arithmetic: [0.00725 s] killed by test_class_def_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 195] COI mutpy.operators.arithmetic: [0.00800 s] killed by test_class_def_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 196] COI mutpy.operators.arithmetic: [0.00834 s] killed by test_class_def_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 197] COI mutpy.operators.arithmetic: [0.00810 s] killed by test_class_def_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 198] IOD mutpy.operators.arithmetic: [0.00728 s] killed by test_class_def_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 199] SCI mutpy.operators.arithmetic: [0.00768 s] killed by test_class_def_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 200] AOR mutpy.operators.base: [0.00728 s] killed by test_class_def_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 201] AOR mutpy.operators.base: [0.00799 s] killed by test_class_def_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 202] AOR mutpy.operators.base: [0.00710 s] killed by test_class_def_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 203] COD mutpy.operators.base: [0.00765 s] killed by test_class_def_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 204] COD mutpy.operators.base: [0.00773 s] killed by test_class_def_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 205] COD mutpy.operators.base: [0.00822 s] killed by test_class_def_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 206] COD mutpy.operators.base: [0.00825 s] killed by test_class_def_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 207] COD mutpy.operators.base: [0.00767 s] killed by test_class_def_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 208] COD mutpy.operators.base: [0.00795 s] killed by test_class_def_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 209] COD mutpy.operators.base: [0.00857 s] killed by test_class_def_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 210] COI mutpy.operators.base: [0.00712 s] killed by test_class_def_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 211] COI mutpy.operators.base: [0.00715 s] killed by test_class_def_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 212] COI mutpy.operators.base: [0.00779 s] killed by test_class_def_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 213] COI mutpy.operators.base: [0.00900 s] killed by test_class_def_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 214] COI mutpy.operators.base: [0.00704 s] killed by test_class_def_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 215] COI mutpy.operators.base: [0.00745 s] killed by test_class_def_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 216] COI mutpy.operators.base: [0.00902 s] killed by test_class_def_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 217] COI mutpy.operators.base: [0.00848 s] killed by test_class_def_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 218] COI mutpy.operators.base: [0.00748 s] killed by test_class_def_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 219] COI mutpy.operators.base: [0.00788 s] killed by test_class_def_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 220] COI mutpy.operators.base: [0.00916 s] killed by test_class_def_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 221] COI mutpy.operators.base: [0.00814 s] killed by test_class_def_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 222] COI mutpy.operators.base: [0.00737 s] killed by test_class_def_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 223] COI mutpy.operators.base: [0.00760 s] killed by test_class_def_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 224] COI mutpy.operators.base: [0.00814 s] killed by test_class_def_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 225] COI mutpy.operators.base: [0.00806 s] killed by test_class_def_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 226] COI mutpy.operators.base: [0.00793 s] killed by test_class_def_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 227] COI mutpy.operators.base: [0.00736 s] killed by test_class_def_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 228] DDL mutpy.operators.base: [0.00740 s] killed by test_class_def_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 229] DDL mutpy.operators.base: [0.00737 s] killed by test_class_def_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 230] EHD mutpy.operators.base: [0.00816 s] killed by test_class_def_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 231] EHD mutpy.operators.base: [0.00753 s] killed by test_class_def_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 232] EXS mutpy.operators.base: [0.00751 s] killed by test_class_def_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 233] LCR mutpy.operators.base: [0.00798 s] killed by test_class_def_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 234] LCR mutpy.operators.base: [0.00706 s] killed by test_class_def_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 235] LCR mutpy.operators.base: [0.00722 s] killed by test_class_def_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 236] LCR mutpy.operators.base: [0.00855 s] killed by test_class_def_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 237] LCR mutpy.operators.base: [0.00865 s] killed by test_class_def_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 238] LCR mutpy.operators.base: [0.00715 s] killed by test_class_def_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 239] LCR mutpy.operators.base: [0.00705 s] killed by test_class_def_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 240] LCR mutpy.operators.base: [0.00745 s] killed by test_class_def_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 241] ROR mutpy.operators.base: [0.01033 s] killed by test_class_def_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 242] ROR mutpy.operators.base: [0.00874 s] killed by test_class_def_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 243] ROR mutpy.operators.base: [0.00706 s] killed by test_class_def_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 244] ROR mutpy.operators.base: [0.00709 s] killed by test_class_def_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 245] SIR mutpy.operators.base: [0.00841 s] killed by test_class_def_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 246] SIR mutpy.operators.base: [0.00839 s] killed by test_class_def_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 247] SIR mutpy.operators.base: [0.00810 s] killed by test_class_def_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 248] SIR mutpy.operators.base: [0.00812 s] killed by test_class_def_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 249] AOD mutpy.operators.decorator: [0.01423 s] killed by test_class_def_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 250] AOR mutpy.operators.decorator: [0.00785 s] killed by test_class_def_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 251] COD mutpy.operators.decorator: [0.00795 s] killed by test_class_def_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 252] COI mutpy.operators.decorator: [0.00708 s] killed by test_class_def_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 253] COI mutpy.operators.decorator: [0.00808 s] killed by test_class_def_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 254] COI mutpy.operators.decorator: [0.00792 s] killed by test_class_def_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 255] COI mutpy.operators.decorator: [0.01003 s] killed by test_class_def_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 256] COI mutpy.operators.decorator: [0.00684 s] killed by test_class_def_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 257] COI mutpy.operators.decorator: [0.00951 s] killed by test_class_def_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 258] DDL mutpy.operators.decorator: [0.00742 s] killed by test_class_def_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 259] DDL mutpy.operators.decorator: [0.00713 s] killed by test_class_def_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 260] DDL mutpy.operators.decorator: [0.00801 s] killed by test_class_def_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 261] IOD mutpy.operators.decorator: [0.00777 s] killed by test_class_def_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 262] IOD mutpy.operators.decorator: [0.00776 s] killed by test_class_def_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 263] IOD mutpy.operators.decorator: [0.00738 s] killed by test_class_def_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 264] ROR mutpy.operators.decorator: [0.00774 s] killed by test_class_def_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 265] SCI mutpy.operators.decorator: [0.00779 s] killed by test_class_def_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 266] SCI mutpy.operators.decorator: [0.01042 s] killed by test_class_def_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 267] SCI mutpy.operators.decorator: [0.00805 s] killed by test_class_def_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 268] COI mutpy.operators.exception: [0.00840 s] killed by test_class_def_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 269] COI mutpy.operators.exception: [0.00789 s] killed by test_class_def_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 270] DDL mutpy.operators.exception: [0.00772 s] killed by test_class_def_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 271] DDL mutpy.operators.exception: [0.00770 s] killed by test_class_def_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 272] IOD mutpy.operators.exception: [0.00714 s] killed by test_class_def_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 273] LCR mutpy.operators.exception: [0.00737 s] killed by test_class_def_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 274] LCR mutpy.operators.exception: [0.00789 s] killed by test_class_def_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 275] ROR mutpy.operators.exception: [0.00729 s] killed by test_class_def_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 276] SCI mutpy.operators.exception: [0.00775 s] killed by test_class_def_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 277] AOD mutpy.operators.inheritance: [0.00752 s] killed by test_class_def_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 278] AOD mutpy.operators.inheritance: [0.00771 s] killed by test_class_def_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 279] AOD mutpy.operators.inheritance: [0.00702 s] killed by test_class_def_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 280] AOD mutpy.operators.inheritance: [0.00672 s] killed by test_class_def_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 281] AOD mutpy.operators.inheritance: [0.00735 s] killed by test_class_def_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 282] AOR mutpy.operators.inheritance: [0.00680 s] killed by test_class_def_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 283] AOR mutpy.operators.inheritance: [0.00765 s] killed by test_class_def_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 284] AOR mutpy.operators.inheritance: [0.00829 s] killed by test_class_def_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 285] AOR mutpy.operators.inheritance: [0.00752 s] killed by test_class_def_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 286] AOR mutpy.operators.inheritance: [0.00938 s] killed by test_class_def_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 287] BCR mutpy.operators.inheritance: [0.00815 s] killed by test_class_def_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 288] COD mutpy.operators.inheritance: [0.00777 s] killed by test_class_def_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 289] COD mutpy.operators.inheritance: [0.00795 s] killed by test_class_def_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 290] COD mutpy.operators.inheritance: [0.00918 s] killed by test_class_def_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 291] COD mutpy.operators.inheritance: [0.00707 s] killed by test_class_def_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 292] COD mutpy.operators.inheritance: [0.00751 s] killed by test_class_def_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 293] COD mutpy.operators.inheritance: [0.00759 s] killed by test_class_def_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 294] COD mutpy.operators.inheritance: [0.00806 s] killed by test_class_def_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 295] COD mutpy.operators.inheritance: [0.00738 s] killed by test_class_def_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 296] COD mutpy.operators.inheritance: [0.00721 s] killed by test_class_def_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 297] COD mutpy.operators.inheritance: [0.01088 s] killed by test_class_def_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 298] COI mutpy.operators.inheritance: [0.00700 s] killed by test_class_def_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 299] COI mutpy.operators.inheritance: [0.00809 s] killed by test_class_def_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 300] COI mutpy.operators.inheritance: [0.00707 s] killed by test_class_def_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 301] COI mutpy.operators.inheritance: [0.00827 s] killed by test_class_def_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 302] COI mutpy.operators.inheritance: [0.00730 s] killed by test_class_def_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 303] COI mutpy.operators.inheritance: [0.00849 s] killed by test_class_def_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 304] COI mutpy.operators.inheritance: [0.00733 s] killed by test_class_def_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 305] COI mutpy.operators.inheritance: [0.00814 s] killed by test_class_def_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 306] COI mutpy.operators.inheritance: [0.00772 s] killed by test_class_def_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 307] COI mutpy.operators.inheritance: [0.00952 s] killed by test_class_def_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 308] COI mutpy.operators.inheritance: [0.00845 s] killed by test_class_def_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 309] COI mutpy.operators.inheritance: [0.00768 s] killed by test_class_def_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 310] COI mutpy.operators.inheritance: [0.00712 s] killed by test_class_def_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 311] COI mutpy.operators.inheritance: [0.00756 s] killed by test_class_def_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 312] COI mutpy.operators.inheritance: [0.00859 s] killed by test_class_def_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 313] COI mutpy.operators.inheritance: [0.00962 s] killed by test_class_def_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 314] COI mutpy.operators.inheritance: [0.00793 s] killed by test_class_def_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 315] COI mutpy.operators.inheritance: [0.00803 s] killed by test_class_def_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 316] COI mutpy.operators.inheritance: [0.00716 s] killed by test_class_def_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 317] COI mutpy.operators.inheritance: [0.00767 s] killed by test_class_def_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 318] COI mutpy.operators.inheritance: [0.00705 s] killed by test_class_def_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 319] COI mutpy.operators.inheritance: [0.00692 s] killed by test_class_def_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 320] COI mutpy.operators.inheritance: [0.00733 s] killed by test_class_def_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 321] COI mutpy.operators.inheritance: [0.00837 s] killed by test_class_def_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 322] DDL mutpy.operators.inheritance: [0.00836 s] killed by test_class_def_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 323] DDL mutpy.operators.inheritance: [0.00762 s] killed by test_class_def_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 324] DDL mutpy.operators.inheritance: [0.00726 s] killed by test_class_def_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 325] DDL mutpy.operators.inheritance: [0.00721 s] killed by test_class_def_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 326] DDL mutpy.operators.inheritance: [0.00747 s] killed by test_class_def_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 327] DDL mutpy.operators.inheritance: [0.00765 s] killed by test_class_def_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 328] DDL mutpy.operators.inheritance: [0.00801 s] killed by test_class_def_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 329] DDL mutpy.operators.inheritance: [0.00747 s] killed by test_class_def_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 330] DDL mutpy.operators.inheritance: [0.00752 s] killed by test_class_def_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 331] DDL mutpy.operators.inheritance: [0.00756 s] killed by test_class_def_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 332] DDL mutpy.operators.inheritance: [0.00941 s] killed by test_class_def_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 333] DDL mutpy.operators.inheritance: [0.00782 s] killed by test_class_def_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 334] EXS mutpy.operators.inheritance: [0.00872 s] killed by test_class_def_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 335] IHD mutpy.operators.inheritance: [0.00851 s] killed by test_class_def_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 336] IOD mutpy.operators.inheritance: [0.00760 s] killed by test_class_def_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 337] IOD mutpy.operators.inheritance: [0.00778 s] killed by test_class_def_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 338] IOD mutpy.operators.inheritance: [0.00782 s] killed by test_class_def_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 339] IOD mutpy.operators.inheritance: [0.00779 s] killed by test_class_def_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 340] IOD mutpy.operators.inheritance: [0.00779 s] killed by test_class_def_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 341] IOD mutpy.operators.inheritance: [0.00732 s] killed by test_class_def_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 342] IOD mutpy.operators.inheritance: [0.00741 s] killed by test_class_def_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 343] IOD mutpy.operators.inheritance: [0.00987 s] killed by test_class_def_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 344] LCR mutpy.operators.inheritance: [0.00996 s] killed by test_class_def_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 345] LCR mutpy.operators.inheritance: [0.00752 s] killed by test_class_def_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 346] LCR mutpy.operators.inheritance: [0.00829 s] killed by test_class_def_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 347] LCR mutpy.operators.inheritance: [0.00747 s] killed by test_class_def_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 348] LCR mutpy.operators.inheritance: [0.00764 s] killed by test_class_def_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 349] LCR mutpy.operators.inheritance: [0.00840 s] killed by test_class_def_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 350] LCR mutpy.operators.inheritance: [0.00782 s] killed by test_class_def_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 351] ROR mutpy.operators.inheritance: [0.00786 s] killed by test_class_def_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 352] ROR mutpy.operators.inheritance: [0.00879 s] killed by test_class_def_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 353] ROR mutpy.operators.inheritance: [0.00774 s] killed by test_class_def_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 354] ROR mutpy.operators.inheritance: [0.00815 s] killed by test_class_def_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 355] ROR mutpy.operators.inheritance: [0.00795 s] killed by test_class_def_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 356] ROR mutpy.operators.inheritance: [0.00759 s] killed by test_class_def_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 357] ROR mutpy.operators.inheritance: [0.00810 s] killed by test_class_def_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 358] ROR mutpy.operators.inheritance: [0.00797 s] killed by test_class_def_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 359] ROR mutpy.operators.inheritance: [0.00713 s] killed by test_class_def_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 360] SCI mutpy.operators.inheritance: [0.00748 s] killed by test_class_def_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 361] SCI mutpy.operators.inheritance: [0.00761 s] killed by test_class_def_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 362] SCI mutpy.operators.inheritance: [0.00829 s] killed by test_class_def_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 363] SCI mutpy.operators.inheritance: [0.00791 s] killed by test_class_def_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 364] SCI mutpy.operators.inheritance: [0.00732 s] killed by test_class_def_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 365] SCI mutpy.operators.inheritance: [0.00764 s] killed by test_class_def_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 366] SCI mutpy.operators.inheritance: [0.00754 s] killed by test_class_def_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 367] SCI mutpy.operators.inheritance: [0.00883 s] killed by test_class_def_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 368] SIR mutpy.operators.inheritance: [0.00688 s] killed by test_class_def_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 369] SIR mutpy.operators.inheritance: [0.00698 s] killed by test_class_def_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 370] SIR mutpy.operators.inheritance: [0.00741 s] killed by test_class_def_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 371] SIR mutpy.operators.inheritance: [0.00815 s] killed by test_class_def_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 372] SIR mutpy.operators.inheritance: [0.00733 s] killed by test_class_def_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 373] SIR mutpy.operators.inheritance: [0.00750 s] killed by test_class_def_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 374] DDL mutpy.operators.logical: [0.00900 s] killed by test_class_def_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 375] DDL mutpy.operators.logical: [0.00960 s] killed by test_class_def_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 376] AOD mutpy.operators.loop: [0.00842 s] killed by test_class_def_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 377] AOR mutpy.operators.loop: [0.00801 s] killed by test_class_def_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 378] AOR mutpy.operators.loop: [0.00700 s] killed by test_class_def_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 379] DDL mutpy.operators.loop: [0.00863 s] killed by test_class_def_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 380] DDL mutpy.operators.loop: [0.00811 s] killed by test_class_def_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 381] DDL mutpy.operators.loop: [0.00741 s] killed by test_class_def_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 382] DDL mutpy.operators.loop: [0.00915 s] killed by test_class_def_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 383] DDL mutpy.operators.loop: [0.00802 s] killed by test_class_def_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 384] AOR mutpy.operators.misc: [0.00871 s] killed by test_class_def_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 385] COD mutpy.operators.misc: [0.00803 s] killed by test_class_def_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 386] COD mutpy.operators.misc: [0.00788 s] killed by test_class_def_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 387] COD mutpy.operators.misc: [0.00733 s] killed by test_class_def_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 388] COD mutpy.operators.misc: [0.00811 s] killed by test_class_def_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 389] COI mutpy.operators.misc: [0.00748 s] killed by test_class_def_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 390] COI mutpy.operators.misc: [0.00860 s] killed by test_class_def_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 391] COI mutpy.operators.misc: [0.00696 s] killed by test_class_def_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 392] COI mutpy.operators.misc: [0.00744 s] killed by test_class_def_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 393] COI mutpy.operators.misc: [0.00744 s] killed by test_class_def_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 394] COI mutpy.operators.misc: [0.00798 s] killed by test_class_def_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 395] COI mutpy.operators.misc: [0.00771 s] killed by test_class_def_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 396] COI mutpy.operators.misc: [0.00757 s] killed by test_class_def_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 397] DDL mutpy.operators.misc: [0.00835 s] killed by test_class_def_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 398] DDL mutpy.operators.misc: [0.00723 s] killed by test_class_def_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 399] DDL mutpy.operators.misc: [0.00764 s] killed by test_class_def_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 400] EXS mutpy.operators.misc: [0.00946 s] killed by test_class_def_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 401] IOD mutpy.operators.misc: [0.00726 s] killed by test_class_def_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 402] IOD mutpy.operators.misc: [0.00729 s] killed by test_class_def_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 403] IOD mutpy.operators.misc: [0.00860 s] killed by test_class_def_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 404] IOD mutpy.operators.misc: [0.00761 s] killed by test_class_def_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 405] LCR mutpy.operators.misc: [0.00819 s] killed by test_class_def_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 406] ROR mutpy.operators.misc: [0.00740 s] killed by test_class_def_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 407] ROR mutpy.operators.misc: [0.00810 s] killed by test_class_def_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 408] SCI mutpy.operators.misc: [0.00783 s] killed by test_class_def_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 409] SCI mutpy.operators.misc: [0.00713 s] killed by test_class_def_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 410] SCI mutpy.operators.misc: [0.00725 s] killed by test_class_def_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 411] SCI mutpy.operators.misc: [0.00729 s] killed by test_class_def_coverage (test.test_coverage.CoverageInjectorTest)
+   - [# 412] AOR mutpy.test_runners.base: [5.00654 s] timeout
+   - [# 413] AOR mutpy.test_runners.base: [5.00660 s] timeout
+   - [# 414] AOR mutpy.test_runners.base: [5.00632 s] timeout
+   - [# 415] AOR mutpy.test_runners.base: [5.00605 s] timeout
+   - [# 416] AOR mutpy.test_runners.base: [5.00635 s] timeout
+   - [# 417] COD mutpy.test_runners.base: [5.00629 s] timeout
+   - [# 418] COD mutpy.test_runners.base: [5.00594 s] timeout
+   - [# 419] COD mutpy.test_runners.base: [5.00579 s] timeout
+   - [# 420] COD mutpy.test_runners.base: [5.00653 s] timeout
+   - [# 421] COI mutpy.test_runners.base: [5.00644 s] timeout
+   - [# 422] COI mutpy.test_runners.base: [5.00626 s] timeout
+   - [# 423] COI mutpy.test_runners.base: [5.00575 s] timeout
+   - [# 424] COI mutpy.test_runners.base: [5.00572 s] timeout
+   - [# 425] COI mutpy.test_runners.base: [5.00625 s] timeout
+   - [# 426] COI mutpy.test_runners.base: [5.00618 s] timeout
+   - [# 427] COI mutpy.test_runners.base: [5.00656 s] timeout
+   - [# 428] COI mutpy.test_runners.base: [5.00560 s] timeout
+   - [# 429] COI mutpy.test_runners.base: [5.00556 s] timeout
+   - [# 430] DDL mutpy.test_runners.base: [5.00570 s] timeout
+   - [# 431] DDL mutpy.test_runners.base: [5.00634 s] timeout
+   - [# 432] DDL mutpy.test_runners.base: [5.00628 s] timeout
+   - [# 433] DDL mutpy.test_runners.base: [5.00661 s] timeout
+   - [# 434] DDL mutpy.test_runners.base: [5.00567 s] timeout
+   - [# 435] DDL mutpy.test_runners.base: [5.00560 s] timeout
+   - [# 436] DDL mutpy.test_runners.base: [5.00589 s] timeout
+   - [# 437] IOD mutpy.test_runners.base: [5.00627 s] timeout
+   - [# 438] IOP mutpy.test_runners.base: [5.00583 s] timeout
+   - [# 439] IOP mutpy.test_runners.base: [5.00583 s] timeout
+   - [# 440] IOP mutpy.test_runners.base: [5.00599 s] timeout
+   - [# 441] LCR mutpy.test_runners.base: [5.00575 s] timeout
+   - [# 442] LCR mutpy.test_runners.base: [5.00620 s] timeout
+   - [# 443] LOR mutpy.test_runners.base: [5.00560 s] timeout
+   - [# 444] ROR mutpy.test_runners.base: [5.00637 s] timeout
+   - [# 445] ROR mutpy.test_runners.base: [5.00605 s] timeout
+   - [# 446] ROR mutpy.test_runners.base: [5.00625 s] timeout
+   - [# 447] SCD mutpy.test_runners.base: [5.00595 s] timeout
+   - [# 448] SCD mutpy.test_runners.base: [5.00658 s] timeout
+   - [# 449] SCD mutpy.test_runners.base: [5.00586 s] timeout
+   - [# 450] AOR mutpy.test_runners.pytest_runner: [5.00581 s] timeout
+   - [# 451] AOR mutpy.test_runners.pytest_runner: [5.00613 s] timeout
+   - [# 452] AOR mutpy.test_runners.pytest_runner: [5.00580 s] timeout
+   - [# 453] AOR mutpy.test_runners.pytest_runner: [5.00596 s] timeout
+   - [# 454] AOR mutpy.test_runners.pytest_runner: [5.00650 s] timeout
+   - [# 455] AOR mutpy.test_runners.pytest_runner: [5.00750 s] timeout
+   - [# 456] AOR mutpy.test_runners.pytest_runner: [5.00628 s] timeout
+   - [# 457] AOR mutpy.test_runners.pytest_runner: [5.00578 s] timeout
+   - [# 458] COD mutpy.test_runners.pytest_runner: [5.00587 s] timeout
+   - [# 459] COD mutpy.test_runners.pytest_runner: [5.00597 s] timeout
+   - [# 460] COD mutpy.test_runners.pytest_runner: [5.00658 s] timeout
+   - [# 461] COD mutpy.test_runners.pytest_runner: [5.00584 s] timeout
+   - [# 462] COI mutpy.test_runners.pytest_runner: [5.00648 s] timeout
+   - [# 463] COI mutpy.test_runners.pytest_runner: [5.00663 s] timeout
+   - [# 464] COI mutpy.test_runners.pytest_runner: [5.00647 s] timeout
+   - [# 465] COI mutpy.test_runners.pytest_runner: [5.00655 s] timeout
+   - [# 466] COI mutpy.test_runners.pytest_runner: [5.00587 s] timeout
+   - [# 467] COI mutpy.test_runners.pytest_runner: [5.00627 s] timeout
+   - [# 468] COI mutpy.test_runners.pytest_runner: [5.00602 s] timeout
+   - [# 469] COI mutpy.test_runners.pytest_runner: [5.00639 s] timeout
+   - [# 470] COI mutpy.test_runners.pytest_runner: [5.00659 s] timeout
+   - [# 471] COI mutpy.test_runners.pytest_runner: [5.00670 s] timeout
+   - [# 472] IHD mutpy.test_runners.pytest_runner: [5.00609 s] timeout
+   - [# 473] IOD mutpy.test_runners.pytest_runner: [5.00642 s] timeout
+   - [# 474] IOD mutpy.test_runners.pytest_runner: [5.00596 s] timeout
+   - [# 475] IOD mutpy.test_runners.pytest_runner: [5.00583 s] timeout
+   - [# 476] IOD mutpy.test_runners.pytest_runner: [5.00600 s] timeout
+   - [# 477] IOD mutpy.test_runners.pytest_runner: [5.00613 s] timeout
+   - [# 478] IOD mutpy.test_runners.pytest_runner: [5.00660 s] timeout
+   - [# 479] IOD mutpy.test_runners.pytest_runner: [5.00609 s] timeout
+   - [# 480] IOD mutpy.test_runners.pytest_runner: [5.00653 s] timeout
+   - [# 481] LCR mutpy.test_runners.pytest_runner: [5.00641 s] timeout
+   - [# 482] LCR mutpy.test_runners.pytest_runner: [5.00593 s] timeout
+   - [# 483] ROR mutpy.test_runners.pytest_runner: [5.00638 s] timeout
+   - [# 484] ROR mutpy.test_runners.pytest_runner: [5.00637 s] timeout
+   - [# 485] ROR mutpy.test_runners.pytest_runner: [5.00644 s] timeout
+   - [# 486] SCI mutpy.test_runners.pytest_runner: [5.00632 s] timeout
+   - [# 487] SCI mutpy.test_runners.pytest_runner: [5.00572 s] timeout
+   - [# 488] SCI mutpy.test_runners.pytest_runner: [5.00606 s] timeout
+   - [# 489] SCI mutpy.test_runners.pytest_runner: [5.00605 s] timeout
+   - [# 490] SCI mutpy.test_runners.pytest_runner: [5.00640 s] timeout
+   - [# 491] SCI mutpy.test_runners.pytest_runner: [5.00667 s] timeout
+   - [# 492] SCI mutpy.test_runners.pytest_runner: [5.00657 s] timeout
+   - [# 493] SCI mutpy.test_runners.pytest_runner: [5.00562 s] timeout
+   - [# 494] AOD mutpy.test_runners.unittest_runner: [5.00655 s] timeout
+   - [# 495] AOD mutpy.test_runners.unittest_runner: [5.00569 s] timeout
+   - [# 496] AOD mutpy.test_runners.unittest_runner: [5.00631 s] timeout
+   - [# 497] AOD mutpy.test_runners.unittest_runner: [5.00563 s] timeout
+   - [# 498] AOD mutpy.test_runners.unittest_runner: [5.00643 s] timeout
+   - [# 499] AOR mutpy.test_runners.unittest_runner: [5.00576 s] timeout
+   - [# 500] AOR mutpy.test_runners.unittest_runner: [5.00650 s] timeout
+   - [# 501] AOR mutpy.test_runners.unittest_runner: [5.00636 s] timeout
+   - [# 502] AOR mutpy.test_runners.unittest_runner: [5.00657 s] timeout
+   - [# 503] AOR mutpy.test_runners.unittest_runner: [5.00652 s] timeout
+   - [# 504] COI mutpy.test_runners.unittest_runner: [5.00765 s] timeout
+   - [# 505] COI mutpy.test_runners.unittest_runner: [5.00647 s] timeout
+   - [# 506] DDL mutpy.test_runners.unittest_runner: [5.00620 s] timeout
+   - [# 507] EHD mutpy.test_runners.unittest_runner: [5.00650 s] timeout
+   - [# 508] EXS mutpy.test_runners.unittest_runner: [5.00633 s] timeout
+   - [# 509] IHD mutpy.test_runners.unittest_runner: [5.00599 s] timeout
+   - [# 510] IOD mutpy.test_runners.unittest_runner: [5.00631 s] timeout
+   - [# 511] IOD mutpy.test_runners.unittest_runner: [5.00562 s] timeout
+   - [# 512] IOD mutpy.test_runners.unittest_runner: [5.00629 s] timeout
+   - [# 513] IOD mutpy.test_runners.unittest_runner: [5.00560 s] timeout
+   - [# 514] IOD mutpy.test_runners.unittest_runner: [5.00640 s] timeout
+   - [# 515] IOD mutpy.test_runners.unittest_runner: [5.00576 s] timeout
+   - [# 516] IOD mutpy.test_runners.unittest_runner: [5.00579 s] timeout
+   - [# 517] IOD mutpy.test_runners.unittest_runner: [5.00653 s] timeout
+   - [# 518] IOD mutpy.test_runners.unittest_runner: [5.00616 s] timeout
+   - [# 519] IOD mutpy.test_runners.unittest_runner: [5.00565 s] timeout
+   - [# 520] IOD mutpy.test_runners.unittest_runner: [5.00671 s] timeout
+   - [# 521] IOD mutpy.test_runners.unittest_runner: [5.00565 s] timeout
+   - [# 522] IOD mutpy.test_runners.unittest_runner: [5.00629 s] timeout
+   - [# 523] IOD mutpy.test_runners.unittest_runner: [5.00631 s] timeout
+   - [# 524] IOD mutpy.test_runners.unittest_runner: [5.00576 s] timeout
+   - [# 525] IOD mutpy.test_runners.unittest_runner: [5.00567 s] timeout
+   - [# 526] IOD mutpy.test_runners.unittest_runner: [5.00614 s] timeout
+   - [# 527] IOP mutpy.test_runners.unittest_runner: [5.00600 s] timeout
+   - [# 528] IOP mutpy.test_runners.unittest_runner: [5.00623 s] timeout
+   - [# 529] IOP mutpy.test_runners.unittest_runner: [5.00654 s] timeout
+   - [# 530] IOP mutpy.test_runners.unittest_runner: [5.00626 s] timeout
+   - [# 531] IOP mutpy.test_runners.unittest_runner: [5.00580 s] timeout
+   - [# 532] IOP mutpy.test_runners.unittest_runner: [5.00660 s] timeout
+   - [# 533] IOP mutpy.test_runners.unittest_runner: [5.00662 s] timeout
+   - [# 534] IOP mutpy.test_runners.unittest_runner: [5.00643 s] timeout
+   - [# 535] ROR mutpy.test_runners.unittest_runner: [5.00712 s] timeout
+   - [# 536] SCD mutpy.test_runners.unittest_runner: [5.00618 s] timeout
+   - [# 537] SCD mutpy.test_runners.unittest_runner: [5.00562 s] timeout
+   - [# 538] SCD mutpy.test_runners.unittest_runner: [5.00587 s] timeout
+   - [# 539] SCD mutpy.test_runners.unittest_runner: [5.00582 s] timeout
+   - [# 540] SCD mutpy.test_runners.unittest_runner: [5.00337 s] timeout
+   - [# 541] SCD mutpy.test_runners.unittest_runner: [5.00653 s] timeout
+   - [# 542] SCD mutpy.test_runners.unittest_runner: [5.00609 s] timeout
+   - [# 543] SCD mutpy.test_runners.unittest_runner: [5.00622 s] timeout
+   - [# 544] SCI mutpy.test_runners.unittest_runner: [5.00635 s] timeout
+   - [# 545] SCI mutpy.test_runners.unittest_runner: [5.00643 s] timeout
+   - [# 546] SCI mutpy.test_runners.unittest_runner: [5.00644 s] timeout
+   - [# 547] SCI mutpy.test_runners.unittest_runner: [5.00598 s] timeout
+   - [# 548] SCI mutpy.test_runners.unittest_runner: [5.00655 s] timeout
+   - [# 549] SCI mutpy.test_runners.unittest_runner: [5.00624 s] timeout
+   - [# 550] SCI mutpy.test_runners.unittest_runner: [5.00653 s] timeout
+   - [# 551] SCI mutpy.test_runners.unittest_runner: [5.00627 s] timeout
+   - [# 552] SCI mutpy.test_runners.unittest_runner: [5.00596 s] timeout
+   - [# 553] AOD mutpy.utils: [5.00580 s] timeout
+   - [# 554] AOD mutpy.utils: [5.00568 s] timeout
+   - [# 555] AOR mutpy.utils: [5.00616 s] timeout
+   - [# 556] AOR mutpy.utils: [5.00621 s] timeout
+   - [# 557] AOR mutpy.utils: [5.00556 s] timeout
+   - [# 558] AOR mutpy.utils: [5.00570 s] timeout
+   - [# 559] AOR mutpy.utils: [5.00658 s] timeout
+   - [# 560] AOR mutpy.utils: [5.00630 s] timeout
+   - [# 561] ASR mutpy.utils: [5.00652 s] timeout
+   - [# 562] ASR mutpy.utils: [5.00605 s] timeout
+   - [# 563] ASR mutpy.utils: [5.00658 s] timeout
+   - [# 564] ASR mutpy.utils: [5.00572 s] timeout
+   - [# 565] BCR mutpy.utils: [5.00626 s] timeout
+   - [# 566] COD mutpy.utils: [5.00557 s] timeout
+   - [# 567] COD mutpy.utils: [5.00690 s] timeout
+   - [# 568] COD mutpy.utils: [5.00638 s] timeout
+   - [# 569] COD mutpy.utils: [5.00641 s] timeout
+   - [# 570] COD mutpy.utils: [5.00675 s] timeout
+   - [# 571] COD mutpy.utils: [5.00577 s] timeout
+   - [# 572] COD mutpy.utils: [5.00646 s] timeout
+   - [# 573] COD mutpy.utils: [5.00564 s] timeout
+   - [# 574] COI mutpy.utils: [0.00000 s] incompetent
+   - [# 575] COI mutpy.utils: [5.00610 s] timeout
+   - [# 576] COI mutpy.utils: [5.00652 s] timeout
+   - [# 577] COI mutpy.utils: [5.00618 s] timeout
+   - [# 578] COI mutpy.utils: [5.00618 s] timeout
+   - [# 579] COI mutpy.utils: [5.00606 s] timeout
+   - [# 580] COI mutpy.utils: [5.00659 s] timeout
+   - [# 581] COI mutpy.utils: [5.00597 s] timeout
+   - [# 582] COI mutpy.utils: [5.00632 s] timeout
+   - [# 583] COI mutpy.utils: [5.00659 s] timeout
+   - [# 584] COI mutpy.utils: [5.00628 s] timeout
+   - [# 585] COI mutpy.utils: [5.00568 s] timeout
+   - [# 586] COI mutpy.utils: [5.00564 s] timeout
+   - [# 587] COI mutpy.utils: [5.00647 s] timeout
+   - [# 588] COI mutpy.utils: [5.00645 s] timeout
+   - [# 589] COI mutpy.utils: [5.00648 s] timeout
+   - [# 590] COI mutpy.utils: [5.00574 s] timeout
+   - [# 591] COI mutpy.utils: [5.00616 s] timeout
+   - [# 592] COI mutpy.utils: [5.00608 s] timeout
+   - [# 593] COI mutpy.utils: [5.00597 s] timeout
+   - [# 594] COI mutpy.utils: [5.00601 s] timeout
+   - [# 595] COI mutpy.utils: [5.00646 s] timeout
+   - [# 596] COI mutpy.utils: [5.00555 s] timeout
+   - [# 597] COI mutpy.utils: [5.00576 s] timeout
+   - [# 598] COI mutpy.utils: [5.00617 s] timeout
+   - [# 599] COI mutpy.utils: [5.00580 s] timeout
+   - [# 600] COI mutpy.utils: [5.00599 s] timeout
+   - [# 601] COI mutpy.utils: [5.00599 s] timeout
+   - [# 602] COI mutpy.utils: [5.00564 s] timeout
+   - [# 603] COI mutpy.utils: [5.00549 s] timeout
+   - [# 604] COI mutpy.utils: [5.00616 s] timeout
+   - [# 605] COI mutpy.utils: [5.00647 s] timeout
+   - [# 606] COI mutpy.utils: [5.00562 s] timeout
+   - [# 607] COI mutpy.utils: [5.00563 s] timeout
+   - [# 608] COI mutpy.utils: [5.00673 s] timeout
+   - [# 609] COI mutpy.utils: [5.00657 s] timeout
+   - [# 610] COI mutpy.utils: [5.00653 s] timeout
+   - [# 611] COI mutpy.utils: [5.00620 s] timeout
+   - [# 612] COI mutpy.utils: [5.00647 s] timeout
+   - [# 613] COI mutpy.utils: [5.00652 s] timeout
+   - [# 614] COI mutpy.utils: [5.00425 s] timeout
+   - [# 615] DDL mutpy.utils: [5.00633 s] timeout
+   - [# 616] DDL mutpy.utils: [5.00648 s] timeout
+   - [# 617] DDL mutpy.utils: [5.00633 s] timeout
+   - [# 618] DDL mutpy.utils: [5.00648 s] timeout
+   - [# 619] DDL mutpy.utils: [5.00630 s] timeout
+   - [# 620] DDL mutpy.utils: [5.00650 s] timeout
+   - [# 621] DDL mutpy.utils: [5.00635 s] timeout
+   - [# 622] DDL mutpy.utils: [5.00271 s] timeout
+   - [# 623] DDL mutpy.utils: [5.00497 s] timeout
+   - [# 624] DDL mutpy.utils: [5.00650 s] timeout
+   - [# 625] DDL mutpy.utils: [5.00654 s] timeout
+   - [# 626] EHD mutpy.utils: [5.00655 s] timeout
+   - [# 627] EHD mutpy.utils: [5.00611 s] timeout
+   - [# 628] EHD mutpy.utils: [5.00648 s] timeout
+   - [# 629] EHD mutpy.utils: [5.00629 s] timeout
+   - [# 630] EHD mutpy.utils: [5.00640 s] timeout
+   - [# 631] EHD mutpy.utils: [5.00628 s] timeout
+   - [# 632] EXS mutpy.utils: [5.00650 s] timeout
+   - [# 633] EXS mutpy.utils: [5.00628 s] timeout
+   - [# 634] EXS mutpy.utils: [5.00559 s] timeout
+   - [# 635] IHD mutpy.utils: [5.00467 s] timeout
+   - [# 636] IOD mutpy.utils: [5.00639 s] timeout
+   - [# 637] IOD mutpy.utils: [5.00660 s] timeout
+   - [# 638] IOD mutpy.utils: [5.00651 s] timeout
+   - [# 639] IOD mutpy.utils: [5.00627 s] timeout
+   - [# 640] IOD mutpy.utils: [5.00663 s] timeout
+   - [# 641] IOP mutpy.utils: [5.00635 s] timeout
+   - [# 642] IOP mutpy.utils: [5.00625 s] timeout
+   - [# 643] IOP mutpy.utils: [5.00628 s] timeout
+   - [# 644] LCR mutpy.utils: [5.00658 s] timeout
+   - [# 645] LCR mutpy.utils: [5.00630 s] timeout
+   - [# 646] LCR mutpy.utils: [5.00651 s] timeout
+   - [# 647] LCR mutpy.utils: [5.00625 s] timeout
+   - [# 648] LCR mutpy.utils: [5.00639 s] timeout
+   - [# 649] LCR mutpy.utils: [5.00649 s] timeout
+   - [# 650] LCR mutpy.utils: [5.00646 s] timeout
+   - [# 651] LCR mutpy.utils: [5.00625 s] timeout
+   - [# 652] LCR mutpy.utils: [5.00658 s] timeout
+   - [# 653] LCR mutpy.utils: [5.00622 s] timeout
+   - [# 654] LCR mutpy.utils: [5.00652 s] timeout
+   - [# 655] ROR mutpy.utils: [0.00000 s] incompetent
+   - [# 656] ROR mutpy.utils: [5.00625 s] timeout
+   - [# 657] ROR mutpy.utils: [5.00630 s] timeout
+   - [# 658] ROR mutpy.utils: [5.00629 s] timeout
+   - [# 659] ROR mutpy.utils: [5.00646 s] timeout
+   - [# 660] ROR mutpy.utils: [5.00632 s] timeout
+   - [# 661] ROR mutpy.utils: [5.00648 s] timeout
+   - [# 662] ROR mutpy.utils: [5.00661 s] timeout
+   - [# 663] ROR mutpy.utils: [5.00644 s] timeout
+   - [# 664] ROR mutpy.utils: [5.00625 s] timeout
+   - [# 665] ROR mutpy.utils: [5.00628 s] timeout
+   - [# 666] ROR mutpy.utils: [5.00629 s] timeout
+   - [# 667] ROR mutpy.utils: [5.00651 s] timeout
+   - [# 668] ROR mutpy.utils: [5.00635 s] timeout
+   - [# 669] ROR mutpy.utils: [5.00660 s] timeout
+   - [# 670] ROR mutpy.utils: [5.00574 s] timeout
+   - [# 671] ROR mutpy.utils: [5.00638 s] timeout
+   - [# 672] SCD mutpy.utils: [5.00445 s] timeout
+   - [# 673] SCD mutpy.utils: [5.00656 s] timeout
+   - [# 674] SCD mutpy.utils: [5.00664 s] timeout
+   - [# 675] SCI mutpy.utils: [5.00642 s] timeout
+   - [# 676] SCI mutpy.utils: [5.00634 s] timeout
+   - [# 677] SCI mutpy.utils: [5.00715 s] timeout
+   - [# 678] SIR mutpy.utils: [5.00546 s] timeout
+   - [# 679] SIR mutpy.utils: [5.00645 s] timeout
+   - [# 680] SIR mutpy.utils: [5.00627 s] timeout
+   - [# 681] AOD mutpy.views: [5.00652 s] timeout
+   - [# 682] AOR mutpy.views: [5.00562 s] timeout
+   - [# 683] AOR mutpy.views: [5.00645 s] timeout
+   - [# 684] AOR mutpy.views: [5.00632 s] timeout
+   - [# 685] AOR mutpy.views: [5.00594 s] timeout
+   - [# 686] AOR mutpy.views: [5.00652 s] timeout
+   - [# 687] AOR mutpy.views: [5.00651 s] timeout
+   - [# 688] AOR mutpy.views: [5.00629 s] timeout
+   - [# 689] AOR mutpy.views: [5.00616 s] timeout
+   - [# 690] AOR mutpy.views: [5.00636 s] timeout
+   - [# 691] AOR mutpy.views: [5.00634 s] timeout
+   - [# 692] AOR mutpy.views: [5.00635 s] timeout
+   - [# 693] AOR mutpy.views: [5.00640 s] timeout
+   - [# 694] AOR mutpy.views: [5.00637 s] timeout
+   - [# 695] AOR mutpy.views: [5.00638 s] timeout
+   - [# 696] AOR mutpy.views: [5.00571 s] timeout
+   - [# 697] AOR mutpy.views: [5.00645 s] timeout
+   - [# 698] AOR mutpy.views: [5.00649 s] timeout
+   - [# 699] AOR mutpy.views: [5.00644 s] timeout
+   - [# 700] AOR mutpy.views: [5.00641 s] timeout
+   - [# 701] AOR mutpy.views: [5.00657 s] timeout
+   - [# 702] AOR mutpy.views: [5.00616 s] timeout
+   - [# 703] AOR mutpy.views: [5.00642 s] timeout
+   - [# 704] AOR mutpy.views: [5.00769 s] timeout
+   - [# 705] AOR mutpy.views: [5.00649 s] timeout
+   - [# 706] AOR mutpy.views: [5.00633 s] timeout
+   - [# 707] AOR mutpy.views: [5.00665 s] timeout
+   - [# 708] AOR mutpy.views: [5.00637 s] timeout
+   - [# 709] AOR mutpy.views: [5.00640 s] timeout
+   - [# 710] AOR mutpy.views: [5.00647 s] timeout
+   - [# 711] AOR mutpy.views: [5.00649 s] timeout
+   - [# 712] AOR mutpy.views: [5.00651 s] timeout
+   - [# 713] AOR mutpy.views: [5.00661 s] timeout
+   - [# 714] AOR mutpy.views: [5.00558 s] timeout
+   - [# 715] AOR mutpy.views: [5.00667 s] timeout
+   - [# 716] AOR mutpy.views: [5.00642 s] timeout
+   - [# 717] AOR mutpy.views: [5.00650 s] timeout
+   - [# 718] AOR mutpy.views: [5.00620 s] timeout
+   - [# 719] AOR mutpy.views: [5.00646 s] timeout
+   - [# 720] AOR mutpy.views: [5.00651 s] timeout
+   - [# 721] AOR mutpy.views: [5.00444 s] timeout
+   - [# 722] AOR mutpy.views: [5.00660 s] timeout
+   - [# 723] AOR mutpy.views: [5.00651 s] timeout
+   - [# 724] AOR mutpy.views: [5.00649 s] timeout
+   - [# 725] AOR mutpy.views: [5.00650 s] timeout
+   - [# 726] AOR mutpy.views: [5.00624 s] timeout
+   - [# 727] AOR mutpy.views: [5.00648 s] timeout
+   - [# 728] AOR mutpy.views: [5.00650 s] timeout
+   - [# 729] AOR mutpy.views: [5.00236 s] timeout
+   - [# 730] AOR mutpy.views: [5.00470 s] timeout
+   - [# 731] COD mutpy.views: [5.00655 s] timeout
+   - [# 732] COI mutpy.views: [5.00636 s] timeout
+   - [# 733] COI mutpy.views: [5.00644 s] timeout
+   - [# 734] COI mutpy.views: [5.00553 s] timeout
+   - [# 735] COI mutpy.views: [5.02255 s] timeout
+   - [# 736] COI mutpy.views: [5.00644 s] timeout
+   - [# 737] COI mutpy.views: [5.00645 s] timeout
+   - [# 738] COI mutpy.views: [5.00634 s] timeout
+   - [# 739] COI mutpy.views: [5.00656 s] timeout
+   - [# 740] COI mutpy.views: [5.00640 s] timeout
+   - [# 741] COI mutpy.views: [5.00641 s] timeout
+   - [# 742] COI mutpy.views: [5.00632 s] timeout
+   - [# 743] COI mutpy.views: [5.00647 s] timeout
+   - [# 744] DDL mutpy.views: [5.00639 s] timeout
+   - [# 745] DDL mutpy.views: [5.00650 s] timeout
+   - [# 746] IOD mutpy.views: [5.00641 s] timeout
+   - [# 747] IOD mutpy.views: [5.00642 s] timeout
+   - [# 748] IOD mutpy.views: [5.00633 s] timeout
+   - [# 749] IOD mutpy.views: [5.00662 s] timeout
+   - [# 750] IOD mutpy.views: [5.00630 s] timeout
+   - [# 751] IOD mutpy.views: [5.00644 s] timeout
+   - [# 752] IOP mutpy.views: [5.00642 s] timeout
+   - [# 753] IOP mutpy.views: [5.00634 s] timeout
+   - [# 754] IOP mutpy.views: [5.00624 s] timeout
+   - [# 755] IOP mutpy.views: [5.00635 s] timeout
+   - [# 756] IOP mutpy.views: [5.00637 s] timeout
+   - [# 757] IOP mutpy.views: [5.00661 s] timeout
+   - [# 758] ROR mutpy.views: [5.00650 s] timeout
+   - [# 759] ROR mutpy.views: [5.00419 s] timeout
+   - [# 760] ROR mutpy.views: [5.00176 s] timeout
+   - [# 761] SCD mutpy.views: [5.00649 s] timeout
+   - [# 762] SCD mutpy.views: [5.00628 s] timeout
+   - [# 763] SCD mutpy.views: [5.00645 s] timeout
+   - [# 764] SCD mutpy.views: [5.00640 s] timeout
+   - [# 765] SCD mutpy.views: [5.00646 s] timeout
+   - [# 766] SCD mutpy.views: [5.00637 s] timeout
+   - [# 767] SIR mutpy.views: [5.00636 s] timeout
+[*] Mutation score [1818.87669 s]: 100.0%
+   - all: 767
+   - killed: 404 (52.7%)
+   - survived: 0 (0.0%)
+   - incompetent: 5 (0.7%)
+   - timeout: 358 (46.7%)

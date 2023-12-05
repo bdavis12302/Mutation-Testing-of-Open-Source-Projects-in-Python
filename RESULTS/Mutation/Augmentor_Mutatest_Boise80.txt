@@ -1,0 +1,356 @@
+2023-11-20 12:41:22,286: Running clean trial
+============================= test session starts ==============================
+platform linux -- Python 3.8.16, pytest-7.4.3, pluggy-1.3.0 -- /usr/bin/python3.8
+cachedir: .pytest_cache
+hypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/s/bach/m/under/bdavis43/CS514/Project/Augmentor/.hypothesis/examples'))
+rootdir: /s/bach/m/under/bdavis43/CS514/Project/Augmentor
+plugins: hypothesis-6.88.1, cov-3.0.0
+collecting ... collected 56 items
+
+tests_80/test_custom_operations.py::test_adding_custom_function PASSED   [  1%]
+tests_80/test_custom_operations.py::test_execute_custom_function PASSED  [  3%]
+tests_80/test_datapipeline.py::test_sample_with_no_masks SKIPPED (Da...) [  5%]
+tests_80/test_datapipeline.py::test_sample_with_masks PASSED             [  7%]
+tests_80/test_distortion.py::test_in_memory_distortions PASSED           [  8%]
+tests_80/test_gaussian.py::test_create_gaussian_distortion_object PASSED [ 10%]
+tests_80/test_gaussian.py::test_add_gaussian_to_pipeline PASSED          [ 12%]
+tests_80/test_generators.py::test_image_generator_function PASSED        [ 14%]
+tests_80/test_generators.py::test_keras_generator_from_disk PASSED       [ 16%]
+tests_80/test_generators.py::test_generator_with_array_data PASSED       [ 17%]
+tests_80/test_generators.py::test_generator PASSED                       [ 19%]
+tests_80/test_generators.py::test_generator_image_scan PASSED            [ 21%]
+tests_80/test_ground_truth_augmentation.py::test_loading_ground_truth_images PASSED [ 23%]
+tests_80/test_ground_truth_augmentation.py::test_zoom_ground_truth_temporary_class_without_ground_truth_images PASSED [ 25%]
+tests_80/test_ground_truth_augmentation.py::test_zoom_ground_truth_temporary_class PASSED [ 26%]
+tests_80/test_ground_truth_by_class.py::test_histogram_equalisation_ground_truth PASSED [ 28%]
+tests_80/test_ground_truth_by_class.py::test_greyscale_operation_ground_truth PASSED [ 30%]
+tests_80/test_ground_truth_by_class.py::test_invert_operation_ground_truth PASSED [ 32%]
+tests_80/test_ground_truth_by_class.py::test_black_and_white_ground_truth PASSED [ 33%]
+tests_80/test_ground_truth_by_class.py::test_skew_ground_truth PASSED    [ 35%]
+tests_80/test_ground_truth_by_class.py::test_rotate_standard_ground_truth PASSED [ 37%]
+tests_80/test_ground_truth_by_class.py::test_rotate_ground_truth PASSED  [ 39%]
+tests_80/test_ground_truth_by_class.py::test_rotate_ground_truth_multiple_passes PASSED [ 41%]
+tests_80/test_ground_truth_by_class.py::test_rotate_range_ground_truth PASSED [ 42%]
+tests_80/test_ground_truth_by_class.py::test_flip_ground_truth PASSED    [ 44%]
+tests_80/test_ground_truth_by_class.py::test_flip_ground_truth_multiple_passes PASSED [ 46%]
+tests_80/test_ground_truth_by_class.py::test_crop_ground_truth PASSED    [ 48%]
+tests_80/test_ground_truth_by_class.py::test_crop_percentage_ground_truth PASSED [ 50%]
+tests_80/test_ground_truth_by_class.py::test_crop_random_ground_truth PASSED [ 51%]
+tests_80/test_ground_truth_by_class.py::test_shear_ground_truth PASSED   [ 53%]
+tests_80/test_ground_truth_by_class.py::test_scale_ground_truth PASSED   [ 55%]
+tests_80/test_ground_truth_by_class.py::test_distort_ground_truth PASSED [ 57%]
+tests_80/test_ground_truth_by_class.py::test_distort_gaussian_ground_truth PASSED [ 58%]
+tests_80/test_ground_truth_by_class.py::test_zoom_ground_truth PASSED    [ 60%]
+tests_80/test_ground_truth_by_class.py::test_zoom_random_ground_truth PASSED [ 62%]
+tests_80/test_ground_truth_by_class.py::test_hsv_shift_ground_truth PASSED [ 64%]
+tests_80/test_ground_truth_by_class.py::test_random_erasing_ground_truth PASSED [ 66%]
+tests_80/test_load.py::test_initialise_with_no_parameters PASSED         [ 67%]
+tests_80/test_load.py::test_initialise_with_nondefault_output_directory PASSED [ 69%]
+tests_80/test_load.py::test_initialise_with_missing_folder PASSED        [ 71%]
+tests_80/test_load.py::test_initialise_with_empty_folder PASSED          [ 73%]
+tests_80/test_load.py::test_initialise_with_subfolders PASSED            [ 75%]
+tests_80/test_load.py::test_initialise_with_ten_images SKIPPED (Does...) [ 76%]
+tests_80/test_load.py::test_dataframe_initialise_with_ten_images SKIPPED [ 78%]
+tests_80/test_load.py::test_class_image_scan PASSED                      [ 80%]
+tests_80/test_random_color_brightness_contrast.py::test_random_color_in_memory PASSED [ 82%]
+tests_80/test_random_color_brightness_contrast.py::test_random_contrast_in_memory PASSED [ 83%]
+tests_80/test_random_color_brightness_contrast.py::test_random_brightness_in_memory PASSED [ 85%]
+tests_80/test_resize.py::test_resize_in_memory PASSED                    [ 87%]
+tests_80/test_resize.py::test_resize_save_to_disk PASSED                 [ 89%]
+tests_80/test_rotate.py::test_rotate_images_90 PASSED                    [ 91%]
+tests_80/test_rotate.py::test_rotate_images_180 PASSED                   [ 92%]
+tests_80/test_rotate.py::test_rotate_images_270 PASSED                   [ 94%]
+tests_80/test_rotate.py::test_rotate_images_custom_temp_files PASSED     [ 96%]
+tests_80/test_torch_transform.py::test_torch_transform PASSED            [ 98%]
+tests_80/test_user_operation_parameter_input.py::test_user_param_parsing PASSED [100%]
+
+=============================== warnings summary ===============================
+Augmentor/Pipeline.py:1086
+  /s/bach/m/under/bdavis43/CS514/Project/Augmentor/Augmentor/Pipeline.py:1086: DeprecationWarning: invalid escape sequence \B
+    """
+
+Augmentor/Operations.py:1504
+  /s/bach/m/under/bdavis43/CS514/Project/Augmentor/Augmentor/Operations.py:1504: DeprecationWarning: invalid escape sequence \B
+    """
+
+Augmentor/Operations.py:1936
+  /s/bach/m/under/bdavis43/CS514/Project/Augmentor/Augmentor/Operations.py:1936: DeprecationWarning: invalid escape sequence \*
+    """
+
+Augmentor/Operations.py:2035
+  /s/bach/m/under/bdavis43/CS514/Project/Augmentor/Augmentor/Operations.py:2035: DeprecationWarning: invalid escape sequence \i
+    """
+
+tests_80/test_generators.py::test_image_generator_function
+  /s/bach/m/under/bdavis43/CS514/Project/Augmentor/Augmentor/Pipeline.py:433: DeprecationWarning: This function has been deprecated.
+    warnings.warn("This function has been deprecated.", DeprecationWarning)
+
+tests_80/test_ground_truth_by_class.py: 20 warnings
+  /s/bach/m/under/bdavis43/CS514/Project/Augmentor/Augmentor/Operations.py:607: PendingDeprecationWarning: the matrix subclass is not the recommended way to represent matrices or deal with linear algebra (see https://docs.scipy.org/doc/numpy/user/numpy-for-matlab-users.html). Please adjust your code to use regular ndarray.
+    A = np.matrix(matrix, dtype=float)
+
+tests_80/test_load.py::test_initialise_with_subfolders
+  /s/bach/m/under/bdavis43/CS514/Project/Augmentor/Augmentor/ImageUtilities.py:356: DeprecationWarning: The scan_directory_with_classes() function has been deprecated.
+    warnings.warn("The scan_directory_with_classes() function has been deprecated.", DeprecationWarning)
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+================= 53 passed, 3 skipped, 26 warnings in 13.74s ==================
+2023-11-20 12:41:36,485: [92m316 mutation targets found in Augmentor/Pipeline.py AST.[0m
+2023-11-20 12:41:36,486: [92m2 mutation targets found in Augmentor/ImageSource.py AST.[0m
+2023-11-20 12:41:36,488: [92m54 mutation targets found in Augmentor/ImageUtilities.py AST.[0m
+2023-11-20 12:41:36,499: [92m466 mutation targets found in Augmentor/Operations.py AST.[0m
+2023-11-20 12:41:36,500: [93m0 mutation targets found in Augmentor/__init__.py AST.[0m
+2023-11-20 12:41:36,500: Setting random.seed to: 514
+2023-11-20 12:41:36,500: Coverage file does not exist, proceeding to sample from all targets.
+2023-11-20 12:41:36,501: Total sample space size: 838
+2023-11-20 12:41:36,501: [92mSelecting 10 locations from 838 potentials.[0m
+2023-11-20 12:41:36,501: Starting individual mutation trials!
+2023-11-20 12:41:36,501: Running parallel (multi-processor) dispatch mode. CPUs: 20
+2023-11-20 12:41:36,536: Current target location: Operations.py, LocIndex(ast_class='BinOp', lineno=1599, col_offset=41, op_type=<class '_ast.Sub'>, end_lineno=1599, end_col_offset=61)
+2023-11-20 12:41:36,543: Current target location: Operations.py, LocIndex(ast_class='Compare', lineno=582, col_offset=17, op_type=<class '_ast.Eq'>, end_lineno=582, end_col_offset=36)
+2023-11-20 12:41:36,549: Current target location: Pipeline.py, LocIndex(ast_class='Compare', lineno=708, col_offset=19, op_type=<class '_ast.Lt'>, end_lineno=708, end_col_offset=44)
+2023-11-20 12:41:36,554: Current target location: Pipeline.py, LocIndex(ast_class='If', lineno=819, col_offset=8, op_type='If_Statement', end_lineno=825, end_col_offset=48)
+2023-11-20 12:41:36,560: Current target location: Operations.py, LocIndex(ast_class='BinOp', lineno=1076, col_offset=26, op_type=<class '_ast.Mult'>, end_lineno=1076, end_col_offset=47)
+2023-11-20 12:41:36,565: Current target location: Operations.py, LocIndex(ast_class='Index', lineno=819, col_offset=27, op_type='Index_NumZero', end_lineno=819, end_col_offset=28)
+2023-11-20 12:41:36,571: Current target location: Operations.py, LocIndex(ast_class='BinOp', lineno=1642, col_offset=21, op_type=<class '_ast.Div'>, end_lineno=1642, end_col_offset=64)
+2023-11-20 12:41:36,582: Current target location: Operations.py, LocIndex(ast_class='BinOp', lineno=1642, col_offset=23, op_type=<class '_ast.Sub'>, end_lineno=1642, end_col_offset=28)
+2023-11-20 12:41:36,592: Current target location: Pipeline.py, LocIndex(ast_class='AugAssign', lineno=809, col_offset=16, op_type='AugAssign_Add', end_lineno=809, end_col_offset=32)
+2023-11-20 12:41:36,596: Current target location: Operations.py, LocIndex(ast_class='BinOp', lineno=1606, col_offset=39, op_type=<class '_ast.Mult'>, end_lineno=1606, end_col_offset=71)
+2023-11-20 12:42:08,285: [91mResult: Survived at Augmentor/Pipeline.py: (819, 8)[0m
+2023-11-20 12:42:08,672: [91mResult: Survived at Augmentor/Operations.py: (1599, 41)[0m
+2023-11-20 12:42:08,753: [91mResult: Survived at Augmentor/Operations.py: (582, 17)[0m
+2023-11-20 12:42:09,113: [91mResult: Survived at Augmentor/Operations.py: (819, 27)[0m
+2023-11-20 12:42:09,189: [91mResult: Survived at Augmentor/Operations.py: (1606, 39)[0m
+2023-11-20 12:42:09,692: [91mResult: Survived at Augmentor/Operations.py: (1642, 21)[0m
+2023-11-20 12:42:09,853: [92mResult: Detected at Augmentor/Operations.py: (1076, 26)[0m
+2023-11-20 12:42:09,910: [91mResult: Survived at Augmentor/Pipeline.py: (809, 16)[0m
+2023-11-20 12:42:10,205: [91mResult: Survived at Augmentor/Operations.py: (1642, 23)[0m
+2023-11-20 12:42:10,241: [91mResult: Survived at Augmentor/Pipeline.py: (708, 19)[0m
+2023-11-20 12:42:39,178: [91mResult: Survived at Augmentor/Operations.py: (1599, 41)[0m
+2023-11-20 12:42:39,872: [91mResult: Survived at Augmentor/Pipeline.py: (809, 16)[0m
+2023-11-20 12:42:40,093: [92mResult: Detected at Augmentor/Operations.py: (582, 17)[0m
+2023-11-20 12:42:41,811: [91mResult: Survived at Augmentor/Pipeline.py: (819, 8)[0m
+2023-11-20 12:42:41,979: [91mResult: Survived at Augmentor/Operations.py: (1606, 39)[0m
+2023-11-20 12:42:42,048: [91mResult: Survived at Augmentor/Operations.py: (1076, 26)[0m
+2023-11-20 12:42:42,652: [91mResult: Survived at Augmentor/Operations.py: (1642, 21)[0m
+2023-11-20 12:42:42,671: [91mResult: Survived at Augmentor/Pipeline.py: (708, 19)[0m
+2023-11-20 12:42:43,941: [91mResult: Survived at Augmentor/Operations.py: (819, 27)[0m
+2023-11-20 12:42:43,955: [92mResult: Detected at Augmentor/Operations.py: (1642, 23)[0m
+2023-11-20 12:43:10,232: [91mResult: Survived at Augmentor/Pipeline.py: (809, 16)[0m
+2023-11-20 12:43:10,895: [92mResult: Detected at Augmentor/Pipeline.py: (708, 19)[0m
+2023-11-20 12:43:11,024: [91mResult: Survived at Augmentor/Operations.py: (1606, 39)[0m
+2023-11-20 12:43:11,624: [91mResult: Survived at Augmentor/Operations.py: (582, 17)[0m
+2023-11-20 12:43:11,691: [91mResult: Survived at Augmentor/Operations.py: (1599, 41)[0m
+2023-11-20 12:43:12,899: [91mResult: Survived at Augmentor/Operations.py: (1642, 23)[0m
+2023-11-20 12:43:13,059: [91mResult: Survived at Augmentor/Operations.py: (1642, 21)[0m
+2023-11-20 12:43:14,510: [92mResult: Detected at Augmentor/Operations.py: (1076, 26)[0m
+2023-11-20 12:43:40,254: [91mResult: Survived at Augmentor/Operations.py: (582, 17)[0m
+2023-11-20 12:43:41,711: [91mResult: Survived at Augmentor/Operations.py: (1599, 41)[0m
+2023-11-20 12:43:41,721: [91mResult: Survived at Augmentor/Operations.py: (1606, 39)[0m
+2023-11-20 12:43:41,724: [92mResult: Detected at Augmentor/Operations.py: (1642, 23)[0m
+2023-11-20 12:43:42,269: [92mResult: Detected at Augmentor/Pipeline.py: (708, 19)[0m
+2023-11-20 12:43:43,205: [91mResult: Survived at Augmentor/Operations.py: (1642, 21)[0m
+2023-11-20 12:43:45,660: [92mResult: Detected at Augmentor/Operations.py: (1076, 26)[0m
+2023-11-20 12:44:09,150: [92mResult: Detected at Augmentor/Pipeline.py: (708, 19)[0m
+2023-11-20 12:44:09,679: [92mResult: Detected at Augmentor/Operations.py: (582, 17)[0m
+2023-11-20 12:44:11,069: [91mResult: Survived at Augmentor/Operations.py: (1642, 23)[0m
+2023-11-20 12:44:11,132: [92mResult: Detected at Augmentor/Operations.py: (1606, 39)[0m
+2023-11-20 12:44:11,232: [91mResult: Survived at Augmentor/Operations.py: (1642, 21)[0m
+2023-11-20 12:44:11,475: [91mResult: Survived at Augmentor/Operations.py: (1599, 41)[0m
+2023-11-20 12:44:14,281: [91mResult: Survived at Augmentor/Operations.py: (1076, 26)[0m
+2023-11-20 12:44:36,253: [91mResult: Survived at Augmentor/Operations.py: (1599, 41)[0m
+2023-11-20 12:44:36,893: [91mResult: Survived at Augmentor/Operations.py: (1642, 21)[0m
+2023-11-20 12:44:36,902: [92mResult: Detected at Augmentor/Operations.py: (1606, 39)[0m
+2023-11-20 12:44:37,717: [92mResult: Detected at Augmentor/Operations.py: (1642, 23)[0m
+2023-11-20 12:44:37,964: [91mResult: Survived at Augmentor/Operations.py: (1076, 26)[0m
+2023-11-20 12:44:37,970: Cleaning up parallel cache dir .mutatest_cache.
+2023-11-20 12:44:37,971: .mutatest_cache is not empty and cannot be removed.
+2023-11-20 12:44:37,977: Running clean trial
+============================= test session starts ==============================
+platform linux -- Python 3.8.16, pytest-7.4.3, pluggy-1.3.0 -- /usr/bin/python3.8
+cachedir: .pytest_cache
+hypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/s/bach/m/under/bdavis43/CS514/Project/Augmentor/.hypothesis/examples'))
+rootdir: /s/bach/m/under/bdavis43/CS514/Project/Augmentor
+plugins: hypothesis-6.88.1, cov-3.0.0
+collecting ... collected 56 items
+
+tests_80/test_custom_operations.py::test_adding_custom_function PASSED   [  1%]
+tests_80/test_custom_operations.py::test_execute_custom_function PASSED  [  3%]
+tests_80/test_datapipeline.py::test_sample_with_no_masks SKIPPED (Da...) [  5%]
+tests_80/test_datapipeline.py::test_sample_with_masks PASSED             [  7%]
+tests_80/test_distortion.py::test_in_memory_distortions PASSED           [  8%]
+tests_80/test_gaussian.py::test_create_gaussian_distortion_object PASSED [ 10%]
+tests_80/test_gaussian.py::test_add_gaussian_to_pipeline PASSED          [ 12%]
+tests_80/test_generators.py::test_image_generator_function PASSED        [ 14%]
+tests_80/test_generators.py::test_keras_generator_from_disk PASSED       [ 16%]
+tests_80/test_generators.py::test_generator_with_array_data PASSED       [ 17%]
+tests_80/test_generators.py::test_generator PASSED                       [ 19%]
+tests_80/test_generators.py::test_generator_image_scan PASSED            [ 21%]
+tests_80/test_ground_truth_augmentation.py::test_loading_ground_truth_images PASSED [ 23%]
+tests_80/test_ground_truth_augmentation.py::test_zoom_ground_truth_temporary_class_without_ground_truth_images PASSED [ 25%]
+tests_80/test_ground_truth_augmentation.py::test_zoom_ground_truth_temporary_class PASSED [ 26%]
+tests_80/test_ground_truth_by_class.py::test_histogram_equalisation_ground_truth PASSED [ 28%]
+tests_80/test_ground_truth_by_class.py::test_greyscale_operation_ground_truth PASSED [ 30%]
+tests_80/test_ground_truth_by_class.py::test_invert_operation_ground_truth PASSED [ 32%]
+tests_80/test_ground_truth_by_class.py::test_black_and_white_ground_truth PASSED [ 33%]
+tests_80/test_ground_truth_by_class.py::test_skew_ground_truth PASSED    [ 35%]
+tests_80/test_ground_truth_by_class.py::test_rotate_standard_ground_truth PASSED [ 37%]
+tests_80/test_ground_truth_by_class.py::test_rotate_ground_truth PASSED  [ 39%]
+tests_80/test_ground_truth_by_class.py::test_rotate_ground_truth_multiple_passes PASSED [ 41%]
+tests_80/test_ground_truth_by_class.py::test_rotate_range_ground_truth PASSED [ 42%]
+tests_80/test_ground_truth_by_class.py::test_flip_ground_truth PASSED    [ 44%]
+tests_80/test_ground_truth_by_class.py::test_flip_ground_truth_multiple_passes PASSED [ 46%]
+tests_80/test_ground_truth_by_class.py::test_crop_ground_truth PASSED    [ 48%]
+tests_80/test_ground_truth_by_class.py::test_crop_percentage_ground_truth PASSED [ 50%]
+tests_80/test_ground_truth_by_class.py::test_crop_random_ground_truth PASSED [ 51%]
+tests_80/test_ground_truth_by_class.py::test_shear_ground_truth PASSED   [ 53%]
+tests_80/test_ground_truth_by_class.py::test_scale_ground_truth PASSED   [ 55%]
+tests_80/test_ground_truth_by_class.py::test_distort_ground_truth PASSED [ 57%]
+tests_80/test_ground_truth_by_class.py::test_distort_gaussian_ground_truth PASSED [ 58%]
+tests_80/test_ground_truth_by_class.py::test_zoom_ground_truth PASSED    [ 60%]
+tests_80/test_ground_truth_by_class.py::test_zoom_random_ground_truth PASSED [ 62%]
+tests_80/test_ground_truth_by_class.py::test_hsv_shift_ground_truth PASSED [ 64%]
+tests_80/test_ground_truth_by_class.py::test_random_erasing_ground_truth PASSED [ 66%]
+tests_80/test_load.py::test_initialise_with_no_parameters PASSED         [ 67%]
+tests_80/test_load.py::test_initialise_with_nondefault_output_directory PASSED [ 69%]
+tests_80/test_load.py::test_initialise_with_missing_folder PASSED        [ 71%]
+tests_80/test_load.py::test_initialise_with_empty_folder PASSED          [ 73%]
+tests_80/test_load.py::test_initialise_with_subfolders PASSED            [ 75%]
+tests_80/test_load.py::test_initialise_with_ten_images SKIPPED (Does...) [ 76%]
+tests_80/test_load.py::test_dataframe_initialise_with_ten_images SKIPPED [ 78%]
+tests_80/test_load.py::test_class_image_scan PASSED                      [ 80%]
+tests_80/test_random_color_brightness_contrast.py::test_random_color_in_memory PASSED [ 82%]
+tests_80/test_random_color_brightness_contrast.py::test_random_contrast_in_memory PASSED [ 83%]
+tests_80/test_random_color_brightness_contrast.py::test_random_brightness_in_memory PASSED [ 85%]
+tests_80/test_resize.py::test_resize_in_memory PASSED                    [ 87%]
+tests_80/test_resize.py::test_resize_save_to_disk PASSED                 [ 89%]
+tests_80/test_rotate.py::test_rotate_images_90 PASSED                    [ 91%]
+tests_80/test_rotate.py::test_rotate_images_180 PASSED                   [ 92%]
+tests_80/test_rotate.py::test_rotate_images_270 PASSED                   [ 94%]
+tests_80/test_rotate.py::test_rotate_images_custom_temp_files PASSED     [ 96%]
+tests_80/test_torch_transform.py::test_torch_transform PASSED            [ 98%]
+tests_80/test_user_operation_parameter_input.py::test_user_param_parsing PASSED [100%]
+
+=============================== warnings summary ===============================
+Augmentor/Pipeline.py:1086
+  /s/bach/m/under/bdavis43/CS514/Project/Augmentor/Augmentor/Pipeline.py:1086: DeprecationWarning: invalid escape sequence \B
+    """
+
+Augmentor/Operations.py:1504
+  /s/bach/m/under/bdavis43/CS514/Project/Augmentor/Augmentor/Operations.py:1504: DeprecationWarning: invalid escape sequence \B
+    """
+
+Augmentor/Operations.py:1936
+  /s/bach/m/under/bdavis43/CS514/Project/Augmentor/Augmentor/Operations.py:1936: DeprecationWarning: invalid escape sequence \*
+    """
+
+Augmentor/Operations.py:2035
+  /s/bach/m/under/bdavis43/CS514/Project/Augmentor/Augmentor/Operations.py:2035: DeprecationWarning: invalid escape sequence \i
+    """
+
+tests_80/test_generators.py::test_image_generator_function
+  /s/bach/m/under/bdavis43/CS514/Project/Augmentor/Augmentor/Pipeline.py:433: DeprecationWarning: This function has been deprecated.
+    warnings.warn("This function has been deprecated.", DeprecationWarning)
+
+tests_80/test_ground_truth_by_class.py: 20 warnings
+  /s/bach/m/under/bdavis43/CS514/Project/Augmentor/Augmentor/Operations.py:607: PendingDeprecationWarning: the matrix subclass is not the recommended way to represent matrices or deal with linear algebra (see https://docs.scipy.org/doc/numpy/user/numpy-for-matlab-users.html). Please adjust your code to use regular ndarray.
+    A = np.matrix(matrix, dtype=float)
+
+tests_80/test_load.py::test_initialise_with_subfolders
+  /s/bach/m/under/bdavis43/CS514/Project/Augmentor/Augmentor/ImageUtilities.py:356: DeprecationWarning: The scan_directory_with_classes() function has been deprecated.
+    warnings.warn("The scan_directory_with_classes() function has been deprecated.", DeprecationWarning)
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+================= 53 passed, 3 skipped, 26 warnings in 11.36s ==================
+2023-11-20 12:44:49,762: CLI Report:
+
+Mutatest diagnostic summary
+===========================
+ - Source location: /s/bach/m/under/bdavis43/CS514/Project/Augmentor/Augmentor
+ - Test commands: ['py.test', 'tests_80', '-v']
+ - Mode: f
+ - Excluded files: []
+ - N locations input: 10
+ - Random seed: 514
+
+Random sample details
+---------------------
+ - Total locations mutated: 10
+ - Total locations identified: 838
+ - Location sample coverage: 1.19 %
+
+
+Running time details
+--------------------
+ - Clean trial 1 run time: 0:00:14.187192
+ - Clean trial 2 run time: 0:00:11.785219
+ - Mutation trials total run time: 0:03:01.496302
+
+2023-11-20 12:44:49,762: Trial Summary Report:
+
+Overall mutation trial summary
+==============================
+ - SURVIVED: 34
+ - DETECTED: 13
+ - TOTAL RUNS: 47
+ - RUN DATETIME: 2023-11-20 12:44:49.762628
+
+2023-11-20 12:44:49,763: Detected mutations:[92m
+
+DETECTED
+--------
+ - Augmentor/Operations.py: (l: 582, c: 17) - mutation from <class '_ast.Eq'> to <class '_ast.Gt'>
+ - Augmentor/Operations.py: (l: 582, c: 17) - mutation from <class '_ast.Eq'> to <class '_ast.Lt'>
+ - Augmentor/Operations.py: (l: 1076, c: 26) - mutation from <class '_ast.Mult'> to <class '_ast.Div'>
+ - Augmentor/Operations.py: (l: 1076, c: 26) - mutation from <class '_ast.Mult'> to <class '_ast.Mod'>
+ - Augmentor/Operations.py: (l: 1076, c: 26) - mutation from <class '_ast.Mult'> to <class '_ast.FloorDiv'>
+ - Augmentor/Operations.py: (l: 1606, c: 39) - mutation from <class '_ast.Mult'> to <class '_ast.Add'>
+ - Augmentor/Operations.py: (l: 1606, c: 39) - mutation from <class '_ast.Mult'> to <class '_ast.Div'>
+ - Augmentor/Operations.py: (l: 1642, c: 23) - mutation from <class '_ast.Sub'> to <class '_ast.Div'>
+ - Augmentor/Operations.py: (l: 1642, c: 23) - mutation from <class '_ast.Sub'> to <class '_ast.Mod'>
+ - Augmentor/Operations.py: (l: 1642, c: 23) - mutation from <class '_ast.Sub'> to <class '_ast.FloorDiv'>
+ - Augmentor/Pipeline.py: (l: 708, c: 19) - mutation from <class '_ast.Lt'> to <class '_ast.GtE'>
+ - Augmentor/Pipeline.py: (l: 708, c: 19) - mutation from <class '_ast.Lt'> to <class '_ast.Eq'>
+ - Augmentor/Pipeline.py: (l: 708, c: 19) - mutation from <class '_ast.Lt'> to <class '_ast.Gt'>[0m
+
+2023-11-20 12:44:49,763: Timedout mutations:
+
+2023-11-20 12:44:49,763: Surviving mutations:[91m
+
+SURVIVED
+--------
+ - Augmentor/Operations.py: (l: 582, c: 17) - mutation from <class '_ast.Eq'> to <class '_ast.NotEq'>
+ - Augmentor/Operations.py: (l: 582, c: 17) - mutation from <class '_ast.Eq'> to <class '_ast.LtE'>
+ - Augmentor/Operations.py: (l: 582, c: 17) - mutation from <class '_ast.Eq'> to <class '_ast.GtE'>
+ - Augmentor/Operations.py: (l: 819, c: 27) - mutation from Index_NumZero to Index_NumNeg
+ - Augmentor/Operations.py: (l: 819, c: 27) - mutation from Index_NumZero to Index_NumPos
+ - Augmentor/Operations.py: (l: 1076, c: 26) - mutation from <class '_ast.Mult'> to <class '_ast.Sub'>
+ - Augmentor/Operations.py: (l: 1076, c: 26) - mutation from <class '_ast.Mult'> to <class '_ast.Pow'>
+ - Augmentor/Operations.py: (l: 1076, c: 26) - mutation from <class '_ast.Mult'> to <class '_ast.Add'>
+ - Augmentor/Operations.py: (l: 1599, c: 41) - mutation from <class '_ast.Sub'> to <class '_ast.Add'>
+ - Augmentor/Operations.py: (l: 1599, c: 41) - mutation from <class '_ast.Sub'> to <class '_ast.FloorDiv'>
+ - Augmentor/Operations.py: (l: 1599, c: 41) - mutation from <class '_ast.Sub'> to <class '_ast.Mod'>
+ - Augmentor/Operations.py: (l: 1599, c: 41) - mutation from <class '_ast.Sub'> to <class '_ast.Mult'>
+ - Augmentor/Operations.py: (l: 1599, c: 41) - mutation from <class '_ast.Sub'> to <class '_ast.Div'>
+ - Augmentor/Operations.py: (l: 1599, c: 41) - mutation from <class '_ast.Sub'> to <class '_ast.Pow'>
+ - Augmentor/Operations.py: (l: 1606, c: 39) - mutation from <class '_ast.Mult'> to <class '_ast.FloorDiv'>
+ - Augmentor/Operations.py: (l: 1606, c: 39) - mutation from <class '_ast.Mult'> to <class '_ast.Pow'>
+ - Augmentor/Operations.py: (l: 1606, c: 39) - mutation from <class '_ast.Mult'> to <class '_ast.Mod'>
+ - Augmentor/Operations.py: (l: 1606, c: 39) - mutation from <class '_ast.Mult'> to <class '_ast.Sub'>
+ - Augmentor/Operations.py: (l: 1642, c: 21) - mutation from <class '_ast.Div'> to <class '_ast.FloorDiv'>
+ - Augmentor/Operations.py: (l: 1642, c: 21) - mutation from <class '_ast.Div'> to <class '_ast.Mod'>
+ - Augmentor/Operations.py: (l: 1642, c: 21) - mutation from <class '_ast.Div'> to <class '_ast.Mult'>
+ - Augmentor/Operations.py: (l: 1642, c: 21) - mutation from <class '_ast.Div'> to <class '_ast.Sub'>
+ - Augmentor/Operations.py: (l: 1642, c: 21) - mutation from <class '_ast.Div'> to <class '_ast.Add'>
+ - Augmentor/Operations.py: (l: 1642, c: 21) - mutation from <class '_ast.Div'> to <class '_ast.Pow'>
+ - Augmentor/Operations.py: (l: 1642, c: 23) - mutation from <class '_ast.Sub'> to <class '_ast.Add'>
+ - Augmentor/Operations.py: (l: 1642, c: 23) - mutation from <class '_ast.Sub'> to <class '_ast.Pow'>
+ - Augmentor/Operations.py: (l: 1642, c: 23) - mutation from <class '_ast.Sub'> to <class '_ast.Mult'>
+ - Augmentor/Pipeline.py: (l: 708, c: 19) - mutation from <class '_ast.Lt'> to <class '_ast.NotEq'>
+ - Augmentor/Pipeline.py: (l: 708, c: 19) - mutation from <class '_ast.Lt'> to <class '_ast.LtE'>
+ - Augmentor/Pipeline.py: (l: 809, c: 16) - mutation from AugAssign_Add to AugAssign_Mult
+ - Augmentor/Pipeline.py: (l: 809, c: 16) - mutation from AugAssign_Add to AugAssign_Sub
+ - Augmentor/Pipeline.py: (l: 809, c: 16) - mutation from AugAssign_Add to AugAssign_Div
+ - Augmentor/Pipeline.py: (l: 819, c: 8) - mutation from If_Statement to If_False
+ - Augmentor/Pipeline.py: (l: 819, c: 8) - mutation from If_Statement to If_True[0m
+

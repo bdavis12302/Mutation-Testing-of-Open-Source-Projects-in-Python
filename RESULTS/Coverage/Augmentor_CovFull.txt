@@ -1,0 +1,9 @@
+Name                          Stmts   Miss  Cover
+-------------------------------------------------
+Augmentor/ImageSource.py         16     16     0%
+Augmentor/ImageUtilities.py     196     37    81%
+Augmentor/Operations.py         671     45    93%
+Augmentor/Pipeline.py           549    212    61%
+Augmentor/__init__.py             5      0   100%
+-------------------------------------------------
+TOTAL                          1437    310    78%

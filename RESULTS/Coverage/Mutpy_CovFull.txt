@@ -1,0 +1,21 @@
+Name                              Stmts   Miss  Cover
+-----------------------------------------------------
+__init__.py                           1      0   100%
+codegen.py                           18      0   100%
+commandline.py                      117     59    50%
+controller.py                       252     35    86%
+coverage.py                          85      2    98%
+operators/__init__.py                11      0   100%
+operators/arithmetic.py              59     11    81%
+operators/base.py                   122      5    96%
+operators/decorator.py               40      7    82%
+operators/exception.py               19      0   100%
+operators/inheritance.py            157     12    92%
+operators/logical.py                 60      0   100%
+operators/loop.py                    28      0   100%
+operators/misc.py                    66     13    80%
+termcolor.py                          3      1    67%
+utils.py                            316     50    84%
+views.py                            180     94    48%
+-----------------------------------------------------
+TOTAL                              6543   4091    37%

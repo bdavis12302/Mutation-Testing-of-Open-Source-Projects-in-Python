@@ -1,0 +1,195 @@
+2023-11-05 15:57:02,801: Running clean trial
+============================= test session starts ==============================
+platform linux -- Python 3.8.16, pytest-7.4.3, pluggy-1.0.0 -- /usr/bin/python3.8
+cachedir: .pytest_cache
+hypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/s/bach/m/under/bdavis43/CS514/Project/asciinema/.hypothesis/examples'))
+rootdir: /s/bach/m/under/bdavis43/CS514/Project/asciinema
+plugins: hypothesis-6.88.1, cov-3.0.0
+collecting ... collected 26 items
+
+tests/config_test.py::test_upgrade_no_config_file PASSED                 [  3%]
+tests/config_test.py::test_upgrade_config_file_with_api_token PASSED     [  7%]
+tests/config_test.py::test_upgrade_config_file_with_api_token_and_more PASSED [ 11%]
+tests/config_test.py::test_upgrade_config_file_with_user_token PASSED    [ 15%]
+tests/config_test.py::test_upgrade_config_file_with_user_token_and_more PASSED [ 19%]
+tests/config_test.py::test_default_api_url PASSED                        [ 23%]
+tests/config_test.py::test_default_record_stdin PASSED                   [ 26%]
+tests/config_test.py::test_default_record_command PASSED                 [ 30%]
+tests/config_test.py::test_default_record_env PASSED                     [ 34%]
+tests/config_test.py::test_default_record_idle_time_limit PASSED         [ 38%]
+tests/config_test.py::test_default_record_yes PASSED                     [ 42%]
+tests/config_test.py::test_default_record_quiet PASSED                   [ 46%]
+tests/config_test.py::test_default_play_idle_time_limit PASSED           [ 50%]
+tests/config_test.py::test_api_url PASSED                                [ 53%]
+tests/config_test.py::test_api_url_when_override_set PASSED              [ 57%]
+tests/config_test.py::test_record_command PASSED                         [ 61%]
+tests/config_test.py::test_record_stdin PASSED                           [ 65%]
+tests/config_test.py::test_record_env PASSED                             [ 69%]
+tests/config_test.py::test_record_idle_time_limit PASSED                 [ 73%]
+tests/config_test.py::test_record_yes PASSED                             [ 76%]
+tests/config_test.py::test_record_quiet PASSED                           [ 80%]
+tests/config_test.py::test_play_idle_time_limit PASSED                   [ 84%]
+tests/config_test.py::test_notifications_enabled PASSED                  [ 88%]
+tests/config_test.py::test_notifications_command PASSED                  [ 92%]
+tests/pty_test.py::TestRecord::test_record_command_writes_to_stdout PASSED [ 96%]
+tests/asciicast/v2_test.py::TestWriter::test_writing PASSED              [100%]
+
+============================== 26 passed in 0.39s ==============================
+2023-11-05 15:57:03,573: [92m12 mutation targets found in asciinema/file_writer.py AST.[0m
+2023-11-05 15:57:03,574: [92m27 mutation targets found in asciinema/__main__.py AST.[0m
+2023-11-05 15:57:03,578: [92m52 mutation targets found in asciinema/config.py AST.[0m
+2023-11-05 15:57:03,579: [92m78 mutation targets found in asciinema/player.py AST.[0m
+2023-11-05 15:57:03,580: [92m10 mutation targets found in asciinema/tty_.py AST.[0m
+2023-11-05 15:57:03,582: [92m15 mutation targets found in asciinema/api.py AST.[0m
+2023-11-05 15:57:03,583: [92m27 mutation targets found in asciinema/notifier.py AST.[0m
+2023-11-05 15:57:03,584: [92m11 mutation targets found in asciinema/async_worker.py AST.[0m
+2023-11-05 15:57:03,586: [92m78 mutation targets found in asciinema/recorder.py AST.[0m
+2023-11-05 15:57:03,588: [92m22 mutation targets found in asciinema/urllib_http_adapter.py AST.[0m
+2023-11-05 15:57:03,588: [92m10 mutation targets found in asciinema/__init__.py AST.[0m
+2023-11-05 15:57:03,590: [92m91 mutation targets found in asciinema/pty_.py AST.[0m
+2023-11-05 15:57:03,591: [93m0 mutation targets found in asciinema/http_adapter.py AST.[0m
+2023-11-05 15:57:03,591: [92m2 mutation targets found in asciinema/commands/auth.py AST.[0m
+2023-11-05 15:57:03,592: [92m16 mutation targets found in asciinema/commands/command.py AST.[0m
+2023-11-05 15:57:03,594: [92m51 mutation targets found in asciinema/commands/record.py AST.[0m
+2023-11-05 15:57:03,595: [93m0 mutation targets found in asciinema/commands/__init__.py AST.[0m
+2023-11-05 15:57:03,598: [93m0 mutation targets found in asciinema/commands/cat.py AST.[0m
+2023-11-05 15:57:03,599: [92m6 mutation targets found in asciinema/commands/play.py AST.[0m
+2023-11-05 15:57:03,599: [92m4 mutation targets found in asciinema/commands/upload.py AST.[0m
+2023-11-05 15:57:03,600: [92m17 mutation targets found in asciinema/asciicast/v1.py AST.[0m
+2023-11-05 15:57:03,601: [92m10 mutation targets found in asciinema/asciicast/events.py AST.[0m
+2023-11-05 15:57:03,603: [92m49 mutation targets found in asciinema/asciicast/v2.py AST.[0m
+2023-11-05 15:57:03,604: [92m38 mutation targets found in asciinema/asciicast/__init__.py AST.[0m
+2023-11-05 15:57:03,608: [92m20 mutation targets found in asciinema/asciicast/raw.py AST.[0m
+2023-11-05 15:57:03,608: Setting random.seed to: 514
+2023-11-05 15:57:03,608: Coverage file does not exist, proceeding to sample from all targets.
+2023-11-05 15:57:03,609: Total sample space size: 646
+2023-11-05 15:57:03,609: [92mSelecting 10 locations from 646 potentials.[0m
+2023-11-05 15:57:03,610: Starting individual mutation trials!
+2023-11-05 15:57:03,610: Running parallel (multi-processor) dispatch mode. CPUs: 20
+2023-11-05 15:57:03,640: Current target location: notifier.py, LocIndex(ast_class='If', lineno=118, col_offset=12, op_type='If_Statement', end_lineno=119, end_col_offset=24)
+2023-11-05 15:57:03,646: Current target location: raw.py, LocIndex(ast_class='NameConstant', lineno=44, col_offset=53, op_type=None, end_lineno=44, end_col_offset=57)
+2023-11-05 15:57:03,652: Current target location: command.py, LocIndex(ast_class='NameConstant', lineno=37, col_offset=40, op_type=None, end_lineno=37, end_col_offset=44)
+2023-11-05 15:57:03,657: Current target location: v2.py, LocIndex(ast_class='If', lineno=103, col_offset=4, op_type='If_Statement', end_lineno=104, end_col_offset=60)
+2023-11-05 15:57:03,662: Current target location: player.py, LocIndex(ast_class='CompareIs', lineno=154, col_offset=30, op_type=<class '_ast.IsNot'>, end_lineno=154, end_col_offset=47)
+2023-11-05 15:57:03,666: Current target location: player.py, LocIndex(ast_class='NameConstant', lineno=154, col_offset=43, op_type=None, end_lineno=154, end_col_offset=47)
+2023-11-05 15:57:03,671: Current target location: player.py, LocIndex(ast_class='NameConstant', lineno=31, col_offset=39, op_type=None, end_lineno=31, end_col_offset=43)
+2023-11-05 15:57:03,677: Current target location: player.py, LocIndex(ast_class='If', lineno=182, col_offset=24, op_type='If_Statement', end_lineno=185, end_col_offset=33)
+2023-11-05 15:57:03,682: Current target location: config.py, LocIndex(ast_class='CompareIs', lineno=26, col_offset=26, op_type=<class '_ast.IsNot'>, end_lineno=26, end_col_offset=41)
+2023-11-05 15:57:03,686: Current target location: recorder.py, LocIndex(ast_class='CompareIs', lineno=145, col_offset=27, op_type=<class '_ast.IsNot'>, end_lineno=145, end_col_offset=44)
+2023-11-05 15:57:08,119: [91mResult: Survived at asciinema/asciicast/raw.py: (44, 53)[0m
+2023-11-05 15:57:08,173: [91mResult: Survived at asciinema/asciicast/v2.py: (103, 4)[0m
+2023-11-05 15:57:08,182: [91mResult: Survived at asciinema/commands/command.py: (37, 40)[0m
+2023-11-05 15:57:08,202: [91mResult: Survived at asciinema/player.py: (31, 39)[0m
+2023-11-05 15:57:08,203: [91mResult: Survived at asciinema/notifier.py: (118, 12)[0m
+2023-11-05 15:57:08,219: [91mResult: Survived at asciinema/recorder.py: (145, 27)[0m
+2023-11-05 15:57:08,219: [91mResult: Survived at asciinema/player.py: (154, 30)[0m
+2023-11-05 15:57:08,221: [91mResult: Survived at asciinema/player.py: (154, 43)[0m
+2023-11-05 15:57:08,240: [91mResult: Survived at asciinema/player.py: (182, 24)[0m
+2023-11-05 15:57:08,251: [92mResult: Detected at asciinema/config.py: (26, 26)[0m
+2023-11-05 15:57:12,220: [91mResult: Survived at asciinema/asciicast/raw.py: (44, 53)[0m
+2023-11-05 15:57:12,275: [92mResult: Detected at asciinema/asciicast/v2.py: (103, 4)[0m
+2023-11-05 15:57:12,312: [91mResult: Survived at asciinema/notifier.py: (118, 12)[0m
+2023-11-05 15:57:12,315: [91mResult: Survived at asciinema/player.py: (31, 39)[0m
+2023-11-05 15:57:12,321: [91mResult: Survived at asciinema/player.py: (154, 43)[0m
+2023-11-05 15:57:12,330: [91mResult: Survived at asciinema/player.py: (182, 24)[0m
+2023-11-05 15:57:12,338: [91mResult: Survived at asciinema/commands/command.py: (37, 40)[0m
+2023-11-05 15:57:12,343: Cleaning up parallel cache dir .mutatest_cache.
+2023-11-05 15:57:12,363: Running clean trial
+============================= test session starts ==============================
+platform linux -- Python 3.8.16, pytest-7.4.3, pluggy-1.0.0 -- /usr/bin/python3.8
+cachedir: .pytest_cache
+hypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/s/bach/m/under/bdavis43/CS514/Project/asciinema/.hypothesis/examples'))
+rootdir: /s/bach/m/under/bdavis43/CS514/Project/asciinema
+plugins: hypothesis-6.88.1, cov-3.0.0
+collecting ... collected 26 items
+
+tests/config_test.py::test_upgrade_no_config_file PASSED                 [  3%]
+tests/config_test.py::test_upgrade_config_file_with_api_token PASSED     [  7%]
+tests/config_test.py::test_upgrade_config_file_with_api_token_and_more PASSED [ 11%]
+tests/config_test.py::test_upgrade_config_file_with_user_token PASSED    [ 15%]
+tests/config_test.py::test_upgrade_config_file_with_user_token_and_more PASSED [ 19%]
+tests/config_test.py::test_default_api_url PASSED                        [ 23%]
+tests/config_test.py::test_default_record_stdin PASSED                   [ 26%]
+tests/config_test.py::test_default_record_command PASSED                 [ 30%]
+tests/config_test.py::test_default_record_env PASSED                     [ 34%]
+tests/config_test.py::test_default_record_idle_time_limit PASSED         [ 38%]
+tests/config_test.py::test_default_record_yes PASSED                     [ 42%]
+tests/config_test.py::test_default_record_quiet PASSED                   [ 46%]
+tests/config_test.py::test_default_play_idle_time_limit PASSED           [ 50%]
+tests/config_test.py::test_api_url PASSED                                [ 53%]
+tests/config_test.py::test_api_url_when_override_set PASSED              [ 57%]
+tests/config_test.py::test_record_command PASSED                         [ 61%]
+tests/config_test.py::test_record_stdin PASSED                           [ 65%]
+tests/config_test.py::test_record_env PASSED                             [ 69%]
+tests/config_test.py::test_record_idle_time_limit PASSED                 [ 73%]
+tests/config_test.py::test_record_yes PASSED                             [ 76%]
+tests/config_test.py::test_record_quiet PASSED                           [ 80%]
+tests/config_test.py::test_play_idle_time_limit PASSED                   [ 84%]
+tests/config_test.py::test_notifications_enabled PASSED                  [ 88%]
+tests/config_test.py::test_notifications_command PASSED                  [ 92%]
+tests/pty_test.py::TestRecord::test_record_command_writes_to_stdout PASSED [ 96%]
+tests/asciicast/v2_test.py::TestWriter::test_writing PASSED              [100%]
+
+============================== 26 passed in 0.31s ==============================
+2023-11-05 15:57:12,982: CLI Report:
+
+Mutatest diagnostic summary
+===========================
+ - Source location: /s/bach/m/under/bdavis43/CS514/Project/asciinema/asciinema
+ - Test commands: ['py.test', '-v']
+ - Mode: f
+ - Excluded files: []
+ - N locations input: 10
+ - Random seed: 514
+
+Random sample details
+---------------------
+ - Total locations mutated: 10
+ - Total locations identified: 646
+ - Location sample coverage: 1.55 %
+
+
+Running time details
+--------------------
+ - Clean trial 1 run time: 0:00:00.762753
+ - Clean trial 2 run time: 0:00:00.618254
+ - Mutation trials total run time: 0:00:08.779040
+
+2023-11-05 15:57:12,982: Trial Summary Report:
+
+Overall mutation trial summary
+==============================
+ - SURVIVED: 15
+ - DETECTED: 2
+ - TOTAL RUNS: 17
+ - RUN DATETIME: 2023-11-05 15:57:12.982073
+
+2023-11-05 15:57:12,982: Detected mutations:[92m
+
+DETECTED
+--------
+ - asciinema/config.py: (l: 26, c: 26) - mutation from <class '_ast.IsNot'> to <class '_ast.Is'>
+ - asciinema/asciicast/v2.py: (l: 103, c: 4) - mutation from If_Statement to If_True[0m
+
+2023-11-05 15:57:12,982: Timedout mutations:
+
+2023-11-05 15:57:12,982: Surviving mutations:[91m
+
+SURVIVED
+--------
+ - asciinema/commands/command.py: (l: 37, c: 40) - mutation from None to False
+ - asciinema/commands/command.py: (l: 37, c: 40) - mutation from None to True
+ - asciinema/notifier.py: (l: 118, c: 12) - mutation from If_Statement to If_True
+ - asciinema/notifier.py: (l: 118, c: 12) - mutation from If_Statement to If_False
+ - asciinema/player.py: (l: 31, c: 39) - mutation from None to True
+ - asciinema/player.py: (l: 31, c: 39) - mutation from None to False
+ - asciinema/player.py: (l: 154, c: 30) - mutation from <class '_ast.IsNot'> to <class '_ast.Is'>
+ - asciinema/player.py: (l: 154, c: 43) - mutation from None to True
+ - asciinema/player.py: (l: 154, c: 43) - mutation from None to False
+ - asciinema/player.py: (l: 182, c: 24) - mutation from If_Statement to If_True
+ - asciinema/player.py: (l: 182, c: 24) - mutation from If_Statement to If_False
+ - asciinema/asciicast/raw.py: (l: 44, c: 53) - mutation from None to False
+ - asciinema/asciicast/raw.py: (l: 44, c: 53) - mutation from None to True
+ - asciinema/recorder.py: (l: 145, c: 27) - mutation from <class '_ast.IsNot'> to <class '_ast.Is'>
+ - asciinema/asciicast/v2.py: (l: 103, c: 4) - mutation from If_Statement to If_False[0m
+

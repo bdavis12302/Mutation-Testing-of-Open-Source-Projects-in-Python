@@ -1,0 +1,78 @@
+============================= test session starts ==============================
+platform linux -- Python 3.8.16, pytest-7.4.3, pluggy-1.3.0 -- /usr/bin/python3.8
+cachedir: .pytest_cache
+hypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/s/bach/m/under/bdavis43/CS514/Project/mutatest/mutatest/.hypothesis/examples'))
+rootdir: /s/bach/m/under/bdavis43/CS514/Project/mutatest
+configfile: pytest.ini
+plugins: hypothesis-6.88.1, cov-3.0.0
+collecting ... collected 35 items
+
+tests_60/test_all_op_types.py::test_all_op_types <- mutatest/tests/test_all_op_types.py PASSED [  2%]
+tests_60/test_filters.py::test_coverage_file_property <- mutatest/tests/test_filters.py PASSED [  5%]
+tests_60/test_filters.py::test_unset_coverage_file[str] <- mutatest/tests/test_filters.py PASSED [  8%]
+tests_60/test_filters.py::test_unset_coverage_file[path] <- mutatest/tests/test_filters.py PASSED [ 11%]
+tests_60/test_filters.py::test_filter[not_inverted_filter] <- mutatest/tests/test_filters.py PASSED [ 14%]
+tests_60/test_filters.py::test_filter[inverted_filter] <- mutatest/tests/test_filters.py PASSED [ 17%]
+tests_60/test_filters.py::test_CategoryCodeFilter_properties <- mutatest/tests/test_filters.py PASSED [ 20%]
+tests_60/test_filters.py::test_CategoryCodeFilter_filter[BinOp-True] <- mutatest/tests/test_filters.py PASSED [ 22%]
+tests_60/test_filters.py::test_CategoryCodeFilter_filter[BinOp-False] <- mutatest/tests/test_filters.py PASSED [ 25%]
+tests_60/test_filters.py::test_CategoryCodeFilter_filter[AugAssign-True] <- mutatest/tests/test_filters.py PASSED [ 28%]
+tests_60/test_filters.py::test_CategoryCodeFilter_filter[AugAssign-False] <- mutatest/tests/test_filters.py PASSED [ 31%]
+tests_60/test_filters.py::test_invalid_code <- mutatest/tests/test_filters.py PASSED [ 34%]
+tests_60/test_transformers.py::test_get_mutations_for_target[Mult] <- mutatest/tests/test_transformers.py PASSED [ 37%]
+tests_60/test_transformers.py::test_get_mutations_for_target[Sub] <- mutatest/tests/test_transformers.py PASSED [ 40%]
+tests_60/test_transformers.py::test_get_mutations_for_target[Add] <- mutatest/tests/test_transformers.py PASSED [ 42%]
+tests_60/test_transformers.py::test_get_mutations_for_target[Pow] <- mutatest/tests/test_transformers.py PASSED [ 45%]
+tests_60/test_transformers.py::test_get_mutations_for_target[FloorDiv] <- mutatest/tests/test_transformers.py PASSED [ 48%]
+tests_60/test_transformers.py::test_get_mutations_for_target[Mod] <- mutatest/tests/test_transformers.py PASSED [ 51%]
+tests_60/test_transformers.py::test_get_mutations_for_target[Div] <- mutatest/tests/test_transformers.py PASSED [ 54%]
+tests_60/test_transformers.py::test_MutateAST_visit_read_only <- mutatest/tests/test_transformers.py PASSED [ 57%]
+tests_60/test_transformers.py::test_MutateAST_visit_augassign <- mutatest/tests/test_transformers.py PASSED [ 60%]
+tests_60/test_transformers.py::test_MutateAST_visit_binop_37 <- mutatest/tests/test_transformers.py PASSED [ 62%]
+tests_60/test_transformers.py::test_MutateAST_visit_boolop <- mutatest/tests/test_transformers.py PASSED [ 65%]
+tests_60/test_transformers.py::test_MutateAST_visit_compare[Compare] <- mutatest/tests/test_transformers.py PASSED [ 68%]
+tests_60/test_transformers.py::test_MutateAST_visit_compare[CompareIs] <- mutatest/tests/test_transformers.py PASSED [ 71%]
+tests_60/test_transformers.py::test_MutateAST_visit_compare[CompareIn] <- mutatest/tests/test_transformers.py PASSED [ 74%]
+tests_60/test_transformers.py::test_MutateAST_visit_if <- mutatest/tests/test_transformers.py PASSED [ 77%]
+tests_60/test_transformers.py::test_MutateAST_visit_index_neg[NumNeg to NumPos] <- mutatest/tests/test_transformers.py PASSED [ 80%]
+tests_60/test_transformers.py::test_MutateAST_visit_index_neg[NumNeg to NumZero] <- mutatest/tests/test_transformers.py PASSED [ 82%]
+tests_60/test_transformers.py::test_MutateAST_visit_index_neg[NumZero to NumNeg] <- mutatest/tests/test_transformers.py PASSED [ 85%]
+tests_60/test_transformers.py::test_MutateAST_visit_index_neg[NumZero to NumPos] <- mutatest/tests/test_transformers.py PASSED [ 88%]
+tests_60/test_transformers.py::test_MutateAST_visit_index_neg[NumPos to NumNeg] <- mutatest/tests/test_transformers.py PASSED [ 91%]
+tests_60/test_transformers.py::test_MutateAST_visit_index_neg[NumPos to NumZero] <- mutatest/tests/test_transformers.py PASSED [ 94%]
+tests_60/test_transformers.py::test_MutateAST_visit_nameconst <- mutatest/tests/test_transformers.py PASSED [ 97%]
+tests_60/test_transformers.py::test_MutateAST_visit_subscript <- mutatest/tests/test_transformers.py PASSED [100%]
+
+=============================== warnings summary ===============================
+../../../../../../../../../usr/local/python-env/py38/lib/python3.8/site-packages/pytest_cov/plugin.py:256
+  /usr/local/python-env/py38/lib/python3.8/site-packages/pytest_cov/plugin.py:256: PytestDeprecationWarning: The hookimpl CovPlugin.pytest_configure_node uses old-style configuration options (marks or attributes).
+  Please use the pytest.hookimpl(optionalhook=True) decorator instead
+   to configure the hooks.
+   See https://docs.pytest.org/en/latest/deprecations.html#configuring-hook-specs-impls-using-markers
+    def pytest_configure_node(self, node):
+
+../../../../../../../../../usr/local/python-env/py38/lib/python3.8/site-packages/pytest_cov/plugin.py:265
+  /usr/local/python-env/py38/lib/python3.8/site-packages/pytest_cov/plugin.py:265: PytestDeprecationWarning: The hookimpl CovPlugin.pytest_testnodedown uses old-style configuration options (marks or attributes).
+  Please use the pytest.hookimpl(optionalhook=True) decorator instead
+   to configure the hooks.
+   See https://docs.pytest.org/en/latest/deprecations.html#configuring-hook-specs-impls-using-markers
+    def pytest_testnodedown(self, node, error):
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+
+---------- coverage: platform linux, python 3.8.16-final-0 -----------
+Name                            Stmts   Miss  Cover
+---------------------------------------------------
+__init__.py                        10      0   100%
+_devtools.py                        1      1     0%
+api.py                            173     82    53%
+cache.py                           36     25    31%
+cli.py                            205    205     0%
+filters.py                         74      3    96%
+report.py                          70     70     0%
+run.py                            195    131    33%
+transformers.py                   251     21    92%
+---------------------------------------------------
+TOTAL                            5957   5119    14%
+
+======================== 35 passed, 2 warnings in 2.38s ========================

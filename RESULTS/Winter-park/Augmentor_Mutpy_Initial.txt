@@ -1,0 +1,1396 @@
+[*] Start mutation process:
+   - targets: Augmentor
+   - tests: tests
+[*] 58 tests passed:
+   - test_resize [1.44003 s]
+   - util_funcs [0.59417 s]
+   - test_generators [18.11822 s]
+   - test_multi_threading [5.03173 s]
+   - test_user_operation_parameter_input [0.57881 s]
+   - test_ground_truth_augmentation [0.79404 s]
+   - test_ground_truth_by_class [3.93964 s]
+   - test_custom_operations [0.48531 s]
+   - test_pipeline_add_operations [0.47289 s]
+   - test_datapipeline [0.56562 s]
+   - test_rotate [0.50238 s]
+   - test_torch_transform [7.92372 s]
+   - test_distortion [0.60617 s]
+   - test_array_fuctions [0.47177 s]
+   - test_gaussian [0.45623 s]
+   - test_pipeline_utilities [0.50860 s]
+   - test_load [1.58383 s]
+   - test_random_color_brightness_contrast [0.82802 s]
+[*] Start mutants generation and execution:
+   - [#   1] AOR Augmentor.ImageUtilities: [26.60271 s] survived
+   - [#   2] ASR Augmentor.ImageUtilities: [13.90365 s] survived
+   - [#   3] ASR Augmentor.ImageUtilities: [18.30764 s] survived
+   - [#   4] COI Augmentor.ImageUtilities: [22.29687 s] survived
+   - [#   5] COI Augmentor.ImageUtilities: [19.86586 s] survived
+   - [#   6] COI Augmentor.ImageUtilities: [14.99578 s] survived
+   - [#   7] COI Augmentor.ImageUtilities: [21.01919 s] survived
+   - [#   8] COI Augmentor.ImageUtilities: [14.46257 s] survived
+   - [#   9] COI Augmentor.ImageUtilities: [16.88508 s] survived
+   - [#  10] COI Augmentor.ImageUtilities: [15.41229 s] survived
+   - [#  11] COI Augmentor.ImageUtilities: [11.87003 s] survived
+   - [#  12] COI Augmentor.ImageUtilities: [16.28257 s] survived
+   - [#  13] COI Augmentor.ImageUtilities: [76.63764 s] survived
+   - [#  14] COI Augmentor.ImageUtilities: [49.48684 s] survived
+   - [#  15] COI Augmentor.ImageUtilities: [23.21179 s] survived
+   - [#  16] COI Augmentor.ImageUtilities: [6.01083 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [#  17] COI Augmentor.ImageUtilities: [5.29801 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [#  18] DDL Augmentor.ImageUtilities: [0.00000 s] incompetent
+   - [#  19] DDL Augmentor.ImageUtilities: [28.19610 s] survived
+   - [#  20] DDL Augmentor.ImageUtilities: [0.00000 s] incompetent
+   - [#  21] DDL Augmentor.ImageUtilities: [16.11760 s] survived
+   - [#  22] DDL Augmentor.ImageUtilities: [0.00000 s] incompetent
+   - [#  23] DDL Augmentor.ImageUtilities: [17.15849 s] survived
+   - [#  24] DDL Augmentor.ImageUtilities: [0.00000 s] incompetent
+   - [#  25] DDL Augmentor.ImageUtilities: [15.32636 s] survived
+   - [#  26] DDL Augmentor.ImageUtilities: [0.00000 s] incompetent
+   - [#  27] DDL Augmentor.ImageUtilities: [13.30314 s] survived
+   - [#  28] DDL Augmentor.ImageUtilities: [19.75938 s] survived
+   - [#  29] DDL Augmentor.ImageUtilities: [10.99756 s] survived
+   - [#  30] DDL Augmentor.ImageUtilities: [0.00000 s] incompetent
+   - [#  31] DDL Augmentor.ImageUtilities: [17.66218 s] survived
+   - [#  32] DDL Augmentor.ImageUtilities: [0.00000 s] incompetent
+   - [#  33] DDL Augmentor.ImageUtilities: [17.95827 s] survived
+   - [#  34] DDL Augmentor.ImageUtilities: [0.00000 s] incompetent
+   - [#  35] DDL Augmentor.ImageUtilities: [12.85483 s] survived
+   - [#  36] DDL Augmentor.ImageUtilities: [0.00000 s] incompetent
+   - [#  37] DDL Augmentor.ImageUtilities: [21.57037 s] survived
+   - [#  38] DDL Augmentor.ImageUtilities: [13.46028 s] survived
+   - [#  39] DDL Augmentor.ImageUtilities: [0.00000 s] incompetent
+   - [#  40] DDL Augmentor.ImageUtilities: [12.29445 s] survived
+   - [#  41] EXS Augmentor.ImageUtilities: [17.37010 s] survived
+   - [#  42] ROR Augmentor.ImageUtilities: [21.71403 s] survived
+   - [#  43] ROR Augmentor.ImageUtilities: [18.18353 s] survived
+   - [#  44] ROR Augmentor.ImageUtilities: [13.87517 s] survived
+   - [#  45] ROR Augmentor.ImageUtilities: [5.83578 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [#  46] AOD Augmentor.Operations: [7.45661 s] incompetent
+   - [#  47] AOD Augmentor.Operations: [4.38641 s] incompetent
+   - [#  48] AOD Augmentor.Operations: [2.43462 s] incompetent
+   - [#  49] AOD Augmentor.Operations: [3.92164 s] incompetent
+   - [#  50] AOD Augmentor.Operations: [2.31240 s] incompetent
+   - [#  51] AOD Augmentor.Operations: [3.06588 s] incompetent
+   - [#  52] AOD Augmentor.Operations: [2.07756 s] incompetent
+   - [#  53] AOD Augmentor.Operations: [1.84887 s] incompetent
+   - [#  54] AOD Augmentor.Operations: [2.47513 s] incompetent
+   - [#  55] AOD Augmentor.Operations: [1.89610 s] incompetent
+   - [#  56] AOD Augmentor.Operations: [2.04289 s] incompetent
+   - [#  57] AOD Augmentor.Operations: [2.55019 s] incompetent
+   - [#  58] AOD Augmentor.Operations: [1.72646 s] incompetent
+   - [#  59] AOD Augmentor.Operations: [1.91554 s] incompetent
+   - [#  60] AOD Augmentor.Operations: [2.34023 s] incompetent
+   - [#  61] AOD Augmentor.Operations: [1.60407 s] incompetent
+   - [#  62] AOD Augmentor.Operations: [1.14514 s] incompetent
+   - [#  63] AOD Augmentor.Operations: [2.34221 s] incompetent
+   - [#  64] AOD Augmentor.Operations: [2.32736 s] incompetent
+   - [#  65] AOD Augmentor.Operations: [0.88034 s] incompetent
+   - [#  66] AOD Augmentor.Operations: [1.93709 s] incompetent
+   - [#  67] AOR Augmentor.Operations: [2.32869 s] incompetent
+   - [#  68] AOR Augmentor.Operations: [1.89690 s] incompetent
+   - [#  69] AOR Augmentor.Operations: [2.09232 s] incompetent
+   - [#  70] AOR Augmentor.Operations: [2.22089 s] incompetent
+   - [#  71] AOR Augmentor.Operations: [1.96112 s] incompetent
+   - [#  72] AOR Augmentor.Operations: [1.29117 s] incompetent
+   - [#  73] AOR Augmentor.Operations: [2.10513 s] incompetent
+   - [#  74] AOR Augmentor.Operations: [1.94084 s] incompetent
+   - [#  75] AOR Augmentor.Operations: [1.28410 s] incompetent
+   - [#  76] AOR Augmentor.Operations: [0.95720 s] incompetent
+   - [#  77] AOR Augmentor.Operations: [0.97001 s] incompetent
+   - [#  78] AOR Augmentor.Operations: [0.90578 s] incompetent
+   - [#  79] AOR Augmentor.Operations: [1.36076 s] incompetent
+   - [#  80] AOR Augmentor.Operations: [0.88218 s] incompetent
+   - [#  81] AOR Augmentor.Operations: [0.84158 s] incompetent
+   - [#  82] AOR Augmentor.Operations: [0.83091 s] incompetent
+   - [#  83] AOR Augmentor.Operations: [0.84956 s] incompetent
+   - [#  84] AOR Augmentor.Operations: [0.82880 s] incompetent
+   - [#  85] AOR Augmentor.Operations: [0.89560 s] incompetent
+   - [#  86] AOR Augmentor.Operations: [0.88327 s] incompetent
+   - [#  87] AOR Augmentor.Operations: [0.86098 s] incompetent
+   - [#  88] AOR Augmentor.Operations: [0.87780 s] incompetent
+   - [#  89] AOR Augmentor.Operations: [0.84337 s] incompetent
+   - [#  90] AOR Augmentor.Operations: [0.87770 s] incompetent
+   - [#  91] AOR Augmentor.Operations: [0.87464 s] incompetent
+   - [#  92] AOR Augmentor.Operations: [0.87475 s] incompetent
+   - [#  93] AOR Augmentor.Operations: [0.93262 s] incompetent
+   - [#  94] AOR Augmentor.Operations: [0.87975 s] incompetent
+   - [#  95] AOR Augmentor.Operations: [0.85273 s] incompetent
+   - [#  96] AOR Augmentor.Operations: [0.89959 s] incompetent
+   - [#  97] AOR Augmentor.Operations: [0.87950 s] incompetent
+   - [#  98] AOR Augmentor.Operations: [0.88072 s] incompetent
+   - [#  99] AOR Augmentor.Operations: [0.91301 s] incompetent
+   - [# 100] AOR Augmentor.Operations: [0.91124 s] incompetent
+   - [# 101] AOR Augmentor.Operations: [0.85179 s] incompetent
+   - [# 102] AOR Augmentor.Operations: [0.93631 s] incompetent
+   - [# 103] AOR Augmentor.Operations: [0.92839 s] incompetent
+   - [# 104] AOR Augmentor.Operations: [0.88148 s] incompetent
+   - [# 105] AOR Augmentor.Operations: [0.95820 s] incompetent
+   - [# 106] AOR Augmentor.Operations: [1.41737 s] incompetent
+   - [# 107] AOR Augmentor.Operations: [1.50752 s] incompetent
+   - [# 108] AOR Augmentor.Operations: [1.94855 s] incompetent
+   - [# 109] AOR Augmentor.Operations: [0.98661 s] incompetent
+   - [# 110] AOR Augmentor.Operations: [0.93345 s] incompetent
+   - [# 111] AOR Augmentor.Operations: [0.84339 s] incompetent
+   - [# 112] AOR Augmentor.Operations: [0.87259 s] incompetent
+   - [# 113] AOR Augmentor.Operations: [0.93850 s] incompetent
+   - [# 114] AOR Augmentor.Operations: [0.88975 s] incompetent
+   - [# 115] AOR Augmentor.Operations: [0.85793 s] incompetent
+   - [# 116] AOR Augmentor.Operations: [0.85582 s] incompetent
+   - [# 117] AOR Augmentor.Operations: [0.88499 s] incompetent
+   - [# 118] AOR Augmentor.Operations: [0.79475 s] incompetent
+   - [# 119] AOR Augmentor.Operations: [0.88031 s] incompetent
+   - [# 120] AOR Augmentor.Operations: [0.85926 s] incompetent
+   - [# 121] AOR Augmentor.Operations: [0.88437 s] incompetent
+   - [# 122] AOR Augmentor.Operations: [0.82654 s] incompetent
+   - [# 123] AOR Augmentor.Operations: [0.82789 s] incompetent
+   - [# 124] AOR Augmentor.Operations: [0.85146 s] incompetent
+   - [# 125] AOR Augmentor.Operations: [0.83249 s] incompetent
+   - [# 126] AOR Augmentor.Operations: [0.86409 s] incompetent
+   - [# 127] AOR Augmentor.Operations: [0.92614 s] incompetent
+   - [# 128] AOR Augmentor.Operations: [0.88857 s] incompetent
+   - [# 129] AOR Augmentor.Operations: [0.83990 s] incompetent
+   - [# 130] AOR Augmentor.Operations: [0.88120 s] incompetent
+   - [# 131] AOR Augmentor.Operations: [0.88558 s] incompetent
+   - [# 132] AOR Augmentor.Operations: [0.99474 s] incompetent
+   - [# 133] AOR Augmentor.Operations: [0.86269 s] incompetent
+   - [# 134] AOR Augmentor.Operations: [0.94108 s] incompetent
+   - [# 135] AOR Augmentor.Operations: [0.86218 s] incompetent
+   - [# 136] AOR Augmentor.Operations: [0.88713 s] incompetent
+   - [# 137] AOR Augmentor.Operations: [0.85125 s] incompetent
+   - [# 138] AOR Augmentor.Operations: [0.87223 s] incompetent
+   - [# 139] AOR Augmentor.Operations: [0.83956 s] incompetent
+   - [# 140] AOR Augmentor.Operations: [0.86178 s] incompetent
+   - [# 141] AOR Augmentor.Operations: [0.89676 s] incompetent
+   - [# 142] AOR Augmentor.Operations: [0.85524 s] incompetent
+   - [# 143] AOR Augmentor.Operations: [0.96635 s] incompetent
+   - [# 144] AOR Augmentor.Operations: [0.90001 s] incompetent
+   - [# 145] AOR Augmentor.Operations: [0.97068 s] incompetent
+   - [# 146] AOR Augmentor.Operations: [0.91210 s] incompetent
+   - [# 147] AOR Augmentor.Operations: [0.91876 s] incompetent
+   - [# 148] AOR Augmentor.Operations: [0.90971 s] incompetent
+   - [# 149] AOR Augmentor.Operations: [0.89013 s] incompetent
+   - [# 150] AOR Augmentor.Operations: [0.90031 s] incompetent
+   - [# 151] AOR Augmentor.Operations: [0.86889 s] incompetent
+   - [# 152] AOR Augmentor.Operations: [0.88007 s] incompetent
+   - [# 153] AOR Augmentor.Operations: [0.88892 s] incompetent
+   - [# 154] AOR Augmentor.Operations: [0.83362 s] incompetent
+   - [# 155] AOR Augmentor.Operations: [0.89567 s] incompetent
+   - [# 156] AOR Augmentor.Operations: [0.93361 s] incompetent
+   - [# 157] AOR Augmentor.Operations: [0.92932 s] incompetent
+   - [# 158] AOR Augmentor.Operations: [0.83034 s] incompetent
+   - [# 159] AOR Augmentor.Operations: [0.88619 s] incompetent
+   - [# 160] AOR Augmentor.Operations: [0.89612 s] incompetent
+   - [# 161] AOR Augmentor.Operations: [0.84179 s] incompetent
+   - [# 162] AOR Augmentor.Operations: [0.80976 s] incompetent
+   - [# 163] AOR Augmentor.Operations: [0.87297 s] incompetent
+   - [# 164] AOR Augmentor.Operations: [0.87943 s] incompetent
+   - [# 165] AOR Augmentor.Operations: [0.89760 s] incompetent
+   - [# 166] AOR Augmentor.Operations: [0.82896 s] incompetent
+   - [# 167] AOR Augmentor.Operations: [0.84272 s] incompetent
+   - [# 168] AOR Augmentor.Operations: [0.89323 s] incompetent
+   - [# 169] AOR Augmentor.Operations: [0.88029 s] incompetent
+   - [# 170] AOR Augmentor.Operations: [0.91255 s] incompetent
+   - [# 171] AOR Augmentor.Operations: [0.85695 s] incompetent
+   - [# 172] AOR Augmentor.Operations: [0.91220 s] incompetent
+   - [# 173] AOR Augmentor.Operations: [0.91853 s] incompetent
+   - [# 174] AOR Augmentor.Operations: [0.85472 s] incompetent
+   - [# 175] AOR Augmentor.Operations: [0.83116 s] incompetent
+   - [# 176] AOR Augmentor.Operations: [0.86462 s] incompetent
+   - [# 177] AOR Augmentor.Operations: [0.87333 s] incompetent
+   - [# 178] AOR Augmentor.Operations: [0.87927 s] incompetent
+   - [# 179] AOR Augmentor.Operations: [0.85539 s] incompetent
+   - [# 180] AOR Augmentor.Operations: [0.84553 s] incompetent
+   - [# 181] AOR Augmentor.Operations: [0.88502 s] incompetent
+   - [# 182] AOR Augmentor.Operations: [0.87542 s] incompetent
+   - [# 183] AOR Augmentor.Operations: [0.86614 s] incompetent
+   - [# 184] AOR Augmentor.Operations: [0.88537 s] incompetent
+   - [# 185] AOR Augmentor.Operations: [0.86539 s] incompetent
+   - [# 186] AOR Augmentor.Operations: [0.78839 s] incompetent
+   - [# 187] AOR Augmentor.Operations: [0.87260 s] incompetent
+   - [# 188] AOR Augmentor.Operations: [0.91248 s] incompetent
+   - [# 189] AOR Augmentor.Operations: [0.90829 s] incompetent
+   - [# 190] AOR Augmentor.Operations: [0.85861 s] incompetent
+   - [# 191] AOR Augmentor.Operations: [0.90826 s] incompetent
+   - [# 192] AOR Augmentor.Operations: [0.86090 s] incompetent
+   - [# 193] AOR Augmentor.Operations: [0.90289 s] incompetent
+   - [# 194] AOR Augmentor.Operations: [0.90029 s] incompetent
+   - [# 195] AOR Augmentor.Operations: [0.93620 s] incompetent
+   - [# 196] AOR Augmentor.Operations: [0.86458 s] incompetent
+   - [# 197] AOR Augmentor.Operations: [0.86885 s] incompetent
+   - [# 198] AOR Augmentor.Operations: [0.92664 s] incompetent
+   - [# 199] AOR Augmentor.Operations: [0.85114 s] incompetent
+   - [# 200] AOR Augmentor.Operations: [0.94831 s] incompetent
+   - [# 201] AOR Augmentor.Operations: [0.88104 s] incompetent
+   - [# 202] AOR Augmentor.Operations: [0.88048 s] incompetent
+   - [# 203] AOR Augmentor.Operations: [0.81354 s] incompetent
+   - [# 204] AOR Augmentor.Operations: [0.87880 s] incompetent
+   - [# 205] AOR Augmentor.Operations: [0.87300 s] incompetent
+   - [# 206] AOR Augmentor.Operations: [0.90957 s] incompetent
+   - [# 207] AOR Augmentor.Operations: [1.01851 s] incompetent
+   - [# 208] AOR Augmentor.Operations: [0.92779 s] incompetent
+   - [# 209] AOR Augmentor.Operations: [0.99636 s] incompetent
+   - [# 210] AOR Augmentor.Operations: [0.96258 s] incompetent
+   - [# 211] AOR Augmentor.Operations: [0.96069 s] incompetent
+   - [# 212] AOR Augmentor.Operations: [0.97536 s] incompetent
+   - [# 213] AOR Augmentor.Operations: [1.00289 s] incompetent
+   - [# 214] AOR Augmentor.Operations: [0.92487 s] incompetent
+   - [# 215] AOR Augmentor.Operations: [0.97551 s] incompetent
+   - [# 216] AOR Augmentor.Operations: [0.93981 s] incompetent
+   - [# 217] AOR Augmentor.Operations: [0.91427 s] incompetent
+   - [# 218] AOR Augmentor.Operations: [0.99055 s] incompetent
+   - [# 219] AOR Augmentor.Operations: [0.94836 s] incompetent
+   - [# 220] AOR Augmentor.Operations: [0.98930 s] incompetent
+   - [# 221] AOR Augmentor.Operations: [0.94901 s] incompetent
+   - [# 222] AOR Augmentor.Operations: [0.96038 s] incompetent
+   - [# 223] AOR Augmentor.Operations: [0.95558 s] incompetent
+   - [# 224] AOR Augmentor.Operations: [0.98587 s] incompetent
+   - [# 225] AOR Augmentor.Operations: [0.92692 s] incompetent
+   - [# 226] AOR Augmentor.Operations: [0.90571 s] incompetent
+   - [# 227] AOR Augmentor.Operations: [0.96044 s] incompetent
+   - [# 228] AOR Augmentor.Operations: [0.99481 s] incompetent
+   - [# 229] AOR Augmentor.Operations: [0.95270 s] incompetent
+   - [# 230] AOR Augmentor.Operations: [0.99779 s] incompetent
+   - [# 231] AOR Augmentor.Operations: [0.97273 s] incompetent
+   - [# 232] AOR Augmentor.Operations: [0.95697 s] incompetent
+   - [# 233] AOR Augmentor.Operations: [0.97492 s] incompetent
+   - [# 234] AOR Augmentor.Operations: [0.95082 s] incompetent
+   - [# 235] AOR Augmentor.Operations: [0.88012 s] incompetent
+   - [# 236] AOR Augmentor.Operations: [0.89052 s] incompetent
+   - [# 237] AOR Augmentor.Operations: [1.06140 s] incompetent
+   - [# 238] AOR Augmentor.Operations: [1.10987 s] incompetent
+   - [# 239] AOR Augmentor.Operations: [0.93179 s] incompetent
+   - [# 240] AOR Augmentor.Operations: [0.87443 s] incompetent
+   - [# 241] AOR Augmentor.Operations: [0.87580 s] incompetent
+   - [# 242] AOR Augmentor.Operations: [0.89753 s] incompetent
+   - [# 243] AOR Augmentor.Operations: [0.93127 s] incompetent
+   - [# 244] AOR Augmentor.Operations: [0.95721 s] incompetent
+   - [# 245] AOR Augmentor.Operations: [0.99833 s] incompetent
+   - [# 246] AOR Augmentor.Operations: [0.94532 s] incompetent
+   - [# 247] AOR Augmentor.Operations: [0.88603 s] incompetent
+   - [# 248] AOR Augmentor.Operations: [0.99563 s] incompetent
+   - [# 249] AOR Augmentor.Operations: [0.95107 s] incompetent
+   - [# 250] AOR Augmentor.Operations: [0.94675 s] incompetent
+   - [# 251] AOR Augmentor.Operations: [0.94149 s] incompetent
+   - [# 252] AOR Augmentor.Operations: [0.98027 s] incompetent
+   - [# 253] AOR Augmentor.Operations: [0.90992 s] incompetent
+   - [# 254] AOR Augmentor.Operations: [0.95763 s] incompetent
+   - [# 255] AOR Augmentor.Operations: [0.92708 s] incompetent
+   - [# 256] AOR Augmentor.Operations: [0.98161 s] incompetent
+   - [# 257] AOR Augmentor.Operations: [0.99220 s] incompetent
+   - [# 258] AOR Augmentor.Operations: [0.94031 s] incompetent
+   - [# 259] AOR Augmentor.Operations: [0.96948 s] incompetent
+   - [# 260] AOR Augmentor.Operations: [0.99086 s] incompetent
+   - [# 261] AOR Augmentor.Operations: [1.02620 s] incompetent
+   - [# 262] AOR Augmentor.Operations: [1.00215 s] incompetent
+   - [# 263] AOR Augmentor.Operations: [0.98821 s] incompetent
+   - [# 264] AOR Augmentor.Operations: [0.97329 s] incompetent
+   - [# 265] AOR Augmentor.Operations: [0.95814 s] incompetent
+   - [# 266] AOR Augmentor.Operations: [0.94027 s] incompetent
+   - [# 267] AOR Augmentor.Operations: [0.99806 s] incompetent
+   - [# 268] AOR Augmentor.Operations: [0.97358 s] incompetent
+   - [# 269] AOR Augmentor.Operations: [0.96894 s] incompetent
+   - [# 270] AOR Augmentor.Operations: [0.95877 s] incompetent
+   - [# 271] AOR Augmentor.Operations: [0.91107 s] incompetent
+   - [# 272] AOR Augmentor.Operations: [0.89072 s] incompetent
+   - [# 273] AOR Augmentor.Operations: [0.92858 s] incompetent
+   - [# 274] AOR Augmentor.Operations: [0.93971 s] incompetent
+   - [# 275] AOR Augmentor.Operations: [0.96051 s] incompetent
+   - [# 276] AOR Augmentor.Operations: [0.98057 s] incompetent
+   - [# 277] AOR Augmentor.Operations: [0.96388 s] incompetent
+   - [# 278] AOR Augmentor.Operations: [0.90214 s] incompetent
+   - [# 279] AOR Augmentor.Operations: [0.91348 s] incompetent
+   - [# 280] AOR Augmentor.Operations: [1.02091 s] incompetent
+   - [# 281] AOR Augmentor.Operations: [1.10607 s] incompetent
+   - [# 282] AOR Augmentor.Operations: [0.92325 s] incompetent
+   - [# 283] AOR Augmentor.Operations: [0.99774 s] incompetent
+   - [# 284] AOR Augmentor.Operations: [0.99046 s] incompetent
+   - [# 285] AOR Augmentor.Operations: [0.96659 s] incompetent
+   - [# 286] AOR Augmentor.Operations: [0.96935 s] incompetent
+   - [# 287] AOR Augmentor.Operations: [0.93196 s] incompetent
+   - [# 288] AOR Augmentor.Operations: [0.97771 s] incompetent
+   - [# 289] AOR Augmentor.Operations: [0.92410 s] incompetent
+   - [# 290] AOR Augmentor.Operations: [0.97401 s] incompetent
+   - [# 291] AOR Augmentor.Operations: [0.96281 s] incompetent
+   - [# 292] AOR Augmentor.Operations: [0.98564 s] incompetent
+   - [# 293] AOR Augmentor.Operations: [0.98294 s] incompetent
+   - [# 294] AOR Augmentor.Operations: [0.94691 s] incompetent
+   - [# 295] AOR Augmentor.Operations: [1.00376 s] incompetent
+   - [# 296] AOR Augmentor.Operations: [0.97880 s] incompetent
+   - [# 297] AOR Augmentor.Operations: [0.96869 s] incompetent
+   - [# 298] AOR Augmentor.Operations: [0.91622 s] incompetent
+   - [# 299] AOR Augmentor.Operations: [1.04275 s] incompetent
+   - [# 300] AOR Augmentor.Operations: [0.93696 s] incompetent
+   - [# 301] AOR Augmentor.Operations: [0.97702 s] incompetent
+   - [# 302] AOR Augmentor.Operations: [0.91560 s] incompetent
+   - [# 303] AOR Augmentor.Operations: [0.90021 s] incompetent
+   - [# 304] AOR Augmentor.Operations: [0.95778 s] incompetent
+   - [# 305] AOR Augmentor.Operations: [0.90036 s] incompetent
+   - [# 306] AOR Augmentor.Operations: [0.90441 s] incompetent
+   - [# 307] AOR Augmentor.Operations: [0.95997 s] incompetent
+   - [# 308] AOR Augmentor.Operations: [0.88715 s] incompetent
+   - [# 309] AOR Augmentor.Operations: [0.91856 s] incompetent
+   - [# 310] AOR Augmentor.Operations: [0.95950 s] incompetent
+   - [# 311] AOR Augmentor.Operations: [0.96997 s] incompetent
+   - [# 312] AOR Augmentor.Operations: [0.99482 s] incompetent
+   - [# 313] AOR Augmentor.Operations: [0.96241 s] incompetent
+   - [# 314] AOR Augmentor.Operations: [0.91447 s] incompetent
+   - [# 315] AOR Augmentor.Operations: [0.91049 s] incompetent
+   - [# 316] AOR Augmentor.Operations: [0.91737 s] incompetent
+   - [# 317] AOR Augmentor.Operations: [1.10430 s] incompetent
+   - [# 318] AOR Augmentor.Operations: [1.01475 s] incompetent
+   - [# 319] AOR Augmentor.Operations: [0.98943 s] incompetent
+   - [# 320] AOR Augmentor.Operations: [0.98890 s] incompetent
+   - [# 321] AOR Augmentor.Operations: [0.91765 s] incompetent
+   - [# 322] AOR Augmentor.Operations: [0.91586 s] incompetent
+   - [# 323] AOR Augmentor.Operations: [0.93038 s] incompetent
+   - [# 324] AOR Augmentor.Operations: [0.87842 s] incompetent
+   - [# 325] AOR Augmentor.Operations: [0.87962 s] incompetent
+   - [# 326] AOR Augmentor.Operations: [0.90107 s] incompetent
+   - [# 327] AOR Augmentor.Operations: [0.84190 s] incompetent
+   - [# 328] AOR Augmentor.Operations: [0.87991 s] incompetent
+   - [# 329] AOR Augmentor.Operations: [0.87034 s] incompetent
+   - [# 330] AOR Augmentor.Operations: [0.86908 s] incompetent
+   - [# 331] AOR Augmentor.Operations: [0.91294 s] incompetent
+   - [# 332] AOR Augmentor.Operations: [0.92905 s] incompetent
+   - [# 333] AOR Augmentor.Operations: [0.92123 s] incompetent
+   - [# 334] AOR Augmentor.Operations: [0.88932 s] incompetent
+   - [# 335] AOR Augmentor.Operations: [0.90010 s] incompetent
+   - [# 336] AOR Augmentor.Operations: [0.90364 s] incompetent
+   - [# 337] AOR Augmentor.Operations: [0.88406 s] incompetent
+   - [# 338] AOR Augmentor.Operations: [0.96512 s] incompetent
+   - [# 339] AOR Augmentor.Operations: [0.92727 s] incompetent
+   - [# 340] AOR Augmentor.Operations: [0.95690 s] incompetent
+   - [# 341] AOR Augmentor.Operations: [0.87671 s] incompetent
+   - [# 342] AOR Augmentor.Operations: [0.96799 s] incompetent
+   - [# 343] AOR Augmentor.Operations: [0.93683 s] incompetent
+   - [# 344] AOR Augmentor.Operations: [0.87855 s] incompetent
+   - [# 345] AOR Augmentor.Operations: [0.92494 s] incompetent
+   - [# 346] AOR Augmentor.Operations: [0.94298 s] incompetent
+   - [# 347] AOR Augmentor.Operations: [0.88461 s] incompetent
+   - [# 348] AOR Augmentor.Operations: [0.90876 s] incompetent
+   - [# 349] AOR Augmentor.Operations: [0.91825 s] incompetent
+   - [# 350] AOR Augmentor.Operations: [0.91864 s] incompetent
+   - [# 351] AOR Augmentor.Operations: [0.84823 s] incompetent
+   - [# 352] AOR Augmentor.Operations: [0.91503 s] incompetent
+   - [# 353] AOR Augmentor.Operations: [0.92826 s] incompetent
+   - [# 354] AOR Augmentor.Operations: [0.86831 s] incompetent
+   - [# 355] AOR Augmentor.Operations: [0.93098 s] incompetent
+   - [# 356] AOR Augmentor.Operations: [0.88848 s] incompetent
+   - [# 357] AOR Augmentor.Operations: [0.84325 s] incompetent
+   - [# 358] AOR Augmentor.Operations: [0.90761 s] incompetent
+   - [# 359] AOR Augmentor.Operations: [0.90815 s] incompetent
+   - [# 360] AOR Augmentor.Operations: [0.87151 s] incompetent
+   - [# 361] AOR Augmentor.Operations: [0.89769 s] incompetent
+   - [# 362] AOR Augmentor.Operations: [0.89876 s] incompetent
+   - [# 363] AOR Augmentor.Operations: [0.91873 s] incompetent
+   - [# 364] AOR Augmentor.Operations: [0.97573 s] incompetent
+   - [# 365] AOR Augmentor.Operations: [1.11727 s] incompetent
+   - [# 366] AOR Augmentor.Operations: [0.92412 s] incompetent
+   - [# 367] AOR Augmentor.Operations: [0.89501 s] incompetent
+   - [# 368] AOR Augmentor.Operations: [0.88503 s] incompetent
+   - [# 369] AOR Augmentor.Operations: [0.89955 s] incompetent
+   - [# 370] AOR Augmentor.Operations: [0.88960 s] incompetent
+   - [# 371] AOR Augmentor.Operations: [0.99684 s] incompetent
+   - [# 372] AOR Augmentor.Operations: [0.92622 s] incompetent
+   - [# 373] AOR Augmentor.Operations: [0.90346 s] incompetent
+   - [# 374] AOR Augmentor.Operations: [0.91803 s] incompetent
+   - [# 375] AOR Augmentor.Operations: [0.94987 s] incompetent
+   - [# 376] AOR Augmentor.Operations: [0.92935 s] incompetent
+   - [# 377] AOR Augmentor.Operations: [0.94436 s] incompetent
+   - [# 378] AOR Augmentor.Operations: [0.88282 s] incompetent
+   - [# 379] AOR Augmentor.Operations: [0.87478 s] incompetent
+   - [# 380] AOR Augmentor.Operations: [0.93213 s] incompetent
+   - [# 381] AOR Augmentor.Operations: [0.99117 s] incompetent
+   - [# 382] AOR Augmentor.Operations: [0.93003 s] incompetent
+   - [# 383] AOR Augmentor.Operations: [0.89815 s] incompetent
+   - [# 384] AOR Augmentor.Operations: [0.93713 s] incompetent
+   - [# 385] AOR Augmentor.Operations: [0.87876 s] incompetent
+   - [# 386] AOR Augmentor.Operations: [0.87398 s] incompetent
+   - [# 387] AOR Augmentor.Operations: [0.89624 s] incompetent
+   - [# 388] AOR Augmentor.Operations: [0.85125 s] incompetent
+   - [# 389] AOR Augmentor.Operations: [0.92188 s] incompetent
+   - [# 390] AOR Augmentor.Operations: [0.94046 s] incompetent
+   - [# 391] AOR Augmentor.Operations: [0.88805 s] incompetent
+   - [# 392] AOR Augmentor.Operations: [0.89789 s] incompetent
+   - [# 393] AOR Augmentor.Operations: [0.85474 s] incompetent
+   - [# 394] AOR Augmentor.Operations: [0.88290 s] incompetent
+   - [# 395] AOR Augmentor.Operations: [0.87042 s] incompetent
+   - [# 396] AOR Augmentor.Operations: [0.98350 s] incompetent
+   - [# 397] AOR Augmentor.Operations: [0.82864 s] incompetent
+   - [# 398] AOR Augmentor.Operations: [0.85889 s] incompetent
+   - [# 399] AOR Augmentor.Operations: [0.86758 s] incompetent
+   - [# 400] AOR Augmentor.Operations: [0.84766 s] incompetent
+   - [# 401] AOR Augmentor.Operations: [0.86309 s] incompetent
+   - [# 402] AOR Augmentor.Operations: [0.85331 s] incompetent
+   - [# 403] AOR Augmentor.Operations: [0.86307 s] incompetent
+   - [# 404] AOR Augmentor.Operations: [0.88744 s] incompetent
+   - [# 405] AOR Augmentor.Operations: [0.87136 s] incompetent
+   - [# 406] AOR Augmentor.Operations: [0.88395 s] incompetent
+   - [# 407] AOR Augmentor.Operations: [0.87062 s] incompetent
+   - [# 408] AOR Augmentor.Operations: [0.88723 s] incompetent
+   - [# 409] AOR Augmentor.Operations: [0.89716 s] incompetent
+   - [# 410] AOR Augmentor.Operations: [0.90928 s] incompetent
+   - [# 411] AOR Augmentor.Operations: [0.85341 s] incompetent
+   - [# 412] AOR Augmentor.Operations: [0.86608 s] incompetent
+   - [# 413] AOR Augmentor.Operations: [0.91131 s] incompetent
+   - [# 414] AOR Augmentor.Operations: [0.87948 s] incompetent
+   - [# 415] AOR Augmentor.Operations: [0.91483 s] incompetent
+   - [# 416] AOR Augmentor.Operations: [0.91130 s] incompetent
+   - [# 417] AOR Augmentor.Operations: [0.91840 s] incompetent
+   - [# 418] AOR Augmentor.Operations: [0.88851 s] incompetent
+   - [# 419] AOR Augmentor.Operations: [0.86172 s] incompetent
+   - [# 420] AOR Augmentor.Operations: [0.85796 s] incompetent
+   - [# 421] AOR Augmentor.Operations: [0.85519 s] incompetent
+   - [# 422] AOR Augmentor.Operations: [0.97646 s] incompetent
+   - [# 423] AOR Augmentor.Operations: [0.87919 s] incompetent
+   - [# 424] AOR Augmentor.Operations: [0.91318 s] incompetent
+   - [# 425] AOR Augmentor.Operations: [0.83738 s] incompetent
+   - [# 426] AOR Augmentor.Operations: [0.89411 s] incompetent
+   - [# 427] AOR Augmentor.Operations: [0.89775 s] incompetent
+   - [# 428] AOR Augmentor.Operations: [0.90139 s] incompetent
+   - [# 429] AOR Augmentor.Operations: [0.95077 s] incompetent
+   - [# 430] AOR Augmentor.Operations: [0.84904 s] incompetent
+   - [# 431] AOR Augmentor.Operations: [0.87785 s] incompetent
+   - [# 432] AOR Augmentor.Operations: [1.01190 s] incompetent
+   - [# 433] AOR Augmentor.Operations: [0.87878 s] incompetent
+   - [# 434] AOR Augmentor.Operations: [0.88095 s] incompetent
+   - [# 435] AOR Augmentor.Operations: [0.87764 s] incompetent
+   - [# 436] AOR Augmentor.Operations: [0.84192 s] incompetent
+   - [# 437] AOR Augmentor.Operations: [0.86666 s] incompetent
+   - [# 438] AOR Augmentor.Operations: [0.89953 s] incompetent
+   - [# 439] AOR Augmentor.Operations: [0.85936 s] incompetent
+   - [# 440] AOR Augmentor.Operations: [0.95866 s] incompetent
+   - [# 441] AOR Augmentor.Operations: [0.96871 s] incompetent
+   - [# 442] AOR Augmentor.Operations: [0.92207 s] incompetent
+   - [# 443] AOR Augmentor.Operations: [0.88901 s] incompetent
+   - [# 444] AOR Augmentor.Operations: [0.87035 s] incompetent
+   - [# 445] AOR Augmentor.Operations: [0.92932 s] incompetent
+   - [# 446] AOR Augmentor.Operations: [0.89207 s] incompetent
+   - [# 447] AOR Augmentor.Operations: [0.86556 s] incompetent
+   - [# 448] AOR Augmentor.Operations: [0.84022 s] incompetent
+   - [# 449] AOR Augmentor.Operations: [0.81090 s] incompetent
+   - [# 450] AOR Augmentor.Operations: [0.91177 s] incompetent
+   - [# 451] AOR Augmentor.Operations: [0.87988 s] incompetent
+   - [# 452] AOR Augmentor.Operations: [0.91309 s] incompetent
+   - [# 453] AOR Augmentor.Operations: [0.82142 s] incompetent
+   - [# 454] AOR Augmentor.Operations: [0.89685 s] incompetent
+   - [# 455] AOR Augmentor.Operations: [0.85984 s] incompetent
+   - [# 456] AOR Augmentor.Operations: [0.93061 s] incompetent
+   - [# 457] AOR Augmentor.Operations: [0.91254 s] incompetent
+   - [# 458] AOR Augmentor.Operations: [0.92532 s] incompetent
+   - [# 459] AOR Augmentor.Operations: [0.88455 s] incompetent
+   - [# 460] AOR Augmentor.Operations: [0.91085 s] incompetent
+   - [# 461] AOR Augmentor.Operations: [0.93324 s] incompetent
+   - [# 462] AOR Augmentor.Operations: [0.90718 s] incompetent
+   - [# 463] AOR Augmentor.Operations: [0.95924 s] incompetent
+   - [# 464] AOR Augmentor.Operations: [0.85980 s] incompetent
+   - [# 465] AOR Augmentor.Operations: [0.88504 s] incompetent
+   - [# 466] AOR Augmentor.Operations: [0.91281 s] incompetent
+   - [# 467] AOR Augmentor.Operations: [0.89124 s] incompetent
+   - [# 468] AOR Augmentor.Operations: [0.91023 s] incompetent
+   - [# 469] AOR Augmentor.Operations: [0.96884 s] incompetent
+   - [# 470] AOR Augmentor.Operations: [0.97306 s] incompetent
+   - [# 471] AOR Augmentor.Operations: [0.94968 s] incompetent
+   - [# 472] AOR Augmentor.Operations: [0.90867 s] incompetent
+   - [# 473] AOR Augmentor.Operations: [0.84795 s] incompetent
+   - [# 474] AOR Augmentor.Operations: [0.92993 s] incompetent
+   - [# 475] AOR Augmentor.Operations: [0.92032 s] incompetent
+   - [# 476] AOR Augmentor.Operations: [1.01993 s] incompetent
+   - [# 477] AOR Augmentor.Operations: [0.91133 s] incompetent
+   - [# 478] AOR Augmentor.Operations: [0.88278 s] incompetent
+   - [# 479] AOR Augmentor.Operations: [0.91448 s] incompetent
+   - [# 480] AOR Augmentor.Operations: [0.88189 s] incompetent
+   - [# 481] AOR Augmentor.Operations: [0.93796 s] incompetent
+   - [# 482] AOR Augmentor.Operations: [0.92874 s] incompetent
+   - [# 483] AOR Augmentor.Operations: [0.89906 s] incompetent
+   - [# 484] AOR Augmentor.Operations: [0.92010 s] incompetent
+   - [# 485] AOR Augmentor.Operations: [0.88783 s] incompetent
+   - [# 486] AOR Augmentor.Operations: [0.89371 s] incompetent
+   - [# 487] AOR Augmentor.Operations: [0.92857 s] incompetent
+   - [# 488] AOR Augmentor.Operations: [0.94033 s] incompetent
+   - [# 489] AOR Augmentor.Operations: [0.89987 s] incompetent
+   - [# 490] AOR Augmentor.Operations: [0.91851 s] incompetent
+   - [# 491] AOR Augmentor.Operations: [0.84056 s] incompetent
+   - [# 492] AOR Augmentor.Operations: [0.90891 s] incompetent
+   - [# 493] AOR Augmentor.Operations: [0.89817 s] incompetent
+   - [# 494] AOR Augmentor.Operations: [0.89446 s] incompetent
+   - [# 495] AOR Augmentor.Operations: [0.87514 s] incompetent
+   - [# 496] AOR Augmentor.Operations: [0.95155 s] incompetent
+   - [# 497] AOR Augmentor.Operations: [0.88378 s] incompetent
+   - [# 498] AOR Augmentor.Operations: [1.08026 s] incompetent
+   - [# 499] AOR Augmentor.Operations: [1.01793 s] incompetent
+   - [# 500] AOR Augmentor.Operations: [0.90773 s] incompetent
+   - [# 501] AOR Augmentor.Operations: [0.89196 s] incompetent
+   - [# 502] AOR Augmentor.Operations: [0.86624 s] incompetent
+   - [# 503] AOR Augmentor.Operations: [0.86238 s] incompetent
+   - [# 504] AOR Augmentor.Operations: [0.80017 s] incompetent
+   - [# 505] AOR Augmentor.Operations: [0.91800 s] incompetent
+   - [# 506] AOR Augmentor.Operations: [0.86452 s] incompetent
+   - [# 507] AOR Augmentor.Operations: [0.98244 s] incompetent
+   - [# 508] AOR Augmentor.Operations: [0.95097 s] incompetent
+   - [# 509] AOR Augmentor.Operations: [0.89100 s] incompetent
+   - [# 510] AOR Augmentor.Operations: [0.93714 s] incompetent
+   - [# 511] AOR Augmentor.Operations: [0.96423 s] incompetent
+   - [# 512] AOR Augmentor.Operations: [0.89804 s] incompetent
+   - [# 513] AOR Augmentor.Operations: [0.86828 s] incompetent
+   - [# 514] AOR Augmentor.Operations: [0.88924 s] incompetent
+   - [# 515] AOR Augmentor.Operations: [0.93078 s] incompetent
+   - [# 516] AOR Augmentor.Operations: [0.90462 s] incompetent
+   - [# 517] AOR Augmentor.Operations: [0.87926 s] incompetent
+   - [# 518] AOR Augmentor.Operations: [0.94661 s] incompetent
+   - [# 519] AOR Augmentor.Operations: [0.87904 s] incompetent
+   - [# 520] AOR Augmentor.Operations: [0.89528 s] incompetent
+   - [# 521] AOR Augmentor.Operations: [0.93673 s] incompetent
+   - [# 522] AOR Augmentor.Operations: [0.87983 s] incompetent
+   - [# 523] AOR Augmentor.Operations: [0.91751 s] incompetent
+   - [# 524] AOR Augmentor.Operations: [0.92234 s] incompetent
+   - [# 525] AOR Augmentor.Operations: [0.92040 s] incompetent
+   - [# 526] AOR Augmentor.Operations: [0.98004 s] incompetent
+   - [# 527] AOR Augmentor.Operations: [0.89823 s] incompetent
+   - [# 528] AOR Augmentor.Operations: [0.91936 s] incompetent
+   - [# 529] AOR Augmentor.Operations: [0.83943 s] incompetent
+   - [# 530] AOR Augmentor.Operations: [0.83207 s] incompetent
+   - [# 531] AOR Augmentor.Operations: [0.85835 s] incompetent
+   - [# 532] AOR Augmentor.Operations: [0.88897 s] incompetent
+   - [# 533] AOR Augmentor.Operations: [0.90923 s] incompetent
+   - [# 534] AOR Augmentor.Operations: [0.89809 s] incompetent
+   - [# 535] AOR Augmentor.Operations: [0.86980 s] incompetent
+   - [# 536] AOR Augmentor.Operations: [0.91839 s] incompetent
+   - [# 537] AOR Augmentor.Operations: [0.92077 s] incompetent
+   - [# 538] AOR Augmentor.Operations: [0.86606 s] incompetent
+   - [# 539] AOR Augmentor.Operations: [0.91100 s] incompetent
+   - [# 540] AOR Augmentor.Operations: [0.89971 s] incompetent
+   - [# 541] AOR Augmentor.Operations: [0.89453 s] incompetent
+   - [# 542] AOR Augmentor.Operations: [0.84053 s] incompetent
+   - [# 543] AOR Augmentor.Operations: [0.87239 s] incompetent
+   - [# 544] AOR Augmentor.Operations: [0.87592 s] incompetent
+   - [# 545] AOR Augmentor.Operations: [0.89440 s] incompetent
+   - [# 546] AOR Augmentor.Operations: [0.85000 s] incompetent
+   - [# 547] AOR Augmentor.Operations: [0.85273 s] incompetent
+   - [# 548] AOR Augmentor.Operations: [0.87246 s] incompetent
+   - [# 549] AOR Augmentor.Operations: [0.95244 s] incompetent
+   - [# 550] AOR Augmentor.Operations: [0.89389 s] incompetent
+   - [# 551] AOR Augmentor.Operations: [0.83047 s] incompetent
+   - [# 552] AOR Augmentor.Operations: [0.92713 s] incompetent
+   - [# 553] AOR Augmentor.Operations: [0.85065 s] incompetent
+   - [# 554] AOR Augmentor.Operations: [0.88318 s] incompetent
+   - [# 555] AOR Augmentor.Operations: [0.86591 s] incompetent
+   - [# 556] AOR Augmentor.Operations: [0.83244 s] incompetent
+   - [# 557] AOR Augmentor.Operations: [0.88281 s] incompetent
+   - [# 558] AOR Augmentor.Operations: [0.90613 s] incompetent
+   - [# 559] AOR Augmentor.Operations: [0.88439 s] incompetent
+   - [# 560] AOR Augmentor.Operations: [0.89371 s] incompetent
+   - [# 561] AOR Augmentor.Operations: [0.84080 s] incompetent
+   - [# 562] AOR Augmentor.Operations: [0.91057 s] incompetent
+   - [# 563] AOR Augmentor.Operations: [0.91235 s] incompetent
+   - [# 564] AOR Augmentor.Operations: [0.85602 s] incompetent
+   - [# 565] AOR Augmentor.Operations: [0.87976 s] incompetent
+   - [# 566] AOR Augmentor.Operations: [0.85159 s] incompetent
+   - [# 567] AOR Augmentor.Operations: [0.92066 s] incompetent
+   - [# 568] AOR Augmentor.Operations: [0.85963 s] incompetent
+   - [# 569] AOR Augmentor.Operations: [0.83012 s] incompetent
+   - [# 570] AOR Augmentor.Operations: [0.90786 s] incompetent
+   - [# 571] AOR Augmentor.Operations: [0.87495 s] incompetent
+   - [# 572] AOR Augmentor.Operations: [0.84846 s] incompetent
+   - [# 573] AOR Augmentor.Operations: [0.84984 s] incompetent
+   - [# 574] AOR Augmentor.Operations: [0.94137 s] incompetent
+   - [# 575] AOR Augmentor.Operations: [0.80544 s] incompetent
+   - [# 576] AOR Augmentor.Operations: [0.90878 s] incompetent
+   - [# 577] AOR Augmentor.Operations: [0.86572 s] incompetent
+   - [# 578] AOR Augmentor.Operations: [0.83043 s] incompetent
+   - [# 579] AOR Augmentor.Operations: [0.83048 s] incompetent
+   - [# 580] AOR Augmentor.Operations: [0.94225 s] incompetent
+   - [# 581] AOR Augmentor.Operations: [0.91305 s] incompetent
+   - [# 582] AOR Augmentor.Operations: [0.83233 s] incompetent
+   - [# 583] AOR Augmentor.Operations: [0.82477 s] incompetent
+   - [# 584] AOR Augmentor.Operations: [0.85233 s] incompetent
+   - [# 585] AOR Augmentor.Operations: [0.86206 s] incompetent
+   - [# 586] AOR Augmentor.Operations: [0.89605 s] incompetent
+   - [# 587] AOR Augmentor.Operations: [0.85220 s] incompetent
+   - [# 588] AOR Augmentor.Operations: [0.87359 s] incompetent
+   - [# 589] AOR Augmentor.Operations: [0.89345 s] incompetent
+   - [# 590] AOR Augmentor.Operations: [0.85664 s] incompetent
+   - [# 591] AOR Augmentor.Operations: [0.89536 s] incompetent
+   - [# 592] AOR Augmentor.Operations: [0.90240 s] incompetent
+   - [# 593] AOR Augmentor.Operations: [0.83322 s] incompetent
+   - [# 594] AOR Augmentor.Operations: [0.85748 s] incompetent
+   - [# 595] AOR Augmentor.Operations: [0.88942 s] incompetent
+   - [# 596] AOR Augmentor.Operations: [0.86106 s] incompetent
+   - [# 597] AOR Augmentor.Operations: [0.82031 s] incompetent
+   - [# 598] AOR Augmentor.Operations: [0.89089 s] incompetent
+   - [# 599] AOR Augmentor.Operations: [0.83710 s] incompetent
+   - [# 600] AOR Augmentor.Operations: [0.84521 s] incompetent
+   - [# 601] AOR Augmentor.Operations: [0.86051 s] incompetent
+   - [# 602] AOR Augmentor.Operations: [0.87055 s] incompetent
+   - [# 603] AOR Augmentor.Operations: [0.91796 s] incompetent
+   - [# 604] AOR Augmentor.Operations: [0.83132 s] incompetent
+   - [# 605] AOR Augmentor.Operations: [0.85953 s] incompetent
+   - [# 606] AOR Augmentor.Operations: [0.87278 s] incompetent
+   - [# 607] AOR Augmentor.Operations: [0.89201 s] incompetent
+   - [# 608] AOR Augmentor.Operations: [0.86401 s] incompetent
+   - [# 609] AOR Augmentor.Operations: [0.90063 s] incompetent
+   - [# 610] AOR Augmentor.Operations: [0.87154 s] incompetent
+   - [# 611] ASR Augmentor.Operations: [0.91019 s] incompetent
+   - [# 612] ASR Augmentor.Operations: [0.86809 s] incompetent
+   - [# 613] ASR Augmentor.Operations: [0.81337 s] incompetent
+   - [# 614] ASR Augmentor.Operations: [0.85498 s] incompetent
+   - [# 615] ASR Augmentor.Operations: [0.87552 s] incompetent
+   - [# 616] ASR Augmentor.Operations: [0.88579 s] incompetent
+   - [# 617] ASR Augmentor.Operations: [0.82412 s] incompetent
+   - [# 618] ASR Augmentor.Operations: [0.85957 s] incompetent
+   - [# 619] ASR Augmentor.Operations: [0.83702 s] incompetent
+   - [# 620] ASR Augmentor.Operations: [0.87621 s] incompetent
+   - [# 621] ASR Augmentor.Operations: [0.88447 s] incompetent
+   - [# 622] ASR Augmentor.Operations: [0.83629 s] incompetent
+   - [# 623] COD Augmentor.Operations: [0.93850 s] incompetent
+   - [# 624] COD Augmentor.Operations: [0.83248 s] incompetent
+   - [# 625] COD Augmentor.Operations: [0.89772 s] incompetent
+   - [# 626] COD Augmentor.Operations: [0.87233 s] incompetent
+   - [# 627] COI Augmentor.Operations: [0.87524 s] incompetent
+   - [# 628] COI Augmentor.Operations: [0.86152 s] incompetent
+   - [# 629] COI Augmentor.Operations: [0.82162 s] incompetent
+   - [# 630] COI Augmentor.Operations: [0.85607 s] incompetent
+   - [# 631] COI Augmentor.Operations: [0.87689 s] incompetent
+   - [# 632] COI Augmentor.Operations: [0.84051 s] incompetent
+   - [# 633] COI Augmentor.Operations: [0.90770 s] incompetent
+   - [# 634] COI Augmentor.Operations: [0.88195 s] incompetent
+   - [# 635] COI Augmentor.Operations: [0.86362 s] incompetent
+   - [# 636] COI Augmentor.Operations: [0.80993 s] incompetent
+   - [# 637] COI Augmentor.Operations: [0.88792 s] incompetent
+   - [# 638] COI Augmentor.Operations: [0.84032 s] incompetent
+   - [# 639] COI Augmentor.Operations: [0.85711 s] incompetent
+   - [# 640] COI Augmentor.Operations: [0.84279 s] incompetent
+   - [# 641] COI Augmentor.Operations: [0.85716 s] incompetent
+   - [# 642] COI Augmentor.Operations: [0.91816 s] incompetent
+   - [# 643] COI Augmentor.Operations: [1.61954 s] incompetent
+   - [# 644] COI Augmentor.Operations: [0.96659 s] incompetent
+   - [# 645] COI Augmentor.Operations: [0.94009 s] incompetent
+   - [# 646] COI Augmentor.Operations: [1.57707 s] incompetent
+   - [# 647] COI Augmentor.Operations: [0.92255 s] incompetent
+   - [# 648] COI Augmentor.Operations: [0.82855 s] incompetent
+   - [# 649] COI Augmentor.Operations: [0.90589 s] incompetent
+   - [# 650] COI Augmentor.Operations: [0.91185 s] incompetent
+   - [# 651] COI Augmentor.Operations: [0.90727 s] incompetent
+   - [# 652] COI Augmentor.Operations: [0.87173 s] incompetent
+   - [# 653] COI Augmentor.Operations: [0.91606 s] incompetent
+   - [# 654] COI Augmentor.Operations: [0.88240 s] incompetent
+   - [# 655] COI Augmentor.Operations: [0.90761 s] incompetent
+   - [# 656] COI Augmentor.Operations: [0.84136 s] incompetent
+   - [# 657] COI Augmentor.Operations: [0.91754 s] incompetent
+   - [# 658] COI Augmentor.Operations: [0.87584 s] incompetent
+   - [# 659] COI Augmentor.Operations: [0.82369 s] incompetent
+   - [# 660] COI Augmentor.Operations: [0.92930 s] incompetent
+   - [# 661] COI Augmentor.Operations: [0.86564 s] incompetent
+   - [# 662] COI Augmentor.Operations: [1.00846 s] incompetent
+   - [# 663] COI Augmentor.Operations: [0.86608 s] incompetent
+   - [# 664] COI Augmentor.Operations: [0.89736 s] incompetent
+   - [# 665] COI Augmentor.Operations: [0.90005 s] incompetent
+   - [# 666] COI Augmentor.Operations: [0.87332 s] incompetent
+   - [# 667] COI Augmentor.Operations: [0.89544 s] incompetent
+   - [# 668] COI Augmentor.Operations: [0.84489 s] incompetent
+   - [# 669] COI Augmentor.Operations: [0.86480 s] incompetent
+   - [# 670] COI Augmentor.Operations: [0.85313 s] incompetent
+   - [# 671] COI Augmentor.Operations: [0.89037 s] incompetent
+   - [# 672] COI Augmentor.Operations: [0.88268 s] incompetent
+   - [# 673] COI Augmentor.Operations: [0.81677 s] incompetent
+   - [# 674] COI Augmentor.Operations: [0.90826 s] incompetent
+   - [# 675] COI Augmentor.Operations: [0.88144 s] incompetent
+   - [# 676] COI Augmentor.Operations: [0.84600 s] incompetent
+   - [# 677] COI Augmentor.Operations: [0.86638 s] incompetent
+   - [# 678] COI Augmentor.Operations: [0.81169 s] incompetent
+   - [# 679] IOD Augmentor.Operations: [0.94665 s] incompetent
+   - [# 680] IOD Augmentor.Operations: [0.96433 s] incompetent
+   - [# 681] IOD Augmentor.Operations: [0.95364 s] incompetent
+   - [# 682] IOD Augmentor.Operations: [0.92707 s] incompetent
+   - [# 683] IOD Augmentor.Operations: [0.95516 s] incompetent
+   - [# 684] IOD Augmentor.Operations: [0.90714 s] incompetent
+   - [# 685] IOD Augmentor.Operations: [0.83425 s] incompetent
+   - [# 686] IOD Augmentor.Operations: [0.85648 s] incompetent
+   - [# 687] IOD Augmentor.Operations: [0.88663 s] incompetent
+   - [# 688] IOD Augmentor.Operations: [0.98147 s] incompetent
+   - [# 689] IOD Augmentor.Operations: [0.87982 s] incompetent
+   - [# 690] IOD Augmentor.Operations: [0.93208 s] incompetent
+   - [# 691] IOD Augmentor.Operations: [0.91889 s] incompetent
+   - [# 692] IOD Augmentor.Operations: [0.93789 s] incompetent
+   - [# 693] IOD Augmentor.Operations: [0.95752 s] incompetent
+   - [# 694] IOD Augmentor.Operations: [0.82446 s] incompetent
+   - [# 695] IOD Augmentor.Operations: [0.96801 s] incompetent
+   - [# 696] IOD Augmentor.Operations: [0.87440 s] incompetent
+   - [# 697] IOD Augmentor.Operations: [0.92785 s] incompetent
+   - [# 698] IOD Augmentor.Operations: [0.84799 s] incompetent
+   - [# 699] IOD Augmentor.Operations: [0.89538 s] incompetent
+   - [# 700] IOD Augmentor.Operations: [0.83459 s] incompetent
+   - [# 701] IOD Augmentor.Operations: [0.82087 s] incompetent
+   - [# 702] IOD Augmentor.Operations: [0.88190 s] incompetent
+   - [# 703] IOD Augmentor.Operations: [0.84278 s] incompetent
+   - [# 704] IOD Augmentor.Operations: [0.85930 s] incompetent
+   - [# 705] IOD Augmentor.Operations: [0.85881 s] incompetent
+   - [# 706] IOD Augmentor.Operations: [0.92857 s] incompetent
+   - [# 707] IOD Augmentor.Operations: [0.85333 s] incompetent
+   - [# 708] IOD Augmentor.Operations: [0.80911 s] incompetent
+   - [# 709] IOD Augmentor.Operations: [0.94180 s] incompetent
+   - [# 710] IOD Augmentor.Operations: [0.84963 s] incompetent
+   - [# 711] IOD Augmentor.Operations: [0.91361 s] incompetent
+   - [# 712] IOD Augmentor.Operations: [0.94159 s] incompetent
+   - [# 713] IOD Augmentor.Operations: [0.84991 s] incompetent
+   - [# 714] IOD Augmentor.Operations: [0.87978 s] incompetent
+   - [# 715] IOD Augmentor.Operations: [0.90022 s] incompetent
+   - [# 716] IOD Augmentor.Operations: [0.91135 s] incompetent
+   - [# 717] IOD Augmentor.Operations: [0.94862 s] incompetent
+   - [# 718] IOD Augmentor.Operations: [0.99813 s] incompetent
+   - [# 719] IOD Augmentor.Operations: [0.89952 s] incompetent
+   - [# 720] IOD Augmentor.Operations: [0.92719 s] incompetent
+   - [# 721] IOD Augmentor.Operations: [0.96863 s] incompetent
+   - [# 722] IOD Augmentor.Operations: [0.93133 s] incompetent
+   - [# 723] IOD Augmentor.Operations: [0.96673 s] incompetent
+   - [# 724] IOD Augmentor.Operations: [0.95688 s] incompetent
+   - [# 725] IOD Augmentor.Operations: [0.97752 s] incompetent
+   - [# 726] IOD Augmentor.Operations: [0.95002 s] incompetent
+   - [# 727] IOD Augmentor.Operations: [0.93972 s] incompetent
+   - [# 728] IOD Augmentor.Operations: [0.95869 s] incompetent
+   - [# 729] IOD Augmentor.Operations: [0.94714 s] incompetent
+   - [# 730] IOD Augmentor.Operations: [0.89257 s] incompetent
+   - [# 731] IOD Augmentor.Operations: [0.98257 s] incompetent
+   - [# 732] IOD Augmentor.Operations: [0.95771 s] incompetent
+   - [# 733] IOD Augmentor.Operations: [0.92398 s] incompetent
+   - [# 734] IOD Augmentor.Operations: [0.93318 s] incompetent
+   - [# 735] LCR Augmentor.Operations: [0.92613 s] incompetent
+   - [# 736] LCR Augmentor.Operations: [0.92421 s] incompetent
+   - [# 737] LCR Augmentor.Operations: [0.92873 s] incompetent
+   - [# 738] LCR Augmentor.Operations: [0.96453 s] incompetent
+   - [# 739] LCR Augmentor.Operations: [0.90681 s] incompetent
+   - [# 740] LCR Augmentor.Operations: [0.95028 s] incompetent
+   - [# 741] ROR Augmentor.Operations: [0.91109 s] incompetent
+   - [# 742] ROR Augmentor.Operations: [0.99812 s] incompetent
+   - [# 743] ROR Augmentor.Operations: [0.97533 s] incompetent
+   - [# 744] ROR Augmentor.Operations: [0.98864 s] incompetent
+   - [# 745] ROR Augmentor.Operations: [1.04587 s] incompetent
+   - [# 746] ROR Augmentor.Operations: [1.11941 s] incompetent
+   - [# 747] ROR Augmentor.Operations: [0.96786 s] incompetent
+   - [# 748] ROR Augmentor.Operations: [0.91771 s] incompetent
+   - [# 749] ROR Augmentor.Operations: [0.94165 s] incompetent
+   - [# 750] ROR Augmentor.Operations: [0.91923 s] incompetent
+   - [# 751] ROR Augmentor.Operations: [0.99097 s] incompetent
+   - [# 752] ROR Augmentor.Operations: [0.99870 s] incompetent
+   - [# 753] ROR Augmentor.Operations: [0.90816 s] incompetent
+   - [# 754] ROR Augmentor.Operations: [1.01196 s] incompetent
+   - [# 755] ROR Augmentor.Operations: [0.99449 s] incompetent
+   - [# 756] ROR Augmentor.Operations: [0.95099 s] incompetent
+   - [# 757] ROR Augmentor.Operations: [0.96534 s] incompetent
+   - [# 758] ROR Augmentor.Operations: [0.91968 s] incompetent
+   - [# 759] ROR Augmentor.Operations: [0.88510 s] incompetent
+   - [# 760] ROR Augmentor.Operations: [0.95056 s] incompetent
+   - [# 761] ROR Augmentor.Operations: [0.89993 s] incompetent
+   - [# 762] ROR Augmentor.Operations: [0.93017 s] incompetent
+   - [# 763] ROR Augmentor.Operations: [0.89574 s] incompetent
+   - [# 764] ROR Augmentor.Operations: [0.92071 s] incompetent
+   - [# 765] ROR Augmentor.Operations: [0.87369 s] incompetent
+   - [# 766] ROR Augmentor.Operations: [0.93422 s] incompetent
+   - [# 767] ROR Augmentor.Operations: [0.92821 s] incompetent
+   - [# 768] ROR Augmentor.Operations: [0.93117 s] incompetent
+   - [# 769] ROR Augmentor.Operations: [1.01043 s] incompetent
+   - [# 770] ROR Augmentor.Operations: [0.92934 s] incompetent
+   - [# 771] ROR Augmentor.Operations: [0.93360 s] incompetent
+   - [# 772] ROR Augmentor.Operations: [0.98161 s] incompetent
+   - [# 773] ROR Augmentor.Operations: [0.98869 s] incompetent
+   - [# 774] ROR Augmentor.Operations: [0.93428 s] incompetent
+   - [# 775] ROR Augmentor.Operations: [0.97001 s] incompetent
+   - [# 776] ROR Augmentor.Operations: [0.89191 s] incompetent
+   - [# 777] ROR Augmentor.Operations: [0.91930 s] incompetent
+   - [# 778] ROR Augmentor.Operations: [0.92356 s] incompetent
+   - [# 779] ROR Augmentor.Operations: [0.94009 s] incompetent
+   - [# 780] ROR Augmentor.Operations: [0.95296 s] incompetent
+   - [# 781] ROR Augmentor.Operations: [0.93715 s] incompetent
+   - [# 782] ROR Augmentor.Operations: [0.95400 s] incompetent
+   - [# 783] ROR Augmentor.Operations: [0.94418 s] incompetent
+   - [# 784] ROR Augmentor.Operations: [0.97514 s] incompetent
+   - [# 785] ROR Augmentor.Operations: [0.93597 s] incompetent
+   - [# 786] ROR Augmentor.Operations: [0.96855 s] incompetent
+   - [# 787] ROR Augmentor.Operations: [0.94381 s] incompetent
+   - [# 788] ROR Augmentor.Operations: [0.93003 s] incompetent
+   - [# 789] ROR Augmentor.Operations: [0.95892 s] incompetent
+   - [# 790] ROR Augmentor.Operations: [0.92069 s] incompetent
+   - [# 791] ROR Augmentor.Operations: [0.88885 s] incompetent
+   - [# 792] ROR Augmentor.Operations: [1.00794 s] incompetent
+   - [# 793] ROR Augmentor.Operations: [0.98301 s] incompetent
+   - [# 794] ROR Augmentor.Operations: [0.95052 s] incompetent
+   - [# 795] ROR Augmentor.Operations: [0.98790 s] incompetent
+   - [# 796] ROR Augmentor.Operations: [0.90835 s] incompetent
+   - [# 797] ROR Augmentor.Operations: [0.95095 s] incompetent
+   - [# 798] ROR Augmentor.Operations: [0.89057 s] incompetent
+   - [# 799] ROR Augmentor.Operations: [0.89936 s] incompetent
+   - [# 800] SCI Augmentor.Operations: [0.84727 s] incompetent
+   - [# 801] SCI Augmentor.Operations: [0.89293 s] incompetent
+   - [# 802] SCI Augmentor.Operations: [0.87283 s] incompetent
+   - [# 803] SCI Augmentor.Operations: [0.86296 s] incompetent
+   - [# 804] SCI Augmentor.Operations: [0.85117 s] incompetent
+   - [# 805] SCI Augmentor.Operations: [0.90520 s] incompetent
+   - [# 806] SCI Augmentor.Operations: [0.86037 s] incompetent
+   - [# 807] SCI Augmentor.Operations: [0.81312 s] incompetent
+   - [# 808] SCI Augmentor.Operations: [0.82973 s] incompetent
+   - [# 809] SCI Augmentor.Operations: [0.88417 s] incompetent
+   - [# 810] SCI Augmentor.Operations: [0.85771 s] incompetent
+   - [# 811] SCI Augmentor.Operations: [0.88528 s] incompetent
+   - [# 812] SCI Augmentor.Operations: [0.83082 s] incompetent
+   - [# 813] SCI Augmentor.Operations: [0.86977 s] incompetent
+   - [# 814] SCI Augmentor.Operations: [0.88746 s] incompetent
+   - [# 815] SCI Augmentor.Operations: [0.86068 s] incompetent
+   - [# 816] SCI Augmentor.Operations: [0.86726 s] incompetent
+   - [# 817] SCI Augmentor.Operations: [0.87722 s] incompetent
+   - [# 818] SCI Augmentor.Operations: [0.81901 s] incompetent
+   - [# 819] SCI Augmentor.Operations: [0.91782 s] incompetent
+   - [# 820] SCI Augmentor.Operations: [0.85207 s] incompetent
+   - [# 821] SCI Augmentor.Operations: [0.89023 s] incompetent
+   - [# 822] SCI Augmentor.Operations: [0.86338 s] incompetent
+   - [# 823] SCI Augmentor.Operations: [0.90372 s] incompetent
+   - [# 824] SCI Augmentor.Operations: [0.84218 s] incompetent
+   - [# 825] SCI Augmentor.Operations: [0.89533 s] incompetent
+   - [# 826] SCI Augmentor.Operations: [0.88839 s] incompetent
+   - [# 827] SCI Augmentor.Operations: [0.84299 s] incompetent
+   - [# 828] SCI Augmentor.Operations: [0.87649 s] incompetent
+   - [# 829] SCI Augmentor.Operations: [0.89227 s] incompetent
+   - [# 830] SCI Augmentor.Operations: [0.95080 s] incompetent
+   - [# 831] SCI Augmentor.Operations: [0.86240 s] incompetent
+   - [# 832] SCI Augmentor.Operations: [0.88615 s] incompetent
+   - [# 833] SCI Augmentor.Operations: [0.87899 s] incompetent
+   - [# 834] SCI Augmentor.Operations: [0.93147 s] incompetent
+   - [# 835] SCI Augmentor.Operations: [0.86217 s] incompetent
+   - [# 836] SCI Augmentor.Operations: [0.86597 s] incompetent
+   - [# 837] SCI Augmentor.Operations: [0.81079 s] incompetent
+   - [# 838] SCI Augmentor.Operations: [0.87075 s] incompetent
+   - [# 839] SCI Augmentor.Operations: [0.93365 s] incompetent
+   - [# 840] SCI Augmentor.Operations: [0.93068 s] incompetent
+   - [# 841] SCI Augmentor.Operations: [0.96374 s] incompetent
+   - [# 842] SCI Augmentor.Operations: [0.94321 s] incompetent
+   - [# 843] SCI Augmentor.Operations: [0.88295 s] incompetent
+   - [# 844] SCI Augmentor.Operations: [0.95413 s] incompetent
+   - [# 845] SCI Augmentor.Operations: [0.95260 s] incompetent
+   - [# 846] SCI Augmentor.Operations: [0.97298 s] incompetent
+   - [# 847] SCI Augmentor.Operations: [0.98966 s] incompetent
+   - [# 848] SCI Augmentor.Operations: [0.94233 s] incompetent
+   - [# 849] SCI Augmentor.Operations: [0.92449 s] incompetent
+   - [# 850] SCI Augmentor.Operations: [0.94955 s] incompetent
+   - [# 851] SCI Augmentor.Operations: [0.91570 s] incompetent
+   - [# 852] SCI Augmentor.Operations: [0.98028 s] incompetent
+   - [# 853] SCI Augmentor.Operations: [0.94936 s] incompetent
+   - [# 854] SCI Augmentor.Operations: [0.97302 s] incompetent
+   - [# 855] SCI Augmentor.Operations: [0.93697 s] incompetent
+   - [# 856] AOD Augmentor.Pipeline: [0.88979 s] incompetent
+   - [# 857] AOD Augmentor.Pipeline: [0.95597 s] incompetent
+   - [# 858] AOD Augmentor.Pipeline: [0.92609 s] incompetent
+   - [# 859] AOR Augmentor.Pipeline: [0.86805 s] incompetent
+   - [# 860] AOR Augmentor.Pipeline: [0.97131 s] incompetent
+   - [# 861] AOR Augmentor.Pipeline: [0.91030 s] incompetent
+   - [# 862] AOR Augmentor.Pipeline: [0.90218 s] incompetent
+   - [# 863] AOR Augmentor.Pipeline: [0.88839 s] incompetent
+   - [# 864] AOR Augmentor.Pipeline: [0.90906 s] incompetent
+   - [# 865] AOR Augmentor.Pipeline: [0.85111 s] incompetent
+   - [# 866] AOR Augmentor.Pipeline: [0.82996 s] incompetent
+   - [# 867] AOR Augmentor.Pipeline: [0.84188 s] incompetent
+   - [# 868] AOR Augmentor.Pipeline: [0.86877 s] incompetent
+   - [# 869] AOR Augmentor.Pipeline: [0.86140 s] incompetent
+   - [# 870] AOR Augmentor.Pipeline: [0.84002 s] incompetent
+   - [# 871] AOR Augmentor.Pipeline: [0.87331 s] incompetent
+   - [# 872] AOR Augmentor.Pipeline: [0.89881 s] incompetent
+   - [# 873] AOR Augmentor.Pipeline: [0.86338 s] incompetent
+   - [# 874] AOR Augmentor.Pipeline: [0.84423 s] incompetent
+   - [# 875] AOR Augmentor.Pipeline: [0.88087 s] incompetent
+   - [# 876] AOR Augmentor.Pipeline: [0.89964 s] incompetent
+   - [# 877] AOR Augmentor.Pipeline: [0.83365 s] incompetent
+   - [# 878] AOR Augmentor.Pipeline: [0.87923 s] incompetent
+   - [# 879] AOR Augmentor.Pipeline: [0.85422 s] incompetent
+   - [# 880] AOR Augmentor.Pipeline: [0.86140 s] incompetent
+   - [# 881] AOR Augmentor.Pipeline: [0.85178 s] incompetent
+   - [# 882] AOR Augmentor.Pipeline: [0.88710 s] incompetent
+   - [# 883] AOR Augmentor.Pipeline: [0.90158 s] incompetent
+   - [# 884] AOR Augmentor.Pipeline: [0.85765 s] incompetent
+   - [# 885] AOR Augmentor.Pipeline: [0.90537 s] incompetent
+   - [# 886] AOR Augmentor.Pipeline: [0.81278 s] incompetent
+   - [# 887] AOR Augmentor.Pipeline: [0.87900 s] incompetent
+   - [# 888] AOR Augmentor.Pipeline: [0.86876 s] incompetent
+   - [# 889] AOR Augmentor.Pipeline: [0.89550 s] incompetent
+   - [# 890] AOR Augmentor.Pipeline: [0.83736 s] incompetent
+   - [# 891] AOR Augmentor.Pipeline: [0.87154 s] incompetent
+   - [# 892] AOR Augmentor.Pipeline: [0.81500 s] incompetent
+   - [# 893] AOR Augmentor.Pipeline: [0.85498 s] incompetent
+   - [# 894] AOR Augmentor.Pipeline: [0.84088 s] incompetent
+   - [# 895] AOR Augmentor.Pipeline: [0.88869 s] incompetent
+   - [# 896] AOR Augmentor.Pipeline: [0.90977 s] incompetent
+   - [# 897] AOR Augmentor.Pipeline: [0.87282 s] incompetent
+   - [# 898] AOR Augmentor.Pipeline: [0.85616 s] incompetent
+   - [# 899] AOR Augmentor.Pipeline: [0.89974 s] incompetent
+   - [# 900] AOR Augmentor.Pipeline: [0.90852 s] incompetent
+   - [# 901] AOR Augmentor.Pipeline: [0.88940 s] incompetent
+   - [# 902] AOR Augmentor.Pipeline: [0.94243 s] incompetent
+   - [# 903] AOR Augmentor.Pipeline: [0.83709 s] incompetent
+   - [# 904] AOR Augmentor.Pipeline: [0.86446 s] incompetent
+   - [# 905] AOR Augmentor.Pipeline: [0.91905 s] incompetent
+   - [# 906] AOR Augmentor.Pipeline: [0.86090 s] incompetent
+   - [# 907] ASR Augmentor.Pipeline: [0.82727 s] incompetent
+   - [# 908] ASR Augmentor.Pipeline: [0.86476 s] incompetent
+   - [# 909] ASR Augmentor.Pipeline: [0.89199 s] incompetent
+   - [# 910] ASR Augmentor.Pipeline: [0.84837 s] incompetent
+   - [# 911] ASR Augmentor.Pipeline: [0.85092 s] incompetent
+   - [# 912] ASR Augmentor.Pipeline: [0.88842 s] incompetent
+   - [# 913] ASR Augmentor.Pipeline: [0.90360 s] incompetent
+   - [# 914] ASR Augmentor.Pipeline: [0.85710 s] incompetent
+   - [# 915] COD Augmentor.Pipeline: [0.87345 s] incompetent
+   - [# 916] COD Augmentor.Pipeline: [0.90484 s] incompetent
+   - [# 917] COD Augmentor.Pipeline: [0.81088 s] incompetent
+   - [# 918] COD Augmentor.Pipeline: [0.86863 s] incompetent
+   - [# 919] COD Augmentor.Pipeline: [0.97584 s] incompetent
+   - [# 920] COD Augmentor.Pipeline: [0.88238 s] incompetent
+   - [# 921] COD Augmentor.Pipeline: [0.90685 s] incompetent
+   - [# 922] COD Augmentor.Pipeline: [0.94081 s] incompetent
+   - [# 923] COD Augmentor.Pipeline: [0.85804 s] incompetent
+   - [# 924] COD Augmentor.Pipeline: [0.90467 s] incompetent
+   - [# 925] COD Augmentor.Pipeline: [0.87167 s] incompetent
+   - [# 926] COD Augmentor.Pipeline: [0.85588 s] incompetent
+   - [# 927] COD Augmentor.Pipeline: [0.86865 s] incompetent
+   - [# 928] COD Augmentor.Pipeline: [0.81407 s] incompetent
+   - [# 929] COD Augmentor.Pipeline: [0.84965 s] incompetent
+   - [# 930] COD Augmentor.Pipeline: [0.82259 s] incompetent
+   - [# 931] COD Augmentor.Pipeline: [0.88831 s] incompetent
+   - [# 932] COD Augmentor.Pipeline: [0.82953 s] incompetent
+   - [# 933] COD Augmentor.Pipeline: [0.87776 s] incompetent
+   - [# 934] COD Augmentor.Pipeline: [0.87297 s] incompetent
+   - [# 935] COD Augmentor.Pipeline: [0.89222 s] incompetent
+   - [# 936] COD Augmentor.Pipeline: [0.82316 s] incompetent
+   - [# 937] COD Augmentor.Pipeline: [0.87857 s] incompetent
+   - [# 938] COD Augmentor.Pipeline: [0.88993 s] incompetent
+   - [# 939] COD Augmentor.Pipeline: [0.83948 s] incompetent
+   - [# 940] COD Augmentor.Pipeline: [0.86391 s] incompetent
+   - [# 941] COD Augmentor.Pipeline: [0.87820 s] incompetent
+   - [# 942] COD Augmentor.Pipeline: [0.84279 s] incompetent
+   - [# 943] COD Augmentor.Pipeline: [0.86301 s] incompetent
+   - [# 944] COD Augmentor.Pipeline: [0.91414 s] incompetent
+   - [# 945] COD Augmentor.Pipeline: [0.85807 s] incompetent
+   - [# 946] COD Augmentor.Pipeline: [0.90910 s] incompetent
+   - [# 947] COD Augmentor.Pipeline: [0.89967 s] incompetent
+   - [# 948] COD Augmentor.Pipeline: [0.87345 s] incompetent
+   - [# 949] COD Augmentor.Pipeline: [0.85321 s] incompetent
+   - [# 950] COD Augmentor.Pipeline: [0.85028 s] incompetent
+   - [# 951] COD Augmentor.Pipeline: [0.86864 s] incompetent
+   - [# 952] COD Augmentor.Pipeline: [0.83937 s] incompetent
+   - [# 953] COD Augmentor.Pipeline: [0.87108 s] incompetent
+   - [# 954] COD Augmentor.Pipeline: [0.85000 s] incompetent
+   - [# 955] COD Augmentor.Pipeline: [0.88594 s] incompetent
+   - [# 956] COD Augmentor.Pipeline: [0.86985 s] incompetent
+   - [# 957] COD Augmentor.Pipeline: [0.93195 s] incompetent
+   - [# 958] COD Augmentor.Pipeline: [0.84840 s] incompetent
+   - [# 959] COD Augmentor.Pipeline: [0.88261 s] incompetent
+   - [# 960] COD Augmentor.Pipeline: [0.86121 s] incompetent
+   - [# 961] COD Augmentor.Pipeline: [0.84171 s] incompetent
+   - [# 962] COD Augmentor.Pipeline: [0.85296 s] incompetent
+   - [# 963] COD Augmentor.Pipeline: [0.86827 s] incompetent
+   - [# 964] COD Augmentor.Pipeline: [0.85480 s] incompetent
+   - [# 965] COD Augmentor.Pipeline: [0.84209 s] incompetent
+   - [# 966] COD Augmentor.Pipeline: [0.88667 s] incompetent
+   - [# 967] COD Augmentor.Pipeline: [0.86012 s] incompetent
+   - [# 968] COD Augmentor.Pipeline: [0.98228 s] incompetent
+   - [# 969] COD Augmentor.Pipeline: [0.82200 s] incompetent
+   - [# 970] COD Augmentor.Pipeline: [0.83535 s] incompetent
+   - [# 971] COD Augmentor.Pipeline: [0.86139 s] incompetent
+   - [# 972] COD Augmentor.Pipeline: [0.85826 s] incompetent
+   - [# 973] COD Augmentor.Pipeline: [0.93455 s] incompetent
+   - [# 974] COD Augmentor.Pipeline: [0.82017 s] incompetent
+   - [# 975] COD Augmentor.Pipeline: [0.83223 s] incompetent
+   - [# 976] COD Augmentor.Pipeline: [0.83602 s] incompetent
+   - [# 977] COD Augmentor.Pipeline: [0.87677 s] incompetent
+   - [# 978] COD Augmentor.Pipeline: [0.88246 s] incompetent
+   - [# 979] COI Augmentor.Pipeline: [0.81151 s] incompetent
+   - [# 980] COI Augmentor.Pipeline: [0.76216 s] incompetent
+   - [# 981] COI Augmentor.Pipeline: [0.88926 s] incompetent
+   - [# 982] COI Augmentor.Pipeline: [0.84225 s] incompetent
+   - [# 983] COI Augmentor.Pipeline: [0.88960 s] incompetent
+   - [# 984] COI Augmentor.Pipeline: [0.83857 s] incompetent
+   - [# 985] COI Augmentor.Pipeline: [0.90145 s] incompetent
+   - [# 986] COI Augmentor.Pipeline: [0.87160 s] incompetent
+   - [# 987] COI Augmentor.Pipeline: [0.84887 s] incompetent
+   - [# 988] COI Augmentor.Pipeline: [0.83060 s] incompetent
+   - [# 989] COI Augmentor.Pipeline: [0.86975 s] incompetent
+   - [# 990] COI Augmentor.Pipeline: [0.79107 s] incompetent
+   - [# 991] COI Augmentor.Pipeline: [0.87903 s] incompetent
+   - [# 992] COI Augmentor.Pipeline: [0.84927 s] incompetent
+   - [# 993] COI Augmentor.Pipeline: [0.86586 s] incompetent
+   - [# 994] COI Augmentor.Pipeline: [0.90188 s] incompetent
+   - [# 995] COI Augmentor.Pipeline: [0.84902 s] incompetent
+   - [# 996] COI Augmentor.Pipeline: [0.83657 s] incompetent
+   - [# 997] COI Augmentor.Pipeline: [0.91880 s] incompetent
+   - [# 998] COI Augmentor.Pipeline: [0.80815 s] incompetent
+   - [# 999] COI Augmentor.Pipeline: [0.87496 s] incompetent
+   - [#1000] COI Augmentor.Pipeline: [0.83339 s] incompetent
+   - [#1001] COI Augmentor.Pipeline: [0.83436 s] incompetent
+   - [#1002] COI Augmentor.Pipeline: [0.88923 s] incompetent
+   - [#1003] COI Augmentor.Pipeline: [0.85246 s] incompetent
+   - [#1004] COI Augmentor.Pipeline: [0.87403 s] incompetent
+   - [#1005] COI Augmentor.Pipeline: [0.84776 s] incompetent
+   - [#1006] COI Augmentor.Pipeline: [0.90173 s] incompetent
+   - [#1007] COI Augmentor.Pipeline: [0.86891 s] incompetent
+   - [#1008] COI Augmentor.Pipeline: [0.87263 s] incompetent
+   - [#1009] COI Augmentor.Pipeline: [0.85728 s] incompetent
+   - [#1010] COI Augmentor.Pipeline: [0.88480 s] incompetent
+   - [#1011] COI Augmentor.Pipeline: [0.84425 s] incompetent
+   - [#1012] COI Augmentor.Pipeline: [0.84256 s] incompetent
+   - [#1013] COI Augmentor.Pipeline: [0.85404 s] incompetent
+   - [#1014] COI Augmentor.Pipeline: [0.89692 s] incompetent
+   - [#1015] COI Augmentor.Pipeline: [0.91781 s] incompetent
+   - [#1016] COI Augmentor.Pipeline: [0.85105 s] incompetent
+   - [#1017] COI Augmentor.Pipeline: [0.88112 s] incompetent
+   - [#1018] COI Augmentor.Pipeline: [0.83956 s] incompetent
+   - [#1019] COI Augmentor.Pipeline: [0.91195 s] incompetent
+   - [#1020] COI Augmentor.Pipeline: [0.89032 s] incompetent
+   - [#1021] COI Augmentor.Pipeline: [0.83763 s] incompetent
+   - [#1022] COI Augmentor.Pipeline: [0.91202 s] incompetent
+   - [#1023] COI Augmentor.Pipeline: [0.88782 s] incompetent
+   - [#1024] COI Augmentor.Pipeline: [0.86966 s] incompetent
+   - [#1025] COI Augmentor.Pipeline: [0.84144 s] incompetent
+   - [#1026] COI Augmentor.Pipeline: [0.88269 s] incompetent
+   - [#1027] COI Augmentor.Pipeline: [0.86395 s] incompetent
+   - [#1028] COI Augmentor.Pipeline: [0.84457 s] incompetent
+   - [#1029] COI Augmentor.Pipeline: [0.83999 s] incompetent
+   - [#1030] COI Augmentor.Pipeline: [0.86870 s] incompetent
+   - [#1031] COI Augmentor.Pipeline: [0.82386 s] incompetent
+   - [#1032] COI Augmentor.Pipeline: [0.85464 s] incompetent
+   - [#1033] COI Augmentor.Pipeline: [0.83768 s] incompetent
+   - [#1034] COI Augmentor.Pipeline: [0.85740 s] incompetent
+   - [#1035] COI Augmentor.Pipeline: [0.83502 s] incompetent
+   - [#1036] COI Augmentor.Pipeline: [0.87527 s] incompetent
+   - [#1037] COI Augmentor.Pipeline: [0.93815 s] incompetent
+   - [#1038] COI Augmentor.Pipeline: [0.84129 s] incompetent
+   - [#1039] COI Augmentor.Pipeline: [0.86746 s] incompetent
+   - [#1040] COI Augmentor.Pipeline: [0.87085 s] incompetent
+   - [#1041] COI Augmentor.Pipeline: [0.89052 s] incompetent
+   - [#1042] COI Augmentor.Pipeline: [0.91042 s] incompetent
+   - [#1043] COI Augmentor.Pipeline: [0.84805 s] incompetent
+   - [#1044] COI Augmentor.Pipeline: [0.86506 s] incompetent
+   - [#1045] COI Augmentor.Pipeline: [0.83926 s] incompetent
+   - [#1046] COI Augmentor.Pipeline: [0.91923 s] incompetent
+   - [#1047] COI Augmentor.Pipeline: [0.90108 s] incompetent
+   - [#1048] COI Augmentor.Pipeline: [0.84078 s] incompetent
+   - [#1049] COI Augmentor.Pipeline: [0.83139 s] incompetent
+   - [#1050] COI Augmentor.Pipeline: [0.84889 s] incompetent
+   - [#1051] COI Augmentor.Pipeline: [0.87340 s] incompetent
+   - [#1052] COI Augmentor.Pipeline: [0.87705 s] incompetent
+   - [#1053] COI Augmentor.Pipeline: [0.85130 s] incompetent
+   - [#1054] COI Augmentor.Pipeline: [0.96661 s] incompetent
+   - [#1055] COI Augmentor.Pipeline: [0.87430 s] incompetent
+   - [#1056] COI Augmentor.Pipeline: [0.84784 s] incompetent
+   - [#1057] COI Augmentor.Pipeline: [0.86536 s] incompetent
+   - [#1058] COI Augmentor.Pipeline: [0.84778 s] incompetent
+   - [#1059] COI Augmentor.Pipeline: [0.87973 s] incompetent
+   - [#1060] COI Augmentor.Pipeline: [0.84764 s] incompetent
+   - [#1061] COI Augmentor.Pipeline: [0.88837 s] incompetent
+   - [#1062] COI Augmentor.Pipeline: [0.90741 s] incompetent
+   - [#1063] COI Augmentor.Pipeline: [0.85219 s] incompetent
+   - [#1064] COI Augmentor.Pipeline: [0.86959 s] incompetent
+   - [#1065] COI Augmentor.Pipeline: [0.88947 s] incompetent
+   - [#1066] COI Augmentor.Pipeline: [0.83129 s] incompetent
+   - [#1067] COI Augmentor.Pipeline: [0.81771 s] incompetent
+   - [#1068] COI Augmentor.Pipeline: [0.83078 s] incompetent
+   - [#1069] COI Augmentor.Pipeline: [0.88279 s] incompetent
+   - [#1070] COI Augmentor.Pipeline: [0.87071 s] incompetent
+   - [#1071] COI Augmentor.Pipeline: [0.85989 s] incompetent
+   - [#1072] COI Augmentor.Pipeline: [0.89222 s] incompetent
+   - [#1073] COI Augmentor.Pipeline: [0.86220 s] incompetent
+   - [#1074] COI Augmentor.Pipeline: [0.82883 s] incompetent
+   - [#1075] COI Augmentor.Pipeline: [0.87066 s] incompetent
+   - [#1076] COI Augmentor.Pipeline: [0.85151 s] incompetent
+   - [#1077] COI Augmentor.Pipeline: [0.87135 s] incompetent
+   - [#1078] COI Augmentor.Pipeline: [0.93962 s] incompetent
+   - [#1079] COI Augmentor.Pipeline: [0.93445 s] incompetent
+   - [#1080] COI Augmentor.Pipeline: [0.89057 s] incompetent
+   - [#1081] COI Augmentor.Pipeline: [0.93803 s] incompetent
+   - [#1082] COI Augmentor.Pipeline: [0.89022 s] incompetent
+   - [#1083] COI Augmentor.Pipeline: [0.83935 s] incompetent
+   - [#1084] COI Augmentor.Pipeline: [0.85849 s] incompetent
+   - [#1085] COI Augmentor.Pipeline: [1.07159 s] incompetent
+   - [#1086] COI Augmentor.Pipeline: [0.86802 s] incompetent
+   - [#1087] COI Augmentor.Pipeline: [0.88407 s] incompetent
+   - [#1088] COI Augmentor.Pipeline: [0.87408 s] incompetent
+   - [#1089] COI Augmentor.Pipeline: [0.86141 s] incompetent
+   - [#1090] COI Augmentor.Pipeline: [0.90618 s] incompetent
+   - [#1091] COI Augmentor.Pipeline: [0.89759 s] incompetent
+   - [#1092] COI Augmentor.Pipeline: [0.85284 s] incompetent
+   - [#1093] COI Augmentor.Pipeline: [0.86799 s] incompetent
+   - [#1094] COI Augmentor.Pipeline: [0.92289 s] incompetent
+   - [#1095] COI Augmentor.Pipeline: [0.86944 s] incompetent
+   - [#1096] COI Augmentor.Pipeline: [0.89139 s] incompetent
+   - [#1097] DDL Augmentor.Pipeline: [0.90394 s] incompetent
+   - [#1098] DDL Augmentor.Pipeline: [0.85991 s] incompetent
+   - [#1099] DDL Augmentor.Pipeline: [0.00000 s] incompetent
+   - [#1100] DDL Augmentor.Pipeline: [0.89562 s] incompetent
+   - [#1101] DDL Augmentor.Pipeline: [0.00000 s] incompetent
+   - [#1102] DDL Augmentor.Pipeline: [0.84516 s] incompetent
+   - [#1103] EHD Augmentor.Pipeline: [0.85343 s] incompetent
+   - [#1104] EHD Augmentor.Pipeline: [0.87021 s] incompetent
+   - [#1105] EHD Augmentor.Pipeline: [0.85764 s] incompetent
+   - [#1106] EHD Augmentor.Pipeline: [0.85136 s] incompetent
+   - [#1107] EXS Augmentor.Pipeline: [0.91487 s] incompetent
+   - [#1108] EXS Augmentor.Pipeline: [0.90477 s] incompetent
+   - [#1109] EXS Augmentor.Pipeline: [0.84612 s] incompetent
+   - [#1110] EXS Augmentor.Pipeline: [0.84016 s] incompetent
+   - [#1111] IOD Augmentor.Pipeline: [0.85433 s] incompetent
+   - [#1112] IOD Augmentor.Pipeline: [0.89147 s] incompetent
+   - [#1113] IOD Augmentor.Pipeline: [0.77225 s] incompetent
+   - [#1114] IOD Augmentor.Pipeline: [0.84090 s] incompetent
+   - [#1115] IOD Augmentor.Pipeline: [0.83859 s] incompetent
+   - [#1116] IOP Augmentor.Pipeline: [0.81826 s] incompetent
+   - [#1117] ROR Augmentor.Pipeline: [0.85943 s] incompetent
+   - [#1118] ROR Augmentor.Pipeline: [0.81016 s] incompetent
+   - [#1119] ROR Augmentor.Pipeline: [0.86102 s] incompetent
+   - [#1120] ROR Augmentor.Pipeline: [0.90779 s] incompetent
+   - [#1121] ROR Augmentor.Pipeline: [0.91864 s] incompetent
+   - [#1122] ROR Augmentor.Pipeline: [0.86171 s] incompetent
+   - [#1123] ROR Augmentor.Pipeline: [0.84904 s] incompetent
+   - [#1124] ROR Augmentor.Pipeline: [0.84291 s] incompetent
+   - [#1125] ROR Augmentor.Pipeline: [0.87886 s] incompetent
+   - [#1126] ROR Augmentor.Pipeline: [0.91232 s] incompetent
+   - [#1127] ROR Augmentor.Pipeline: [0.84100 s] incompetent
+   - [#1128] ROR Augmentor.Pipeline: [0.89213 s] incompetent
+   - [#1129] ROR Augmentor.Pipeline: [0.81278 s] incompetent
+   - [#1130] ROR Augmentor.Pipeline: [0.83311 s] incompetent
+   - [#1131] ROR Augmentor.Pipeline: [0.90947 s] incompetent
+   - [#1132] ROR Augmentor.Pipeline: [0.91495 s] incompetent
+   - [#1133] ROR Augmentor.Pipeline: [0.84759 s] incompetent
+   - [#1134] ROR Augmentor.Pipeline: [0.85519 s] incompetent
+   - [#1135] ROR Augmentor.Pipeline: [0.81866 s] incompetent
+   - [#1136] ROR Augmentor.Pipeline: [0.88759 s] incompetent
+   - [#1137] ROR Augmentor.Pipeline: [0.88403 s] incompetent
+   - [#1138] ROR Augmentor.Pipeline: [0.84686 s] incompetent
+   - [#1139] ROR Augmentor.Pipeline: [0.90493 s] incompetent
+   - [#1140] ROR Augmentor.Pipeline: [0.85980 s] incompetent
+   - [#1141] ROR Augmentor.Pipeline: [0.88620 s] incompetent
+   - [#1142] ROR Augmentor.Pipeline: [0.87631 s] incompetent
+   - [#1143] ROR Augmentor.Pipeline: [0.88493 s] incompetent
+   - [#1144] ROR Augmentor.Pipeline: [0.83995 s] incompetent
+   - [#1145] ROR Augmentor.Pipeline: [0.89083 s] incompetent
+   - [#1146] ROR Augmentor.Pipeline: [0.86793 s] incompetent
+   - [#1147] ROR Augmentor.Pipeline: [0.89711 s] incompetent
+   - [#1148] ROR Augmentor.Pipeline: [0.86201 s] incompetent
+   - [#1149] ROR Augmentor.Pipeline: [0.85870 s] incompetent
+   - [#1150] ROR Augmentor.Pipeline: [0.87889 s] incompetent
+   - [#1151] ROR Augmentor.Pipeline: [0.89969 s] incompetent
+   - [#1152] ROR Augmentor.Pipeline: [0.90550 s] incompetent
+   - [#1153] ROR Augmentor.Pipeline: [0.88037 s] incompetent
+   - [#1154] ROR Augmentor.Pipeline: [0.83007 s] incompetent
+   - [#1155] ROR Augmentor.Pipeline: [0.85332 s] incompetent
+   - [#1156] ROR Augmentor.Pipeline: [0.88861 s] incompetent
+   - [#1157] ROR Augmentor.Pipeline: [0.86994 s] incompetent
+   - [#1158] ROR Augmentor.Pipeline: [0.87513 s] incompetent
+   - [#1159] ROR Augmentor.Pipeline: [0.84420 s] incompetent
+   - [#1160] ROR Augmentor.Pipeline: [0.92427 s] incompetent
+   - [#1161] ROR Augmentor.Pipeline: [0.90307 s] incompetent
+   - [#1162] ROR Augmentor.Pipeline: [0.86118 s] incompetent
+   - [#1163] ROR Augmentor.Pipeline: [0.87162 s] incompetent
+   - [#1164] ROR Augmentor.Pipeline: [0.86388 s] incompetent
+   - [#1165] ROR Augmentor.Pipeline: [0.90746 s] incompetent
+   - [#1166] ROR Augmentor.Pipeline: [0.88383 s] incompetent
+   - [#1167] ROR Augmentor.Pipeline: [0.84897 s] incompetent
+   - [#1168] ROR Augmentor.Pipeline: [0.84365 s] incompetent
+   - [#1169] ROR Augmentor.Pipeline: [0.87775 s] incompetent
+   - [#1170] ROR Augmentor.Pipeline: [0.90259 s] incompetent
+   - [#1171] ROR Augmentor.Pipeline: [0.83938 s] incompetent
+   - [#1172] ROR Augmentor.Pipeline: [0.83851 s] incompetent
+   - [#1173] ROR Augmentor.Pipeline: [0.85990 s] incompetent
+   - [#1174] ROR Augmentor.Pipeline: [0.85551 s] incompetent
+   - [#1175] ROR Augmentor.Pipeline: [0.96574 s] incompetent
+   - [#1176] ROR Augmentor.Pipeline: [0.85077 s] incompetent
+   - [#1177] ROR Augmentor.Pipeline: [0.89091 s] incompetent
+   - [#1178] ROR Augmentor.Pipeline: [0.91079 s] incompetent
+   - [#1179] ROR Augmentor.Pipeline: [0.90184 s] incompetent
+   - [#1180] ROR Augmentor.Pipeline: [0.91760 s] incompetent
+   - [#1181] ROR Augmentor.Pipeline: [0.86347 s] incompetent
+   - [#1182] ROR Augmentor.Pipeline: [0.83382 s] incompetent
+   - [#1183] ROR Augmentor.Pipeline: [0.86549 s] incompetent
+   - [#1184] ROR Augmentor.Pipeline: [0.88432 s] incompetent
+   - [#1185] ROR Augmentor.Pipeline: [0.92145 s] incompetent
+   - [#1186] ROR Augmentor.Pipeline: [0.86177 s] incompetent
+   - [#1187] ROR Augmentor.Pipeline: [0.91345 s] incompetent
+   - [#1188] ROR Augmentor.Pipeline: [0.91612 s] incompetent
+   - [#1189] ROR Augmentor.Pipeline: [0.84301 s] incompetent
+   - [#1190] ROR Augmentor.Pipeline: [0.86380 s] incompetent
+   - [#1191] ROR Augmentor.Pipeline: [0.92482 s] incompetent
+   - [#1192] ROR Augmentor.Pipeline: [0.91328 s] incompetent
+   - [#1193] ROR Augmentor.Pipeline: [1.12840 s] incompetent
+   - [#1194] ROR Augmentor.Pipeline: [0.93463 s] incompetent
+   - [#1195] ROR Augmentor.Pipeline: [0.87603 s] incompetent
+   - [#1196] ROR Augmentor.Pipeline: [0.88372 s] incompetent
+   - [#1197] ROR Augmentor.Pipeline: [0.89820 s] incompetent
+   - [#1198] ROR Augmentor.Pipeline: [0.88210 s] incompetent
+   - [#1199] ROR Augmentor.Pipeline: [0.84618 s] incompetent
+   - [#1200] ROR Augmentor.Pipeline: [0.87597 s] incompetent
+   - [#1201] ROR Augmentor.Pipeline: [0.85469 s] incompetent
+   - [#1202] ROR Augmentor.Pipeline: [0.86089 s] incompetent
+   - [#1203] ROR Augmentor.Pipeline: [0.87808 s] incompetent
+   - [#1204] ROR Augmentor.Pipeline: [0.88297 s] incompetent
+   - [#1205] ROR Augmentor.Pipeline: [0.79913 s] incompetent
+   - [#1206] ROR Augmentor.Pipeline: [0.83289 s] incompetent
+   - [#1207] ROR Augmentor.Pipeline: [0.85338 s] incompetent
+   - [#1208] ROR Augmentor.Pipeline: [0.82005 s] incompetent
+   - [#1209] ROR Augmentor.Pipeline: [0.82070 s] incompetent
+   - [#1210] ROR Augmentor.Pipeline: [0.83178 s] incompetent
+   - [#1211] ROR Augmentor.Pipeline: [0.86990 s] incompetent
+   - [#1212] ROR Augmentor.Pipeline: [0.84410 s] incompetent
+   - [#1213] ROR Augmentor.Pipeline: [0.87966 s] incompetent
+   - [#1214] ROR Augmentor.Pipeline: [0.86388 s] incompetent
+   - [#1215] ROR Augmentor.Pipeline: [0.90784 s] incompetent
+   - [#1216] ROR Augmentor.Pipeline: [0.87217 s] incompetent
+   - [#1217] ROR Augmentor.Pipeline: [0.90996 s] incompetent
+   - [#1218] ROR Augmentor.Pipeline: [0.88719 s] incompetent
+   - [#1219] ROR Augmentor.Pipeline: [0.88355 s] incompetent
+   - [#1220] ROR Augmentor.Pipeline: [0.87292 s] incompetent
+   - [#1221] ROR Augmentor.Pipeline: [0.86514 s] incompetent
+   - [#1222] ROR Augmentor.Pipeline: [0.84141 s] incompetent
+   - [#1223] ROR Augmentor.Pipeline: [0.84866 s] incompetent
+   - [#1224] ROR Augmentor.Pipeline: [0.89173 s] incompetent
+   - [#1225] ROR Augmentor.Pipeline: [0.81425 s] incompetent
+   - [#1226] ROR Augmentor.Pipeline: [0.85334 s] incompetent
+   - [#1227] ROR Augmentor.Pipeline: [0.85977 s] incompetent
+   - [#1228] ROR Augmentor.Pipeline: [0.92319 s] incompetent
+   - [#1229] ROR Augmentor.Pipeline: [0.84956 s] incompetent
+   - [#1230] ROR Augmentor.Pipeline: [0.88087 s] incompetent
+   - [#1231] ROR Augmentor.Pipeline: [0.91020 s] incompetent
+   - [#1232] ROR Augmentor.Pipeline: [0.93505 s] incompetent
+   - [#1233] ROR Augmentor.Pipeline: [0.93158 s] incompetent
+   - [#1234] ROR Augmentor.Pipeline: [0.87934 s] incompetent
+   - [#1235] ROR Augmentor.Pipeline: [0.84988 s] incompetent
+   - [#1236] ROR Augmentor.Pipeline: [0.90079 s] incompetent
+   - [#1237] ROR Augmentor.Pipeline: [0.86884 s] incompetent
+   - [#1238] ROR Augmentor.Pipeline: [0.84316 s] incompetent
+   - [#1239] ROR Augmentor.Pipeline: [0.83392 s] incompetent
+   - [#1240] ROR Augmentor.Pipeline: [0.88078 s] incompetent
+   - [#1241] ROR Augmentor.Pipeline: [0.85049 s] incompetent
+   - [#1242] ROR Augmentor.Pipeline: [0.82342 s] incompetent
+   - [#1243] ROR Augmentor.Pipeline: [0.95596 s] incompetent
+   - [#1244] ROR Augmentor.Pipeline: [0.79113 s] incompetent
+   - [#1245] ROR Augmentor.Pipeline: [0.91475 s] incompetent
+   - [#1246] ROR Augmentor.Pipeline: [0.87905 s] incompetent
+   - [#1247] ROR Augmentor.Pipeline: [0.90042 s] incompetent
+   - [#1248] ROR Augmentor.Pipeline: [0.96185 s] incompetent
+   - [#1249] ROR Augmentor.Pipeline: [0.85296 s] incompetent
+   - [#1250] ROR Augmentor.Pipeline: [0.87345 s] incompetent
+   - [#1251] ROR Augmentor.Pipeline: [0.90904 s] incompetent
+   - [#1252] ROR Augmentor.Pipeline: [0.85791 s] incompetent
+   - [#1253] ROR Augmentor.Pipeline: [0.83839 s] incompetent
+   - [#1254] ROR Augmentor.Pipeline: [0.89659 s] incompetent
+   - [#1255] ROR Augmentor.Pipeline: [0.82137 s] incompetent
+   - [#1256] ROR Augmentor.Pipeline: [0.85478 s] incompetent
+   - [#1257] ROR Augmentor.Pipeline: [0.84698 s] incompetent
+   - [#1258] ROR Augmentor.Pipeline: [0.85399 s] incompetent
+   - [#1259] ROR Augmentor.Pipeline: [0.87717 s] incompetent
+   - [#1260] ROR Augmentor.Pipeline: [0.84408 s] incompetent
+   - [#1261] ROR Augmentor.Pipeline: [0.88824 s] incompetent
+   - [#1262] ROR Augmentor.Pipeline: [0.85265 s] incompetent
+   - [#1263] ROR Augmentor.Pipeline: [0.83872 s] incompetent
+   - [#1264] ROR Augmentor.Pipeline: [0.84157 s] incompetent
+   - [#1265] ROR Augmentor.Pipeline: [0.82186 s] incompetent
+   - [#1266] ROR Augmentor.Pipeline: [0.85981 s] incompetent
+   - [#1267] ROR Augmentor.Pipeline: [0.91972 s] incompetent
+   - [#1268] ROR Augmentor.Pipeline: [0.88375 s] incompetent
+   - [#1269] ROR Augmentor.Pipeline: [0.87035 s] incompetent
+   - [#1270] ROR Augmentor.Pipeline: [0.90906 s] incompetent
+   - [#1271] ROR Augmentor.Pipeline: [0.84239 s] incompetent
+   - [#1272] ROR Augmentor.Pipeline: [0.85437 s] incompetent
+   - [#1273] ROR Augmentor.Pipeline: [0.91977 s] incompetent
+   - [#1274] ROR Augmentor.Pipeline: [0.83942 s] incompetent
+   - [#1275] ROR Augmentor.Pipeline: [0.84074 s] incompetent
+   - [#1276] ROR Augmentor.Pipeline: [0.84497 s] incompetent
+   - [#1277] ROR Augmentor.Pipeline: [0.86863 s] incompetent
+   - [#1278] ROR Augmentor.Pipeline: [0.87176 s] incompetent
+   - [#1279] ROR Augmentor.Pipeline: [0.86290 s] incompetent
+   - [#1280] ROR Augmentor.Pipeline: [0.85176 s] incompetent
+   - [#1281] ROR Augmentor.Pipeline: [0.88357 s] incompetent
+   - [#1282] ROR Augmentor.Pipeline: [0.86726 s] incompetent
+   - [#1283] ROR Augmentor.Pipeline: [0.83119 s] incompetent
+   - [#1284] ROR Augmentor.Pipeline: [0.89610 s] incompetent
+   - [#1285] ROR Augmentor.Pipeline: [0.87899 s] incompetent
+   - [#1286] ROR Augmentor.Pipeline: [0.87552 s] incompetent
+   - [#1287] ROR Augmentor.Pipeline: [0.90468 s] incompetent
+   - [#1288] ROR Augmentor.Pipeline: [0.90450 s] incompetent
+   - [#1289] ROR Augmentor.Pipeline: [0.83134 s] incompetent
+   - [#1290] ROR Augmentor.Pipeline: [0.95992 s] incompetent
+   - [#1291] ROR Augmentor.Pipeline: [0.85872 s] incompetent
+   - [#1292] ROR Augmentor.Pipeline: [0.88062 s] incompetent
+   - [#1293] ROR Augmentor.Pipeline: [0.83629 s] incompetent
+   - [#1294] ROR Augmentor.Pipeline: [0.86543 s] incompetent
+   - [#1295] ROR Augmentor.Pipeline: [0.86288 s] incompetent
+   - [#1296] ROR Augmentor.Pipeline: [0.86855 s] incompetent
+   - [#1297] ROR Augmentor.Pipeline: [0.96087 s] incompetent
+   - [#1298] ROR Augmentor.Pipeline: [0.90945 s] incompetent
+   - [#1299] ROR Augmentor.Pipeline: [0.91615 s] incompetent
+   - [#1300] ROR Augmentor.Pipeline: [0.85026 s] incompetent
+   - [#1301] ROR Augmentor.Pipeline: [0.85478 s] incompetent
+   - [#1302] ROR Augmentor.Pipeline: [0.84594 s] incompetent
+   - [#1303] ROR Augmentor.Pipeline: [0.90996 s] incompetent
+   - [#1304] ROR Augmentor.Pipeline: [0.89195 s] incompetent
+   - [#1305] ROR Augmentor.Pipeline: [0.86301 s] incompetent
+   - [#1306] ROR Augmentor.Pipeline: [0.86395 s] incompetent
+   - [#1307] ROR Augmentor.Pipeline: [1.07207 s] incompetent
+   - [#1308] ROR Augmentor.Pipeline: [0.86042 s] incompetent
+   - [#1309] ROR Augmentor.Pipeline: [0.92612 s] incompetent
+   - [#1310] ROR Augmentor.Pipeline: [0.84737 s] incompetent
+   - [#1311] ROR Augmentor.Pipeline: [0.89226 s] incompetent
+   - [#1312] ROR Augmentor.Pipeline: [0.85145 s] incompetent
+   - [#1313] ROR Augmentor.Pipeline: [0.89450 s] incompetent
+   - [#1314] ROR Augmentor.Pipeline: [0.85135 s] incompetent
+   - [#1315] ROR Augmentor.Pipeline: [0.86101 s] incompetent
+   - [#1316] ROR Augmentor.Pipeline: [0.96884 s] incompetent
+   - [#1317] ROR Augmentor.Pipeline: [0.93976 s] incompetent
+   - [#1318] ROR Augmentor.Pipeline: [0.90349 s] incompetent
+   - [#1319] ROR Augmentor.Pipeline: [0.88884 s] incompetent
+   - [#1320] ROR Augmentor.Pipeline: [0.93921 s] incompetent
+   - [#1321] ROR Augmentor.Pipeline: [0.94329 s] incompetent
+   - [#1322] ROR Augmentor.Pipeline: [0.84158 s] incompetent
+   - [#1323] ROR Augmentor.Pipeline: [0.86165 s] incompetent
+   - [#1324] ROR Augmentor.Pipeline: [0.85098 s] incompetent
+   - [#1325] ROR Augmentor.Pipeline: [0.85014 s] incompetent
+   - [#1326] ROR Augmentor.Pipeline: [0.82637 s] incompetent
+   - [#1327] ROR Augmentor.Pipeline: [0.87332 s] incompetent
+   - [#1328] ROR Augmentor.Pipeline: [0.87477 s] incompetent
+   - [#1329] ROR Augmentor.Pipeline: [0.85197 s] incompetent
+   - [#1330] ROR Augmentor.Pipeline: [0.91131 s] incompetent
+   - [#1331] ROR Augmentor.Pipeline: [0.92938 s] incompetent
+   - [#1332] ROR Augmentor.Pipeline: [0.83707 s] incompetent
+   - [#1333] ROR Augmentor.Pipeline: [0.84101 s] incompetent
+   - [#1334] ROR Augmentor.Pipeline: [0.84248 s] incompetent
+   - [#1335] ROR Augmentor.Pipeline: [0.87842 s] incompetent
+   - [#1336] ROR Augmentor.Pipeline: [0.86920 s] incompetent
+   - [#1337] ROR Augmentor.Pipeline: [0.84821 s] incompetent
+   - [#1338] ROR Augmentor.Pipeline: [0.85341 s] incompetent
+   - [#1339] ROR Augmentor.Pipeline: [0.91149 s] incompetent
+   - [#1340] ROR Augmentor.Pipeline: [0.83171 s] incompetent
+   - [#1341] ROR Augmentor.Pipeline: [0.84008 s] incompetent
+   - [#1342] ROR Augmentor.Pipeline: [0.83100 s] incompetent
+   - [#1343] ROR Augmentor.Pipeline: [0.86133 s] incompetent
+   - [#1344] ROR Augmentor.Pipeline: [0.86132 s] incompetent
+   - [#1345] ROR Augmentor.Pipeline: [0.86972 s] incompetent
+   - [#1346] ROR Augmentor.Pipeline: [0.80355 s] incompetent
+   - [#1347] ROR Augmentor.Pipeline: [0.89112 s] incompetent
+   - [#1348] ROR Augmentor.Pipeline: [0.84345 s] incompetent
+   - [#1349] ROR Augmentor.Pipeline: [0.85149 s] incompetent
+   - [#1350] ROR Augmentor.Pipeline: [0.88082 s] incompetent
+   - [#1351] ROR Augmentor.Pipeline: [0.83216 s] incompetent
+   - [#1352] ROR Augmentor.Pipeline: [0.80872 s] incompetent
+   - [#1353] ROR Augmentor.Pipeline: [0.83292 s] incompetent
+   - [#1354] ROR Augmentor.Pipeline: [0.86001 s] incompetent
+   - [#1355] ROR Augmentor.Pipeline: [0.87555 s] incompetent
+   - [#1356] ROR Augmentor.Pipeline: [0.89499 s] incompetent
+   - [#1357] ROR Augmentor.Pipeline: [0.85528 s] incompetent
+   - [#1358] ROR Augmentor.Pipeline: [0.93504 s] incompetent
+   - [#1359] ROR Augmentor.Pipeline: [0.83457 s] incompetent
+   - [#1360] ROR Augmentor.Pipeline: [0.88898 s] incompetent
+   - [#1361] ROR Augmentor.Pipeline: [0.86877 s] incompetent
+   - [#1362] ROR Augmentor.Pipeline: [0.89997 s] incompetent
+   - [#1363] SCD Augmentor.Pipeline: [0.86322 s] incompetent
+   - [#1364] SCI Augmentor.Pipeline: [0.81450 s] incompetent
+   - [#1365] SCI Augmentor.Pipeline: [0.82905 s] incompetent
+   - [#1366] SCI Augmentor.Pipeline: [0.88517 s] incompetent
+   - [#1367] SCI Augmentor.Pipeline: [0.88366 s] incompetent
+[*] Mutation score [1960.35662 s]: 8.6%
+   - all: 1367
+   - killed: 3 (0.2%)
+   - survived: 32 (2.3%)
+   - incompetent: 1332 (97.4%)
+   - timeout: 0 (0.0%)

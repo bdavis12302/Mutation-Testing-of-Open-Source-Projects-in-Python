@@ -1,0 +1,1465 @@
+[*] Start mutation process:
+   - targets: asciinema
+   - tests: tests_50
+[*] 2 tests passed:
+   - tests_50.asciicast.v2_test [0.24135 s]
+   - tests_50.pty_test [0.22270 s]
+   - tests_50.test_helper [0.18321 s]
+[*] Start mutants generation and execution:
+   - [#   1] AOD asciinema.__main__: [0.21490 s] survived
+   - [#   2] AOR asciinema.__main__: [0.22152 s] survived
+   - [#   3] AOR asciinema.__main__: [0.21867 s] survived
+   - [#   4] COD asciinema.__main__: [0.21947 s] survived
+   - [#   5] COI asciinema.__main__: [0.22553 s] survived
+   - [#   6] COI asciinema.__main__: [0.21419 s] survived
+   - [#   7] COI asciinema.__main__: [0.20670 s] survived
+   - [#   8] COI asciinema.__main__: [0.22486 s] survived
+   - [#   9] COI asciinema.__main__: [0.23615 s] survived
+   - [#  10] COI asciinema.__main__: [0.23548 s] survived
+   - [#  11] COI asciinema.__main__: [0.23707 s] survived
+   - [#  12] COI asciinema.__main__: [0.00000 s] incompetent
+   - [#  13] CRP asciinema.__main__: [0.23098 s] survived
+   - [#  14] CRP asciinema.__main__: [0.23662 s] survived
+   - [#  15] CRP asciinema.__main__: [0.23430 s] survived
+   - [#  16] CRP asciinema.__main__: [0.23273 s] survived
+   - [#  17] CRP asciinema.__main__: [0.23577 s] survived
+   - [#  18] CRP asciinema.__main__: [0.22603 s] survived
+   - [#  19] CRP asciinema.__main__: [0.23289 s] survived
+   - [#  20] CRP asciinema.__main__: [0.23102 s] survived
+   - [#  21] CRP asciinema.__main__: [0.22532 s] survived
+   - [#  22] CRP asciinema.__main__: [0.22809 s] survived
+   - [#  23] CRP asciinema.__main__: [0.22985 s] survived
+   - [#  24] CRP asciinema.__main__: [0.23652 s] survived
+   - [#  25] CRP asciinema.__main__: [0.22223 s] survived
+   - [#  26] CRP asciinema.__main__: [0.23119 s] survived
+   - [#  27] CRP asciinema.__main__: [0.22988 s] survived
+   - [#  28] CRP asciinema.__main__: [0.21790 s] survived
+   - [#  29] CRP asciinema.__main__: [0.22624 s] survived
+   - [#  30] CRP asciinema.__main__: [0.23102 s] survived
+   - [#  31] CRP asciinema.__main__: [0.24089 s] survived
+   - [#  32] CRP asciinema.__main__: [0.22353 s] survived
+   - [#  33] CRP asciinema.__main__: [0.22095 s] survived
+   - [#  34] CRP asciinema.__main__: [0.22522 s] survived
+   - [#  35] CRP asciinema.__main__: [0.22595 s] survived
+   - [#  36] CRP asciinema.__main__: [0.22660 s] survived
+   - [#  37] CRP asciinema.__main__: [0.23719 s] survived
+   - [#  38] CRP asciinema.__main__: [0.22932 s] survived
+   - [#  39] CRP asciinema.__main__: [0.22993 s] survived
+   - [#  40] CRP asciinema.__main__: [0.21704 s] survived
+   - [#  41] CRP asciinema.__main__: [0.23995 s] survived
+   - [#  42] CRP asciinema.__main__: [0.24152 s] survived
+   - [#  43] CRP asciinema.__main__: [0.23525 s] survived
+   - [#  44] CRP asciinema.__main__: [0.23372 s] survived
+   - [#  45] CRP asciinema.__main__: [0.24174 s] survived
+   - [#  46] CRP asciinema.__main__: [0.24098 s] survived
+   - [#  47] CRP asciinema.__main__: [0.24113 s] survived
+   - [#  48] CRP asciinema.__main__: [0.23478 s] survived
+   - [#  49] CRP asciinema.__main__: [0.23637 s] survived
+   - [#  50] CRP asciinema.__main__: [0.23829 s] survived
+   - [#  51] CRP asciinema.__main__: [0.23831 s] survived
+   - [#  52] CRP asciinema.__main__: [0.22866 s] survived
+   - [#  53] CRP asciinema.__main__: [0.23095 s] survived
+   - [#  54] CRP asciinema.__main__: [0.22412 s] survived
+   - [#  55] CRP asciinema.__main__: [0.22525 s] survived
+   - [#  56] CRP asciinema.__main__: [0.24085 s] survived
+   - [#  57] CRP asciinema.__main__: [0.23114 s] survived
+   - [#  58] CRP asciinema.__main__: [0.24145 s] survived
+   - [#  59] CRP asciinema.__main__: [0.23229 s] survived
+   - [#  60] CRP asciinema.__main__: [0.22977 s] survived
+   - [#  61] CRP asciinema.__main__: [0.22744 s] survived
+   - [#  62] CRP asciinema.__main__: [0.23273 s] survived
+   - [#  63] CRP asciinema.__main__: [0.24257 s] survived
+   - [#  64] CRP asciinema.__main__: [0.23613 s] survived
+   - [#  65] CRP asciinema.__main__: [0.23013 s] survived
+   - [#  66] CRP asciinema.__main__: [0.22776 s] survived
+   - [#  67] CRP asciinema.__main__: [0.23577 s] survived
+   - [#  68] CRP asciinema.__main__: [0.24128 s] survived
+   - [#  69] CRP asciinema.__main__: [0.23138 s] survived
+   - [#  70] CRP asciinema.__main__: [0.22036 s] survived
+   - [#  71] CRP asciinema.__main__: [0.22366 s] survived
+   - [#  72] CRP asciinema.__main__: [0.21589 s] survived
+   - [#  73] CRP asciinema.__main__: [0.24189 s] survived
+   - [#  74] CRP asciinema.__main__: [0.23803 s] survived
+   - [#  75] CRP asciinema.__main__: [0.23494 s] survived
+   - [#  76] CRP asciinema.__main__: [0.23495 s] survived
+   - [#  77] CRP asciinema.__main__: [0.24125 s] survived
+   - [#  78] CRP asciinema.__main__: [0.22810 s] survived
+   - [#  79] CRP asciinema.__main__: [0.23290 s] survived
+   - [#  80] CRP asciinema.__main__: [0.23327 s] survived
+   - [#  81] CRP asciinema.__main__: [0.22759 s] survived
+   - [#  82] CRP asciinema.__main__: [0.23587 s] survived
+   - [#  83] CRP asciinema.__main__: [0.23208 s] survived
+   - [#  84] CRP asciinema.__main__: [0.22269 s] survived
+   - [#  85] CRP asciinema.__main__: [0.23349 s] survived
+   - [#  86] CRP asciinema.__main__: [0.22632 s] survived
+   - [#  87] CRP asciinema.__main__: [0.21735 s] survived
+   - [#  88] CRP asciinema.__main__: [0.22955 s] survived
+   - [#  89] CRP asciinema.__main__: [0.22571 s] survived
+   - [#  90] CRP asciinema.__main__: [0.22680 s] survived
+   - [#  91] CRP asciinema.__main__: [0.22138 s] survived
+   - [#  92] CRP asciinema.__main__: [0.22368 s] survived
+   - [#  93] CRP asciinema.__main__: [0.21963 s] survived
+   - [#  94] CRP asciinema.__main__: [0.21982 s] survived
+   - [#  95] CRP asciinema.__main__: [0.24153 s] survived
+   - [#  96] CRP asciinema.__main__: [0.23103 s] survived
+   - [#  97] CRP asciinema.__main__: [0.22221 s] survived
+   - [#  98] CRP asciinema.__main__: [0.22880 s] survived
+   - [#  99] CRP asciinema.__main__: [0.22823 s] survived
+   - [# 100] CRP asciinema.__main__: [0.22004 s] survived
+   - [# 101] CRP asciinema.__main__: [0.22291 s] survived
+   - [# 102] CRP asciinema.__main__: [0.21090 s] survived
+   - [# 103] CRP asciinema.__main__: [0.22150 s] survived
+   - [# 104] CRP asciinema.__main__: [0.23176 s] survived
+   - [# 105] CRP asciinema.__main__: [0.24499 s] survived
+   - [# 106] CRP asciinema.__main__: [0.22688 s] survived
+   - [# 107] CRP asciinema.__main__: [0.23527 s] survived
+   - [# 108] CRP asciinema.__main__: [0.24377 s] survived
+   - [# 109] CRP asciinema.__main__: [0.22973 s] survived
+   - [# 110] CRP asciinema.__main__: [0.23358 s] survived
+   - [# 111] CRP asciinema.__main__: [0.22877 s] survived
+   - [# 112] CRP asciinema.__main__: [0.23106 s] survived
+   - [# 113] CRP asciinema.__main__: [0.22322 s] survived
+   - [# 114] CRP asciinema.__main__: [0.22327 s] survived
+   - [# 115] CRP asciinema.__main__: [0.23692 s] survived
+   - [# 116] CRP asciinema.__main__: [0.23016 s] survived
+   - [# 117] CRP asciinema.__main__: [0.22585 s] survived
+   - [# 118] CRP asciinema.__main__: [0.22714 s] survived
+   - [# 119] CRP asciinema.__main__: [0.22836 s] survived
+   - [# 120] CRP asciinema.__main__: [0.22320 s] survived
+   - [# 121] CRP asciinema.__main__: [0.23733 s] survived
+   - [# 122] CRP asciinema.__main__: [0.23134 s] survived
+   - [# 123] CRP asciinema.__main__: [0.21886 s] survived
+   - [# 124] CRP asciinema.__main__: [0.22972 s] survived
+   - [# 125] CRP asciinema.__main__: [0.22318 s] survived
+   - [# 126] CRP asciinema.__main__: [0.21963 s] survived
+   - [# 127] CRP asciinema.__main__: [0.23480 s] survived
+   - [# 128] CRP asciinema.__main__: [0.23457 s] survived
+   - [# 129] CRP asciinema.__main__: [0.22199 s] survived
+   - [# 130] CRP asciinema.__main__: [0.22556 s] survived
+   - [# 131] CRP asciinema.__main__: [0.23142 s] survived
+   - [# 132] CRP asciinema.__main__: [0.23175 s] survived
+   - [# 133] CRP asciinema.__main__: [0.22902 s] survived
+   - [# 134] CRP asciinema.__main__: [0.23154 s] survived
+   - [# 135] CRP asciinema.__main__: [0.21507 s] survived
+   - [# 136] CRP asciinema.__main__: [0.22870 s] survived
+   - [# 137] CRP asciinema.__main__: [0.23224 s] survived
+   - [# 138] CRP asciinema.__main__: [0.22692 s] survived
+   - [# 139] CRP asciinema.__main__: [0.23624 s] survived
+   - [# 140] CRP asciinema.__main__: [0.23998 s] survived
+   - [# 141] CRP asciinema.__main__: [0.23674 s] survived
+   - [# 142] CRP asciinema.__main__: [0.23317 s] survived
+   - [# 143] CRP asciinema.__main__: [0.23642 s] survived
+   - [# 144] CRP asciinema.__main__: [0.22957 s] survived
+   - [# 145] CRP asciinema.__main__: [0.23745 s] survived
+   - [# 146] CRP asciinema.__main__: [0.23735 s] survived
+   - [# 147] CRP asciinema.__main__: [0.23235 s] survived
+   - [# 148] CRP asciinema.__main__: [0.22419 s] survived
+   - [# 149] CRP asciinema.__main__: [0.22570 s] survived
+   - [# 150] CRP asciinema.__main__: [0.22784 s] survived
+   - [# 151] CRP asciinema.__main__: [0.23482 s] survived
+   - [# 152] CRP asciinema.__main__: [0.22048 s] survived
+   - [# 153] CRP asciinema.__main__: [0.23019 s] survived
+   - [# 154] CRP asciinema.__main__: [0.23062 s] survived
+   - [# 155] CRP asciinema.__main__: [0.21573 s] survived
+   - [# 156] CRP asciinema.__main__: [0.21913 s] survived
+   - [# 157] CRP asciinema.__main__: [0.23228 s] survived
+   - [# 158] CRP asciinema.__main__: [0.24575 s] survived
+   - [# 159] CRP asciinema.__main__: [0.22686 s] survived
+   - [# 160] CRP asciinema.__main__: [0.21495 s] survived
+   - [# 161] CRP asciinema.__main__: [0.23205 s] survived
+   - [# 162] CRP asciinema.__main__: [0.22219 s] survived
+   - [# 163] CRP asciinema.__main__: [0.22549 s] survived
+   - [# 164] CRP asciinema.__main__: [0.22267 s] survived
+   - [# 165] CRP asciinema.__main__: [0.22370 s] survived
+   - [# 166] CRP asciinema.__main__: [0.22164 s] survived
+   - [# 167] CRP asciinema.__main__: [0.21683 s] survived
+   - [# 168] CRP asciinema.__main__: [0.23585 s] survived
+   - [# 169] CRP asciinema.__main__: [0.24439 s] survived
+   - [# 170] CRP asciinema.__main__: [0.23680 s] survived
+   - [# 171] CRP asciinema.__main__: [0.23918 s] survived
+   - [# 172] CRP asciinema.__main__: [0.24622 s] survived
+   - [# 173] CRP asciinema.__main__: [0.23697 s] survived
+   - [# 174] CRP asciinema.__main__: [0.23578 s] survived
+   - [# 175] CRP asciinema.__main__: [0.24056 s] survived
+   - [# 176] CRP asciinema.__main__: [0.23651 s] survived
+   - [# 177] CRP asciinema.__main__: [0.22970 s] survived
+   - [# 178] CRP asciinema.__main__: [0.23093 s] survived
+   - [# 179] CRP asciinema.__main__: [0.21690 s] survived
+   - [# 180] CRP asciinema.__main__: [0.23199 s] survived
+   - [# 181] CRP asciinema.__main__: [0.22759 s] survived
+   - [# 182] CRP asciinema.__main__: [0.22228 s] survived
+   - [# 183] CRP asciinema.__main__: [0.23177 s] survived
+   - [# 184] CRP asciinema.__main__: [0.22886 s] survived
+   - [# 185] CRP asciinema.__main__: [0.22513 s] survived
+   - [# 186] CRP asciinema.__main__: [0.22383 s] survived
+   - [# 187] CRP asciinema.__main__: [0.22938 s] survived
+   - [# 188] CRP asciinema.__main__: [0.21988 s] survived
+   - [# 189] CRP asciinema.__main__: [0.22664 s] survived
+   - [# 190] CRP asciinema.__main__: [0.24461 s] survived
+   - [# 191] CRP asciinema.__main__: [0.22251 s] survived
+   - [# 192] CRP asciinema.__main__: [0.22108 s] survived
+   - [# 193] CRP asciinema.__main__: [0.22957 s] survived
+   - [# 194] CRP asciinema.__main__: [0.22361 s] survived
+   - [# 195] CRP asciinema.__main__: [0.22227 s] survived
+   - [# 196] CRP asciinema.__main__: [0.21616 s] survived
+   - [# 197] CRP asciinema.__main__: [0.21193 s] survived
+   - [# 198] CRP asciinema.__main__: [0.22074 s] survived
+   - [# 199] CRP asciinema.__main__: [0.21742 s] survived
+   - [# 200] CRP asciinema.__main__: [0.23841 s] survived
+   - [# 201] CRP asciinema.__main__: [0.23145 s] survived
+   - [# 202] CRP asciinema.__main__: [0.23148 s] survived
+   - [# 203] CRP asciinema.__main__: [0.24032 s] survived
+   - [# 204] CRP asciinema.__main__: [0.23112 s] survived
+   - [# 205] CRP asciinema.__main__: [0.23101 s] survived
+   - [# 206] EHD asciinema.__main__: [0.22581 s] survived
+   - [# 207] EHD asciinema.__main__: [0.23276 s] survived
+   - [# 208] EXS asciinema.__main__: [0.23689 s] survived
+   - [# 209] EXS asciinema.__main__: [0.22762 s] survived
+   - [# 210] ROR asciinema.__main__: [0.22738 s] survived
+   - [# 211] ROR asciinema.__main__: [0.22945 s] survived
+   - [# 212] ROR asciinema.__main__: [0.21291 s] survived
+   - [# 213] ROR asciinema.__main__: [0.23114 s] survived
+   - [# 214] ROR asciinema.__main__: [0.00000 s] incompetent
+   - [# 215] COD asciinema.api: [0.22011 s] survived
+   - [# 216] COD asciinema.api: [0.20826 s] survived
+   - [# 217] COI asciinema.api: [0.22155 s] survived
+   - [# 218] COI asciinema.api: [0.21435 s] survived
+   - [# 219] COI asciinema.api: [0.21502 s] survived
+   - [# 220] COI asciinema.api: [0.21385 s] survived
+   - [# 221] CRP asciinema.api: [0.22659 s] survived
+   - [# 222] CRP asciinema.api: [0.21305 s] survived
+   - [# 223] CRP asciinema.api: [0.22189 s] survived
+   - [# 224] CRP asciinema.api: [0.20535 s] survived
+   - [# 225] CRP asciinema.api: [0.21220 s] survived
+   - [# 226] CRP asciinema.api: [0.21612 s] survived
+   - [# 227] CRP asciinema.api: [0.21740 s] survived
+   - [# 228] CRP asciinema.api: [0.23170 s] survived
+   - [# 229] CRP asciinema.api: [0.40725 s] survived
+   - [# 230] CRP asciinema.api: [0.21473 s] survived
+   - [# 231] CRP asciinema.api: [0.20466 s] survived
+   - [# 232] CRP asciinema.api: [0.22574 s] survived
+   - [# 233] CRP asciinema.api: [0.22108 s] survived
+   - [# 234] CRP asciinema.api: [0.22529 s] survived
+   - [# 235] CRP asciinema.api: [0.22774 s] survived
+   - [# 236] CRP asciinema.api: [0.22170 s] survived
+   - [# 237] CRP asciinema.api: [0.22572 s] survived
+   - [# 238] CRP asciinema.api: [0.22238 s] survived
+   - [# 239] CRP asciinema.api: [0.22548 s] survived
+   - [# 240] CRP asciinema.api: [0.22139 s] survived
+   - [# 241] CRP asciinema.api: [0.21918 s] survived
+   - [# 242] CRP asciinema.api: [0.22671 s] survived
+   - [# 243] CRP asciinema.api: [0.21692 s] survived
+   - [# 244] CRP asciinema.api: [0.21142 s] survived
+   - [# 245] CRP asciinema.api: [0.21231 s] survived
+   - [# 246] CRP asciinema.api: [0.22169 s] survived
+   - [# 247] CRP asciinema.api: [0.29038 s] survived
+   - [# 248] CRP asciinema.api: [0.26279 s] survived
+   - [# 249] CRP asciinema.api: [0.24189 s] survived
+   - [# 250] CRP asciinema.api: [0.24158 s] survived
+   - [# 251] CRP asciinema.api: [0.24609 s] survived
+   - [# 252] CRP asciinema.api: [0.24007 s] survived
+   - [# 253] CRP asciinema.api: [0.24189 s] survived
+   - [# 254] CRP asciinema.api: [0.23691 s] survived
+   - [# 255] CRP asciinema.api: [0.27638 s] survived
+   - [# 256] CRP asciinema.api: [0.23541 s] survived
+   - [# 257] CRP asciinema.api: [0.26630 s] survived
+   - [# 258] CRP asciinema.api: [0.23938 s] survived
+   - [# 259] CRP asciinema.api: [0.25049 s] survived
+   - [# 260] CRP asciinema.api: [0.27691 s] survived
+   - [# 261] CRP asciinema.api: [0.26750 s] survived
+   - [# 262] CRP asciinema.api: [0.26454 s] survived
+   - [# 263] CRP asciinema.api: [0.24061 s] survived
+   - [# 264] CRP asciinema.api: [0.28209 s] survived
+   - [# 265] CRP asciinema.api: [0.25922 s] survived
+   - [# 266] CRP asciinema.api: [0.28440 s] survived
+   - [# 267] CRP asciinema.api: [0.27920 s] survived
+   - [# 268] CRP asciinema.api: [0.26379 s] survived
+   - [# 269] CRP asciinema.api: [0.26198 s] survived
+   - [# 270] CRP asciinema.api: [0.28591 s] survived
+   - [# 271] CRP asciinema.api: [0.26037 s] survived
+   - [# 272] CRP asciinema.api: [0.24038 s] survived
+   - [# 273] CRP asciinema.api: [0.24479 s] survived
+   - [# 274] CRP asciinema.api: [0.22564 s] survived
+   - [# 275] CRP asciinema.api: [0.23857 s] survived
+   - [# 276] CRP asciinema.api: [0.23913 s] survived
+   - [# 277] CRP asciinema.api: [0.24522 s] survived
+   - [# 278] CRP asciinema.api: [0.23157 s] survived
+   - [# 279] CRP asciinema.api: [0.24578 s] survived
+   - [# 280] CRP asciinema.api: [0.22826 s] survived
+   - [# 281] CRP asciinema.api: [0.24925 s] survived
+   - [# 282] CRP asciinema.api: [0.27558 s] survived
+   - [# 283] CRP asciinema.api: [0.26251 s] survived
+   - [# 284] CRP asciinema.api: [0.26378 s] survived
+   - [# 285] CRP asciinema.api: [0.24995 s] survived
+   - [# 286] CRP asciinema.api: [0.24846 s] survived
+   - [# 287] CRP asciinema.api: [0.24354 s] survived
+   - [# 288] CRP asciinema.api: [0.23840 s] survived
+   - [# 289] CRP asciinema.api: [0.23162 s] survived
+   - [# 290] CRP asciinema.api: [0.25108 s] survived
+   - [# 291] CRP asciinema.api: [0.23458 s] survived
+   - [# 292] CRP asciinema.api: [0.26415 s] survived
+   - [# 293] CRP asciinema.api: [0.44491 s] survived
+   - [# 294] DDL asciinema.api: [0.38194 s] survived
+   - [# 295] DDL asciinema.api: [0.37735 s] survived
+   - [# 296] EXS asciinema.api: [0.22663 s] survived
+   - [# 297] IOD asciinema.api: [0.27984 s] survived
+   - [# 298] IOP asciinema.api: [0.23553 s] survived
+   - [# 299] LCR asciinema.api: [0.22976 s] survived
+   - [# 300] ROR asciinema.api: [0.22518 s] survived
+   - [# 301] ROR asciinema.api: [0.22297 s] survived
+   - [# 302] ROR asciinema.api: [0.22435 s] survived
+   - [# 303] ROR asciinema.api: [0.21799 s] survived
+   - [# 304] ROR asciinema.api: [0.21693 s] survived
+   - [# 305] SCD asciinema.api: [0.21489 s] survived
+   - [# 306] SIR asciinema.api: [0.21425 s] survived
+   - [# 307] SIR asciinema.api: [0.22430 s] survived
+   - [# 308] AOR asciinema.asciicast.events: [0.20816 s] survived
+   - [# 309] AOR asciinema.asciicast.events: [0.21607 s] survived
+   - [# 310] AOR asciinema.asciicast.events: [0.21810 s] survived
+   - [# 311] AOR asciinema.asciicast.events: [0.20964 s] survived
+   - [# 312] COI asciinema.asciicast.events: [0.21050 s] survived
+   - [# 313] CRP asciinema.asciicast.events: [0.21948 s] survived
+   - [# 314] CRP asciinema.asciicast.events: [0.21856 s] survived
+   - [# 315] COI asciinema.asciicast.raw: [0.21372 s] survived
+   - [# 316] COI asciinema.asciicast.raw: [0.21076 s] survived
+   - [# 317] COI asciinema.asciicast.raw: [0.21822 s] survived
+   - [# 318] COI asciinema.asciicast.raw: [0.21475 s] survived
+   - [# 319] CRP asciinema.asciicast.raw: [0.21562 s] survived
+   - [# 320] CRP asciinema.asciicast.raw: [0.21919 s] survived
+   - [# 321] CRP asciinema.asciicast.raw: [0.21067 s] survived
+   - [# 322] CRP asciinema.asciicast.raw: [0.21547 s] survived
+   - [# 323] CRP asciinema.asciicast.raw: [0.20052 s] survived
+   - [# 324] CRP asciinema.asciicast.raw: [0.22202 s] survived
+   - [# 325] CRP asciinema.asciicast.raw: [0.22740 s] survived
+   - [# 326] CRP asciinema.asciicast.raw: [0.21865 s] survived
+   - [# 327] CRP asciinema.asciicast.raw: [0.23133 s] survived
+   - [# 328] CRP asciinema.asciicast.raw: [0.22782 s] survived
+   - [# 329] CRP asciinema.asciicast.raw: [0.22936 s] survived
+   - [# 330] CRP asciinema.asciicast.raw: [0.22626 s] survived
+   - [# 331] CRP asciinema.asciicast.raw: [0.22751 s] survived
+   - [# 332] CRP asciinema.asciicast.raw: [0.21852 s] survived
+   - [# 333] CRP asciinema.asciicast.raw: [0.22500 s] survived
+   - [# 334] CRP asciinema.asciicast.raw: [0.22859 s] survived
+   - [# 335] CRP asciinema.asciicast.raw: [0.22239 s] survived
+   - [# 336] CRP asciinema.asciicast.raw: [0.20463 s] survived
+   - [# 337] CRP asciinema.asciicast.raw: [0.22153 s] survived
+   - [# 338] CRP asciinema.asciicast.raw: [0.21260 s] survived
+   - [# 339] CRP asciinema.asciicast.raw: [0.20688 s] survived
+   - [# 340] CRP asciinema.asciicast.raw: [0.22737 s] survived
+   - [# 341] CRP asciinema.asciicast.raw: [0.21054 s] survived
+   - [# 342] CRP asciinema.asciicast.raw: [0.21977 s] survived
+   - [# 343] CRP asciinema.asciicast.raw: [0.21580 s] survived
+   - [# 344] CRP asciinema.asciicast.raw: [0.21551 s] survived
+   - [# 345] CRP asciinema.asciicast.raw: [0.20939 s] survived
+   - [# 346] CRP asciinema.asciicast.raw: [0.22494 s] survived
+   - [# 347] IOD asciinema.asciicast.raw: [0.23470 s] survived
+   - [# 348] IOD asciinema.asciicast.raw: [0.21793 s] survived
+   - [# 349] IOD asciinema.asciicast.raw: [0.24361 s] survived
+   - [# 350] IOP asciinema.asciicast.raw: [0.29038 s] survived
+   - [# 351] IOP asciinema.asciicast.raw: [0.26311 s] survived
+   - [# 352] LCR asciinema.asciicast.raw: [0.27178 s] survived
+   - [# 353] ROR asciinema.asciicast.raw: [0.27042 s] survived
+   - [# 354] ROR asciinema.asciicast.raw: [0.27100 s] survived
+   - [# 355] SCD asciinema.asciicast.raw: [0.29179 s] survived
+   - [# 356] SCD asciinema.asciicast.raw: [0.27482 s] survived
+   - [# 357] SCI asciinema.asciicast.raw: [0.24366 s] survived
+   - [# 358] AOR asciinema.asciicast.v1: [0.25735 s] survived
+   - [# 359] COI asciinema.asciicast.v1: [0.27458 s] survived
+   - [# 360] COI asciinema.asciicast.v1: [0.26232 s] survived
+   - [# 361] COI asciinema.asciicast.v1: [0.27086 s] survived
+   - [# 362] COI asciinema.asciicast.v1: [0.25084 s] survived
+   - [# 363] CRP asciinema.asciicast.v1: [0.24217 s] survived
+   - [# 364] CRP asciinema.asciicast.v1: [0.24088 s] survived
+   - [# 365] CRP asciinema.asciicast.v1: [0.24283 s] survived
+   - [# 366] CRP asciinema.asciicast.v1: [0.22629 s] survived
+   - [# 367] CRP asciinema.asciicast.v1: [0.22954 s] survived
+   - [# 368] CRP asciinema.asciicast.v1: [0.22489 s] survived
+   - [# 369] CRP asciinema.asciicast.v1: [0.20941 s] survived
+   - [# 370] CRP asciinema.asciicast.v1: [0.21008 s] survived
+   - [# 371] CRP asciinema.asciicast.v1: [0.21548 s] survived
+   - [# 372] CRP asciinema.asciicast.v1: [0.20754 s] survived
+   - [# 373] CRP asciinema.asciicast.v1: [0.22240 s] survived
+   - [# 374] CRP asciinema.asciicast.v1: [0.21353 s] survived
+   - [# 375] CRP asciinema.asciicast.v1: [0.21645 s] survived
+   - [# 376] CRP asciinema.asciicast.v1: [0.22121 s] survived
+   - [# 377] CRP asciinema.asciicast.v1: [0.21538 s] survived
+   - [# 378] CRP asciinema.asciicast.v1: [0.22075 s] survived
+   - [# 379] CRP asciinema.asciicast.v1: [0.22721 s] survived
+   - [# 380] CRP asciinema.asciicast.v1: [0.23868 s] survived
+   - [# 381] CRP asciinema.asciicast.v1: [0.22577 s] survived
+   - [# 382] CRP asciinema.asciicast.v1: [0.21981 s] survived
+   - [# 383] CRP asciinema.asciicast.v1: [0.22046 s] survived
+   - [# 384] CRP asciinema.asciicast.v1: [0.22521 s] survived
+   - [# 385] CRP asciinema.asciicast.v1: [0.21932 s] survived
+   - [# 386] CRP asciinema.asciicast.v1: [0.22446 s] survived
+   - [# 387] DDL asciinema.asciicast.v1: [0.22454 s] survived
+   - [# 388] EXS asciinema.asciicast.v1: [0.22088 s] survived
+   - [# 389] LCR asciinema.asciicast.v1: [0.21383 s] survived
+   - [# 390] ROR asciinema.asciicast.v1: [0.22017 s] survived
+   - [# 391] BCR asciinema.asciicast.v2: [0.24041 s] survived
+   - [# 392] BCR asciinema.asciicast.v2: [0.23018 s] survived
+   - [# 393] COI asciinema.asciicast.v2: [0.22767 s] survived
+   - [# 394] COI asciinema.asciicast.v2: [0.29847 s] survived
+   - [# 395] COI asciinema.asciicast.v2: [0.30995 s] survived
+   - [# 396] COI asciinema.asciicast.v2: [0.26170 s] survived
+   - [# 397] COI asciinema.asciicast.v2: [0.23284 s] survived
+   - [# 398] COI asciinema.asciicast.v2: [0.26920 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 399] COI asciinema.asciicast.v2: [0.21152 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 400] COI asciinema.asciicast.v2: [0.21910 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 401] COI asciinema.asciicast.v2: [0.22914 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 402] COI asciinema.asciicast.v2: [0.22321 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 403] COI asciinema.asciicast.v2: [0.22218 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 404] COI asciinema.asciicast.v2: [0.22512 s] incompetent
+   - [# 405] COI asciinema.asciicast.v2: [0.22689 s] survived
+   - [# 406] COI asciinema.asciicast.v2: [0.22843 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 407] CRP asciinema.asciicast.v2: [0.22037 s] survived
+   - [# 408] CRP asciinema.asciicast.v2: [0.21116 s] survived
+   - [# 409] CRP asciinema.asciicast.v2: [0.22918 s] survived
+   - [# 410] CRP asciinema.asciicast.v2: [0.21846 s] survived
+   - [# 411] CRP asciinema.asciicast.v2: [0.23671 s] survived
+   - [# 412] CRP asciinema.asciicast.v2: [0.26050 s] survived
+   - [# 413] CRP asciinema.asciicast.v2: [0.32202 s] survived
+   - [# 414] CRP asciinema.asciicast.v2: [0.25050 s] survived
+   - [# 415] CRP asciinema.asciicast.v2: [0.23692 s] survived
+   - [# 416] CRP asciinema.asciicast.v2: [0.22596 s] survived
+   - [# 417] CRP asciinema.asciicast.v2: [0.25154 s] survived
+   - [# 418] CRP asciinema.asciicast.v2: [0.23807 s] survived
+   - [# 419] CRP asciinema.asciicast.v2: [0.23057 s] survived
+   - [# 420] CRP asciinema.asciicast.v2: [0.24124 s] survived
+   - [# 421] CRP asciinema.asciicast.v2: [0.23388 s] survived
+   - [# 422] CRP asciinema.asciicast.v2: [0.23355 s] survived
+   - [# 423] CRP asciinema.asciicast.v2: [0.24072 s] survived
+   - [# 424] CRP asciinema.asciicast.v2: [0.23762 s] survived
+   - [# 425] CRP asciinema.asciicast.v2: [0.23376 s] survived
+   - [# 426] CRP asciinema.asciicast.v2: [0.23409 s] survived
+   - [# 427] CRP asciinema.asciicast.v2: [0.26405 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 428] CRP asciinema.asciicast.v2: [0.24713 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 429] CRP asciinema.asciicast.v2: [0.27467 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 430] CRP asciinema.asciicast.v2: [0.23482 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 431] CRP asciinema.asciicast.v2: [0.22544 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 432] CRP asciinema.asciicast.v2: [0.23488 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 433] CRP asciinema.asciicast.v2: [0.22487 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 434] CRP asciinema.asciicast.v2: [0.21404 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 435] CRP asciinema.asciicast.v2: [0.22142 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 436] CRP asciinema.asciicast.v2: [0.23579 s] survived
+   - [# 437] CRP asciinema.asciicast.v2: [0.22174 s] survived
+   - [# 438] CRP asciinema.asciicast.v2: [0.21093 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 439] CRP asciinema.asciicast.v2: [0.22298 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 440] CRP asciinema.asciicast.v2: [0.24891 s] survived
+   - [# 441] CRP asciinema.asciicast.v2: [0.22947 s] survived
+   - [# 442] CRP asciinema.asciicast.v2: [0.22362 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 443] CRP asciinema.asciicast.v2: [0.23005 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 444] CRP asciinema.asciicast.v2: [0.22638 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 445] CRP asciinema.asciicast.v2: [0.22086 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 446] CRP asciinema.asciicast.v2: [0.23852 s] survived
+   - [# 447] CRP asciinema.asciicast.v2: [0.23421 s] survived
+   - [# 448] CRP asciinema.asciicast.v2: [0.25732 s] survived
+   - [# 449] CRP asciinema.asciicast.v2: [0.24942 s] survived
+   - [# 450] CRP asciinema.asciicast.v2: [0.23516 s] survived
+   - [# 451] CRP asciinema.asciicast.v2: [0.23014 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 452] CRP asciinema.asciicast.v2: [0.22093 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 453] CRP asciinema.asciicast.v2: [0.23094 s] survived
+   - [# 454] CRP asciinema.asciicast.v2: [0.24041 s] survived
+   - [# 455] CRP asciinema.asciicast.v2: [0.22528 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 456] CRP asciinema.asciicast.v2: [0.23392 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 457] CRP asciinema.asciicast.v2: [0.24042 s] survived
+   - [# 458] CRP asciinema.asciicast.v2: [0.24081 s] survived
+   - [# 459] CRP asciinema.asciicast.v2: [0.23854 s] survived
+   - [# 460] CRP asciinema.asciicast.v2: [0.24018 s] survived
+   - [# 461] CRP asciinema.asciicast.v2: [0.22695 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 462] CRP asciinema.asciicast.v2: [0.22900 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 463] CRP asciinema.asciicast.v2: [0.21839 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 464] CRP asciinema.asciicast.v2: [0.22390 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 465] CRP asciinema.asciicast.v2: [0.23179 s] survived
+   - [# 466] CRP asciinema.asciicast.v2: [0.27657 s] survived
+   - [# 467] CRP asciinema.asciicast.v2: [0.23946 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 468] CRP asciinema.asciicast.v2: [0.21419 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 469] CRP asciinema.asciicast.v2: [0.23289 s] survived
+   - [# 470] CRP asciinema.asciicast.v2: [0.21911 s] survived
+   - [# 471] CRP asciinema.asciicast.v2: [0.22190 s] survived
+   - [# 472] CRP asciinema.asciicast.v2: [0.22294 s] survived
+   - [# 473] CRP asciinema.asciicast.v2: [0.21894 s] survived
+   - [# 474] CRP asciinema.asciicast.v2: [0.20902 s] survived
+   - [# 475] CRP asciinema.asciicast.v2: [0.22406 s] survived
+   - [# 476] CRP asciinema.asciicast.v2: [0.22999 s] survived
+   - [# 477] CRP asciinema.asciicast.v2: [0.21607 s] survived
+   - [# 478] CRP asciinema.asciicast.v2: [0.23393 s] survived
+   - [# 479] CRP asciinema.asciicast.v2: [0.21166 s] survived
+   - [# 480] CRP asciinema.asciicast.v2: [0.21943 s] survived
+   - [# 481] CRP asciinema.asciicast.v2: [0.21509 s] survived
+   - [# 482] CRP asciinema.asciicast.v2: [0.22649 s] survived
+   - [# 483] CRP asciinema.asciicast.v2: [0.22595 s] survived
+   - [# 484] CRP asciinema.asciicast.v2: [0.21552 s] survived
+   - [# 485] CRP asciinema.asciicast.v2: [0.20207 s] survived
+   - [# 486] CRP asciinema.asciicast.v2: [0.20107 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 487] CRP asciinema.asciicast.v2: [0.20325 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 488] CRP asciinema.asciicast.v2: [0.21781 s] survived
+   - [# 489] CRP asciinema.asciicast.v2: [0.20558 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 490] CRP asciinema.asciicast.v2: [0.20664 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 491] CRP asciinema.asciicast.v2: [0.20903 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 492] CRP asciinema.asciicast.v2: [0.21336 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 493] CRP asciinema.asciicast.v2: [0.21385 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 494] CRP asciinema.asciicast.v2: [0.20653 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 495] EXS asciinema.asciicast.v2: [0.20528 s] survived
+   - [# 496] IOD asciinema.asciicast.v2: [0.19542 s] incompetent
+   - [# 497] IOD asciinema.asciicast.v2: [0.21198 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 498] IOD asciinema.asciicast.v2: [0.21189 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 499] IOP asciinema.asciicast.v2: [0.20714 s] survived
+   - [# 500] LCR asciinema.asciicast.v2: [0.20631 s] incompetent
+   - [# 501] ROR asciinema.asciicast.v2: [0.21617 s] survived
+   - [# 502] ROR asciinema.asciicast.v2: [0.21435 s] survived
+   - [# 503] ROR asciinema.asciicast.v2: [0.21675 s] survived
+   - [# 504] ROR asciinema.asciicast.v2: [0.21530 s] survived
+   - [# 505] ROR asciinema.asciicast.v2: [0.21483 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 506] SCD asciinema.asciicast.v2: [0.20130 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 507] SCI asciinema.asciicast.v2: [0.21318 s] survived
+   - [# 508] SCI asciinema.asciicast.v2: [0.20665 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 509] COI asciinema.async_worker: [0.20204 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 510] CRP asciinema.async_worker: [0.21569 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 511] CRP asciinema.async_worker: [0.20588 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 512] CRP asciinema.async_worker: [0.19610 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 513] EHD asciinema.async_worker: [0.20495 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 514] EHD asciinema.async_worker: [0.20575 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 515] EXS asciinema.async_worker: [0.20696 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 516] ROR asciinema.async_worker: [0.20790 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 517] CRP asciinema.commands.auth: [0.21216 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 518] CRP asciinema.commands.auth: [0.19798 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 519] CRP asciinema.commands.auth: [0.19475 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 520] CRP asciinema.commands.auth: [0.20858 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 521] CRP asciinema.commands.auth: [0.20108 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 522] CRP asciinema.commands.auth: [0.20206 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 523] CRP asciinema.commands.auth: [0.20678 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 524] CRP asciinema.commands.auth: [0.21027 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 525] IOD asciinema.commands.auth: [0.20554 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 526] SCI asciinema.commands.auth: [0.20546 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 527] CRP asciinema.commands.cat: [0.20799 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 528] CRP asciinema.commands.cat: [0.21028 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 529] CRP asciinema.commands.cat: [0.20267 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 530] CRP asciinema.commands.cat: [0.20701 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 531] CRP asciinema.commands.cat: [0.20646 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 532] CRP asciinema.commands.cat: [0.20733 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 533] CRP asciinema.commands.cat: [0.20477 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 534] CRP asciinema.commands.cat: [0.19313 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 535] CRP asciinema.commands.cat: [0.20266 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 536] CRP asciinema.commands.cat: [0.21020 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 537] CRP asciinema.commands.cat: [0.19596 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 538] CRP asciinema.commands.cat: [0.20471 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 539] EHD asciinema.commands.cat: [0.19895 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 540] EHD asciinema.commands.cat: [0.19742 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 541] EXS asciinema.commands.cat: [0.20068 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 542] EXS asciinema.commands.cat: [0.19706 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 543] IOD asciinema.commands.cat: [0.20183 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 544] SCI asciinema.commands.cat: [0.20077 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 545] COD asciinema.commands.command: [0.19806 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 546] COI asciinema.commands.command: [0.21859 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 547] COI asciinema.commands.command: [0.21058 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 548] COI asciinema.commands.command: [0.20521 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 549] CRP asciinema.commands.command: [0.20186 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 550] CRP asciinema.commands.command: [0.20101 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 551] CRP asciinema.commands.command: [0.20643 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 552] CRP asciinema.commands.command: [0.20082 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 553] CRP asciinema.commands.command: [0.20941 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 554] CRP asciinema.commands.command: [0.20080 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 555] CRP asciinema.commands.command: [0.19931 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 556] CRP asciinema.commands.command: [0.20489 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 557] CRP asciinema.commands.command: [0.20575 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 558] CRP asciinema.commands.command: [0.20222 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 559] CRP asciinema.commands.command: [0.19961 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 560] CRP asciinema.commands.command: [0.23254 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 561] CRP asciinema.commands.command: [0.19897 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 562] CRP asciinema.commands.command: [0.19855 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 563] CRP asciinema.commands.command: [0.20276 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 564] CRP asciinema.commands.command: [0.20115 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 565] CRP asciinema.commands.command: [0.20896 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 566] CRP asciinema.commands.command: [0.20605 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 567] CRP asciinema.commands.command: [0.20638 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 568] LCR asciinema.commands.command: [0.21359 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 569] LCR asciinema.commands.command: [0.21192 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 570] COI asciinema.commands.play: [0.20360 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 571] COI asciinema.commands.play: [0.20885 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 572] CRP asciinema.commands.play: [0.21169 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 573] CRP asciinema.commands.play: [0.22771 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 574] CRP asciinema.commands.play: [0.20978 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 575] CRP asciinema.commands.play: [0.21287 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 576] CRP asciinema.commands.play: [0.21641 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 577] CRP asciinema.commands.play: [0.21193 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 578] CRP asciinema.commands.play: [0.21473 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 579] CRP asciinema.commands.play: [0.22158 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 580] CRP asciinema.commands.play: [0.20705 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 581] CRP asciinema.commands.play: [0.22259 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 582] CRP asciinema.commands.play: [0.21104 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 583] CRP asciinema.commands.play: [0.20594 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 584] EHD asciinema.commands.play: [0.20748 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 585] EHD asciinema.commands.play: [0.20704 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 586] EXS asciinema.commands.play: [0.21256 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 587] EXS asciinema.commands.play: [0.21350 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 588] IOD asciinema.commands.play: [0.20542 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 589] ROR asciinema.commands.play: [0.21300 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 590] SCI asciinema.commands.play: [0.21541 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 591] BCR asciinema.commands.record: [0.21615 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 592] COD asciinema.commands.record: [0.21798 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 593] COD asciinema.commands.record: [0.21352 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 594] COD asciinema.commands.record: [0.20946 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 595] COD asciinema.commands.record: [0.20929 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 596] COD asciinema.commands.record: [0.20784 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 597] COI asciinema.commands.record: [0.20971 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 598] COI asciinema.commands.record: [0.21193 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 599] COI asciinema.commands.record: [0.21909 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 600] COI asciinema.commands.record: [0.21401 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 601] COI asciinema.commands.record: [0.21686 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 602] COI asciinema.commands.record: [0.21220 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 603] COI asciinema.commands.record: [0.21502 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 604] COI asciinema.commands.record: [0.20914 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 605] COI asciinema.commands.record: [0.21314 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 606] COI asciinema.commands.record: [0.21338 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 607] COI asciinema.commands.record: [0.20894 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 608] COI asciinema.commands.record: [0.21135 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 609] COI asciinema.commands.record: [0.21317 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 610] COI asciinema.commands.record: [0.21228 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 611] COI asciinema.commands.record: [0.21156 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 612] COI asciinema.commands.record: [0.20977 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 613] COI asciinema.commands.record: [0.20863 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 614] COI asciinema.commands.record: [0.20928 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 615] COI asciinema.commands.record: [0.22394 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 616] COI asciinema.commands.record: [0.22058 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 617] COI asciinema.commands.record: [0.21469 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 618] COI asciinema.commands.record: [0.21218 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 619] CRP asciinema.commands.record: [0.21200 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 620] CRP asciinema.commands.record: [0.21242 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 621] CRP asciinema.commands.record: [0.21206 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 622] CRP asciinema.commands.record: [0.21181 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 623] CRP asciinema.commands.record: [0.20837 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 624] CRP asciinema.commands.record: [0.20533 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 625] CRP asciinema.commands.record: [0.22078 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 626] CRP asciinema.commands.record: [0.21953 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 627] CRP asciinema.commands.record: [0.21829 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 628] CRP asciinema.commands.record: [0.21668 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 629] CRP asciinema.commands.record: [0.21452 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 630] CRP asciinema.commands.record: [0.21442 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 631] CRP asciinema.commands.record: [0.21011 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 632] CRP asciinema.commands.record: [0.20521 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 633] CRP asciinema.commands.record: [0.21412 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 634] CRP asciinema.commands.record: [0.21019 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 635] CRP asciinema.commands.record: [0.21699 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 636] CRP asciinema.commands.record: [0.21457 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 637] CRP asciinema.commands.record: [0.21782 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 638] CRP asciinema.commands.record: [0.21072 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 639] CRP asciinema.commands.record: [0.21113 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 640] CRP asciinema.commands.record: [0.21410 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 641] CRP asciinema.commands.record: [0.21321 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 642] CRP asciinema.commands.record: [0.22412 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 643] CRP asciinema.commands.record: [0.22222 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 644] CRP asciinema.commands.record: [0.21435 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 645] CRP asciinema.commands.record: [0.21640 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 646] CRP asciinema.commands.record: [0.21900 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 647] CRP asciinema.commands.record: [0.21164 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 648] CRP asciinema.commands.record: [0.21736 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 649] CRP asciinema.commands.record: [0.22804 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 650] CRP asciinema.commands.record: [0.23192 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 651] CRP asciinema.commands.record: [0.21987 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 652] CRP asciinema.commands.record: [0.21283 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 653] CRP asciinema.commands.record: [0.21403 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 654] CRP asciinema.commands.record: [0.20955 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 655] CRP asciinema.commands.record: [0.22131 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 656] CRP asciinema.commands.record: [0.23695 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 657] CRP asciinema.commands.record: [0.25915 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 658] CRP asciinema.commands.record: [0.27323 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 659] CRP asciinema.commands.record: [0.26664 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 660] CRP asciinema.commands.record: [0.24599 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 661] CRP asciinema.commands.record: [0.23014 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 662] CRP asciinema.commands.record: [0.22105 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 663] CRP asciinema.commands.record: [0.22833 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 664] CRP asciinema.commands.record: [0.23024 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 665] CRP asciinema.commands.record: [0.21798 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 666] CRP asciinema.commands.record: [0.22070 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 667] CRP asciinema.commands.record: [0.24881 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 668] CRP asciinema.commands.record: [0.22625 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 669] CRP asciinema.commands.record: [0.21676 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 670] CRP asciinema.commands.record: [0.21225 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 671] CRP asciinema.commands.record: [0.22570 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 672] CRP asciinema.commands.record: [0.21468 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 673] CRP asciinema.commands.record: [0.21600 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 674] CRP asciinema.commands.record: [0.20617 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 675] CRP asciinema.commands.record: [0.21092 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 676] CRP asciinema.commands.record: [0.21628 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 677] CRP asciinema.commands.record: [0.21037 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 678] CRP asciinema.commands.record: [0.21645 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 679] CRP asciinema.commands.record: [0.20622 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 680] CRP asciinema.commands.record: [0.21175 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 681] CRP asciinema.commands.record: [0.21175 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 682] CRP asciinema.commands.record: [0.21410 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 683] CRP asciinema.commands.record: [0.22390 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 684] CRP asciinema.commands.record: [0.20952 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 685] CRP asciinema.commands.record: [0.21671 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 686] CRP asciinema.commands.record: [0.22899 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 687] CRP asciinema.commands.record: [0.20770 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 688] CRP asciinema.commands.record: [0.21412 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 689] CRP asciinema.commands.record: [0.22664 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 690] CRP asciinema.commands.record: [0.21544 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 691] CRP asciinema.commands.record: [0.20719 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 692] CRP asciinema.commands.record: [0.21934 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 693] CRP asciinema.commands.record: [0.22040 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 694] CRP asciinema.commands.record: [0.21744 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 695] CRP asciinema.commands.record: [0.21719 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 696] CRP asciinema.commands.record: [0.21406 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 697] CRP asciinema.commands.record: [0.21775 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 698] CRP asciinema.commands.record: [0.22203 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 699] CRP asciinema.commands.record: [0.22784 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 700] CRP asciinema.commands.record: [0.22124 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 701] CRP asciinema.commands.record: [0.21767 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 702] CRP asciinema.commands.record: [0.21218 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 703] CRP asciinema.commands.record: [0.21792 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 704] CRP asciinema.commands.record: [0.21560 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 705] CRP asciinema.commands.record: [0.21181 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 706] CRP asciinema.commands.record: [0.22351 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 707] CRP asciinema.commands.record: [0.20658 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 708] CRP asciinema.commands.record: [0.20739 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 709] CRP asciinema.commands.record: [0.21457 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 710] CRP asciinema.commands.record: [0.20269 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 711] CRP asciinema.commands.record: [0.21177 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 712] CRP asciinema.commands.record: [0.21648 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 713] CRP asciinema.commands.record: [0.21269 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 714] CRP asciinema.commands.record: [0.20714 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 715] CRP asciinema.commands.record: [0.21637 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 716] CRP asciinema.commands.record: [0.21145 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 717] CRP asciinema.commands.record: [0.23743 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 718] CRP asciinema.commands.record: [0.20604 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 719] CRP asciinema.commands.record: [0.21429 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 720] CRP asciinema.commands.record: [0.21918 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 721] CRP asciinema.commands.record: [0.22136 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 722] CRP asciinema.commands.record: [0.20794 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 723] CRP asciinema.commands.record: [0.21144 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 724] CRP asciinema.commands.record: [0.21211 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 725] EHD asciinema.commands.record: [0.20748 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 726] EHD asciinema.commands.record: [0.20898 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 727] EHD asciinema.commands.record: [0.22089 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 728] EHD asciinema.commands.record: [0.22109 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 729] EXS asciinema.commands.record: [0.23933 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 730] EXS asciinema.commands.record: [0.21816 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 731] EXS asciinema.commands.record: [0.21548 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 732] EXS asciinema.commands.record: [0.22311 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 733] IOD asciinema.commands.record: [0.21627 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 734] LCR asciinema.commands.record: [0.21399 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 735] LCR asciinema.commands.record: [0.21343 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 736] LCR asciinema.commands.record: [0.21685 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 737] LCR asciinema.commands.record: [0.21490 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 738] LCR asciinema.commands.record: [0.21506 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 739] LCR asciinema.commands.record: [0.21435 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 740] LCR asciinema.commands.record: [0.20593 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 741] ROR asciinema.commands.record: [0.21609 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 742] ROR asciinema.commands.record: [0.20830 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 743] ROR asciinema.commands.record: [0.21314 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 744] ROR asciinema.commands.record: [0.21600 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 745] ROR asciinema.commands.record: [0.21121 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 746] ROR asciinema.commands.record: [0.21137 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 747] ROR asciinema.commands.record: [0.22029 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 748] ROR asciinema.commands.record: [0.22718 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 749] ROR asciinema.commands.record: [0.20939 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 750] ROR asciinema.commands.record: [0.22934 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 751] ROR asciinema.commands.record: [0.21148 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 752] ROR asciinema.commands.record: [0.21581 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 753] ROR asciinema.commands.record: [0.23357 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 754] ROR asciinema.commands.record: [0.21163 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 755] SCI asciinema.commands.record: [0.20218 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 756] COI asciinema.commands.upload: [0.20325 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 757] COI asciinema.commands.upload: [0.19786 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 758] CRP asciinema.commands.upload: [0.20365 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 759] CRP asciinema.commands.upload: [0.20524 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 760] CRP asciinema.commands.upload: [0.19624 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 761] CRP asciinema.commands.upload: [0.20790 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 762] CRP asciinema.commands.upload: [0.21019 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 763] CRP asciinema.commands.upload: [0.20718 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 764] CRP asciinema.commands.upload: [0.19900 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 765] CRP asciinema.commands.upload: [0.20962 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 766] CRP asciinema.commands.upload: [0.20656 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 767] CRP asciinema.commands.upload: [0.20438 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 768] CRP asciinema.commands.upload: [0.20606 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 769] CRP asciinema.commands.upload: [0.21082 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 770] CRP asciinema.commands.upload: [0.20560 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 771] EHD asciinema.commands.upload: [0.21006 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 772] EHD asciinema.commands.upload: [0.20597 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 773] EXS asciinema.commands.upload: [0.19964 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 774] EXS asciinema.commands.upload: [0.20117 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 775] IOD asciinema.commands.upload: [0.20143 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 776] LCR asciinema.commands.upload: [0.20752 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 777] SCI asciinema.commands.upload: [0.20329 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 778] AOR asciinema.config: [0.20176 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 779] COD asciinema.config: [0.20850 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 780] COI asciinema.config: [0.19469 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 781] COI asciinema.config: [0.21460 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 782] COI asciinema.config: [0.20479 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 783] COI asciinema.config: [0.20044 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 784] COI asciinema.config: [0.20495 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 785] COI asciinema.config: [0.20961 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 786] COI asciinema.config: [0.20788 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 787] COI asciinema.config: [0.20007 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 788] COI asciinema.config: [0.20971 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 789] COI asciinema.config: [0.19880 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 790] COI asciinema.config: [0.20811 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 791] COI asciinema.config: [0.20428 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 792] COI asciinema.config: [0.19795 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 793] COI asciinema.config: [0.20017 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 794] COI asciinema.config: [0.19313 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 795] CRP asciinema.config: [0.20389 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 796] CRP asciinema.config: [0.21090 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 797] CRP asciinema.config: [0.20605 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 798] CRP asciinema.config: [0.20402 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 799] CRP asciinema.config: [0.20235 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 800] CRP asciinema.config: [0.20824 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 801] CRP asciinema.config: [0.20335 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 802] CRP asciinema.config: [0.20665 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 803] CRP asciinema.config: [0.21425 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 804] CRP asciinema.config: [0.20130 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 805] CRP asciinema.config: [0.20613 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 806] CRP asciinema.config: [0.20881 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 807] CRP asciinema.config: [0.21349 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 808] CRP asciinema.config: [0.19834 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 809] CRP asciinema.config: [0.20011 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 810] CRP asciinema.config: [0.19740 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 811] CRP asciinema.config: [0.20564 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 812] CRP asciinema.config: [0.19972 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 813] CRP asciinema.config: [0.20075 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 814] CRP asciinema.config: [0.20039 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 815] CRP asciinema.config: [0.19854 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 816] CRP asciinema.config: [0.20394 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 817] CRP asciinema.config: [0.20070 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 818] CRP asciinema.config: [0.20354 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 819] CRP asciinema.config: [0.19722 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 820] CRP asciinema.config: [0.20804 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 821] CRP asciinema.config: [0.22088 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 822] CRP asciinema.config: [0.19383 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 823] CRP asciinema.config: [0.19499 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 824] CRP asciinema.config: [0.20583 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 825] CRP asciinema.config: [0.19630 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 826] CRP asciinema.config: [0.21998 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 827] CRP asciinema.config: [0.20376 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 828] CRP asciinema.config: [0.19703 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 829] CRP asciinema.config: [0.19992 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 830] CRP asciinema.config: [0.19768 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 831] CRP asciinema.config: [0.20830 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 832] CRP asciinema.config: [0.20057 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 833] CRP asciinema.config: [0.20242 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 834] CRP asciinema.config: [0.20208 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 835] CRP asciinema.config: [0.20581 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 836] CRP asciinema.config: [0.20068 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 837] CRP asciinema.config: [0.19224 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 838] CRP asciinema.config: [0.19596 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 839] CRP asciinema.config: [0.20415 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 840] CRP asciinema.config: [0.20749 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 841] CRP asciinema.config: [0.20812 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 842] CRP asciinema.config: [0.19874 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 843] CRP asciinema.config: [0.20251 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 844] CRP asciinema.config: [0.20176 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 845] CRP asciinema.config: [0.20119 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 846] CRP asciinema.config: [0.19934 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 847] CRP asciinema.config: [0.20096 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 848] CRP asciinema.config: [0.20433 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 849] CRP asciinema.config: [0.20011 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 850] CRP asciinema.config: [0.20641 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 851] CRP asciinema.config: [0.19956 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 852] CRP asciinema.config: [0.19340 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 853] CRP asciinema.config: [0.20334 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 854] CRP asciinema.config: [0.19696 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 855] CRP asciinema.config: [0.20438 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 856] CRP asciinema.config: [0.20857 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 857] CRP asciinema.config: [0.20461 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 858] CRP asciinema.config: [0.20649 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 859] CRP asciinema.config: [0.19662 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 860] CRP asciinema.config: [0.20911 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 861] CRP asciinema.config: [0.20074 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 862] CRP asciinema.config: [0.19814 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 863] CRP asciinema.config: [0.20337 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 864] CRP asciinema.config: [0.20138 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 865] CRP asciinema.config: [0.19088 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 866] CRP asciinema.config: [0.20139 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 867] CRP asciinema.config: [0.20555 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 868] CRP asciinema.config: [0.21305 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 869] CRP asciinema.config: [0.20540 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 870] CRP asciinema.config: [0.20414 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 871] CRP asciinema.config: [0.20625 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 872] CRP asciinema.config: [0.21261 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 873] CRP asciinema.config: [0.20242 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 874] CRP asciinema.config: [0.20129 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 875] CRP asciinema.config: [0.20645 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 876] CRP asciinema.config: [0.20632 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 877] CRP asciinema.config: [0.20544 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 878] CRP asciinema.config: [0.20646 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 879] CRP asciinema.config: [0.20427 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 880] CRP asciinema.config: [0.19951 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 881] CRP asciinema.config: [0.19408 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 882] CRP asciinema.config: [0.19620 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 883] CRP asciinema.config: [0.20581 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 884] CRP asciinema.config: [0.20086 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 885] CRP asciinema.config: [0.20254 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 886] CRP asciinema.config: [0.20601 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 887] CRP asciinema.config: [0.19584 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 888] CRP asciinema.config: [0.20015 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 889] CRP asciinema.config: [0.19798 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 890] CRP asciinema.config: [0.20222 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 891] CRP asciinema.config: [0.20552 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 892] CRP asciinema.config: [0.21426 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 893] CRP asciinema.config: [0.20669 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 894] CRP asciinema.config: [0.21142 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 895] CRP asciinema.config: [0.20897 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 896] CRP asciinema.config: [0.19856 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 897] CRP asciinema.config: [0.22039 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 898] CRP asciinema.config: [0.20221 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 899] CRP asciinema.config: [0.19622 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 900] CRP asciinema.config: [0.21227 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 901] CRP asciinema.config: [0.20047 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 902] CRP asciinema.config: [0.20094 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 903] CRP asciinema.config: [0.20695 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 904] CRP asciinema.config: [0.20094 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 905] CRP asciinema.config: [0.19806 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 906] CRP asciinema.config: [0.19940 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 907] CRP asciinema.config: [0.19840 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 908] CRP asciinema.config: [0.20521 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 909] CRP asciinema.config: [0.19384 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 910] CRP asciinema.config: [0.19346 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 911] CRP asciinema.config: [0.20278 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 912] CRP asciinema.config: [0.19790 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 913] CRP asciinema.config: [0.20345 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 914] CRP asciinema.config: [0.20314 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 915] CRP asciinema.config: [0.20997 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 916] CRP asciinema.config: [0.19902 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 917] CRP asciinema.config: [0.19994 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 918] CRP asciinema.config: [0.19654 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 919] CRP asciinema.config: [0.20205 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 920] CRP asciinema.config: [0.20223 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 921] CRP asciinema.config: [0.20236 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 922] CRP asciinema.config: [0.19282 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 923] CRP asciinema.config: [0.19826 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 924] CRP asciinema.config: [0.20041 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 925] CRP asciinema.config: [0.19651 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 926] CRP asciinema.config: [0.19831 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 927] CRP asciinema.config: [0.19677 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 928] CRP asciinema.config: [0.20091 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 929] CRP asciinema.config: [0.21237 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 930] CRP asciinema.config: [0.21077 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 931] CRP asciinema.config: [0.19590 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 932] CRP asciinema.config: [0.19956 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 933] CRP asciinema.config: [0.20874 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 934] CRP asciinema.config: [0.20882 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 935] CRP asciinema.config: [0.21491 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 936] CRP asciinema.config: [0.20262 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 937] CRP asciinema.config: [0.20127 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 938] CRP asciinema.config: [0.20597 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 939] CRP asciinema.config: [0.20334 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 940] CRP asciinema.config: [0.20109 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 941] CRP asciinema.config: [0.20042 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 942] CRP asciinema.config: [0.20353 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 943] CRP asciinema.config: [0.20574 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 944] CRP asciinema.config: [0.20188 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 945] CRP asciinema.config: [0.20128 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 946] CRP asciinema.config: [0.19399 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 947] CRP asciinema.config: [0.20174 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 948] CRP asciinema.config: [0.19840 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 949] CRP asciinema.config: [0.20089 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 950] CRP asciinema.config: [0.19947 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 951] CRP asciinema.config: [0.22554 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 952] CRP asciinema.config: [0.19670 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 953] CRP asciinema.config: [0.20163 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 954] CRP asciinema.config: [0.20384 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 955] CRP asciinema.config: [0.20107 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 956] CRP asciinema.config: [0.20279 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 957] CRP asciinema.config: [0.19392 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 958] CRP asciinema.config: [0.19827 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 959] CRP asciinema.config: [0.19496 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 960] CRP asciinema.config: [0.20891 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 961] CRP asciinema.config: [0.20207 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 962] CRP asciinema.config: [0.19547 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 963] CRP asciinema.config: [0.19962 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 964] CRP asciinema.config: [0.20160 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 965] CRP asciinema.config: [0.20077 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 966] CRP asciinema.config: [0.20826 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 967] CRP asciinema.config: [0.20868 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 968] CRP asciinema.config: [0.20108 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 969] DDL asciinema.config: [0.21709 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 970] DDL asciinema.config: [0.20434 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 971] DDL asciinema.config: [0.20042 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 972] DDL asciinema.config: [0.19785 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 973] DDL asciinema.config: [0.20423 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 974] DDL asciinema.config: [0.20123 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 975] DDL asciinema.config: [0.19608 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 976] DDL asciinema.config: [0.19603 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 977] DDL asciinema.config: [0.20037 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 978] DDL asciinema.config: [0.19906 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 979] DDL asciinema.config: [0.20544 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 980] DDL asciinema.config: [0.21439 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 981] DDL asciinema.config: [0.20210 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 982] DDL asciinema.config: [0.19969 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 983] DDL asciinema.config: [0.20138 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 984] DDL asciinema.config: [0.20144 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 985] DDL asciinema.config: [0.20171 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 986] DDL asciinema.config: [0.20216 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 987] DDL asciinema.config: [0.20198 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 988] EHD asciinema.config: [0.20535 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 989] EHD asciinema.config: [0.19997 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 990] EHD asciinema.config: [0.19365 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 991] EXS asciinema.config: [0.20048 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 992] EXS asciinema.config: [0.19550 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 993] EXS asciinema.config: [0.19883 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 994] LCR asciinema.config: [0.20159 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 995] LCR asciinema.config: [0.19502 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 996] LCR asciinema.config: [0.20232 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 997] ROR asciinema.config: [0.19963 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 998] ROR asciinema.config: [0.20770 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [# 999] ROR asciinema.config: [0.20424 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1000] CRP asciinema.file_writer: [0.19493 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1001] CRP asciinema.file_writer: [0.20719 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1002] EHD asciinema.file_writer: [0.21167 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1003] EXS asciinema.file_writer: [0.20678 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1004] LCR asciinema.file_writer: [0.20161 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1005] COI asciinema.notifier: [0.21068 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1006] COI asciinema.notifier: [0.20513 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1007] COI asciinema.notifier: [0.21350 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1008] COI asciinema.notifier: [0.20100 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1009] COI asciinema.notifier: [0.20328 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1010] COI asciinema.notifier: [0.19953 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1011] COI asciinema.notifier: [0.19748 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1012] CRP asciinema.notifier: [0.20058 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1013] CRP asciinema.notifier: [0.20102 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1014] CRP asciinema.notifier: [0.20445 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1015] CRP asciinema.notifier: [0.20381 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1016] CRP asciinema.notifier: [0.19532 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1017] CRP asciinema.notifier: [0.20119 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1018] CRP asciinema.notifier: [0.20268 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1019] CRP asciinema.notifier: [0.20196 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1020] CRP asciinema.notifier: [0.20046 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1021] CRP asciinema.notifier: [0.21415 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1022] CRP asciinema.notifier: [0.20454 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1023] CRP asciinema.notifier: [0.20017 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1024] CRP asciinema.notifier: [0.19408 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1025] CRP asciinema.notifier: [0.19521 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1026] CRP asciinema.notifier: [0.19402 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1027] CRP asciinema.notifier: [0.20362 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1028] CRP asciinema.notifier: [0.20014 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1029] CRP asciinema.notifier: [0.21601 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1030] CRP asciinema.notifier: [0.19796 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1031] CRP asciinema.notifier: [0.19527 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1032] CRP asciinema.notifier: [0.20799 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1033] CRP asciinema.notifier: [0.19974 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1034] CRP asciinema.notifier: [0.19439 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1035] CRP asciinema.notifier: [0.20057 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1036] CRP asciinema.notifier: [0.19842 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1037] CRP asciinema.notifier: [0.20118 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1038] CRP asciinema.notifier: [0.21537 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1039] CRP asciinema.notifier: [0.20896 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1040] CRP asciinema.notifier: [0.19759 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1041] CRP asciinema.notifier: [0.19802 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1042] CRP asciinema.notifier: [0.21993 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1043] CRP asciinema.notifier: [0.21396 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1044] CRP asciinema.notifier: [0.19842 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1045] CRP asciinema.notifier: [0.20067 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1046] CRP asciinema.notifier: [0.19278 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1047] CRP asciinema.notifier: [0.20101 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1048] CRP asciinema.notifier: [0.20048 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1049] CRP asciinema.notifier: [0.20010 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1050] CRP asciinema.notifier: [0.20273 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1051] CRP asciinema.notifier: [0.19841 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1052] CRP asciinema.notifier: [0.20404 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1053] CRP asciinema.notifier: [0.19807 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1054] CRP asciinema.notifier: [0.20303 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1055] CRP asciinema.notifier: [0.20020 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1056] CRP asciinema.notifier: [0.20249 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1057] CRP asciinema.notifier: [0.19916 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1058] CRP asciinema.notifier: [0.20982 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1059] CRP asciinema.notifier: [0.19773 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1060] CRP asciinema.notifier: [0.20646 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1061] CRP asciinema.notifier: [0.20088 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1062] DDL asciinema.notifier: [0.19926 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1063] IOD asciinema.notifier: [0.19731 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1064] IOD asciinema.notifier: [0.19961 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1065] IOD asciinema.notifier: [0.20107 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1066] IOD asciinema.notifier: [0.20314 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1067] IOD asciinema.notifier: [0.20139 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1068] IOD asciinema.notifier: [0.19589 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1069] IOD asciinema.notifier: [0.20327 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1070] SCD asciinema.notifier: [0.19891 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1071] SCD asciinema.notifier: [0.20531 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1072] SCD asciinema.notifier: [0.20462 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1073] SCI asciinema.notifier: [0.19935 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1074] SCI asciinema.notifier: [0.21606 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1075] SCI asciinema.notifier: [0.20478 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1076] SCI asciinema.notifier: [0.21093 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1077] AOR asciinema.player: [0.21086 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1078] AOR asciinema.player: [0.21541 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1079] AOR asciinema.player: [0.22328 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1080] AOR asciinema.player: [0.21238 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1081] BCR asciinema.player: [0.21825 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1082] BCR asciinema.player: [0.21518 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1083] BCR asciinema.player: [0.21195 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1084] BCR asciinema.player: [0.21852 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1085] BCR asciinema.player: [0.22251 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1086] COD asciinema.player: [0.21943 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1087] COI asciinema.player: [0.21312 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1088] COI asciinema.player: [0.20982 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1089] COI asciinema.player: [0.21249 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1090] COI asciinema.player: [0.21833 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1091] COI asciinema.player: [0.21226 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1092] COI asciinema.player: [0.21105 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1093] COI asciinema.player: [0.20946 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1094] COI asciinema.player: [0.21672 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1095] COI asciinema.player: [0.21081 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1096] COI asciinema.player: [0.20828 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1097] COI asciinema.player: [0.21781 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1098] COI asciinema.player: [0.21404 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1099] COI asciinema.player: [0.21622 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1100] COI asciinema.player: [0.21643 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1101] COI asciinema.player: [0.20918 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1102] COI asciinema.player: [0.21372 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1103] COI asciinema.player: [0.20884 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1104] COI asciinema.player: [0.22388 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1105] COI asciinema.player: [0.21273 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1106] COI asciinema.player: [0.21702 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1107] COI asciinema.player: [0.21329 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1108] COI asciinema.player: [0.22525 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1109] CRP asciinema.player: [0.22585 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1110] CRP asciinema.player: [0.22133 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1111] CRP asciinema.player: [0.21632 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1112] CRP asciinema.player: [0.21762 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1113] CRP asciinema.player: [0.21939 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1114] CRP asciinema.player: [0.21588 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1115] CRP asciinema.player: [0.21028 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1116] CRP asciinema.player: [0.23076 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1117] CRP asciinema.player: [0.30309 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1118] CRP asciinema.player: [0.27969 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1119] CRP asciinema.player: [0.21578 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1120] CRP asciinema.player: [0.21166 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1121] CRP asciinema.player: [0.22751 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1122] CRP asciinema.player: [0.21719 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1123] CRP asciinema.player: [0.22022 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1124] CRP asciinema.player: [0.21094 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1125] CRP asciinema.player: [0.21711 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1126] CRP asciinema.player: [0.21726 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1127] CRP asciinema.player: [0.21046 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1128] CRP asciinema.player: [0.21396 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1129] CRP asciinema.player: [0.22534 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1130] CRP asciinema.player: [0.21183 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1131] CRP asciinema.player: [0.22022 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1132] CRP asciinema.player: [0.21717 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1133] CRP asciinema.player: [0.21943 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1134] CRP asciinema.player: [0.21789 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1135] CRP asciinema.player: [0.21166 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1136] CRP asciinema.player: [0.21566 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1137] CRP asciinema.player: [0.20762 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1138] CRP asciinema.player: [0.21001 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1139] CRP asciinema.player: [0.21218 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1140] CRP asciinema.player: [0.21707 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1141] CRP asciinema.player: [0.21002 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1142] DDL asciinema.player: [0.23700 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1143] EHD asciinema.player: [0.21945 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1144] EHD asciinema.player: [0.21686 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1145] EXS asciinema.player: [0.22881 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1146] EXS asciinema.player: [0.22096 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1147] LCR asciinema.player: [0.21876 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1148] LCR asciinema.player: [0.21307 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1149] LCR asciinema.player: [0.21686 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1150] LCR asciinema.player: [0.21228 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1151] LCR asciinema.player: [0.21509 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1152] ROR asciinema.player: [0.22123 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1153] ROR asciinema.player: [0.21132 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1154] ROR asciinema.player: [0.21341 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1155] ROR asciinema.player: [0.21255 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1156] ROR asciinema.player: [0.21717 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1157] ROR asciinema.player: [0.21971 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1158] ROR asciinema.player: [0.21521 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1159] ROR asciinema.player: [0.21784 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1160] ROR asciinema.player: [0.21422 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1161] ROR asciinema.player: [0.22360 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1162] AOD asciinema.pty_: [0.20236 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1163] AOR asciinema.pty_: [0.20682 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1164] AOR asciinema.pty_: [0.20644 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1165] AOR asciinema.pty_: [0.19951 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1166] AOR asciinema.pty_: [0.19505 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1167] AOR asciinema.pty_: [0.19625 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1168] AOR asciinema.pty_: [0.20112 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1169] AOR asciinema.pty_: [0.19610 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1170] AOR asciinema.pty_: [0.20078 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1171] AOR asciinema.pty_: [0.20570 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1172] AOR asciinema.pty_: [0.19984 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1173] ASR asciinema.pty_: [0.20483 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1174] ASR asciinema.pty_: [0.19978 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1175] BCR asciinema.pty_: [0.20490 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1176] BCR asciinema.pty_: [0.20937 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1177] COD asciinema.pty_: [0.20955 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1178] COD asciinema.pty_: [0.21398 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1179] COD asciinema.pty_: [0.20254 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1180] COD asciinema.pty_: [0.20436 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1181] COD asciinema.pty_: [0.19992 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1182] COD asciinema.pty_: [0.20333 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1183] COD asciinema.pty_: [0.20752 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1184] COI asciinema.pty_: [0.19582 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1185] COI asciinema.pty_: [0.19855 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1186] COI asciinema.pty_: [0.20969 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1187] COI asciinema.pty_: [0.19971 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1188] COI asciinema.pty_: [0.20658 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1189] COI asciinema.pty_: [0.19433 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1190] COI asciinema.pty_: [0.20448 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1191] COI asciinema.pty_: [0.19584 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1192] COI asciinema.pty_: [0.20068 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1193] COI asciinema.pty_: [0.20236 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1194] COI asciinema.pty_: [0.20524 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1195] COI asciinema.pty_: [0.20320 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1196] COI asciinema.pty_: [0.19952 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1197] COI asciinema.pty_: [0.19842 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1198] COI asciinema.pty_: [0.20286 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1199] COI asciinema.pty_: [0.20287 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1200] COI asciinema.pty_: [0.20397 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1201] COI asciinema.pty_: [0.19886 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1202] COI asciinema.pty_: [0.20610 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1203] COI asciinema.pty_: [0.20100 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1204] COI asciinema.pty_: [0.20175 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1205] COI asciinema.pty_: [0.20463 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1206] COI asciinema.pty_: [0.21134 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1207] COI asciinema.pty_: [0.20211 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1208] COI asciinema.pty_: [0.20545 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1209] COI asciinema.pty_: [0.20771 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1210] COI asciinema.pty_: [0.19627 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1211] COI asciinema.pty_: [0.20262 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1212] COI asciinema.pty_: [0.20267 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1213] COI asciinema.pty_: [0.21742 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1214] CRP asciinema.pty_: [0.20758 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1215] CRP asciinema.pty_: [0.20130 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1216] CRP asciinema.pty_: [0.20392 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1217] CRP asciinema.pty_: [0.20816 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1218] CRP asciinema.pty_: [0.20494 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1219] CRP asciinema.pty_: [0.20066 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1220] CRP asciinema.pty_: [0.20685 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1221] CRP asciinema.pty_: [0.20625 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1222] CRP asciinema.pty_: [0.20820 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1223] CRP asciinema.pty_: [0.20901 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1224] CRP asciinema.pty_: [0.19696 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1225] CRP asciinema.pty_: [0.19705 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1226] CRP asciinema.pty_: [0.20190 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1227] CRP asciinema.pty_: [0.19300 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1228] CRP asciinema.pty_: [0.20074 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1229] CRP asciinema.pty_: [0.20008 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1230] CRP asciinema.pty_: [0.20028 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1231] CRP asciinema.pty_: [0.20293 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1232] CRP asciinema.pty_: [0.20123 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1233] CRP asciinema.pty_: [0.22438 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1234] CRP asciinema.pty_: [0.20056 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1235] CRP asciinema.pty_: [0.19907 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1236] CRP asciinema.pty_: [0.20008 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1237] CRP asciinema.pty_: [0.19960 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1238] CRP asciinema.pty_: [0.21109 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1239] CRP asciinema.pty_: [0.20365 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1240] CRP asciinema.pty_: [0.19957 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1241] CRP asciinema.pty_: [0.20403 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1242] CRP asciinema.pty_: [0.20319 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1243] CRP asciinema.pty_: [0.19605 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1244] CRP asciinema.pty_: [0.19924 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1245] CRP asciinema.pty_: [0.19609 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1246] DDL asciinema.pty_: [0.20096 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1247] EHD asciinema.pty_: [0.20356 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1248] EHD asciinema.pty_: [0.20549 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1249] EHD asciinema.pty_: [0.20707 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1250] EHD asciinema.pty_: [0.20394 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1251] EXS asciinema.pty_: [0.20558 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1252] EXS asciinema.pty_: [0.20901 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1253] LCR asciinema.pty_: [0.21583 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1254] LCR asciinema.pty_: [0.21018 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1255] LCR asciinema.pty_: [0.19945 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1256] LCR asciinema.pty_: [0.19965 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1257] LCR asciinema.pty_: [0.19458 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1258] LOR asciinema.pty_: [0.19451 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1259] LOR asciinema.pty_: [0.20284 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1260] ROR asciinema.pty_: [0.19845 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1261] ROR asciinema.pty_: [0.19870 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1262] ROR asciinema.pty_: [0.19601 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1263] ROR asciinema.pty_: [0.19815 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1264] ROR asciinema.pty_: [0.19928 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1265] ROR asciinema.pty_: [0.19885 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1266] ROR asciinema.pty_: [0.19868 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1267] ROR asciinema.pty_: [0.20111 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1268] ROR asciinema.pty_: [0.20501 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1269] ROR asciinema.pty_: [0.21163 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1270] ROR asciinema.pty_: [0.20608 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1271] ROR asciinema.pty_: [0.20387 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1272] SIR asciinema.pty_: [0.20250 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1273] SIR asciinema.pty_: [0.19791 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1274] AOR asciinema.recorder: [0.19976 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1275] AOR asciinema.recorder: [0.19235 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1276] AOR asciinema.recorder: [0.21262 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1277] AOR asciinema.recorder: [0.19947 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1278] COD asciinema.recorder: [0.20375 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1279] COI asciinema.recorder: [0.19374 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1280] COI asciinema.recorder: [0.19815 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1281] COI asciinema.recorder: [0.19480 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1282] COI asciinema.recorder: [0.20063 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1283] COI asciinema.recorder: [0.20206 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1284] COI asciinema.recorder: [0.22421 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1285] COI asciinema.recorder: [0.21292 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1286] COI asciinema.recorder: [0.20522 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1287] COI asciinema.recorder: [0.20561 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1288] COI asciinema.recorder: [0.21276 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1289] COI asciinema.recorder: [0.21099 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1290] COI asciinema.recorder: [0.21026 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1291] COI asciinema.recorder: [0.20274 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1292] COI asciinema.recorder: [0.20546 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1293] CRP asciinema.recorder: [0.20375 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1294] CRP asciinema.recorder: [0.20534 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1295] CRP asciinema.recorder: [0.20202 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1296] CRP asciinema.recorder: [0.31708 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1297] CRP asciinema.recorder: [0.19405 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1298] CRP asciinema.recorder: [0.20008 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1299] CRP asciinema.recorder: [0.19905 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1300] CRP asciinema.recorder: [0.21067 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1301] CRP asciinema.recorder: [0.21638 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1302] CRP asciinema.recorder: [0.19700 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1303] CRP asciinema.recorder: [0.19970 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1304] CRP asciinema.recorder: [0.19356 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1305] CRP asciinema.recorder: [0.20474 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1306] CRP asciinema.recorder: [0.20277 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1307] CRP asciinema.recorder: [0.20435 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1308] CRP asciinema.recorder: [0.19681 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1309] CRP asciinema.recorder: [0.20040 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1310] CRP asciinema.recorder: [0.20373 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1311] CRP asciinema.recorder: [0.20201 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1312] CRP asciinema.recorder: [0.20544 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1313] CRP asciinema.recorder: [0.20029 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1314] CRP asciinema.recorder: [0.19581 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1315] CRP asciinema.recorder: [0.20744 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1316] CRP asciinema.recorder: [0.19826 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1317] CRP asciinema.recorder: [0.20034 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1318] CRP asciinema.recorder: [0.20035 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1319] CRP asciinema.recorder: [0.23159 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1320] CRP asciinema.recorder: [0.20559 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1321] CRP asciinema.recorder: [0.19744 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1322] CRP asciinema.recorder: [0.20320 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1323] CRP asciinema.recorder: [0.21813 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1324] CRP asciinema.recorder: [0.20871 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1325] CRP asciinema.recorder: [0.20987 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1326] CRP asciinema.recorder: [0.21571 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1327] CRP asciinema.recorder: [0.20625 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1328] CRP asciinema.recorder: [0.19524 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1329] CRP asciinema.recorder: [0.20100 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1330] CRP asciinema.recorder: [0.19630 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1331] CRP asciinema.recorder: [0.20373 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1332] CRP asciinema.recorder: [0.20033 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1333] CRP asciinema.recorder: [0.20149 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1334] CRP asciinema.recorder: [0.20043 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1335] CRP asciinema.recorder: [0.20034 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1336] CRP asciinema.recorder: [0.19620 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1337] CRP asciinema.recorder: [0.19399 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1338] CRP asciinema.recorder: [0.20119 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1339] CRP asciinema.recorder: [0.21145 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1340] CRP asciinema.recorder: [0.19154 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1341] CRP asciinema.recorder: [0.20541 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1342] CRP asciinema.recorder: [0.19925 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1343] CRP asciinema.recorder: [0.19734 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1344] CRP asciinema.recorder: [0.19216 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1345] CRP asciinema.recorder: [0.19501 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1346] CRP asciinema.recorder: [0.19689 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1347] CRP asciinema.recorder: [0.19672 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1348] CRP asciinema.recorder: [0.19878 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1349] CRP asciinema.recorder: [0.21273 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1350] CRP asciinema.recorder: [0.18842 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1351] CRP asciinema.recorder: [0.19458 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1352] CRP asciinema.recorder: [0.20167 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1353] EHD asciinema.recorder: [0.20053 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1354] EHD asciinema.recorder: [0.20399 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1355] EHD asciinema.recorder: [0.21279 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1356] EXS asciinema.recorder: [0.22094 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1357] EXS asciinema.recorder: [0.21349 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1358] IOD asciinema.recorder: [0.20068 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1359] IOD asciinema.recorder: [0.20720 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1360] IOD asciinema.recorder: [0.19578 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1361] LCR asciinema.recorder: [0.20154 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1362] LCR asciinema.recorder: [0.19924 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1363] LCR asciinema.recorder: [0.19826 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1364] LCR asciinema.recorder: [0.20833 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1365] LCR asciinema.recorder: [0.19559 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1366] LCR asciinema.recorder: [0.20271 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1367] ROR asciinema.recorder: [0.19853 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1368] ROR asciinema.recorder: [0.20202 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1369] ROR asciinema.recorder: [0.20430 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1370] ROR asciinema.recorder: [0.20147 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1371] ROR asciinema.recorder: [0.19164 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1372] ROR asciinema.recorder: [0.20047 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1373] SCI asciinema.recorder: [0.20395 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1374] SCI asciinema.recorder: [0.19967 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1375] SCI asciinema.recorder: [0.19752 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1376] COI asciinema.tty_: [0.19412 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1377] COI asciinema.tty_: [0.20291 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1378] COI asciinema.tty_: [0.19910 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1379] CRP asciinema.tty_: [0.19451 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1380] CRP asciinema.tty_: [0.19406 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1381] CRP asciinema.tty_: [0.19488 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1382] EHD asciinema.tty_: [0.20498 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1383] COI asciinema.urllib_http_adapter: [0.21957 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1384] COI asciinema.urllib_http_adapter: [0.22507 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1385] COI asciinema.urllib_http_adapter: [0.21561 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1386] COI asciinema.urllib_http_adapter: [0.21518 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1387] COI asciinema.urllib_http_adapter: [0.21017 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1388] COI asciinema.urllib_http_adapter: [0.21653 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1389] CRP asciinema.urllib_http_adapter: [0.21432 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1390] CRP asciinema.urllib_http_adapter: [0.23495 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1391] CRP asciinema.urllib_http_adapter: [0.22001 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1392] CRP asciinema.urllib_http_adapter: [0.20865 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1393] CRP asciinema.urllib_http_adapter: [0.21172 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1394] CRP asciinema.urllib_http_adapter: [0.20584 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1395] CRP asciinema.urllib_http_adapter: [0.21699 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1396] CRP asciinema.urllib_http_adapter: [0.22101 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1397] CRP asciinema.urllib_http_adapter: [0.21759 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1398] CRP asciinema.urllib_http_adapter: [0.20875 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1399] CRP asciinema.urllib_http_adapter: [0.22249 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1400] CRP asciinema.urllib_http_adapter: [0.21649 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1401] CRP asciinema.urllib_http_adapter: [0.22094 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1402] CRP asciinema.urllib_http_adapter: [0.22240 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1403] CRP asciinema.urllib_http_adapter: [0.22649 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1404] CRP asciinema.urllib_http_adapter: [0.21850 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1405] CRP asciinema.urllib_http_adapter: [0.21881 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1406] CRP asciinema.urllib_http_adapter: [0.22178 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1407] CRP asciinema.urllib_http_adapter: [0.20984 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1408] CRP asciinema.urllib_http_adapter: [0.21259 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1409] CRP asciinema.urllib_http_adapter: [0.21756 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1410] CRP asciinema.urllib_http_adapter: [0.20875 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1411] CRP asciinema.urllib_http_adapter: [0.21372 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1412] CRP asciinema.urllib_http_adapter: [0.22475 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1413] CRP asciinema.urllib_http_adapter: [0.21568 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1414] CRP asciinema.urllib_http_adapter: [0.21049 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1415] CRP asciinema.urllib_http_adapter: [0.21875 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1416] CRP asciinema.urllib_http_adapter: [0.22026 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1417] CRP asciinema.urllib_http_adapter: [0.20975 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1418] CRP asciinema.urllib_http_adapter: [0.21965 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1419] CRP asciinema.urllib_http_adapter: [0.21536 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1420] CRP asciinema.urllib_http_adapter: [0.21161 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1421] CRP asciinema.urllib_http_adapter: [0.21669 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1422] CRP asciinema.urllib_http_adapter: [0.21635 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1423] CRP asciinema.urllib_http_adapter: [0.21447 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1424] CRP asciinema.urllib_http_adapter: [0.23734 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1425] CRP asciinema.urllib_http_adapter: [0.23224 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1426] CRP asciinema.urllib_http_adapter: [0.21916 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1427] CRP asciinema.urllib_http_adapter: [0.22238 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1428] CRP asciinema.urllib_http_adapter: [0.22128 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1429] CRP asciinema.urllib_http_adapter: [0.21939 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1430] CRP asciinema.urllib_http_adapter: [0.22004 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1431] CRP asciinema.urllib_http_adapter: [0.22580 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1432] CRP asciinema.urllib_http_adapter: [0.21627 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1433] CRP asciinema.urllib_http_adapter: [0.22074 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1434] CRP asciinema.urllib_http_adapter: [0.21819 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1435] CRP asciinema.urllib_http_adapter: [0.22152 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1436] CRP asciinema.urllib_http_adapter: [0.21849 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1437] CRP asciinema.urllib_http_adapter: [0.22047 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1438] CRP asciinema.urllib_http_adapter: [0.21581 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1439] CRP asciinema.urllib_http_adapter: [0.21582 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1440] CRP asciinema.urllib_http_adapter: [0.21176 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1441] CRP asciinema.urllib_http_adapter: [0.21716 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1442] CRP asciinema.urllib_http_adapter: [0.21408 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1443] CRP asciinema.urllib_http_adapter: [0.21738 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1444] DDL asciinema.urllib_http_adapter: [0.22312 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1445] DDL asciinema.urllib_http_adapter: [0.21062 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1446] EHD asciinema.urllib_http_adapter: [0.21626 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1447] EXS asciinema.urllib_http_adapter: [0.22077 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1448] EXS asciinema.urllib_http_adapter: [0.20690 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1449] LCR asciinema.urllib_http_adapter: [0.21133 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1450] ROR asciinema.urllib_http_adapter: [0.21651 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+   - [#1451] ROR asciinema.urllib_http_adapter: [0.21591 s] killed by tests_50/asciicast/v2_test.py::TestWriter::test_writing
+[*] Mutation score [321.96052 s]: 68.3%
+   - all: 1451
+   - killed: 988 (68.1%)
+   - survived: 458 (31.6%)
+   - incompetent: 5 (0.3%)
+   - timeout: 0 (0.0%)

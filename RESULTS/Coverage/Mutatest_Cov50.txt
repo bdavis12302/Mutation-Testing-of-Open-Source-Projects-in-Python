@@ -1,0 +1,138 @@
+============================= test session starts ==============================
+platform linux -- Python 3.8.16, pytest-7.4.3, pluggy-1.3.0 -- /usr/bin/python3.8
+cachedir: .pytest_cache
+hypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/s/bach/m/under/bdavis43/CS514/Project/mutatest/mutatest/.hypothesis/examples'))
+rootdir: /s/bach/m/under/bdavis43/CS514/Project/mutatest
+configfile: pytest.ini
+plugins: hypothesis-6.88.1, cov-3.0.0
+collecting ... collected 95 items
+
+tests_50/test_api.py::test_genome_ast <- mutatest/tests/test_api.py PASSED [  1%]
+tests_50/test_api.py::test_create_mutant_with_cache <- mutatest/tests/test_api.py PASSED [  2%]
+tests_50/test_api.py::test_filter_codes_ValueError <- mutatest/tests/test_api.py PASSED [  3%]
+tests_50/test_api.py::test_targets_TypeError <- mutatest/tests/test_api.py PASSED [  4%]
+tests_50/test_api.py::test_covered_targets_source_file_TypeError <- mutatest/tests/test_api.py PASSED [  5%]
+tests_50/test_api.py::test_covered_targets_coverage_file_TypeError <- mutatest/tests/test_api.py PASSED [  6%]
+tests_50/test_api.py::test_mutate_MutationException <- mutatest/tests/test_api.py PASSED [  7%]
+tests_50/test_api.py::test_mutate_TypeError_source_file <- mutatest/tests/test_api.py PASSED [  8%]
+tests_50/test_api.py::test_mutate_ValueError_target <- mutatest/tests/test_api.py PASSED [  9%]
+tests_50/test_api.py::test_covered_targets[Filter Empty Set] <- mutatest/tests/test_api.py PASSED [ 10%]
+tests_50/test_api.py::test_covered_targets[Filter BinOp] <- mutatest/tests/test_api.py PASSED [ 11%]
+tests_50/test_api.py::test_init_GenomeGroup_from_flat_folder <- mutatest/tests/test_api.py PASSED [ 12%]
+tests_50/test_api.py::test_init_GenomeGroup_from_recursive_folder <- mutatest/tests/test_api.py PASSED [ 13%]
+tests_50/test_api.py::test_init_GenomeGroup_from_single_file <- mutatest/tests/test_api.py PASSED [ 14%]
+tests_50/test_api.py::test_init_GenomeGroup_raise_TypeError <- mutatest/tests/test_api.py PASSED [ 15%]
+tests_50/test_api.py::test_GenomeGroup_folder_exception <- mutatest/tests/test_api.py PASSED [ 16%]
+tests_50/test_api.py::test_GenomeGroup_key_TypeError[int] <- mutatest/tests/test_api.py PASSED [ 17%]
+tests_50/test_api.py::test_GenomeGroup_key_TypeError[str] <- mutatest/tests/test_api.py PASSED [ 18%]
+tests_50/test_api.py::test_GenomeGroup_key_TypeError[float] <- mutatest/tests/test_api.py PASSED [ 20%]
+tests_50/test_api.py::test_GenomeGroup_key_TypeError[bool] <- mutatest/tests/test_api.py PASSED [ 21%]
+tests_50/test_api.py::test_GenomeGroup_value_TypeError[int] <- mutatest/tests/test_api.py PASSED [ 22%]
+tests_50/test_api.py::test_GenomeGroup_value_TypeError[str] <- mutatest/tests/test_api.py PASSED [ 23%]
+tests_50/test_api.py::test_GenomeGroup_value_TypeError[float] <- mutatest/tests/test_api.py PASSED [ 24%]
+tests_50/test_api.py::test_GenomeGroup_value_TypeError[bool] <- mutatest/tests/test_api.py PASSED [ 25%]
+tests_50/test_api.py::test_GenomeGroup_add_folder_with_exclusions <- mutatest/tests/test_api.py PASSED [ 26%]
+tests_50/test_api.py::test_GenomeGroup_covered_targets[Filter Empty Set] <- mutatest/tests/test_api.py PASSED [ 27%]
+tests_50/test_api.py::test_GenomeGroup_covered_targets[Filter BinOp] <- mutatest/tests/test_api.py PASSED [ 28%]
+tests_50/test_api.py::test_GenomeGroup_TypeError_source_file <- mutatest/tests/test_api.py PASSED [ 29%]
+tests_50/test_api.py::test_GenomeGroup_basic_properties <- mutatest/tests/test_api.py PASSED [ 30%]
+tests_50/test_cache.py::test_check_cache_invalidation_mode_error <- mutatest/tests/test_cache.py PASSED [ 31%]
+tests_50/test_cache.py::test_check_cache_invalidation_mode_ok <- mutatest/tests/test_cache.py PASSED [ 32%]
+tests_50/test_cache.py::test_get_cache_file_loc <- mutatest/tests/test_cache.py PASSED [ 33%]
+tests_50/test_cache.py::test_get_cache_file_loc_invalid <- mutatest/tests/test_cache.py PASSED [ 34%]
+tests_50/test_cache.py::test_get_cache_file_loc_link_exception <- mutatest/tests/test_cache.py PASSED [ 35%]
+tests_50/test_cache.py::test_get_cache_file_loc_not_file <- mutatest/tests/test_cache.py PASSED [ 36%]
+tests_50/test_cache.py::test_create_cache_dirs <- mutatest/tests/test_cache.py PASSED [ 37%]
+tests_50/test_cache.py::test_remove_existing_cache_files <- mutatest/tests/test_cache.py PASSED [ 38%]
+tests_50/test_cache.py::test_remove_existing_cache_files_from_folder <- mutatest/tests/test_cache.py PASSED [ 40%]
+tests_50/test_cache.py::test_get_cache_file_loc_invariant <- mutatest/tests/test_cache.py PASSED [ 41%]
+tests_50/test_cli.py::test_RunMode[f-False-False-True-True] <- mutatest/tests/test_cli.py PASSED [ 42%]
+tests_50/test_cli.py::test_RunMode[s-False-True-True-True] <- mutatest/tests/test_cli.py PASSED [ 43%]
+tests_50/test_cli.py::test_RunMode[d-True-False-True-True] <- mutatest/tests/test_cli.py PASSED [ 44%]
+tests_50/test_cli.py::test_RunMode[sd-True-True-True-True] <- mutatest/tests/test_cli.py PASSED [ 45%]
+tests_50/test_cli.py::test_RunMode[x-False-False-True-True] <- mutatest/tests/test_cli.py PASSED [ 46%]
+tests_50/test_cli.py::test_get_src_location_pkg <- mutatest/tests/test_cli.py PASSED [ 47%]
+tests_50/test_cli.py::test_get_src_location_error <- mutatest/tests/test_cli.py PASSED [ 48%]
+tests_50/test_cli.py::test_get_src_location_missing_file <- mutatest/tests/test_cli.py PASSED [ 49%]
+tests_50/test_cli.py::test_get_src_location_file <- mutatest/tests/test_cli.py PASSED [ 50%]
+tests_50/test_cli.py::test_selected_categories_empty_lists <- mutatest/tests/test_cli.py PASSED [ 51%]
+tests_50/test_cli.py::test_selected_categories_wlist <- mutatest/tests/test_cli.py PASSED [ 52%]
+tests_50/test_cli.py::test_selected_categories_blist <- mutatest/tests/test_cli.py PASSED [ 53%]
+tests_50/test_cli.py::test_selected_categories_wblist <- mutatest/tests/test_cli.py PASSED [ 54%]
+tests_50/test_cli.py::test_selected_categories_wblist_long <- mutatest/tests/test_cli.py PASSED [ 55%]
+tests_50/test_cli.py::test_exception_raised <- mutatest/tests/test_cli.py PASSED [ 56%]
+tests_50/test_cli.py::test_exception_not_raised <- mutatest/tests/test_cli.py PASSED [ 57%]
+tests_50/test_cli.py::test_main <- mutatest/tests/test_cli.py PASSED     [ 58%]
+tests_50/test_cli.py::test_expected_arg_attrs <- mutatest/tests/test_cli.py PASSED [ 60%]
+tests_50/test_cli.py::test_get_parser_actions <- mutatest/tests/test_cli.py PASSED [ 61%]
+tests_50/test_cli.py::test_read_config_key_error <- mutatest/tests/test_cli.py PASSED [ 62%]
+tests_50/test_cli.py::test_read_setup_cfg_missing_mutatest_ini[mutatest] <- mutatest/tests/test_cli.py PASSED [ 63%]
+tests_50/test_cli.py::test_read_setup_cfg_missing_mutatest_ini[tool:mutatest] <- mutatest/tests/test_cli.py PASSED [ 64%]
+tests_50/test_cli.py::test_search_file_order_bad_key_mutatest_ini[mutatest] <- mutatest/tests/test_cli.py PASSED [ 65%]
+tests_50/test_cli.py::test_search_file_order_bad_key_mutatest_ini[tool:mutatest] <- mutatest/tests/test_cli.py PASSED [ 66%]
+tests_50/test_cli.py::test_read_ini_config_keys <- mutatest/tests/test_cli.py PASSED [ 67%]
+tests_50/test_cli.py::test_parse_ini_config_with_cli_empty <- mutatest/tests/test_cli.py PASSED [ 68%]
+tests_50/test_cli.py::test_parse_ini_config_with_cli_overrides <- mutatest/tests/test_cli.py PASSED [ 69%]
+tests_50/test_cli.py::test_cli_epilog_invariant <- mutatest/tests/test_cli.py PASSED [ 70%]
+tests_50/test_cli.py::test_cli_summary_report_invariant <- mutatest/tests/test_cli.py PASSED [ 71%]
+tests_50/test_cli.py::test_syserror_negative_n_and_rseed[--nlocations] <- mutatest/tests/test_cli.py PASSED [ 72%]
+tests_50/test_cli.py::test_syserror_negative_n_and_rseed[-n] <- mutatest/tests/test_cli.py PASSED [ 73%]
+tests_50/test_cli.py::test_syserror_negative_n_and_rseed[-rseed] <- mutatest/tests/test_cli.py PASSED [ 74%]
+tests_50/test_cli.py::test_syserror_negative_n_and_rseed[-r] <- mutatest/tests/test_cli.py PASSED [ 75%]
+tests_50/test_transformers.py::test_get_mutations_for_target[Mult] <- mutatest/tests/test_transformers.py PASSED [ 76%]
+tests_50/test_transformers.py::test_get_mutations_for_target[Sub] <- mutatest/tests/test_transformers.py PASSED [ 77%]
+tests_50/test_transformers.py::test_get_mutations_for_target[Add] <- mutatest/tests/test_transformers.py PASSED [ 78%]
+tests_50/test_transformers.py::test_get_mutations_for_target[Pow] <- mutatest/tests/test_transformers.py PASSED [ 80%]
+tests_50/test_transformers.py::test_get_mutations_for_target[FloorDiv] <- mutatest/tests/test_transformers.py PASSED [ 81%]
+tests_50/test_transformers.py::test_get_mutations_for_target[Mod] <- mutatest/tests/test_transformers.py PASSED [ 82%]
+tests_50/test_transformers.py::test_get_mutations_for_target[Div] <- mutatest/tests/test_transformers.py PASSED [ 83%]
+tests_50/test_transformers.py::test_MutateAST_visit_read_only <- mutatest/tests/test_transformers.py PASSED [ 84%]
+tests_50/test_transformers.py::test_MutateAST_visit_augassign <- mutatest/tests/test_transformers.py PASSED [ 85%]
+tests_50/test_transformers.py::test_MutateAST_visit_binop_37 <- mutatest/tests/test_transformers.py PASSED [ 86%]
+tests_50/test_transformers.py::test_MutateAST_visit_boolop <- mutatest/tests/test_transformers.py PASSED [ 87%]
+tests_50/test_transformers.py::test_MutateAST_visit_compare[Compare] <- mutatest/tests/test_transformers.py PASSED [ 88%]
+tests_50/test_transformers.py::test_MutateAST_visit_compare[CompareIs] <- mutatest/tests/test_transformers.py PASSED [ 89%]
+tests_50/test_transformers.py::test_MutateAST_visit_compare[CompareIn] <- mutatest/tests/test_transformers.py PASSED [ 90%]
+tests_50/test_transformers.py::test_MutateAST_visit_if <- mutatest/tests/test_transformers.py PASSED [ 91%]
+tests_50/test_transformers.py::test_MutateAST_visit_index_neg[NumNeg to NumPos] <- mutatest/tests/test_transformers.py PASSED [ 92%]
+tests_50/test_transformers.py::test_MutateAST_visit_index_neg[NumNeg to NumZero] <- mutatest/tests/test_transformers.py PASSED [ 93%]
+tests_50/test_transformers.py::test_MutateAST_visit_index_neg[NumZero to NumNeg] <- mutatest/tests/test_transformers.py PASSED [ 94%]
+tests_50/test_transformers.py::test_MutateAST_visit_index_neg[NumZero to NumPos] <- mutatest/tests/test_transformers.py PASSED [ 95%]
+tests_50/test_transformers.py::test_MutateAST_visit_index_neg[NumPos to NumNeg] <- mutatest/tests/test_transformers.py PASSED [ 96%]
+tests_50/test_transformers.py::test_MutateAST_visit_index_neg[NumPos to NumZero] <- mutatest/tests/test_transformers.py PASSED [ 97%]
+tests_50/test_transformers.py::test_MutateAST_visit_nameconst <- mutatest/tests/test_transformers.py PASSED [ 98%]
+tests_50/test_transformers.py::test_MutateAST_visit_subscript <- mutatest/tests/test_transformers.py PASSED [100%]
+
+=============================== warnings summary ===============================
+../../../../../../../../../usr/local/python-env/py38/lib/python3.8/site-packages/pytest_cov/plugin.py:256
+  /usr/local/python-env/py38/lib/python3.8/site-packages/pytest_cov/plugin.py:256: PytestDeprecationWarning: The hookimpl CovPlugin.pytest_configure_node uses old-style configuration options (marks or attributes).
+  Please use the pytest.hookimpl(optionalhook=True) decorator instead
+   to configure the hooks.
+   See https://docs.pytest.org/en/latest/deprecations.html#configuring-hook-specs-impls-using-markers
+    def pytest_configure_node(self, node):
+
+../../../../../../../../../usr/local/python-env/py38/lib/python3.8/site-packages/pytest_cov/plugin.py:265
+  /usr/local/python-env/py38/lib/python3.8/site-packages/pytest_cov/plugin.py:265: PytestDeprecationWarning: The hookimpl CovPlugin.pytest_testnodedown uses old-style configuration options (marks or attributes).
+  Please use the pytest.hookimpl(optionalhook=True) decorator instead
+   to configure the hooks.
+   See https://docs.pytest.org/en/latest/deprecations.html#configuring-hook-specs-impls-using-markers
+    def pytest_testnodedown(self, node, error):
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+
+---------- coverage: platform linux, python 3.8.16-final-0 -----------
+Name                            Stmts   Miss  Cover
+---------------------------------------------------
+__init__.py                        10      0   100%
+_devtools.py                        1      1     0%
+api.py                            173      0   100%
+cache.py                           36      0   100%
+cli.py                            205     11    95%
+filters.py                         74     11    85%
+report.py                          70      2    97%
+run.py                            195    127    35%
+transformers.py                   251     21    92%
+---------------------------------------------------
+TOTAL                            5957   4394    26%
+
+======================== 95 passed, 2 warnings in 2.99s ========================

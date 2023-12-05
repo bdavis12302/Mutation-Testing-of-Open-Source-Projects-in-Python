@@ -1,0 +1,204 @@
+============================= test session starts ==============================
+platform linux -- Python 3.8.16, pytest-7.4.3, pluggy-1.3.0 -- /usr/bin/python3.8
+cachedir: .pytest_cache
+hypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/s/bach/m/under/bdavis43/CS514/Project/mutatest/mutatest/.hypothesis/examples'))
+rootdir: /s/bach/m/under/bdavis43/CS514/Project/mutatest
+configfile: pytest.ini
+plugins: hypothesis-6.88.1, cov-3.0.0
+collecting ... collected 161 items
+
+tests/test_all_op_types.py::test_all_op_types PASSED                     [  0%]
+tests/test_api.py::test_genome_ast PASSED                                [  1%]
+tests/test_api.py::test_create_mutant_with_cache PASSED                  [  1%]
+tests/test_api.py::test_filter_codes_ValueError PASSED                   [  2%]
+tests/test_api.py::test_targets_TypeError PASSED                         [  3%]
+tests/test_api.py::test_covered_targets_source_file_TypeError PASSED     [  3%]
+tests/test_api.py::test_covered_targets_coverage_file_TypeError PASSED   [  4%]
+tests/test_api.py::test_mutate_MutationException PASSED                  [  4%]
+tests/test_api.py::test_mutate_TypeError_source_file PASSED              [  5%]
+tests/test_api.py::test_mutate_ValueError_target PASSED                  [  6%]
+tests/test_api.py::test_covered_targets[Filter Empty Set] PASSED         [  6%]
+tests/test_api.py::test_covered_targets[Filter BinOp] PASSED             [  7%]
+tests/test_api.py::test_init_GenomeGroup_from_flat_folder PASSED         [  8%]
+tests/test_api.py::test_init_GenomeGroup_from_recursive_folder PASSED    [  8%]
+tests/test_api.py::test_init_GenomeGroup_from_single_file PASSED         [  9%]
+tests/test_api.py::test_init_GenomeGroup_raise_TypeError PASSED          [  9%]
+tests/test_api.py::test_GenomeGroup_folder_exception PASSED              [ 10%]
+tests/test_api.py::test_GenomeGroup_key_TypeError[int] PASSED            [ 11%]
+tests/test_api.py::test_GenomeGroup_key_TypeError[str] PASSED            [ 11%]
+tests/test_api.py::test_GenomeGroup_key_TypeError[float] PASSED          [ 12%]
+tests/test_api.py::test_GenomeGroup_key_TypeError[bool] PASSED           [ 13%]
+tests/test_api.py::test_GenomeGroup_value_TypeError[int] PASSED          [ 13%]
+tests/test_api.py::test_GenomeGroup_value_TypeError[str] PASSED          [ 14%]
+tests/test_api.py::test_GenomeGroup_value_TypeError[float] PASSED        [ 14%]
+tests/test_api.py::test_GenomeGroup_value_TypeError[bool] PASSED         [ 15%]
+tests/test_api.py::test_GenomeGroup_add_folder_with_exclusions PASSED    [ 16%]
+tests/test_api.py::test_GenomeGroup_covered_targets[Filter Empty Set] PASSED [ 16%]
+tests/test_api.py::test_GenomeGroup_covered_targets[Filter BinOp] PASSED [ 17%]
+tests/test_api.py::test_GenomeGroup_TypeError_source_file PASSED         [ 18%]
+tests/test_api.py::test_GenomeGroup_basic_properties PASSED              [ 18%]
+tests/test_cache.py::test_check_cache_invalidation_mode_error PASSED     [ 19%]
+tests/test_cache.py::test_check_cache_invalidation_mode_ok PASSED        [ 19%]
+tests/test_cache.py::test_get_cache_file_loc PASSED                      [ 20%]
+tests/test_cache.py::test_get_cache_file_loc_invalid PASSED              [ 21%]
+tests/test_cache.py::test_get_cache_file_loc_link_exception PASSED       [ 21%]
+tests/test_cache.py::test_get_cache_file_loc_not_file PASSED             [ 22%]
+tests/test_cache.py::test_create_cache_dirs PASSED                       [ 22%]
+tests/test_cache.py::test_remove_existing_cache_files PASSED             [ 23%]
+tests/test_cache.py::test_remove_existing_cache_files_from_folder PASSED [ 24%]
+tests/test_cache.py::test_get_cache_file_loc_invariant PASSED            [ 24%]
+tests/test_cli.py::test_RunMode[f-False-False-True-True] PASSED          [ 25%]
+tests/test_cli.py::test_RunMode[s-False-True-True-True] PASSED           [ 26%]
+tests/test_cli.py::test_RunMode[d-True-False-True-True] PASSED           [ 26%]
+tests/test_cli.py::test_RunMode[sd-True-True-True-True] PASSED           [ 27%]
+tests/test_cli.py::test_RunMode[x-False-False-True-True] PASSED          [ 27%]
+tests/test_cli.py::test_get_src_location_pkg PASSED                      [ 28%]
+tests/test_cli.py::test_get_src_location_error PASSED                    [ 29%]
+tests/test_cli.py::test_get_src_location_missing_file PASSED             [ 29%]
+tests/test_cli.py::test_get_src_location_file PASSED                     [ 30%]
+tests/test_cli.py::test_selected_categories_empty_lists PASSED           [ 31%]
+tests/test_cli.py::test_selected_categories_wlist PASSED                 [ 31%]
+tests/test_cli.py::test_selected_categories_blist PASSED                 [ 32%]
+tests/test_cli.py::test_selected_categories_wblist PASSED                [ 32%]
+tests/test_cli.py::test_selected_categories_wblist_long PASSED           [ 33%]
+tests/test_cli.py::test_exception_raised PASSED                          [ 34%]
+tests/test_cli.py::test_exception_not_raised PASSED                      [ 34%]
+tests/test_cli.py::test_main PASSED                                      [ 35%]
+tests/test_cli.py::test_expected_arg_attrs PASSED                        [ 36%]
+tests/test_cli.py::test_get_parser_actions PASSED                        [ 36%]
+tests/test_cli.py::test_read_config_key_error PASSED                     [ 37%]
+tests/test_cli.py::test_read_setup_cfg_missing_mutatest_ini[mutatest] PASSED [ 37%]
+tests/test_cli.py::test_read_setup_cfg_missing_mutatest_ini[tool:mutatest] PASSED [ 38%]
+tests/test_cli.py::test_search_file_order_bad_key_mutatest_ini[mutatest] PASSED [ 39%]
+tests/test_cli.py::test_search_file_order_bad_key_mutatest_ini[tool:mutatest] PASSED [ 39%]
+tests/test_cli.py::test_read_ini_config_keys PASSED                      [ 40%]
+tests/test_cli.py::test_parse_ini_config_with_cli_empty PASSED           [ 40%]
+tests/test_cli.py::test_parse_ini_config_with_cli_overrides PASSED       [ 41%]
+tests/test_cli.py::test_cli_epilog_invariant PASSED                      [ 42%]
+tests/test_cli.py::test_cli_summary_report_invariant PASSED              [ 42%]
+tests/test_cli.py::test_syserror_negative_n_and_rseed[--nlocations] PASSED [ 43%]
+tests/test_cli.py::test_syserror_negative_n_and_rseed[-n] PASSED         [ 44%]
+tests/test_cli.py::test_syserror_negative_n_and_rseed[-rseed] PASSED     [ 44%]
+tests/test_cli.py::test_syserror_negative_n_and_rseed[-r] PASSED         [ 45%]
+tests/test_filters.py::test_coverage_file_property PASSED                [ 45%]
+tests/test_filters.py::test_unset_coverage_file[str] PASSED              [ 46%]
+tests/test_filters.py::test_unset_coverage_file[path] PASSED             [ 47%]
+tests/test_filters.py::test_filter[not_inverted_filter] PASSED           [ 47%]
+tests/test_filters.py::test_filter[inverted_filter] PASSED               [ 48%]
+tests/test_filters.py::test_CategoryCodeFilter_properties PASSED         [ 49%]
+tests/test_filters.py::test_CategoryCodeFilter_filter[BinOp-True] PASSED [ 49%]
+tests/test_filters.py::test_CategoryCodeFilter_filter[BinOp-False] PASSED [ 50%]
+tests/test_filters.py::test_CategoryCodeFilter_filter[AugAssign-True] PASSED [ 50%]
+tests/test_filters.py::test_CategoryCodeFilter_filter[AugAssign-False] PASSED [ 51%]
+tests/test_filters.py::test_invalid_code PASSED                          [ 52%]
+tests/test_report.py::test_get_reported_results[SURVIVED] PASSED         [ 52%]
+tests/test_report.py::test_get_reported_results[DETECTED] PASSED         [ 53%]
+tests/test_report.py::test_get_reported_results[ERROR] PASSED            [ 54%]
+tests/test_report.py::test_get_reported_results[TIMEOUT] PASSED          [ 54%]
+tests/test_report.py::test_get_reported_results[UNKNOWN] PASSED          [ 55%]
+tests/test_report.py::test_get_status_summary PASSED                     [ 55%]
+tests/test_report.py::test_build_report_section PASSED                   [ 56%]
+tests/test_report.py::test_analyze_mutant_trials PASSED                  [ 57%]
+tests/test_report.py::test_write_report PASSED                           [ 57%]
+tests/test_run.py::test_capture_output PASSED                            [ 58%]
+tests/test_run.py::test_MutantTrialResult[0-SURVIVED] PASSED             [ 59%]
+tests/test_run.py::test_MutantTrialResult[1-DETECTED] PASSED             [ 59%]
+tests/test_run.py::test_MutantTrialResult[2-ERROR] PASSED                [ 60%]
+tests/test_run.py::test_MutantTrialResult[3-TIMEOUT] PASSED              [ 60%]
+tests/test_run.py::test_MutantTrialResult[4-UNKNOWN] PASSED              [ 61%]
+tests/test_run.py::test_create_mutation_and_run_trial[0-SURVIVED] PASSED [ 62%]
+tests/test_run.py::test_create_mutation_and_run_trial[1-DETECTED] PASSED [ 62%]
+tests/test_run.py::test_create_mutation_and_run_trial[2-ERROR] PASSED    [ 63%]
+tests/test_run.py::test_create_mutation_and_run_trial[3-TIMEOUT] PASSED  [ 63%]
+tests/test_run.py::test_create_mutation_and_run_trial[4-UNKNOWN] PASSED  [ 64%]
+tests/test_run.py::test_clean_trial_exception PASSED                     [ 65%]
+tests/test_run.py::test_clean_trial_timedelta PASSED                     [ 65%]
+tests/test_run.py::test_generate_sample PASSED                           [ 66%]
+tests/test_run.py::test_generate_sample_FileNotFoundError PASSED         [ 67%]
+tests/test_run.py::test_get_mutation_sample_locations[3-1-1] PASSED      [ 67%]
+tests/test_run.py::test_get_mutation_sample_locations[3-2-2] PASSED      [ 68%]
+tests/test_run.py::test_get_mutation_sample_locations[3-5-3] PASSED      [ 68%]
+tests/test_run.py::test_get_mutation_sample_locations_ValueError[zero] PASSED [ 69%]
+tests/test_run.py::test_get_mutation_sample_locations_ValueError[negative integer] PASSED [ 70%]
+tests/test_run.py::test_get_genome_group_folder_and_file PASSED          [ 70%]
+tests/test_run.py::test_break_on_check[survival] PASSED                  [ 71%]
+tests/test_run.py::test_break_on_check[detected] PASSED                  [ 72%]
+tests/test_run.py::test_break_on_check[err] PASSED                       [ 72%]
+tests/test_run.py::test_break_on_check[timeout] PASSED                   [ 73%]
+tests/test_run.py::test_break_on_check[unknown] PASSED                   [ 73%]
+tests/test_run.py::test_colorize_output_invariant_return PASSED          [ 74%]
+tests/test_run.py::test_colorize_output_invariant_valid[red] PASSED      [ 75%]
+tests/test_run.py::test_colorize_output_invariant_valid[green] PASSED    [ 75%]
+tests/test_run.py::test_colorize_output_invariant_valid[yellow] PASSED   [ 76%]
+tests/test_run.py::test_colorize_output_invariant_valid[blue] PASSED     [ 77%]
+tests/test_run.py::test_run_mutation_trials_good_binop[False-False-False-6] PASSED [ 77%]
+tests/test_run.py::test_run_mutation_trials_good_binop[False-True-True-1] PASSED [ 78%]
+tests/test_run.py::test_run_mutation_trials_good_binop[False-False-True-1] PASSED [ 78%]
+tests/test_run.py::test_run_mutation_trials_good_binop[True-False-False-6] PASSED [ 79%]
+tests/test_run.py::test_run_mutation_trials_good_binop[True-True-True-1] PASSED [ 80%]
+tests/test_run.py::test_run_mutation_trials_good_binop[True-False-True-1] PASSED [ 80%]
+tests/test_run.py::test_run_mutation_trials_bad_binop[False-False-False-6] PASSED [ 81%]
+tests/test_run.py::test_run_mutation_trials_bad_binop[False-True-True-1] PASSED [ 81%]
+tests/test_run.py::test_run_mutation_trials_bad_binop[False-True-False-1] PASSED [ 82%]
+tests/test_run.py::test_run_mutation_trials_bad_binop[True-False-False-6] PASSED [ 83%]
+tests/test_run.py::test_run_mutation_trials_bad_binop[True-True-True-1] PASSED [ 83%]
+tests/test_run.py::test_run_mutation_trials_bad_binop[True-True-False-1] PASSED [ 84%]
+tests/test_run.py::test_run_mutation_trials_timeout[False-3] PASSED      [ 85%]
+tests/test_run.py::test_run_mutation_trials_timeout[True-2] PASSED       [ 85%]
+tests/test_transformers.py::test_get_mutations_for_target[Mult] PASSED   [ 86%]
+tests/test_transformers.py::test_get_mutations_for_target[Sub] PASSED    [ 86%]
+tests/test_transformers.py::test_get_mutations_for_target[Add] PASSED    [ 87%]
+tests/test_transformers.py::test_get_mutations_for_target[Pow] PASSED    [ 88%]
+tests/test_transformers.py::test_get_mutations_for_target[FloorDiv] PASSED [ 88%]
+tests/test_transformers.py::test_get_mutations_for_target[Mod] PASSED    [ 89%]
+tests/test_transformers.py::test_get_mutations_for_target[Div] PASSED    [ 90%]
+tests/test_transformers.py::test_MutateAST_visit_read_only PASSED        [ 90%]
+tests/test_transformers.py::test_MutateAST_visit_augassign PASSED        [ 91%]
+tests/test_transformers.py::test_MutateAST_visit_binop_37 PASSED         [ 91%]
+tests/test_transformers.py::test_MutateAST_visit_boolop PASSED           [ 92%]
+tests/test_transformers.py::test_MutateAST_visit_compare[Compare] PASSED [ 93%]
+tests/test_transformers.py::test_MutateAST_visit_compare[CompareIs] PASSED [ 93%]
+tests/test_transformers.py::test_MutateAST_visit_compare[CompareIn] PASSED [ 94%]
+tests/test_transformers.py::test_MutateAST_visit_if PASSED               [ 95%]
+tests/test_transformers.py::test_MutateAST_visit_index_neg[NumNeg to NumPos] PASSED [ 95%]
+tests/test_transformers.py::test_MutateAST_visit_index_neg[NumNeg to NumZero] PASSED [ 96%]
+tests/test_transformers.py::test_MutateAST_visit_index_neg[NumZero to NumNeg] PASSED [ 96%]
+tests/test_transformers.py::test_MutateAST_visit_index_neg[NumZero to NumPos] PASSED [ 97%]
+tests/test_transformers.py::test_MutateAST_visit_index_neg[NumPos to NumNeg] PASSED [ 98%]
+tests/test_transformers.py::test_MutateAST_visit_index_neg[NumPos to NumZero] PASSED [ 98%]
+tests/test_transformers.py::test_MutateAST_visit_nameconst PASSED        [ 99%]
+tests/test_transformers.py::test_MutateAST_visit_subscript PASSED        [100%]
+
+=============================== warnings summary ===============================
+../../../../../../../../../usr/local/python-env/py38/lib/python3.8/site-packages/pytest_cov/plugin.py:256
+  /usr/local/python-env/py38/lib/python3.8/site-packages/pytest_cov/plugin.py:256: PytestDeprecationWarning: The hookimpl CovPlugin.pytest_configure_node uses old-style configuration options (marks or attributes).
+  Please use the pytest.hookimpl(optionalhook=True) decorator instead
+   to configure the hooks.
+   See https://docs.pytest.org/en/latest/deprecations.html#configuring-hook-specs-impls-using-markers
+    def pytest_configure_node(self, node):
+
+../../../../../../../../../usr/local/python-env/py38/lib/python3.8/site-packages/pytest_cov/plugin.py:265
+  /usr/local/python-env/py38/lib/python3.8/site-packages/pytest_cov/plugin.py:265: PytestDeprecationWarning: The hookimpl CovPlugin.pytest_testnodedown uses old-style configuration options (marks or attributes).
+  Please use the pytest.hookimpl(optionalhook=True) decorator instead
+   to configure the hooks.
+   See https://docs.pytest.org/en/latest/deprecations.html#configuring-hook-specs-impls-using-markers
+    def pytest_testnodedown(self, node, error):
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+
+---------- coverage: platform linux, python 3.8.16-final-0 -----------
+Name                            Stmts   Miss  Cover
+---------------------------------------------------
+__init__.py                        10      0   100%
+_devtools.py                        1      1     0%
+api.py                            173      0   100%
+cache.py                           36      0   100%
+cli.py                            205     11    95%
+filters.py                         74      3    96%
+report.py                          70      0   100%
+run.py                            195     23    88%
+transformers.py                   251     21    92%
+---------------------------------------------------
+TOTAL                            5957   3979    33%
+
+======================= 161 passed, 2 warnings in 26.23s =======================

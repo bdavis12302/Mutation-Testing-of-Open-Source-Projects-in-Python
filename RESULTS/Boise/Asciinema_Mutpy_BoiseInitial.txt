@@ -1,0 +1,1466 @@
+[*] Start mutation process:
+   - targets: asciinema
+   - tests: tests
+[*] 26 tests passed:
+   - tests.asciicast.v2_test [0.24731 s]
+   - tests.config_test [0.19042 s]
+   - tests.pty_test [0.20580 s]
+   - tests.test_helper [0.19129 s]
+[*] Start mutants generation and execution:
+   - [#   1] AOD asciinema.__main__: [0.23073 s] survived
+   - [#   2] AOR asciinema.__main__: [0.23672 s] survived
+   - [#   3] AOR asciinema.__main__: [0.22731 s] survived
+   - [#   4] COD asciinema.__main__: [0.22057 s] survived
+   - [#   5] COI asciinema.__main__: [0.22467 s] survived
+   - [#   6] COI asciinema.__main__: [0.22083 s] survived
+   - [#   7] COI asciinema.__main__: [0.22680 s] survived
+   - [#   8] COI asciinema.__main__: [0.22342 s] survived
+   - [#   9] COI asciinema.__main__: [0.22590 s] survived
+   - [#  10] COI asciinema.__main__: [0.22114 s] survived
+   - [#  11] COI asciinema.__main__: [0.22637 s] survived
+   - [#  12] COI asciinema.__main__: [0.00000 s] incompetent
+   - [#  13] CRP asciinema.__main__: [0.22206 s] survived
+   - [#  14] CRP asciinema.__main__: [0.22236 s] survived
+   - [#  15] CRP asciinema.__main__: [0.22518 s] survived
+   - [#  16] CRP asciinema.__main__: [0.21548 s] survived
+   - [#  17] CRP asciinema.__main__: [0.22073 s] survived
+   - [#  18] CRP asciinema.__main__: [0.21824 s] survived
+   - [#  19] CRP asciinema.__main__: [0.22023 s] survived
+   - [#  20] CRP asciinema.__main__: [0.21826 s] survived
+   - [#  21] CRP asciinema.__main__: [0.23156 s] survived
+   - [#  22] CRP asciinema.__main__: [0.23133 s] survived
+   - [#  23] CRP asciinema.__main__: [0.22727 s] survived
+   - [#  24] CRP asciinema.__main__: [0.22844 s] survived
+   - [#  25] CRP asciinema.__main__: [0.22143 s] survived
+   - [#  26] CRP asciinema.__main__: [0.21885 s] survived
+   - [#  27] CRP asciinema.__main__: [0.22452 s] survived
+   - [#  28] CRP asciinema.__main__: [0.22443 s] survived
+   - [#  29] CRP asciinema.__main__: [0.22955 s] survived
+   - [#  30] CRP asciinema.__main__: [0.22096 s] survived
+   - [#  31] CRP asciinema.__main__: [0.24691 s] survived
+   - [#  32] CRP asciinema.__main__: [0.23112 s] survived
+   - [#  33] CRP asciinema.__main__: [0.22489 s] survived
+   - [#  34] CRP asciinema.__main__: [0.21468 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#  35] CRP asciinema.__main__: [0.20555 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#  36] CRP asciinema.__main__: [0.20829 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#  37] CRP asciinema.__main__: [0.20045 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#  38] CRP asciinema.__main__: [0.20653 s] killed by tests/config_test.py::test_upgrade_config_file_with_api_token
+   - [#  39] CRP asciinema.__main__: [0.20821 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#  40] CRP asciinema.__main__: [0.21349 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#  41] CRP asciinema.__main__: [0.20653 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#  42] CRP asciinema.__main__: [0.20799 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#  43] CRP asciinema.__main__: [0.21357 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#  44] CRP asciinema.__main__: [0.20357 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#  45] CRP asciinema.__main__: [0.20165 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#  46] CRP asciinema.__main__: [0.20619 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#  47] CRP asciinema.__main__: [0.21138 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#  48] CRP asciinema.__main__: [0.20680 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#  49] CRP asciinema.__main__: [0.21082 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#  50] CRP asciinema.__main__: [0.20934 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#  51] CRP asciinema.__main__: [0.21940 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#  52] CRP asciinema.__main__: [0.21320 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#  53] CRP asciinema.__main__: [0.21702 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#  54] CRP asciinema.__main__: [0.21751 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#  55] CRP asciinema.__main__: [0.21593 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#  56] CRP asciinema.__main__: [0.20742 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#  57] CRP asciinema.__main__: [0.20552 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#  58] CRP asciinema.__main__: [0.20991 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#  59] CRP asciinema.__main__: [0.20683 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#  60] CRP asciinema.__main__: [0.21628 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#  61] CRP asciinema.__main__: [0.21728 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#  62] CRP asciinema.__main__: [0.20795 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#  63] CRP asciinema.__main__: [0.19948 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#  64] CRP asciinema.__main__: [0.20307 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#  65] CRP asciinema.__main__: [0.20601 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#  66] CRP asciinema.__main__: [0.19882 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#  67] CRP asciinema.__main__: [0.21787 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#  68] CRP asciinema.__main__: [0.20892 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#  69] CRP asciinema.__main__: [0.20537 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#  70] CRP asciinema.__main__: [0.21201 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#  71] CRP asciinema.__main__: [0.21574 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#  72] CRP asciinema.__main__: [0.20769 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#  73] CRP asciinema.__main__: [0.20767 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#  74] CRP asciinema.__main__: [0.21719 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#  75] CRP asciinema.__main__: [0.20815 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#  76] CRP asciinema.__main__: [0.20807 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#  77] CRP asciinema.__main__: [0.21243 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#  78] CRP asciinema.__main__: [0.20909 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#  79] CRP asciinema.__main__: [0.20752 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#  80] CRP asciinema.__main__: [0.21277 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#  81] CRP asciinema.__main__: [0.20453 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#  82] CRP asciinema.__main__: [0.21094 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#  83] CRP asciinema.__main__: [0.21166 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#  84] CRP asciinema.__main__: [0.21323 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#  85] CRP asciinema.__main__: [0.21062 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#  86] CRP asciinema.__main__: [0.20331 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#  87] CRP asciinema.__main__: [0.21434 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#  88] CRP asciinema.__main__: [0.20821 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#  89] CRP asciinema.__main__: [0.20828 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#  90] CRP asciinema.__main__: [0.19846 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#  91] CRP asciinema.__main__: [0.20694 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#  92] CRP asciinema.__main__: [0.20609 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#  93] CRP asciinema.__main__: [0.20766 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#  94] CRP asciinema.__main__: [0.21693 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#  95] CRP asciinema.__main__: [0.21588 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#  96] CRP asciinema.__main__: [0.21015 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#  97] CRP asciinema.__main__: [0.21459 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#  98] CRP asciinema.__main__: [0.20971 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#  99] CRP asciinema.__main__: [0.20430 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 100] CRP asciinema.__main__: [0.20897 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 101] CRP asciinema.__main__: [0.20514 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 102] CRP asciinema.__main__: [0.21280 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 103] CRP asciinema.__main__: [0.19734 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 104] CRP asciinema.__main__: [0.20742 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 105] CRP asciinema.__main__: [0.20569 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 106] CRP asciinema.__main__: [0.20905 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 107] CRP asciinema.__main__: [0.21135 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 108] CRP asciinema.__main__: [0.21220 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 109] CRP asciinema.__main__: [0.21103 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 110] CRP asciinema.__main__: [0.22337 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 111] CRP asciinema.__main__: [0.21004 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 112] CRP asciinema.__main__: [0.20984 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 113] CRP asciinema.__main__: [0.20408 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 114] CRP asciinema.__main__: [0.21402 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 115] CRP asciinema.__main__: [0.21453 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 116] CRP asciinema.__main__: [0.20681 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 117] CRP asciinema.__main__: [0.21098 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 118] CRP asciinema.__main__: [0.21009 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 119] CRP asciinema.__main__: [0.20641 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 120] CRP asciinema.__main__: [0.21237 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 121] CRP asciinema.__main__: [0.21452 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 122] CRP asciinema.__main__: [0.20854 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 123] CRP asciinema.__main__: [0.20995 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 124] CRP asciinema.__main__: [0.21162 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 125] CRP asciinema.__main__: [0.20927 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 126] CRP asciinema.__main__: [0.20771 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 127] CRP asciinema.__main__: [0.21705 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 128] CRP asciinema.__main__: [0.20668 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 129] CRP asciinema.__main__: [0.21630 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 130] CRP asciinema.__main__: [0.21124 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 131] CRP asciinema.__main__: [0.21220 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 132] CRP asciinema.__main__: [0.20840 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 133] CRP asciinema.__main__: [0.20728 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 134] CRP asciinema.__main__: [0.21636 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 135] CRP asciinema.__main__: [0.20741 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 136] CRP asciinema.__main__: [0.20934 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 137] CRP asciinema.__main__: [0.21551 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 138] CRP asciinema.__main__: [0.20516 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 139] CRP asciinema.__main__: [0.20589 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 140] CRP asciinema.__main__: [0.20644 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 141] CRP asciinema.__main__: [0.21089 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 142] CRP asciinema.__main__: [0.21071 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 143] CRP asciinema.__main__: [0.20838 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 144] CRP asciinema.__main__: [0.21671 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 145] CRP asciinema.__main__: [0.20443 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 146] CRP asciinema.__main__: [0.20161 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 147] CRP asciinema.__main__: [0.21611 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 148] CRP asciinema.__main__: [0.21723 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 149] CRP asciinema.__main__: [0.20953 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 150] CRP asciinema.__main__: [0.20231 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 151] CRP asciinema.__main__: [0.21013 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 152] CRP asciinema.__main__: [0.20459 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 153] CRP asciinema.__main__: [0.20557 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 154] CRP asciinema.__main__: [0.21507 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 155] CRP asciinema.__main__: [0.20073 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 156] CRP asciinema.__main__: [0.20780 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 157] CRP asciinema.__main__: [0.20034 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 158] CRP asciinema.__main__: [0.22754 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 159] CRP asciinema.__main__: [0.26345 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 160] CRP asciinema.__main__: [0.27317 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 161] CRP asciinema.__main__: [0.25881 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 162] CRP asciinema.__main__: [0.25605 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 163] CRP asciinema.__main__: [0.21045 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 164] CRP asciinema.__main__: [0.20951 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 165] CRP asciinema.__main__: [0.20959 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 166] CRP asciinema.__main__: [0.21421 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 167] CRP asciinema.__main__: [0.21191 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 168] CRP asciinema.__main__: [0.24254 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 169] CRP asciinema.__main__: [0.25664 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 170] CRP asciinema.__main__: [0.26650 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 171] CRP asciinema.__main__: [0.24747 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 172] CRP asciinema.__main__: [0.24799 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 173] CRP asciinema.__main__: [0.25634 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 174] CRP asciinema.__main__: [0.26190 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 175] CRP asciinema.__main__: [0.24440 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 176] CRP asciinema.__main__: [0.25651 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 177] CRP asciinema.__main__: [0.27451 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 178] CRP asciinema.__main__: [0.28944 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 179] CRP asciinema.__main__: [0.24349 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 180] CRP asciinema.__main__: [0.25778 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 181] CRP asciinema.__main__: [0.44732 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 182] CRP asciinema.__main__: [0.50479 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 183] CRP asciinema.__main__: [0.48817 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 184] CRP asciinema.__main__: [0.48461 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 185] CRP asciinema.__main__: [0.53426 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 186] CRP asciinema.__main__: [0.44037 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 187] CRP asciinema.__main__: [0.50871 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 188] CRP asciinema.__main__: [0.46396 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 189] CRP asciinema.__main__: [0.49267 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 190] CRP asciinema.__main__: [0.32176 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 191] CRP asciinema.__main__: [0.22887 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 192] CRP asciinema.__main__: [0.22211 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 193] CRP asciinema.__main__: [0.22638 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 194] CRP asciinema.__main__: [0.21421 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 195] CRP asciinema.__main__: [0.20245 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 196] CRP asciinema.__main__: [0.20729 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 197] CRP asciinema.__main__: [0.20552 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 198] CRP asciinema.__main__: [0.22137 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 199] CRP asciinema.__main__: [0.21558 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 200] CRP asciinema.__main__: [0.20846 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 201] CRP asciinema.__main__: [0.22891 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 202] CRP asciinema.__main__: [0.25198 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 203] CRP asciinema.__main__: [0.23762 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 204] CRP asciinema.__main__: [0.24570 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 205] CRP asciinema.__main__: [0.23448 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 206] EHD asciinema.__main__: [0.25819 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 207] EHD asciinema.__main__: [0.30494 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 208] EXS asciinema.__main__: [0.30265 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 209] EXS asciinema.__main__: [0.27195 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 210] ROR asciinema.__main__: [0.27071 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 211] ROR asciinema.__main__: [0.26946 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 212] ROR asciinema.__main__: [0.24808 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 213] ROR asciinema.__main__: [0.20419 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 214] ROR asciinema.__main__: [0.00000 s] incompetent
+   - [# 215] COD asciinema.api: [0.21988 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 216] COD asciinema.api: [0.22267 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 217] COI asciinema.api: [0.21266 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 218] COI asciinema.api: [0.25743 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 219] COI asciinema.api: [0.28411 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 220] COI asciinema.api: [0.28520 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 221] CRP asciinema.api: [0.26896 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 222] CRP asciinema.api: [0.25736 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 223] CRP asciinema.api: [0.26003 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 224] CRP asciinema.api: [0.26373 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 225] CRP asciinema.api: [0.27598 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 226] CRP asciinema.api: [0.24662 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 227] CRP asciinema.api: [0.21750 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 228] CRP asciinema.api: [0.21486 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 229] CRP asciinema.api: [0.21173 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 230] CRP asciinema.api: [0.20701 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 231] CRP asciinema.api: [0.26255 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 232] CRP asciinema.api: [0.26773 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 233] CRP asciinema.api: [0.25510 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 234] CRP asciinema.api: [0.27827 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 235] CRP asciinema.api: [0.25372 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 236] CRP asciinema.api: [0.27120 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 237] CRP asciinema.api: [0.25915 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 238] CRP asciinema.api: [0.20409 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 239] CRP asciinema.api: [0.35650 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 240] CRP asciinema.api: [0.24643 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 241] CRP asciinema.api: [0.23180 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 242] CRP asciinema.api: [0.22528 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 243] CRP asciinema.api: [0.21372 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 244] CRP asciinema.api: [0.20834 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 245] CRP asciinema.api: [0.21063 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 246] CRP asciinema.api: [0.25185 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 247] CRP asciinema.api: [0.27127 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 248] CRP asciinema.api: [0.27168 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 249] CRP asciinema.api: [0.24850 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 250] CRP asciinema.api: [0.23024 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 251] CRP asciinema.api: [0.23501 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 252] CRP asciinema.api: [0.21152 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 253] CRP asciinema.api: [0.24843 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 254] CRP asciinema.api: [0.21310 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 255] CRP asciinema.api: [0.27099 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 256] CRP asciinema.api: [0.24427 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 257] CRP asciinema.api: [0.24632 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 258] CRP asciinema.api: [0.20745 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 259] CRP asciinema.api: [0.21908 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 260] CRP asciinema.api: [0.26046 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 261] CRP asciinema.api: [0.21058 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 262] CRP asciinema.api: [0.21135 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 263] CRP asciinema.api: [0.20935 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 264] CRP asciinema.api: [0.22262 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 265] CRP asciinema.api: [0.21832 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 266] CRP asciinema.api: [0.20479 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 267] CRP asciinema.api: [0.20520 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 268] CRP asciinema.api: [0.20764 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 269] CRP asciinema.api: [0.20288 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 270] CRP asciinema.api: [0.21134 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 271] CRP asciinema.api: [0.21389 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 272] CRP asciinema.api: [0.21367 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 273] CRP asciinema.api: [0.21774 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 274] CRP asciinema.api: [0.21071 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 275] CRP asciinema.api: [0.20847 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 276] CRP asciinema.api: [0.21413 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 277] CRP asciinema.api: [0.21740 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 278] CRP asciinema.api: [0.20678 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 279] CRP asciinema.api: [0.20842 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 280] CRP asciinema.api: [0.20441 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 281] CRP asciinema.api: [0.20928 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 282] CRP asciinema.api: [0.20853 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 283] CRP asciinema.api: [0.21122 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 284] CRP asciinema.api: [0.21803 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 285] CRP asciinema.api: [0.21787 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 286] CRP asciinema.api: [0.20879 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 287] CRP asciinema.api: [0.21002 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 288] CRP asciinema.api: [0.22472 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 289] CRP asciinema.api: [0.24670 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 290] CRP asciinema.api: [0.21220 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 291] CRP asciinema.api: [0.20891 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 292] CRP asciinema.api: [0.21149 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 293] CRP asciinema.api: [0.22037 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 294] DDL asciinema.api: [0.21369 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 295] DDL asciinema.api: [0.20908 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 296] EXS asciinema.api: [0.21149 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 297] IOD asciinema.api: [0.21161 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 298] IOP asciinema.api: [0.21058 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 299] LCR asciinema.api: [0.21935 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 300] ROR asciinema.api: [0.21446 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 301] ROR asciinema.api: [0.21093 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 302] ROR asciinema.api: [0.20908 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 303] ROR asciinema.api: [0.21004 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 304] ROR asciinema.api: [0.21096 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 305] SCD asciinema.api: [0.21188 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 306] SIR asciinema.api: [0.20982 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 307] SIR asciinema.api: [0.20383 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 308] AOR asciinema.asciicast.events: [0.19887 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 309] AOR asciinema.asciicast.events: [0.20878 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 310] AOR asciinema.asciicast.events: [0.22209 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 311] AOR asciinema.asciicast.events: [0.22064 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 312] COI asciinema.asciicast.events: [0.22545 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 313] CRP asciinema.asciicast.events: [0.21358 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 314] CRP asciinema.asciicast.events: [0.21238 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 315] COI asciinema.asciicast.raw: [0.21236 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 316] COI asciinema.asciicast.raw: [0.21769 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 317] COI asciinema.asciicast.raw: [0.21012 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 318] COI asciinema.asciicast.raw: [0.20814 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 319] CRP asciinema.asciicast.raw: [0.20967 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 320] CRP asciinema.asciicast.raw: [0.21779 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 321] CRP asciinema.asciicast.raw: [0.20938 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 322] CRP asciinema.asciicast.raw: [0.21406 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 323] CRP asciinema.asciicast.raw: [0.21846 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 324] CRP asciinema.asciicast.raw: [0.21231 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 325] CRP asciinema.asciicast.raw: [0.21800 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 326] CRP asciinema.asciicast.raw: [0.20772 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 327] CRP asciinema.asciicast.raw: [0.20872 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 328] CRP asciinema.asciicast.raw: [0.20437 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 329] CRP asciinema.asciicast.raw: [0.19792 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 330] CRP asciinema.asciicast.raw: [0.21383 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 331] CRP asciinema.asciicast.raw: [0.20866 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 332] CRP asciinema.asciicast.raw: [0.22610 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 333] CRP asciinema.asciicast.raw: [0.21812 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 334] CRP asciinema.asciicast.raw: [0.21396 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 335] CRP asciinema.asciicast.raw: [0.20898 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 336] CRP asciinema.asciicast.raw: [0.21727 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 337] CRP asciinema.asciicast.raw: [0.21728 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 338] CRP asciinema.asciicast.raw: [0.21410 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 339] CRP asciinema.asciicast.raw: [0.20943 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 340] CRP asciinema.asciicast.raw: [0.21124 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 341] CRP asciinema.asciicast.raw: [0.20584 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 342] CRP asciinema.asciicast.raw: [0.20503 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 343] CRP asciinema.asciicast.raw: [0.21432 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 344] CRP asciinema.asciicast.raw: [0.20679 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 345] CRP asciinema.asciicast.raw: [0.20820 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 346] CRP asciinema.asciicast.raw: [0.21426 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 347] IOD asciinema.asciicast.raw: [0.21340 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 348] IOD asciinema.asciicast.raw: [0.20760 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 349] IOD asciinema.asciicast.raw: [0.21206 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 350] IOP asciinema.asciicast.raw: [0.20786 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 351] IOP asciinema.asciicast.raw: [0.21286 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 352] LCR asciinema.asciicast.raw: [0.22228 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 353] ROR asciinema.asciicast.raw: [0.21162 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 354] ROR asciinema.asciicast.raw: [0.20822 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 355] SCD asciinema.asciicast.raw: [0.20823 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 356] SCD asciinema.asciicast.raw: [0.21429 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 357] SCI asciinema.asciicast.raw: [0.21222 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 358] AOR asciinema.asciicast.v1: [0.22336 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 359] COI asciinema.asciicast.v1: [0.20388 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 360] COI asciinema.asciicast.v1: [0.21640 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 361] COI asciinema.asciicast.v1: [0.20762 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 362] COI asciinema.asciicast.v1: [0.20510 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 363] CRP asciinema.asciicast.v1: [0.21486 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 364] CRP asciinema.asciicast.v1: [0.21820 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 365] CRP asciinema.asciicast.v1: [0.20757 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 366] CRP asciinema.asciicast.v1: [0.21253 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 367] CRP asciinema.asciicast.v1: [0.20627 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 368] CRP asciinema.asciicast.v1: [0.20906 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 369] CRP asciinema.asciicast.v1: [0.20700 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 370] CRP asciinema.asciicast.v1: [0.20766 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 371] CRP asciinema.asciicast.v1: [0.21572 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 372] CRP asciinema.asciicast.v1: [0.20397 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 373] CRP asciinema.asciicast.v1: [0.20689 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 374] CRP asciinema.asciicast.v1: [0.21023 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 375] CRP asciinema.asciicast.v1: [0.20591 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 376] CRP asciinema.asciicast.v1: [0.20972 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 377] CRP asciinema.asciicast.v1: [0.21169 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 378] CRP asciinema.asciicast.v1: [0.20411 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 379] CRP asciinema.asciicast.v1: [0.21542 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 380] CRP asciinema.asciicast.v1: [0.20747 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 381] CRP asciinema.asciicast.v1: [0.20214 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 382] CRP asciinema.asciicast.v1: [0.21284 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 383] CRP asciinema.asciicast.v1: [0.21742 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 384] CRP asciinema.asciicast.v1: [0.21625 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 385] CRP asciinema.asciicast.v1: [0.20779 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 386] CRP asciinema.asciicast.v1: [0.20865 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 387] DDL asciinema.asciicast.v1: [0.21530 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 388] EXS asciinema.asciicast.v1: [0.20529 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 389] LCR asciinema.asciicast.v1: [0.20421 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 390] ROR asciinema.asciicast.v1: [0.22037 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 391] BCR asciinema.asciicast.v2: [0.22683 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 392] BCR asciinema.asciicast.v2: [0.22678 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 393] COI asciinema.asciicast.v2: [0.22231 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 394] COI asciinema.asciicast.v2: [0.21610 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 395] COI asciinema.asciicast.v2: [0.21624 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 396] COI asciinema.asciicast.v2: [0.22374 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 397] COI asciinema.asciicast.v2: [0.22376 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 398] COI asciinema.asciicast.v2: [0.22624 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 399] COI asciinema.asciicast.v2: [0.21163 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 400] COI asciinema.asciicast.v2: [0.21913 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 401] COI asciinema.asciicast.v2: [0.21432 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 402] COI asciinema.asciicast.v2: [0.22435 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 403] COI asciinema.asciicast.v2: [0.23581 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 404] COI asciinema.asciicast.v2: [0.21746 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 405] COI asciinema.asciicast.v2: [0.21782 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 406] COI asciinema.asciicast.v2: [0.23123 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 407] CRP asciinema.asciicast.v2: [0.21468 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 408] CRP asciinema.asciicast.v2: [0.21844 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 409] CRP asciinema.asciicast.v2: [0.22760 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 410] CRP asciinema.asciicast.v2: [0.22591 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 411] CRP asciinema.asciicast.v2: [0.22120 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 412] CRP asciinema.asciicast.v2: [0.21839 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 413] CRP asciinema.asciicast.v2: [0.21960 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 414] CRP asciinema.asciicast.v2: [0.21373 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 415] CRP asciinema.asciicast.v2: [0.22275 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 416] CRP asciinema.asciicast.v2: [0.22306 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 417] CRP asciinema.asciicast.v2: [0.22979 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 418] CRP asciinema.asciicast.v2: [0.21875 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 419] CRP asciinema.asciicast.v2: [0.22447 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 420] CRP asciinema.asciicast.v2: [0.21684 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 421] CRP asciinema.asciicast.v2: [0.22372 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 422] CRP asciinema.asciicast.v2: [0.22612 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 423] CRP asciinema.asciicast.v2: [0.21781 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 424] CRP asciinema.asciicast.v2: [0.22230 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 425] CRP asciinema.asciicast.v2: [0.21978 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 426] CRP asciinema.asciicast.v2: [0.21700 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 427] CRP asciinema.asciicast.v2: [0.21702 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 428] CRP asciinema.asciicast.v2: [0.22565 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 429] CRP asciinema.asciicast.v2: [0.21766 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 430] CRP asciinema.asciicast.v2: [0.21840 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 431] CRP asciinema.asciicast.v2: [0.21747 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 432] CRP asciinema.asciicast.v2: [0.22311 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 433] CRP asciinema.asciicast.v2: [0.21399 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 434] CRP asciinema.asciicast.v2: [0.21918 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 435] CRP asciinema.asciicast.v2: [0.21955 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 436] CRP asciinema.asciicast.v2: [0.22290 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 437] CRP asciinema.asciicast.v2: [0.21637 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 438] CRP asciinema.asciicast.v2: [0.22125 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 439] CRP asciinema.asciicast.v2: [0.22900 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 440] CRP asciinema.asciicast.v2: [0.21356 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 441] CRP asciinema.asciicast.v2: [0.22656 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 442] CRP asciinema.asciicast.v2: [0.21948 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 443] CRP asciinema.asciicast.v2: [0.22637 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 444] CRP asciinema.asciicast.v2: [0.20888 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 445] CRP asciinema.asciicast.v2: [0.22047 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 446] CRP asciinema.asciicast.v2: [0.21267 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 447] CRP asciinema.asciicast.v2: [0.21859 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 448] CRP asciinema.asciicast.v2: [0.23158 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 449] CRP asciinema.asciicast.v2: [0.21994 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 450] CRP asciinema.asciicast.v2: [0.22239 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 451] CRP asciinema.asciicast.v2: [0.22690 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 452] CRP asciinema.asciicast.v2: [0.21760 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 453] CRP asciinema.asciicast.v2: [0.21520 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 454] CRP asciinema.asciicast.v2: [0.22758 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 455] CRP asciinema.asciicast.v2: [0.22953 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 456] CRP asciinema.asciicast.v2: [0.22965 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 457] CRP asciinema.asciicast.v2: [0.22069 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 458] CRP asciinema.asciicast.v2: [0.22867 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 459] CRP asciinema.asciicast.v2: [0.22579 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 460] CRP asciinema.asciicast.v2: [0.22296 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 461] CRP asciinema.asciicast.v2: [0.22151 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 462] CRP asciinema.asciicast.v2: [0.23206 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 463] CRP asciinema.asciicast.v2: [0.21708 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 464] CRP asciinema.asciicast.v2: [0.21495 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 465] CRP asciinema.asciicast.v2: [0.21192 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 466] CRP asciinema.asciicast.v2: [0.22424 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 467] CRP asciinema.asciicast.v2: [0.23375 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 468] CRP asciinema.asciicast.v2: [0.21485 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 469] CRP asciinema.asciicast.v2: [0.21254 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 470] CRP asciinema.asciicast.v2: [0.21719 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 471] CRP asciinema.asciicast.v2: [0.21610 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 472] CRP asciinema.asciicast.v2: [0.21090 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 473] CRP asciinema.asciicast.v2: [0.21579 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 474] CRP asciinema.asciicast.v2: [0.22333 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 475] CRP asciinema.asciicast.v2: [0.22127 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 476] CRP asciinema.asciicast.v2: [0.21853 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 477] CRP asciinema.asciicast.v2: [0.21618 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 478] CRP asciinema.asciicast.v2: [0.21961 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 479] CRP asciinema.asciicast.v2: [0.22313 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 480] CRP asciinema.asciicast.v2: [0.22356 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 481] CRP asciinema.asciicast.v2: [0.22032 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 482] CRP asciinema.asciicast.v2: [0.22449 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 483] CRP asciinema.asciicast.v2: [0.21573 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 484] CRP asciinema.asciicast.v2: [0.21000 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 485] CRP asciinema.asciicast.v2: [0.21591 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 486] CRP asciinema.asciicast.v2: [0.21990 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 487] CRP asciinema.asciicast.v2: [0.22224 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 488] CRP asciinema.asciicast.v2: [0.21770 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 489] CRP asciinema.asciicast.v2: [0.21796 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 490] CRP asciinema.asciicast.v2: [0.21718 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 491] CRP asciinema.asciicast.v2: [0.22212 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 492] CRP asciinema.asciicast.v2: [0.21702 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 493] CRP asciinema.asciicast.v2: [0.22138 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 494] CRP asciinema.asciicast.v2: [0.21930 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 495] EXS asciinema.asciicast.v2: [0.22416 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 496] IOD asciinema.asciicast.v2: [0.22044 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 497] IOD asciinema.asciicast.v2: [0.21645 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 498] IOD asciinema.asciicast.v2: [0.21329 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 499] IOP asciinema.asciicast.v2: [0.22692 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 500] LCR asciinema.asciicast.v2: [0.22011 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 501] ROR asciinema.asciicast.v2: [0.22834 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 502] ROR asciinema.asciicast.v2: [0.22830 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 503] ROR asciinema.asciicast.v2: [0.21178 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 504] ROR asciinema.asciicast.v2: [0.21960 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 505] ROR asciinema.asciicast.v2: [0.23903 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 506] SCD asciinema.asciicast.v2: [0.23822 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 507] SCI asciinema.asciicast.v2: [0.22065 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 508] SCI asciinema.asciicast.v2: [0.22999 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 509] COI asciinema.async_worker: [0.21584 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 510] CRP asciinema.async_worker: [0.22468 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 511] CRP asciinema.async_worker: [0.22558 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 512] CRP asciinema.async_worker: [0.20967 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 513] EHD asciinema.async_worker: [0.21331 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 514] EHD asciinema.async_worker: [0.22036 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 515] EXS asciinema.async_worker: [0.21736 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 516] ROR asciinema.async_worker: [0.21888 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 517] CRP asciinema.commands.auth: [0.21696 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 518] CRP asciinema.commands.auth: [0.21865 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 519] CRP asciinema.commands.auth: [0.22407 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 520] CRP asciinema.commands.auth: [0.22303 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 521] CRP asciinema.commands.auth: [0.21595 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 522] CRP asciinema.commands.auth: [0.22031 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 523] CRP asciinema.commands.auth: [0.20889 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 524] CRP asciinema.commands.auth: [0.22813 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 525] IOD asciinema.commands.auth: [0.22319 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 526] SCI asciinema.commands.auth: [0.22137 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 527] CRP asciinema.commands.cat: [0.22101 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 528] CRP asciinema.commands.cat: [0.23136 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 529] CRP asciinema.commands.cat: [0.22264 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 530] CRP asciinema.commands.cat: [0.22978 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 531] CRP asciinema.commands.cat: [0.22635 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 532] CRP asciinema.commands.cat: [0.21917 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 533] CRP asciinema.commands.cat: [0.22608 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 534] CRP asciinema.commands.cat: [0.21655 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 535] CRP asciinema.commands.cat: [0.22485 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 536] CRP asciinema.commands.cat: [0.22121 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 537] CRP asciinema.commands.cat: [0.21886 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 538] CRP asciinema.commands.cat: [0.21652 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 539] EHD asciinema.commands.cat: [0.21960 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 540] EHD asciinema.commands.cat: [0.21850 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 541] EXS asciinema.commands.cat: [0.21837 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 542] EXS asciinema.commands.cat: [0.23248 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 543] IOD asciinema.commands.cat: [0.23264 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 544] SCI asciinema.commands.cat: [0.22288 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 545] COD asciinema.commands.command: [0.22008 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 546] COI asciinema.commands.command: [0.21338 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 547] COI asciinema.commands.command: [0.21945 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 548] COI asciinema.commands.command: [0.22260 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 549] CRP asciinema.commands.command: [0.21865 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 550] CRP asciinema.commands.command: [0.22592 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 551] CRP asciinema.commands.command: [0.22302 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 552] CRP asciinema.commands.command: [0.21635 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 553] CRP asciinema.commands.command: [0.22624 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 554] CRP asciinema.commands.command: [0.21548 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 555] CRP asciinema.commands.command: [0.22995 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 556] CRP asciinema.commands.command: [0.21786 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 557] CRP asciinema.commands.command: [0.21562 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 558] CRP asciinema.commands.command: [0.24886 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 559] CRP asciinema.commands.command: [0.22669 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 560] CRP asciinema.commands.command: [0.21910 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 561] CRP asciinema.commands.command: [0.22439 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 562] CRP asciinema.commands.command: [0.21823 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 563] CRP asciinema.commands.command: [0.22492 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 564] CRP asciinema.commands.command: [0.22102 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 565] CRP asciinema.commands.command: [0.21257 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 566] CRP asciinema.commands.command: [0.22472 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 567] CRP asciinema.commands.command: [0.21843 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 568] LCR asciinema.commands.command: [0.22184 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 569] LCR asciinema.commands.command: [0.22254 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 570] COI asciinema.commands.play: [0.20398 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 571] COI asciinema.commands.play: [0.20349 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 572] CRP asciinema.commands.play: [0.21592 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 573] CRP asciinema.commands.play: [0.20745 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 574] CRP asciinema.commands.play: [0.20513 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 575] CRP asciinema.commands.play: [0.22468 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 576] CRP asciinema.commands.play: [0.20511 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 577] CRP asciinema.commands.play: [0.20824 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 578] CRP asciinema.commands.play: [0.21296 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 579] CRP asciinema.commands.play: [0.20667 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 580] CRP asciinema.commands.play: [0.20741 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 581] CRP asciinema.commands.play: [0.20818 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 582] CRP asciinema.commands.play: [0.21744 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 583] CRP asciinema.commands.play: [0.20798 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 584] EHD asciinema.commands.play: [0.20220 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 585] EHD asciinema.commands.play: [0.20614 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 586] EXS asciinema.commands.play: [0.21178 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 587] EXS asciinema.commands.play: [0.20789 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 588] IOD asciinema.commands.play: [0.21429 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 589] ROR asciinema.commands.play: [0.20940 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 590] SCI asciinema.commands.play: [0.21204 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 591] BCR asciinema.commands.record: [0.21067 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 592] COD asciinema.commands.record: [0.21027 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 593] COD asciinema.commands.record: [0.20885 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 594] COD asciinema.commands.record: [0.20775 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 595] COD asciinema.commands.record: [0.21746 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 596] COD asciinema.commands.record: [0.21238 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 597] COI asciinema.commands.record: [0.21210 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 598] COI asciinema.commands.record: [0.21649 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 599] COI asciinema.commands.record: [0.20307 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 600] COI asciinema.commands.record: [0.20721 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 601] COI asciinema.commands.record: [0.21230 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 602] COI asciinema.commands.record: [0.21566 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 603] COI asciinema.commands.record: [0.22691 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 604] COI asciinema.commands.record: [0.21112 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 605] COI asciinema.commands.record: [0.21471 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 606] COI asciinema.commands.record: [0.20480 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 607] COI asciinema.commands.record: [0.20391 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 608] COI asciinema.commands.record: [0.20975 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 609] COI asciinema.commands.record: [0.20647 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 610] COI asciinema.commands.record: [0.21402 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 611] COI asciinema.commands.record: [0.20949 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 612] COI asciinema.commands.record: [0.20711 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 613] COI asciinema.commands.record: [0.21368 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 614] COI asciinema.commands.record: [0.21523 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 615] COI asciinema.commands.record: [0.21045 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 616] COI asciinema.commands.record: [0.21058 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 617] COI asciinema.commands.record: [0.20801 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 618] COI asciinema.commands.record: [0.20891 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 619] CRP asciinema.commands.record: [0.20893 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 620] CRP asciinema.commands.record: [0.20774 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 621] CRP asciinema.commands.record: [0.20896 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 622] CRP asciinema.commands.record: [0.20968 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 623] CRP asciinema.commands.record: [0.22168 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 624] CRP asciinema.commands.record: [0.20806 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 625] CRP asciinema.commands.record: [0.20959 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 626] CRP asciinema.commands.record: [0.21158 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 627] CRP asciinema.commands.record: [0.21767 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 628] CRP asciinema.commands.record: [0.21682 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 629] CRP asciinema.commands.record: [0.21751 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 630] CRP asciinema.commands.record: [0.20877 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 631] CRP asciinema.commands.record: [0.21290 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 632] CRP asciinema.commands.record: [0.20717 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 633] CRP asciinema.commands.record: [0.20984 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 634] CRP asciinema.commands.record: [0.21213 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 635] CRP asciinema.commands.record: [0.20731 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 636] CRP asciinema.commands.record: [0.21023 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 637] CRP asciinema.commands.record: [0.21292 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 638] CRP asciinema.commands.record: [0.20833 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 639] CRP asciinema.commands.record: [0.20676 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 640] CRP asciinema.commands.record: [0.21273 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 641] CRP asciinema.commands.record: [0.21587 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 642] CRP asciinema.commands.record: [0.21855 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 643] CRP asciinema.commands.record: [0.21706 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 644] CRP asciinema.commands.record: [0.20077 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 645] CRP asciinema.commands.record: [0.21244 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 646] CRP asciinema.commands.record: [0.20900 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 647] CRP asciinema.commands.record: [0.21369 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 648] CRP asciinema.commands.record: [0.20791 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 649] CRP asciinema.commands.record: [0.21505 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 650] CRP asciinema.commands.record: [0.20831 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 651] CRP asciinema.commands.record: [0.20870 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 652] CRP asciinema.commands.record: [0.20453 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 653] CRP asciinema.commands.record: [0.20435 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 654] CRP asciinema.commands.record: [0.20834 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 655] CRP asciinema.commands.record: [0.20924 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 656] CRP asciinema.commands.record: [0.21779 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 657] CRP asciinema.commands.record: [0.20788 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 658] CRP asciinema.commands.record: [0.21353 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 659] CRP asciinema.commands.record: [0.20971 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 660] CRP asciinema.commands.record: [0.21310 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 661] CRP asciinema.commands.record: [0.21667 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 662] CRP asciinema.commands.record: [0.21021 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 663] CRP asciinema.commands.record: [0.20318 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 664] CRP asciinema.commands.record: [0.20681 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 665] CRP asciinema.commands.record: [0.20616 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 666] CRP asciinema.commands.record: [0.20791 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 667] CRP asciinema.commands.record: [0.20666 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 668] CRP asciinema.commands.record: [0.21613 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 669] CRP asciinema.commands.record: [0.21676 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 670] CRP asciinema.commands.record: [0.21065 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 671] CRP asciinema.commands.record: [0.21181 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 672] CRP asciinema.commands.record: [0.21323 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 673] CRP asciinema.commands.record: [0.21400 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 674] CRP asciinema.commands.record: [0.21120 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 675] CRP asciinema.commands.record: [0.22143 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 676] CRP asciinema.commands.record: [0.22287 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 677] CRP asciinema.commands.record: [0.21299 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 678] CRP asciinema.commands.record: [0.21616 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 679] CRP asciinema.commands.record: [0.20734 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 680] CRP asciinema.commands.record: [0.20531 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 681] CRP asciinema.commands.record: [0.20955 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 682] CRP asciinema.commands.record: [0.20317 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 683] CRP asciinema.commands.record: [0.21307 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 684] CRP asciinema.commands.record: [0.20856 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 685] CRP asciinema.commands.record: [0.20460 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 686] CRP asciinema.commands.record: [0.20779 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 687] CRP asciinema.commands.record: [0.20319 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 688] CRP asciinema.commands.record: [0.21135 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 689] CRP asciinema.commands.record: [0.21124 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 690] CRP asciinema.commands.record: [0.21677 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 691] CRP asciinema.commands.record: [0.20905 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 692] CRP asciinema.commands.record: [0.20864 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 693] CRP asciinema.commands.record: [0.21319 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 694] CRP asciinema.commands.record: [0.20980 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 695] CRP asciinema.commands.record: [0.21205 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 696] CRP asciinema.commands.record: [0.20655 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 697] CRP asciinema.commands.record: [0.20961 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 698] CRP asciinema.commands.record: [0.21145 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 699] CRP asciinema.commands.record: [0.20728 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 700] CRP asciinema.commands.record: [0.20776 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 701] CRP asciinema.commands.record: [0.21614 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 702] CRP asciinema.commands.record: [0.21741 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 703] CRP asciinema.commands.record: [0.20720 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 704] CRP asciinema.commands.record: [0.20758 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 705] CRP asciinema.commands.record: [0.21634 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 706] CRP asciinema.commands.record: [0.20474 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 707] CRP asciinema.commands.record: [0.21220 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 708] CRP asciinema.commands.record: [0.22125 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 709] CRP asciinema.commands.record: [0.21709 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 710] CRP asciinema.commands.record: [0.20803 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 711] CRP asciinema.commands.record: [0.21683 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 712] CRP asciinema.commands.record: [0.20870 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 713] CRP asciinema.commands.record: [0.20921 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 714] CRP asciinema.commands.record: [0.21293 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 715] CRP asciinema.commands.record: [0.22047 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 716] CRP asciinema.commands.record: [0.20762 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 717] CRP asciinema.commands.record: [0.20935 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 718] CRP asciinema.commands.record: [0.20924 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 719] CRP asciinema.commands.record: [0.21091 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 720] CRP asciinema.commands.record: [0.20643 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 721] CRP asciinema.commands.record: [0.21793 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 722] CRP asciinema.commands.record: [0.20856 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 723] CRP asciinema.commands.record: [0.20507 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 724] CRP asciinema.commands.record: [0.20598 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 725] EHD asciinema.commands.record: [0.20837 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 726] EHD asciinema.commands.record: [0.21136 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 727] EHD asciinema.commands.record: [0.20028 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 728] EHD asciinema.commands.record: [0.22033 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 729] EXS asciinema.commands.record: [0.21175 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 730] EXS asciinema.commands.record: [0.22055 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 731] EXS asciinema.commands.record: [0.21582 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 732] EXS asciinema.commands.record: [0.20668 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 733] IOD asciinema.commands.record: [0.21071 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 734] LCR asciinema.commands.record: [0.20866 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 735] LCR asciinema.commands.record: [0.21391 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 736] LCR asciinema.commands.record: [0.20871 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 737] LCR asciinema.commands.record: [0.21236 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 738] LCR asciinema.commands.record: [0.21430 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 739] LCR asciinema.commands.record: [0.25107 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 740] LCR asciinema.commands.record: [0.20944 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 741] ROR asciinema.commands.record: [0.22633 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 742] ROR asciinema.commands.record: [0.20658 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 743] ROR asciinema.commands.record: [0.21495 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 744] ROR asciinema.commands.record: [0.21908 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 745] ROR asciinema.commands.record: [0.20994 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 746] ROR asciinema.commands.record: [0.20328 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 747] ROR asciinema.commands.record: [0.21045 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 748] ROR asciinema.commands.record: [0.21566 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 749] ROR asciinema.commands.record: [0.20152 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 750] ROR asciinema.commands.record: [0.21102 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 751] ROR asciinema.commands.record: [0.21708 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 752] ROR asciinema.commands.record: [0.20835 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 753] ROR asciinema.commands.record: [0.20498 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 754] ROR asciinema.commands.record: [0.20823 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 755] SCI asciinema.commands.record: [0.20665 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 756] COI asciinema.commands.upload: [0.22045 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 757] COI asciinema.commands.upload: [0.21446 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 758] CRP asciinema.commands.upload: [0.20828 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 759] CRP asciinema.commands.upload: [0.20534 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 760] CRP asciinema.commands.upload: [0.21100 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 761] CRP asciinema.commands.upload: [0.21335 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 762] CRP asciinema.commands.upload: [0.20649 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 763] CRP asciinema.commands.upload: [0.21086 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 764] CRP asciinema.commands.upload: [0.21255 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 765] CRP asciinema.commands.upload: [0.20396 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 766] CRP asciinema.commands.upload: [0.20209 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 767] CRP asciinema.commands.upload: [0.20804 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 768] CRP asciinema.commands.upload: [0.21520 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 769] CRP asciinema.commands.upload: [0.21734 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 770] CRP asciinema.commands.upload: [0.20836 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 771] EHD asciinema.commands.upload: [0.21993 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 772] EHD asciinema.commands.upload: [0.21544 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 773] EXS asciinema.commands.upload: [0.20637 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 774] EXS asciinema.commands.upload: [0.20314 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 775] IOD asciinema.commands.upload: [0.21316 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 776] LCR asciinema.commands.upload: [0.21377 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 777] SCI asciinema.commands.upload: [0.20890 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 778] AOR asciinema.config: [0.20508 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 779] COD asciinema.config: [0.20133 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 780] COI asciinema.config: [0.20407 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 781] COI asciinema.config: [0.21837 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 782] COI asciinema.config: [0.21022 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 783] COI asciinema.config: [0.20958 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 784] COI asciinema.config: [0.23031 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 785] COI asciinema.config: [0.21510 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 786] COI asciinema.config: [0.21369 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 787] COI asciinema.config: [0.20051 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 788] COI asciinema.config: [0.19905 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 789] COI asciinema.config: [0.21044 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 790] COI asciinema.config: [0.20104 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 791] COI asciinema.config: [0.20853 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 792] COI asciinema.config: [0.22439 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 793] COI asciinema.config: [0.19625 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 794] COI asciinema.config: [0.20004 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 795] CRP asciinema.config: [0.20798 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 796] CRP asciinema.config: [0.20788 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 797] CRP asciinema.config: [0.20808 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 798] CRP asciinema.config: [0.20293 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 799] CRP asciinema.config: [0.20875 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 800] CRP asciinema.config: [0.20299 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 801] CRP asciinema.config: [0.20695 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 802] CRP asciinema.config: [0.20969 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 803] CRP asciinema.config: [0.20799 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 804] CRP asciinema.config: [0.21229 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 805] CRP asciinema.config: [0.20789 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 806] CRP asciinema.config: [0.24340 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 807] CRP asciinema.config: [0.20057 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 808] CRP asciinema.config: [0.20048 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 809] CRP asciinema.config: [0.20999 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 810] CRP asciinema.config: [0.20646 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 811] CRP asciinema.config: [0.20390 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 812] CRP asciinema.config: [0.19899 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 813] CRP asciinema.config: [0.21397 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 814] CRP asciinema.config: [0.20750 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 815] CRP asciinema.config: [0.20627 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 816] CRP asciinema.config: [0.21645 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 817] CRP asciinema.config: [0.21577 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 818] CRP asciinema.config: [0.20204 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 819] CRP asciinema.config: [0.20967 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 820] CRP asciinema.config: [0.20686 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 821] CRP asciinema.config: [0.20260 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 822] CRP asciinema.config: [0.20238 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 823] CRP asciinema.config: [0.21490 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 824] CRP asciinema.config: [0.19922 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 825] CRP asciinema.config: [0.20660 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 826] CRP asciinema.config: [0.20485 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 827] CRP asciinema.config: [0.20922 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 828] CRP asciinema.config: [0.20309 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 829] CRP asciinema.config: [0.20220 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 830] CRP asciinema.config: [0.21574 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 831] CRP asciinema.config: [0.20611 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 832] CRP asciinema.config: [0.20178 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 833] CRP asciinema.config: [0.20168 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 834] CRP asciinema.config: [0.20860 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 835] CRP asciinema.config: [0.20104 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 836] CRP asciinema.config: [0.23709 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 837] CRP asciinema.config: [0.21412 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 838] CRP asciinema.config: [0.19851 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 839] CRP asciinema.config: [0.20255 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 840] CRP asciinema.config: [0.20210 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 841] CRP asciinema.config: [0.19804 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 842] CRP asciinema.config: [0.20629 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 843] CRP asciinema.config: [0.20291 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 844] CRP asciinema.config: [0.23437 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 845] CRP asciinema.config: [0.20393 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 846] CRP asciinema.config: [0.20195 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 847] CRP asciinema.config: [0.21129 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 848] CRP asciinema.config: [0.20059 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 849] CRP asciinema.config: [0.19800 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 850] CRP asciinema.config: [0.20645 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 851] CRP asciinema.config: [0.21227 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 852] CRP asciinema.config: [0.21080 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 853] CRP asciinema.config: [0.20737 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 854] CRP asciinema.config: [0.20571 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 855] CRP asciinema.config: [0.20946 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 856] CRP asciinema.config: [0.19998 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 857] CRP asciinema.config: [0.20216 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 858] CRP asciinema.config: [0.20793 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 859] CRP asciinema.config: [0.20500 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 860] CRP asciinema.config: [0.20468 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 861] CRP asciinema.config: [0.20037 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 862] CRP asciinema.config: [0.20311 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 863] CRP asciinema.config: [0.20467 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 864] CRP asciinema.config: [0.20084 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 865] CRP asciinema.config: [0.20664 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 866] CRP asciinema.config: [0.20680 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 867] CRP asciinema.config: [0.20206 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 868] CRP asciinema.config: [0.19676 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 869] CRP asciinema.config: [0.19827 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 870] CRP asciinema.config: [0.19505 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 871] CRP asciinema.config: [0.19964 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 872] CRP asciinema.config: [0.20845 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 873] CRP asciinema.config: [0.20562 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 874] CRP asciinema.config: [0.20034 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 875] CRP asciinema.config: [0.20346 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 876] CRP asciinema.config: [0.20598 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 877] CRP asciinema.config: [0.20538 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 878] CRP asciinema.config: [0.20654 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 879] CRP asciinema.config: [0.20970 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 880] CRP asciinema.config: [0.20584 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 881] CRP asciinema.config: [0.20238 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 882] CRP asciinema.config: [0.20814 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 883] CRP asciinema.config: [0.21354 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 884] CRP asciinema.config: [0.20458 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 885] CRP asciinema.config: [0.20305 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 886] CRP asciinema.config: [0.21442 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 887] CRP asciinema.config: [0.20857 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 888] CRP asciinema.config: [0.20471 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 889] CRP asciinema.config: [0.20283 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 890] CRP asciinema.config: [0.20641 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 891] CRP asciinema.config: [0.20613 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 892] CRP asciinema.config: [0.20146 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 893] CRP asciinema.config: [0.21464 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 894] CRP asciinema.config: [0.20590 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 895] CRP asciinema.config: [0.20339 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 896] CRP asciinema.config: [0.20299 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 897] CRP asciinema.config: [0.20100 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 898] CRP asciinema.config: [0.20054 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 899] CRP asciinema.config: [0.20103 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 900] CRP asciinema.config: [0.20372 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 901] CRP asciinema.config: [0.20266 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 902] CRP asciinema.config: [0.20051 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 903] CRP asciinema.config: [0.20311 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 904] CRP asciinema.config: [0.20997 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 905] CRP asciinema.config: [0.20679 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 906] CRP asciinema.config: [0.20683 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 907] CRP asciinema.config: [0.20362 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 908] CRP asciinema.config: [0.20224 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 909] CRP asciinema.config: [0.19688 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 910] CRP asciinema.config: [0.20975 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 911] CRP asciinema.config: [0.20272 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 912] CRP asciinema.config: [0.19873 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 913] CRP asciinema.config: [0.20077 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 914] CRP asciinema.config: [0.20349 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 915] CRP asciinema.config: [0.21110 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 916] CRP asciinema.config: [0.20832 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 917] CRP asciinema.config: [0.21125 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 918] CRP asciinema.config: [0.19870 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 919] CRP asciinema.config: [0.20441 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 920] CRP asciinema.config: [0.20773 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 921] CRP asciinema.config: [0.20373 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 922] CRP asciinema.config: [0.20569 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 923] CRP asciinema.config: [0.20720 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 924] CRP asciinema.config: [0.20581 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 925] CRP asciinema.config: [0.19929 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 926] CRP asciinema.config: [0.20601 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 927] CRP asciinema.config: [0.19672 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 928] CRP asciinema.config: [0.20843 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 929] CRP asciinema.config: [0.21116 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 930] CRP asciinema.config: [0.20885 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 931] CRP asciinema.config: [0.20486 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 932] CRP asciinema.config: [0.20251 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 933] CRP asciinema.config: [0.20150 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 934] CRP asciinema.config: [0.20682 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 935] CRP asciinema.config: [0.20735 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 936] CRP asciinema.config: [0.20177 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 937] CRP asciinema.config: [0.19873 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 938] CRP asciinema.config: [0.19711 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 939] CRP asciinema.config: [0.20196 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 940] CRP asciinema.config: [0.20657 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 941] CRP asciinema.config: [0.20307 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 942] CRP asciinema.config: [0.20419 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 943] CRP asciinema.config: [0.20630 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 944] CRP asciinema.config: [0.20577 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 945] CRP asciinema.config: [0.20172 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 946] CRP asciinema.config: [0.19929 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 947] CRP asciinema.config: [0.20277 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 948] CRP asciinema.config: [0.19859 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 949] CRP asciinema.config: [0.20114 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 950] CRP asciinema.config: [0.20767 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 951] CRP asciinema.config: [0.21173 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 952] CRP asciinema.config: [0.20163 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 953] CRP asciinema.config: [0.20611 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 954] CRP asciinema.config: [0.20631 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 955] CRP asciinema.config: [0.20706 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 956] CRP asciinema.config: [0.20463 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 957] CRP asciinema.config: [0.20041 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 958] CRP asciinema.config: [0.20283 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 959] CRP asciinema.config: [0.21405 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 960] CRP asciinema.config: [0.20661 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 961] CRP asciinema.config: [0.19723 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 962] CRP asciinema.config: [0.21603 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 963] CRP asciinema.config: [0.20961 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 964] CRP asciinema.config: [0.19895 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 965] CRP asciinema.config: [0.20472 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 966] CRP asciinema.config: [0.20492 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 967] CRP asciinema.config: [0.19587 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 968] CRP asciinema.config: [0.20341 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 969] DDL asciinema.config: [0.20939 s] incompetent
+   - [# 970] DDL asciinema.config: [0.20681 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 971] DDL asciinema.config: [0.20687 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 972] DDL asciinema.config: [0.20253 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 973] DDL asciinema.config: [0.21669 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 974] DDL asciinema.config: [0.19966 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 975] DDL asciinema.config: [0.19944 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 976] DDL asciinema.config: [0.20999 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 977] DDL asciinema.config: [0.19831 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 978] DDL asciinema.config: [0.20222 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 979] DDL asciinema.config: [0.20451 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 980] DDL asciinema.config: [0.20804 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 981] DDL asciinema.config: [0.20454 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 982] DDL asciinema.config: [0.20770 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 983] DDL asciinema.config: [0.20250 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 984] DDL asciinema.config: [0.20520 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 985] DDL asciinema.config: [0.19739 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 986] DDL asciinema.config: [0.20693 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 987] DDL asciinema.config: [0.20478 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 988] EHD asciinema.config: [0.19335 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 989] EHD asciinema.config: [0.22659 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 990] EHD asciinema.config: [0.24163 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 991] EXS asciinema.config: [0.20922 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 992] EXS asciinema.config: [0.20195 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 993] EXS asciinema.config: [0.20672 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 994] LCR asciinema.config: [0.21282 s] incompetent
+   - [# 995] LCR asciinema.config: [0.23337 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 996] LCR asciinema.config: [0.22072 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 997] ROR asciinema.config: [0.21096 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 998] ROR asciinema.config: [0.21270 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [# 999] ROR asciinema.config: [0.21625 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1000] CRP asciinema.file_writer: [0.21885 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1001] CRP asciinema.file_writer: [0.20946 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1002] EHD asciinema.file_writer: [0.21978 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1003] EXS asciinema.file_writer: [0.22947 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1004] LCR asciinema.file_writer: [0.22616 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1005] COI asciinema.notifier: [0.22121 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1006] COI asciinema.notifier: [0.21642 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1007] COI asciinema.notifier: [0.21914 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1008] COI asciinema.notifier: [0.22619 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1009] COI asciinema.notifier: [0.24207 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1010] COI asciinema.notifier: [0.24461 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1011] COI asciinema.notifier: [0.25120 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1012] CRP asciinema.notifier: [0.26044 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1013] CRP asciinema.notifier: [0.29072 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1014] CRP asciinema.notifier: [0.29693 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1015] CRP asciinema.notifier: [0.26274 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1016] CRP asciinema.notifier: [0.22961 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1017] CRP asciinema.notifier: [0.22205 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1018] CRP asciinema.notifier: [0.23044 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1019] CRP asciinema.notifier: [0.22736 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1020] CRP asciinema.notifier: [0.22548 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1021] CRP asciinema.notifier: [0.22310 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1022] CRP asciinema.notifier: [0.21876 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1023] CRP asciinema.notifier: [0.23939 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1024] CRP asciinema.notifier: [0.23147 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1025] CRP asciinema.notifier: [0.23486 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1026] CRP asciinema.notifier: [0.21688 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1027] CRP asciinema.notifier: [0.23057 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1028] CRP asciinema.notifier: [0.21847 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1029] CRP asciinema.notifier: [0.23422 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1030] CRP asciinema.notifier: [0.23948 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1031] CRP asciinema.notifier: [0.23117 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1032] CRP asciinema.notifier: [0.22902 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1033] CRP asciinema.notifier: [0.22783 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1034] CRP asciinema.notifier: [0.21773 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1035] CRP asciinema.notifier: [0.22007 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1036] CRP asciinema.notifier: [0.21849 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1037] CRP asciinema.notifier: [0.23587 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1038] CRP asciinema.notifier: [0.22179 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1039] CRP asciinema.notifier: [0.22403 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1040] CRP asciinema.notifier: [0.22701 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1041] CRP asciinema.notifier: [0.22293 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1042] CRP asciinema.notifier: [0.21182 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1043] CRP asciinema.notifier: [0.22688 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1044] CRP asciinema.notifier: [0.23089 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1045] CRP asciinema.notifier: [0.22045 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1046] CRP asciinema.notifier: [0.23336 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1047] CRP asciinema.notifier: [0.22498 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1048] CRP asciinema.notifier: [0.21302 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1049] CRP asciinema.notifier: [0.21669 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1050] CRP asciinema.notifier: [0.23008 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1051] CRP asciinema.notifier: [0.23089 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1052] CRP asciinema.notifier: [0.22522 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1053] CRP asciinema.notifier: [0.21959 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1054] CRP asciinema.notifier: [0.23576 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1055] CRP asciinema.notifier: [0.22157 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1056] CRP asciinema.notifier: [0.22354 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1057] CRP asciinema.notifier: [0.22653 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1058] CRP asciinema.notifier: [0.21655 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1059] CRP asciinema.notifier: [0.23281 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1060] CRP asciinema.notifier: [0.22032 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1061] CRP asciinema.notifier: [0.22192 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1062] DDL asciinema.notifier: [0.21863 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1063] IOD asciinema.notifier: [0.22052 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1064] IOD asciinema.notifier: [0.22556 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1065] IOD asciinema.notifier: [0.21897 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1066] IOD asciinema.notifier: [0.22102 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1067] IOD asciinema.notifier: [0.21616 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1068] IOD asciinema.notifier: [0.21927 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1069] IOD asciinema.notifier: [0.22091 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1070] SCD asciinema.notifier: [0.23764 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1071] SCD asciinema.notifier: [0.23622 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1072] SCD asciinema.notifier: [0.22137 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1073] SCI asciinema.notifier: [0.21758 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1074] SCI asciinema.notifier: [0.21691 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1075] SCI asciinema.notifier: [0.22895 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1076] SCI asciinema.notifier: [0.22446 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1077] AOR asciinema.player: [0.24952 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1078] AOR asciinema.player: [0.22477 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1079] AOR asciinema.player: [0.22410 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1080] AOR asciinema.player: [0.22536 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1081] BCR asciinema.player: [0.21404 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1082] BCR asciinema.player: [0.23531 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1083] BCR asciinema.player: [0.23700 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1084] BCR asciinema.player: [0.24244 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1085] BCR asciinema.player: [0.21998 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1086] COD asciinema.player: [0.24250 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1087] COI asciinema.player: [0.28918 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1088] COI asciinema.player: [0.21753 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1089] COI asciinema.player: [0.21604 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1090] COI asciinema.player: [0.20952 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1091] COI asciinema.player: [0.20873 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1092] COI asciinema.player: [0.21488 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1093] COI asciinema.player: [0.22097 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1094] COI asciinema.player: [0.20480 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1095] COI asciinema.player: [0.20623 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1096] COI asciinema.player: [0.21540 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1097] COI asciinema.player: [0.20147 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1098] COI asciinema.player: [0.20865 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1099] COI asciinema.player: [0.23411 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1100] COI asciinema.player: [0.20951 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1101] COI asciinema.player: [0.21357 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1102] COI asciinema.player: [0.21891 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1103] COI asciinema.player: [0.21823 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1104] COI asciinema.player: [0.21311 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1105] COI asciinema.player: [0.22500 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1106] COI asciinema.player: [0.21689 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1107] COI asciinema.player: [0.21510 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1108] COI asciinema.player: [0.21600 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1109] CRP asciinema.player: [0.21376 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1110] CRP asciinema.player: [0.21081 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1111] CRP asciinema.player: [0.21513 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1112] CRP asciinema.player: [0.21059 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1113] CRP asciinema.player: [0.19924 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1114] CRP asciinema.player: [0.22835 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1115] CRP asciinema.player: [0.24191 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1116] CRP asciinema.player: [0.38922 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1117] CRP asciinema.player: [0.26005 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1118] CRP asciinema.player: [0.26506 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1119] CRP asciinema.player: [0.28333 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1120] CRP asciinema.player: [0.29035 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1121] CRP asciinema.player: [0.24603 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1122] CRP asciinema.player: [0.26292 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1123] CRP asciinema.player: [0.27131 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1124] CRP asciinema.player: [0.25426 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1125] CRP asciinema.player: [0.31531 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1126] CRP asciinema.player: [0.21510 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1127] CRP asciinema.player: [0.42588 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1128] CRP asciinema.player: [0.26359 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1129] CRP asciinema.player: [0.26990 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1130] CRP asciinema.player: [0.23778 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1131] CRP asciinema.player: [0.24174 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1132] CRP asciinema.player: [0.25240 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1133] CRP asciinema.player: [0.30642 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1134] CRP asciinema.player: [0.34149 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1135] CRP asciinema.player: [0.38013 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1136] CRP asciinema.player: [0.59722 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1137] CRP asciinema.player: [0.62517 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1138] CRP asciinema.player: [0.26309 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1139] CRP asciinema.player: [0.32192 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1140] CRP asciinema.player: [0.29371 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1141] CRP asciinema.player: [0.30543 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1142] DDL asciinema.player: [0.29876 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1143] EHD asciinema.player: [0.28663 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1144] EHD asciinema.player: [0.41308 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1145] EXS asciinema.player: [0.29990 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1146] EXS asciinema.player: [0.26737 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1147] LCR asciinema.player: [0.25063 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1148] LCR asciinema.player: [0.26054 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1149] LCR asciinema.player: [0.27591 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1150] LCR asciinema.player: [0.27673 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1151] LCR asciinema.player: [0.30038 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1152] ROR asciinema.player: [0.49646 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1153] ROR asciinema.player: [0.25225 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1154] ROR asciinema.player: [0.27810 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1155] ROR asciinema.player: [0.26867 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1156] ROR asciinema.player: [0.26019 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1157] ROR asciinema.player: [0.23320 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1158] ROR asciinema.player: [0.20741 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1159] ROR asciinema.player: [0.21042 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1160] ROR asciinema.player: [0.23809 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1161] ROR asciinema.player: [0.23093 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1162] AOD asciinema.pty_: [0.21872 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1163] AOR asciinema.pty_: [0.22498 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1164] AOR asciinema.pty_: [0.22092 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1165] AOR asciinema.pty_: [0.21829 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1166] AOR asciinema.pty_: [0.21659 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1167] AOR asciinema.pty_: [0.22557 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1168] AOR asciinema.pty_: [0.21055 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1169] AOR asciinema.pty_: [0.22732 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1170] AOR asciinema.pty_: [0.23476 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1171] AOR asciinema.pty_: [0.22678 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1172] AOR asciinema.pty_: [0.20956 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1173] ASR asciinema.pty_: [0.21940 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1174] ASR asciinema.pty_: [0.21689 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1175] BCR asciinema.pty_: [0.21453 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1176] BCR asciinema.pty_: [0.21560 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1177] COD asciinema.pty_: [0.20892 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1178] COD asciinema.pty_: [0.21131 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1179] COD asciinema.pty_: [0.21894 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1180] COD asciinema.pty_: [0.20943 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1181] COD asciinema.pty_: [0.24548 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1182] COD asciinema.pty_: [0.23963 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1183] COD asciinema.pty_: [0.23684 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1184] COI asciinema.pty_: [0.22558 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1185] COI asciinema.pty_: [0.20392 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1186] COI asciinema.pty_: [0.20126 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1187] COI asciinema.pty_: [0.21058 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1188] COI asciinema.pty_: [0.21698 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1189] COI asciinema.pty_: [0.21607 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1190] COI asciinema.pty_: [0.21910 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1191] COI asciinema.pty_: [0.21223 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1192] COI asciinema.pty_: [0.21783 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1193] COI asciinema.pty_: [0.20344 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1194] COI asciinema.pty_: [0.20808 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1195] COI asciinema.pty_: [0.21143 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1196] COI asciinema.pty_: [0.21198 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1197] COI asciinema.pty_: [0.21045 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1198] COI asciinema.pty_: [0.21052 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1199] COI asciinema.pty_: [0.21617 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1200] COI asciinema.pty_: [0.20726 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1201] COI asciinema.pty_: [0.20654 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1202] COI asciinema.pty_: [0.20866 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1203] COI asciinema.pty_: [0.20438 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1204] COI asciinema.pty_: [0.20244 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1205] COI asciinema.pty_: [0.20252 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1206] COI asciinema.pty_: [0.20549 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1207] COI asciinema.pty_: [0.21079 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1208] COI asciinema.pty_: [0.22234 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1209] COI asciinema.pty_: [0.21600 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1210] COI asciinema.pty_: [0.19990 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1211] COI asciinema.pty_: [0.21277 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1212] COI asciinema.pty_: [0.20861 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1213] COI asciinema.pty_: [0.20664 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1214] CRP asciinema.pty_: [0.19907 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1215] CRP asciinema.pty_: [0.21072 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1216] CRP asciinema.pty_: [0.21981 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1217] CRP asciinema.pty_: [0.19815 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1218] CRP asciinema.pty_: [0.21700 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1219] CRP asciinema.pty_: [0.20681 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1220] CRP asciinema.pty_: [0.20693 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1221] CRP asciinema.pty_: [0.20990 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1222] CRP asciinema.pty_: [0.20675 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1223] CRP asciinema.pty_: [0.21363 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1224] CRP asciinema.pty_: [0.19660 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1225] CRP asciinema.pty_: [0.20195 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1226] CRP asciinema.pty_: [0.22060 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1227] CRP asciinema.pty_: [0.21342 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1228] CRP asciinema.pty_: [0.19827 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1229] CRP asciinema.pty_: [0.20957 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1230] CRP asciinema.pty_: [0.20891 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1231] CRP asciinema.pty_: [0.21052 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1232] CRP asciinema.pty_: [0.21079 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1233] CRP asciinema.pty_: [0.20841 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1234] CRP asciinema.pty_: [0.21038 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1235] CRP asciinema.pty_: [0.20244 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1236] CRP asciinema.pty_: [0.20788 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1237] CRP asciinema.pty_: [0.21636 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1238] CRP asciinema.pty_: [0.20005 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1239] CRP asciinema.pty_: [0.20199 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1240] CRP asciinema.pty_: [0.20298 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1241] CRP asciinema.pty_: [0.20666 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1242] CRP asciinema.pty_: [0.20117 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1243] CRP asciinema.pty_: [0.20761 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1244] CRP asciinema.pty_: [0.20261 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1245] CRP asciinema.pty_: [0.20663 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1246] DDL asciinema.pty_: [0.21377 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1247] EHD asciinema.pty_: [0.21064 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1248] EHD asciinema.pty_: [0.19997 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1249] EHD asciinema.pty_: [0.20961 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1250] EHD asciinema.pty_: [0.21245 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1251] EXS asciinema.pty_: [0.20930 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1252] EXS asciinema.pty_: [0.20008 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1253] LCR asciinema.pty_: [0.20742 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1254] LCR asciinema.pty_: [0.20825 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1255] LCR asciinema.pty_: [0.19947 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1256] LCR asciinema.pty_: [0.20719 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1257] LCR asciinema.pty_: [0.20764 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1258] LOR asciinema.pty_: [0.20243 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1259] LOR asciinema.pty_: [0.20023 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1260] ROR asciinema.pty_: [0.20242 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1261] ROR asciinema.pty_: [0.20696 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1262] ROR asciinema.pty_: [0.20528 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1263] ROR asciinema.pty_: [0.21015 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1264] ROR asciinema.pty_: [0.21327 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1265] ROR asciinema.pty_: [0.20287 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1266] ROR asciinema.pty_: [0.20440 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1267] ROR asciinema.pty_: [0.20315 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1268] ROR asciinema.pty_: [0.20212 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1269] ROR asciinema.pty_: [0.20583 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1270] ROR asciinema.pty_: [0.20833 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1271] ROR asciinema.pty_: [0.24388 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1272] SIR asciinema.pty_: [0.19984 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1273] SIR asciinema.pty_: [0.21053 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1274] AOR asciinema.recorder: [0.22654 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1275] AOR asciinema.recorder: [0.21166 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1276] AOR asciinema.recorder: [0.22599 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1277] AOR asciinema.recorder: [0.22720 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1278] COD asciinema.recorder: [0.22360 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1279] COI asciinema.recorder: [0.22113 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1280] COI asciinema.recorder: [0.22396 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1281] COI asciinema.recorder: [0.22131 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1282] COI asciinema.recorder: [0.22596 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1283] COI asciinema.recorder: [0.22701 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1284] COI asciinema.recorder: [0.21173 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1285] COI asciinema.recorder: [0.21755 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1286] COI asciinema.recorder: [0.21553 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1287] COI asciinema.recorder: [0.22103 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1288] COI asciinema.recorder: [0.22925 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1289] COI asciinema.recorder: [0.22251 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1290] COI asciinema.recorder: [0.22014 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1291] COI asciinema.recorder: [0.21538 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1292] COI asciinema.recorder: [0.22253 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1293] CRP asciinema.recorder: [0.22129 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1294] CRP asciinema.recorder: [0.21869 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1295] CRP asciinema.recorder: [0.22333 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1296] CRP asciinema.recorder: [0.21871 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1297] CRP asciinema.recorder: [0.21653 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1298] CRP asciinema.recorder: [0.22681 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1299] CRP asciinema.recorder: [0.21967 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1300] CRP asciinema.recorder: [0.22045 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1301] CRP asciinema.recorder: [0.21721 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1302] CRP asciinema.recorder: [0.22138 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1303] CRP asciinema.recorder: [0.22408 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1304] CRP asciinema.recorder: [0.21537 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1305] CRP asciinema.recorder: [0.22238 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1306] CRP asciinema.recorder: [0.22113 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1307] CRP asciinema.recorder: [0.22161 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1308] CRP asciinema.recorder: [0.22661 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1309] CRP asciinema.recorder: [0.21924 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1310] CRP asciinema.recorder: [0.22976 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1311] CRP asciinema.recorder: [0.22129 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1312] CRP asciinema.recorder: [0.22600 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1313] CRP asciinema.recorder: [0.22805 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1314] CRP asciinema.recorder: [0.23089 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1315] CRP asciinema.recorder: [0.22172 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1316] CRP asciinema.recorder: [0.22177 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1317] CRP asciinema.recorder: [0.21851 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1318] CRP asciinema.recorder: [0.21609 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1319] CRP asciinema.recorder: [0.22230 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1320] CRP asciinema.recorder: [0.22433 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1321] CRP asciinema.recorder: [0.22220 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1322] CRP asciinema.recorder: [0.22098 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1323] CRP asciinema.recorder: [0.21904 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1324] CRP asciinema.recorder: [0.21707 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1325] CRP asciinema.recorder: [0.21910 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1326] CRP asciinema.recorder: [0.22421 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1327] CRP asciinema.recorder: [0.22403 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1328] CRP asciinema.recorder: [0.21950 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1329] CRP asciinema.recorder: [0.22255 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1330] CRP asciinema.recorder: [0.21918 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1331] CRP asciinema.recorder: [0.23148 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1332] CRP asciinema.recorder: [0.22152 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1333] CRP asciinema.recorder: [0.21685 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1334] CRP asciinema.recorder: [0.23592 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1335] CRP asciinema.recorder: [0.26072 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1336] CRP asciinema.recorder: [0.21721 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1337] CRP asciinema.recorder: [0.22117 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1338] CRP asciinema.recorder: [0.21230 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1339] CRP asciinema.recorder: [0.20963 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1340] CRP asciinema.recorder: [0.22669 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1341] CRP asciinema.recorder: [0.21666 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1342] CRP asciinema.recorder: [0.21634 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1343] CRP asciinema.recorder: [0.21782 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1344] CRP asciinema.recorder: [0.21826 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1345] CRP asciinema.recorder: [0.22145 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1346] CRP asciinema.recorder: [0.21739 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1347] CRP asciinema.recorder: [0.22555 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1348] CRP asciinema.recorder: [0.22556 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1349] CRP asciinema.recorder: [0.21775 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1350] CRP asciinema.recorder: [0.21201 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1351] CRP asciinema.recorder: [0.22195 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1352] CRP asciinema.recorder: [0.21870 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1353] EHD asciinema.recorder: [0.22880 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1354] EHD asciinema.recorder: [0.22707 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1355] EHD asciinema.recorder: [0.21872 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1356] EXS asciinema.recorder: [0.23046 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1357] EXS asciinema.recorder: [0.22009 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1358] IOD asciinema.recorder: [0.21155 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1359] IOD asciinema.recorder: [0.22149 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1360] IOD asciinema.recorder: [0.22187 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1361] LCR asciinema.recorder: [0.22501 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1362] LCR asciinema.recorder: [0.21618 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1363] LCR asciinema.recorder: [0.21615 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1364] LCR asciinema.recorder: [0.22647 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1365] LCR asciinema.recorder: [0.22508 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1366] LCR asciinema.recorder: [0.22731 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1367] ROR asciinema.recorder: [0.21924 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1368] ROR asciinema.recorder: [0.21442 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1369] ROR asciinema.recorder: [0.21890 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1370] ROR asciinema.recorder: [0.23309 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1371] ROR asciinema.recorder: [0.21536 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1372] ROR asciinema.recorder: [0.21990 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1373] SCI asciinema.recorder: [0.23343 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1374] SCI asciinema.recorder: [0.21633 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1375] SCI asciinema.recorder: [0.22400 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1376] COI asciinema.tty_: [0.22590 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1377] COI asciinema.tty_: [0.21741 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1378] COI asciinema.tty_: [0.22936 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1379] CRP asciinema.tty_: [0.23192 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1380] CRP asciinema.tty_: [0.21015 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1381] CRP asciinema.tty_: [0.22058 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1382] EHD asciinema.tty_: [0.23098 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1383] COI asciinema.urllib_http_adapter: [0.21659 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1384] COI asciinema.urllib_http_adapter: [0.23429 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1385] COI asciinema.urllib_http_adapter: [0.21376 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1386] COI asciinema.urllib_http_adapter: [0.21362 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1387] COI asciinema.urllib_http_adapter: [0.21863 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1388] COI asciinema.urllib_http_adapter: [0.21857 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1389] CRP asciinema.urllib_http_adapter: [0.21489 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1390] CRP asciinema.urllib_http_adapter: [0.21193 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1391] CRP asciinema.urllib_http_adapter: [0.21245 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1392] CRP asciinema.urllib_http_adapter: [0.20011 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1393] CRP asciinema.urllib_http_adapter: [0.19577 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1394] CRP asciinema.urllib_http_adapter: [0.21408 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1395] CRP asciinema.urllib_http_adapter: [0.21223 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1396] CRP asciinema.urllib_http_adapter: [0.20439 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1397] CRP asciinema.urllib_http_adapter: [0.21586 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1398] CRP asciinema.urllib_http_adapter: [0.20348 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1399] CRP asciinema.urllib_http_adapter: [0.19473 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1400] CRP asciinema.urllib_http_adapter: [0.20419 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1401] CRP asciinema.urllib_http_adapter: [0.20679 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1402] CRP asciinema.urllib_http_adapter: [0.20758 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1403] CRP asciinema.urllib_http_adapter: [0.20184 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1404] CRP asciinema.urllib_http_adapter: [0.22017 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1405] CRP asciinema.urllib_http_adapter: [0.20676 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1406] CRP asciinema.urllib_http_adapter: [0.20420 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1407] CRP asciinema.urllib_http_adapter: [0.20209 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1408] CRP asciinema.urllib_http_adapter: [0.20318 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1409] CRP asciinema.urllib_http_adapter: [0.20973 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1410] CRP asciinema.urllib_http_adapter: [0.20133 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1411] CRP asciinema.urllib_http_adapter: [0.21471 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1412] CRP asciinema.urllib_http_adapter: [0.20263 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1413] CRP asciinema.urllib_http_adapter: [0.19536 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1414] CRP asciinema.urllib_http_adapter: [0.20298 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1415] CRP asciinema.urllib_http_adapter: [0.21012 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1416] CRP asciinema.urllib_http_adapter: [0.21231 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1417] CRP asciinema.urllib_http_adapter: [0.20170 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1418] CRP asciinema.urllib_http_adapter: [0.21192 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1419] CRP asciinema.urllib_http_adapter: [0.20154 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1420] CRP asciinema.urllib_http_adapter: [0.19563 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1421] CRP asciinema.urllib_http_adapter: [0.21056 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1422] CRP asciinema.urllib_http_adapter: [0.21184 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1423] CRP asciinema.urllib_http_adapter: [0.20525 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1424] CRP asciinema.urllib_http_adapter: [0.21088 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1425] CRP asciinema.urllib_http_adapter: [0.21163 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1426] CRP asciinema.urllib_http_adapter: [0.20998 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1427] CRP asciinema.urllib_http_adapter: [0.20232 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1428] CRP asciinema.urllib_http_adapter: [0.20585 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1429] CRP asciinema.urllib_http_adapter: [0.21085 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1430] CRP asciinema.urllib_http_adapter: [0.20908 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1431] CRP asciinema.urllib_http_adapter: [0.22144 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1432] CRP asciinema.urllib_http_adapter: [0.21372 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1433] CRP asciinema.urllib_http_adapter: [0.20361 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1434] CRP asciinema.urllib_http_adapter: [0.20147 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1435] CRP asciinema.urllib_http_adapter: [0.21145 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1436] CRP asciinema.urllib_http_adapter: [0.20865 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1437] CRP asciinema.urllib_http_adapter: [0.20368 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1438] CRP asciinema.urllib_http_adapter: [0.21267 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1439] CRP asciinema.urllib_http_adapter: [0.21013 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1440] CRP asciinema.urllib_http_adapter: [0.20666 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1441] CRP asciinema.urllib_http_adapter: [0.20541 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1442] CRP asciinema.urllib_http_adapter: [0.20595 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1443] CRP asciinema.urllib_http_adapter: [0.20236 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1444] DDL asciinema.urllib_http_adapter: [0.20887 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1445] DDL asciinema.urllib_http_adapter: [0.21345 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1446] EHD asciinema.urllib_http_adapter: [0.20378 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1447] EXS asciinema.urllib_http_adapter: [0.20188 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1448] EXS asciinema.urllib_http_adapter: [0.21483 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1449] LCR asciinema.urllib_http_adapter: [0.21341 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1450] ROR asciinema.urllib_http_adapter: [0.19612 s] killed by tests/config_test.py::test_upgrade_no_config_file
+   - [#1451] ROR asciinema.urllib_http_adapter: [0.21673 s] killed by tests/config_test.py::test_upgrade_no_config_file
+[*] Mutation score [327.95370 s]: 97.8%
+   - all: 1451
+   - killed: 1415 (97.5%)
+   - survived: 32 (2.2%)
+   - incompetent: 4 (0.3%)
+   - timeout: 0 (0.0%)

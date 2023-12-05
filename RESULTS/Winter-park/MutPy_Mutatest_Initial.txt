@@ -1,0 +1,553 @@
+2023-11-02 15:42:55,507: Running clean trial
+============================= test session starts ==============================
+platform linux -- Python 3.8.16, pytest-6.2.5, py-1.11.0, pluggy-1.0.0 -- /usr/local/python-env/py38/bin/python3.8
+cachedir: .pytest_cache
+rootdir: /s/bach/m/under/bdavis43/CS514/Project/mutpy
+plugins: cov-3.0.0
+collecting ... collected 169 items
+
+example/test/simple_good_test.py::SimpleGoodTest::test_add PASSED        [  0%]
+example/test/simple_good_test.py::SimpleGoodTest::test_add_etc PASSED    [  1%]
+example/test/simple_good_test.py::SimpleGoodTest::test_add_str PASSED    [  1%]
+example/test/simple_good_test.py::SimpleGoodTest::test_add_two PASSED    [  2%]
+example/test/simple_good_test.py::SimpleGoodTest::test_bitwise_conjunction PASSED [  2%]
+example/test/simple_good_test.py::SimpleGoodTest::test_bool_conjunction PASSED [  3%]
+example/test/simple_good_test.py::SimpleGoodTest::test_class_variable PASSED [  4%]
+example/test/simple_good_test.py::SimpleGoodTest::test_empty_string PASSED [  4%]
+example/test/simple_good_test.py::SimpleGoodTest::test_get_const PASSED  [  5%]
+example/test/simple_good_test.py::SimpleGoodTest::test_get_inc_const PASSED [  5%]
+example/test/simple_good_test.py::SimpleGoodTest::test_get_magic PASSED  [  6%]
+example/test/simple_good_test.py::SimpleGoodTest::test_handle_exception PASSED [  7%]
+example/test/simple_good_test.py::SimpleGoodTest::test_is_not_odd PASSED [  7%]
+example/test/simple_good_test.py::SimpleGoodTest::test_is_odd PASSED     [  8%]
+example/test/simple_good_test.py::SimpleGoodTest::test_last_two PASSED   [  8%]
+example/test/simple_good_test.py::SimpleGoodTest::test_loop PASSED       [  9%]
+example/test/simple_good_test.py::SimpleGoodTest::test_negate_bitwise PASSED [ 10%]
+example/test/simple_good_test.py::SimpleGoodTest::test_negate_bool PASSED [ 10%]
+example/test/simple_good_test.py::SimpleGoodTest::test_negate_number PASSED [ 11%]
+example/test/simple_good_test.py::SimpleGoodTest::test_overridden_call PASSED [ 11%]
+example/test/simple_good_test.py::SimpleGoodTest::test_override PASSED   [ 12%]
+example/test/simple_week_test.py::SimpleWeekTest::test_add PASSED        [ 13%]
+mutpy/test/test_commandline.py::CommandLineTest::test_build_mutator_with_disable_operator PASSED [ 13%]
+mutpy/test/test_commandline.py::CommandLineTest::test_build_mutator_with_operator PASSED [ 14%]
+mutpy/test/test_controller.py::MutationScoreTest::test_count PASSED      [ 14%]
+mutpy/test/test_controller.py::MutationScoreTest::test_count_after_inc PASSED [ 15%]
+mutpy/test/test_controller.py::MutationScoreTest::test_count_if_incompetent PASSED [ 15%]
+mutpy/test/test_controller.py::MutationScoreTest::test_count_if_timeout PASSED [ 16%]
+mutpy/test/test_controller.py::MutationScoreTest::test_count_if_zero_score PASSED [ 17%]
+mutpy/test/test_controller.py::MutationScoreTest::test_update_coverage PASSED [ 17%]
+mutpy/test/test_controller.py::MutationControllerTest::test_run PASSED   [ 18%]
+mutpy/test/test_controller.py::FirstToLastHOMStrategyTest::test_generate PASSED [ 18%]
+mutpy/test/test_controller.py::FirstToLastHOMStrategyTest::test_generate_if_node_child PASSED [ 19%]
+mutpy/test/test_controller.py::FirstToLastHOMStrategyTest::test_generate_if_same_node PASSED [ 20%]
+mutpy/test/test_controller.py::EachChoiceHOMStrategyTest::test_generate PASSED [ 20%]
+mutpy/test/test_controller.py::BetweenOperatorsHOMStrategyTest::test_generate_if_one_operator PASSED [ 21%]
+mutpy/test/test_controller.py::BetweenOperatorsHOMStrategyTest::test_generate_if_three_operators PASSED [ 21%]
+mutpy/test/test_controller.py::BetweenOperatorsHOMStrategyTest::test_generate_if_two_operators PASSED [ 22%]
+mutpy/test/test_controller.py::RandomHOMStrategyTest::test_generate PASSED [ 23%]
+mutpy/test/test_controller.py::FirstOrderMutatorTest::test_first_order_mutation PASSED [ 23%]
+mutpy/test/test_controller.py::HighOrderMutatorTest::test_second_order_mutation PASSED [ 24%]
+mutpy/test/test_controller.py::HighOrderMutatorTest::test_second_order_mutation_with_same_node_as_target PASSED [ 24%]
+mutpy/test/test_coverage.py::MarkerNodeTransformerTest::test_visit PASSED [ 25%]
+mutpy/test/test_coverage.py::CoverageInjectorTest::test_class_def_coverage PASSED [ 26%]
+mutpy/test/test_coverage.py::CoverageInjectorTest::test_covered_node PASSED [ 26%]
+mutpy/test/test_coverage.py::CoverageInjectorTest::test_docstring_coverage PASSED [ 27%]
+mutpy/test/test_coverage.py::CoverageInjectorTest::test_except_coverage PASSED [ 27%]
+mutpy/test/test_coverage.py::CoverageInjectorTest::test_for_coverage PASSED [ 28%]
+mutpy/test/test_coverage.py::CoverageInjectorTest::test_func_def_coverage PASSED [ 28%]
+mutpy/test/test_coverage.py::CoverageInjectorTest::test_future_statement_coverage PASSED [ 29%]
+mutpy/test/test_coverage.py::CoverageInjectorTest::test_if_coverage PASSED [ 30%]
+mutpy/test/test_coverage.py::CoverageInjectorTest::test_not_covered_node PASSED [ 30%]
+mutpy/test/test_coverage.py::CoverageInjectorTest::test_result PASSED    [ 31%]
+mutpy/test/test_coverage.py::CoverageInjectorTest::test_try_coverage PASSED [ 31%]
+mutpy/test/test_coverage.py::CoverageInjectorTest::test_while__coverage PASSED [ 32%]
+mutpy/test/test_coverage.py::UnittestCoverageResultTest::test_run PASSED [ 33%]
+mutpy/test/test_operators.py::MutationOperatorTest::test_generate_all_mutations_if_always_sampler PASSED [ 33%]
+mutpy/test/test_operators.py::MutationOperatorTest::test_no_mutations_if_never_sampler PASSED [ 34%]
+mutpy/test/test_operators.py::ConstantReplacementTest::test_not_mutate_class PASSED [ 34%]
+mutpy/test/test_operators.py::ConstantReplacementTest::test_not_mutate_docstring PASSED [ 35%]
+mutpy/test/test_operators.py::ConstantReplacementTest::test_not_mutate_function PASSED [ 36%]
+mutpy/test/test_operators.py::ArithmeticOperatorReplacementTest::test_add_to_sub_replacement PASSED [ 36%]
+mutpy/test/test_operators.py::ArithmeticOperatorReplacementTest::test_div_replacement PASSED [ 37%]
+mutpy/test/test_operators.py::ArithmeticOperatorReplacementTest::test_floor_div_to_div PASSED [ 37%]
+mutpy/test/test_operators.py::ArithmeticOperatorReplacementTest::test_mod_to_mult PASSED [ 38%]
+mutpy/test/test_operators.py::ArithmeticOperatorReplacementTest::test_mult_to_div_and_pow_replacement PASSED [ 39%]
+mutpy/test/test_operators.py::ArithmeticOperatorReplacementTest::test_mutation_lineno PASSED [ 39%]
+mutpy/test/test_operators.py::ArithmeticOperatorReplacementTest::test_not_mutate_augmented_assign PASSED [ 40%]
+mutpy/test/test_operators.py::ArithmeticOperatorReplacementTest::test_pow_to_mult PASSED [ 40%]
+mutpy/test/test_operators.py::ArithmeticOperatorReplacementTest::test_sub_to_add_replacement PASSED [ 41%]
+mutpy/test/test_operators.py::ArithmeticOperatorReplacementTest::test_uadd PASSED [ 42%]
+mutpy/test/test_operators.py::ArithmeticOperatorReplacementTest::test_usub PASSED [ 42%]
+mutpy/test/test_operators.py::AssignmentOperatorReplacementTest::test_add_to_sub_replacement PASSED [ 43%]
+mutpy/test/test_operators.py::AssignmentOperatorReplacementTest::test_not_mutate_normal_use PASSED [ 43%]
+mutpy/test/test_operators.py::ArithmeticOperatorDeletionTest::test_uadd PASSED [ 44%]
+mutpy/test/test_operators.py::ArithmeticOperatorDeletionTest::test_usub PASSED [ 44%]
+mutpy/test/test_operators.py::LogicalOperatorReplacementTest::test_bin_and_to_bit_or PASSED [ 45%]
+mutpy/test/test_operators.py::LogicalOperatorReplacementTest::test_bit_or_to_bit_and PASSED [ 46%]
+mutpy/test/test_operators.py::LogicalOperatorReplacementTest::test_bit_xor_to_bit_and PASSED [ 46%]
+mutpy/test/test_operators.py::LogicalOperatorReplacementTest::test_lshift_to_rshift PASSED [ 47%]
+mutpy/test/test_operators.py::LogicalOperatorReplacementTest::test_rshift_to_lshift PASSED [ 47%]
+mutpy/test/test_operators.py::LogicalOperatorDeletionTest::test_invert PASSED [ 48%]
+mutpy/test/test_operators.py::LogicalConnectorReplacementTest::test_and_to_or PASSED [ 49%]
+mutpy/test/test_operators.py::LogicalConnectorReplacementTest::test_or_to_and PASSED [ 49%]
+mutpy/test/test_operators.py::RelationalOperatorReplacementTest::test_eq PASSED [ 50%]
+mutpy/test/test_operators.py::RelationalOperatorReplacementTest::test_gt PASSED [ 50%]
+mutpy/test/test_operators.py::RelationalOperatorReplacementTest::test_gte PASSED [ 51%]
+mutpy/test/test_operators.py::RelationalOperatorReplacementTest::test_lt PASSED [ 52%]
+mutpy/test/test_operators.py::RelationalOperatorReplacementTest::test_lte PASSED [ 52%]
+mutpy/test/test_operators.py::RelationalOperatorReplacementTest::test_not_eq PASSED [ 53%]
+mutpy/test/test_operators.py::SliceIndexRemoveTest::test_slice_indexes_remove PASSED [ 53%]
+mutpy/test/test_operators.py::ConditionalOperatorInsertionTest::test_in_to_not_in PASSED [ 54%]
+mutpy/test/test_operators.py::ConditionalOperatorInsertionTest::test_negate_if_and_elif_condition PASSED [ 55%]
+mutpy/test/test_operators.py::ConditionalOperatorInsertionTest::test_negate_if_condition PASSED [ 55%]
+mutpy/test/test_operators.py::ConditionalOperatorInsertionTest::test_negate_while_condition PASSED [ 56%]
+mutpy/test/test_operators.py::ConditionalOperatorDeletionTest::test_not PASSED [ 56%]
+mutpy/test/test_operators.py::ConditionalOperatorDeletionTest::test_not_in_to_in PASSED [ 57%]
+mutpy/test/test_operators.py::ExceptionSwallowingTest::test_not_swallow_if_pass PASSED [ 57%]
+mutpy/test/test_operators.py::ExceptionSwallowingTest::test_swallow_exception PASSED [ 58%]
+mutpy/test/test_operators.py::ExceptionHandlerDeletionTest::test_delete_except PASSED [ 59%]
+mutpy/test/test_operators.py::ExceptionHandlerDeletionTest::test_delete_two_except PASSED [ 59%]
+mutpy/test/test_operators.py::ExceptionHandlerDeletionTest::test_not_delete_if_raise PASSED [ 60%]
+mutpy/test/test_operators.py::DecoratorDeletionTest::test_deletion_with_arguments PASSED [ 60%]
+mutpy/test/test_operators.py::DecoratorDeletionTest::test_double_decorators_deletion PASSED [ 61%]
+mutpy/test/test_operators.py::DecoratorDeletionTest::test_single_decorator_deletion PASSED [ 62%]
+mutpy/test/test_operators.py::MutateOnlyCoveredNodesTest::test_not_covered_assign_node PASSED [ 62%]
+mutpy/test/test_operators.py::MutateOnlyCoveredNodesTest::test_not_covered_except_handler_node PASSED [ 63%]
+mutpy/test/test_operators.py::MutateOnlyCoveredNodesTest::test_not_covered_expr_node PASSED [ 63%]
+mutpy/test/test_operators.py::MutateOnlyCoveredNodesTest::test_not_covered_if_node PASSED [ 64%]
+mutpy/test/test_operators.py::MutateOnlyCoveredNodesTest::test_not_covered_return_node PASSED [ 65%]
+mutpy/test/test_operators.py::MutateOnlyCoveredNodesTest::test_not_covered_while_node PASSED [ 65%]
+mutpy/test/test_operators.py::OverridingMethodDeletionTest::test_delete_overriding_method PASSED [ 66%]
+mutpy/test/test_operators.py::OverridingMethodDeletionTest::test_delete_overriding_method_in_inner_class PASSED [ 66%]
+mutpy/test/test_operators.py::OverridingMethodDeletionTest::test_delete_overriding_method_when_base_class_from_other_module PASSED [ 67%]
+mutpy/test/test_operators.py::OverriddenMethodCallingPositionChangeTest::test_change_position_from_first_to_last PASSED [ 68%]
+mutpy/test/test_operators.py::OverriddenMethodCallingPositionChangeTest::test_change_position_from_last_to_first PASSED [ 68%]
+mutpy/test/test_operators.py::OverriddenMethodCallingPositionChangeTest::test_not_change_position_if_single_statement PASSED [ 69%]
+mutpy/test/test_operators.py::SuperCallingDeletionTest::test_change_position_from_first_to_last PASSED [ 69%]
+mutpy/test/test_operators.py::SuperCallingInsertTest::test_change_position_from_first_to_last PASSED [ 70%]
+mutpy/test/test_operators.py::HidingVariableDeletionTest::test_delete_variable PASSED [ 71%]
+mutpy/test/test_operators.py::HidingVariableDeletionTest::test_delete_variable_if_one_hiding_in_three_targets PASSED [ 71%]
+mutpy/test/test_operators.py::HidingVariableDeletionTest::test_delete_variable_if_one_hiding_in_two_targets PASSED [ 72%]
+mutpy/test/test_operators.py::HidingVariableDeletionTest::test_delete_variable_if_two_hiding_in_two_targets PASSED [ 72%]
+mutpy/test/test_operators.py::BreakContinueReplacementTest::test_replace_break_by_continue PASSED [ 73%]
+mutpy/test/test_operators.py::BreakContinueReplacementTest::test_replace_continue_by_break PASSED [ 73%]
+mutpy/test/test_operators.py::SelfVariableDeletionTest::test_self_deletion_with_attribute PASSED [ 74%]
+mutpy/test/test_operators.py::SelfVariableDeletionTest::test_self_deletion_with_method PASSED [ 75%]
+mutpy/test/test_operators.py::SelfVariableDeletionTest::test_self_deletion_with_multi_attribute PASSED [ 75%]
+mutpy/test/test_operators.py::SelfVariableDeletionTest::test_self_deletion_with_multi_attribute_after_method PASSED [ 76%]
+mutpy/test/test_operators.py::StaticmethodDecoratorInsertionTest::test_add_staticmethod_decorator PASSED [ 76%]
+mutpy/test/test_operators.py::StaticmethodDecoratorInsertionTest::test_not_add_if_already_has_staticmethod PASSED [ 77%]
+mutpy/test/test_operators.py::StatementDeletionTest::test_assign_deletion PASSED [ 78%]
+mutpy/test/test_operators.py::StatementDeletionTest::test_assign_with_call_deletion PASSED [ 78%]
+mutpy/test/test_operators.py::StatementDeletionTest::test_fuction_call_deletion PASSED [ 79%]
+mutpy/test/test_operators.py::StatementDeletionTest::test_not_mutate_docstring PASSED [ 79%]
+mutpy/test/test_operators.py::StatementDeletionTest::test_return_deletion PASSED [ 80%]
+mutpy/test/test_operators.py::ZeroIterationLoopTest::test_for_zero_iteration PASSED [ 81%]
+mutpy/test/test_operators.py::ZeroIterationLoopTest::test_multiline_for_zero_iteration PASSED [ 81%]
+mutpy/test/test_operators.py::ZeroIterationLoopTest::test_while_zero_iteration PASSED [ 82%]
+mutpy/test/test_operators.py::OneIterationLoopTest::test_double_mutation PASSED [ 82%]
+mutpy/test/test_operators.py::OneIterationLoopTest::test_for_one_iteration PASSED [ 83%]
+mutpy/test/test_operators.py::OneIterationLoopTest::test_while_one_iteration PASSED [ 84%]
+mutpy/test/test_operators.py::ReverseIterationLoopTest::test_for_reverse PASSED [ 84%]
+mutpy/test/test_runners.py::UnittestTestRunnerTest::test_run_test_fail PASSED [ 85%]
+mutpy/test/test_runners.py::UnittestTestRunnerTest::test_run_test_skip PASSED [ 85%]
+mutpy/test/test_runners.py::UnittestTestRunnerTest::test_run_test_success PASSED [ 86%]
+mutpy/test/test_runners.py::PytestTestRunnerTest::test_run_test_fail PASSED [ 86%]
+mutpy/test/test_runners.py::PytestTestRunnerTest::test_run_test_skip PASSED [ 87%]
+mutpy/test/test_runners.py::PytestTestRunnerTest::test_run_test_success PASSED [ 88%]
+mutpy/test/test_utils.py::ModulesLoaderTest::test_bad_module PASSED      [ 88%]
+mutpy/test/test_utils.py::ModulesLoaderTest::test_bad_target_class PASSED [ 89%]
+mutpy/test/test_utils.py::ModulesLoaderTest::test_bad_target_method PASSED [ 89%]
+mutpy/test/test_utils.py::ModulesLoaderTest::test_load_file PASSED       [ 90%]
+mutpy/test/test_utils.py::ModulesLoaderTest::test_load_module PASSED     [ 91%]
+mutpy/test/test_utils.py::ModulesLoaderTest::test_load_package PASSED    [ 91%]
+mutpy/test/test_utils.py::ModulesLoaderTest::test_target_class PASSED    [ 92%]
+mutpy/test/test_utils.py::ModulesLoaderTest::test_target_method PASSED   [ 92%]
+mutpy/test/test_utils.py::TimeRegisterTest::test_function_with_yield PASSED [ 93%]
+mutpy/test/test_utils.py::TimeRegisterTest::test_normal_function PASSED  [ 94%]
+mutpy/test/test_utils.py::TimeRegisterTest::test_recursion PASSED        [ 94%]
+mutpy/test/test_utils.py::GetByPythonVersionTest::test_empty_classes PASSED [ 95%]
+mutpy/test/test_utils.py::GetByPythonVersionTest::test_get_lower_class PASSED [ 95%]
+mutpy/test/test_utils.py::GetByPythonVersionTest::test_get_proper_class PASSED [ 96%]
+mutpy/test/test_utils.py::GetByPythonVersionTest::test_no_proper_class PASSED [ 97%]
+mutpy/test/test_utils.py::SortOperatorsTest::test_sort_operators PASSED  [ 97%]
+mutpy/test/test_utils.py::TestF::test_f PASSED                           [ 98%]
+mutpy/test/test_utils.py::InjectImporterTest::test_inject PASSED         [ 98%]
+mutpy/test/test_views.py::QuietTextViewTest::test_decorate_with_color PASSED [ 99%]
+mutpy/test/test_views.py::TextViewTest::test_print_code PASSED           [100%]
+
+=============================== warnings summary ===============================
+mutpy/utils.py:421
+  /s/bach/m/under/bdavis43/CS514/Project/mutpy/mutpy/utils.py:421: DeprecationWarning: invalid escape sequence \s
+    indention = re.search('(\s*).*', lines[0]).group(1)
+
+mutpy/operators/base.py:132
+  /s/bach/m/under/bdavis43/CS514/Project/mutpy/mutpy/operators/base.py:132: DeprecationWarning: invalid escape sequence \w
+    pattern = re.compile(attr_like + "($|(_\w+)+$)")
+
+mutpy/test_runners/__init__.py:6
+  /s/bach/m/under/bdavis43/CS514/Project/mutpy/mutpy/test_runners/__init__.py:6: DeprecationWarning: Deprecated since Python 3.4. Use importlib.util.find_spec() instead.
+    pytest_loader = importlib.find_loader('pytest')
+
+mutpy/test/test_operators.py: 22 warnings
+mutpy/test/test_views.py: 2 warnings
+  /usr/lib64/python3.8/ast.py:371: PendingDeprecationWarning: visit_Num is deprecated; add visit_Constant
+    return visitor(node)
+
+mutpy/test/test_operators.py::MutateOnlyCoveredNodesTest::test_not_covered_assign_node
+mutpy/test/test_operators.py::MutateOnlyCoveredNodesTest::test_not_covered_expr_node
+mutpy/test/test_operators.py::MutateOnlyCoveredNodesTest::test_not_covered_if_node
+mutpy/test/test_operators.py::MutateOnlyCoveredNodesTest::test_not_covered_if_node
+mutpy/test/test_operators.py::MutateOnlyCoveredNodesTest::test_not_covered_while_node
+mutpy/test/test_operators.py::MutateOnlyCoveredNodesTest::test_not_covered_while_node
+  /usr/lib64/python3.8/ast.py:371: PendingDeprecationWarning: visit_NameConstant is deprecated; add visit_Constant
+    return visitor(node)
+
+-- Docs: https://docs.pytest.org/en/stable/warnings.html
+======================= 169 passed, 33 warnings in 5.76s =======================
+2023-11-02 15:43:02,834: [92m19 mutation targets found in mutpy/coverage.py AST.[0m
+2023-11-02 15:43:02,847: [92m107 mutation targets found in mutpy/utils.py AST.[0m
+2023-11-02 15:43:02,856: [92m61 mutation targets found in mutpy/controller.py AST.[0m
+2023-11-02 15:43:02,862: [92m5 mutation targets found in mutpy/codegen.py AST.[0m
+2023-11-02 15:43:02,870: [92m20 mutation targets found in mutpy/commandline.py AST.[0m
+2023-11-02 15:43:02,872: [93m0 mutation targets found in mutpy/__init__.py AST.[0m
+2023-11-02 15:43:02,879: [93m0 mutation targets found in mutpy/termcolor.py AST.[0m
+2023-11-02 15:43:02,896: [92m71 mutation targets found in mutpy/views.py AST.[0m
+2023-11-02 15:43:02,901: [92m5 mutation targets found in mutpy/test/utils.py AST.[0m
+2023-11-02 15:43:02,903: [93m0 mutation targets found in mutpy/test/__init__.py AST.[0m
+2023-11-02 15:43:02,912: [92m19 mutation targets found in mutpy/test_runners/unittest_runner.py AST.[0m
+2023-11-02 15:43:02,922: [92m33 mutation targets found in mutpy/test_runners/pytest_runner.py AST.[0m
+2023-11-02 15:43:02,931: [92m26 mutation targets found in mutpy/test_runners/base.py AST.[0m
+2023-11-02 15:43:02,937: [92m3 mutation targets found in mutpy/test_runners/__init__.py AST.[0m
+2023-11-02 15:43:02,939: [92m9 mutation targets found in mutpy/operators/exception.py AST.[0m
+2023-11-02 15:43:02,950: [92m15 mutation targets found in mutpy/operators/misc.py AST.[0m
+2023-11-02 15:43:02,959: [92m5 mutation targets found in mutpy/operators/loop.py AST.[0m
+2023-11-02 15:43:02,969: [92m11 mutation targets found in mutpy/operators/arithmetic.py AST.[0m
+2023-11-02 15:43:02,973: [92m51 mutation targets found in mutpy/operators/base.py AST.[0m
+2023-11-02 15:43:02,977: [92m8 mutation targets found in mutpy/operators/decorator.py AST.[0m
+2023-11-02 15:43:02,980: [93m0 mutation targets found in mutpy/operators/__init__.py AST.[0m
+2023-11-02 15:43:02,986: [92m62 mutation targets found in mutpy/operators/inheritance.py AST.[0m
+2023-11-02 15:43:02,989: [93m0 mutation targets found in mutpy/operators/logical.py AST.[0m
+2023-11-02 15:43:02,990: Setting random.seed to: 514
+2023-11-02 15:43:02,990: Coverage file does not exist, proceeding to sample from all targets.
+2023-11-02 15:43:02,993: Total sample space size: 530
+2023-11-02 15:43:02,995: [92mSelecting 10 locations from 530 potentials.[0m
+2023-11-02 15:43:02,995: Starting individual mutation trials!
+2023-11-02 15:43:03,007: Running parallel (multi-processor) dispatch mode. CPUs: 12
+2023-11-02 15:43:03,087: Current target location: utils.py, LocIndex(ast_class='If', lineno=66, col_offset=12, op_type='If_Statement', end_lineno=69, end_col_offset=53)
+2023-11-02 15:43:03,107: Current target location: arithmetic.py, LocIndex(ast_class='If', lineno=51, col_offset=8, op_type='If_Statement', end_lineno=52, end_col_offset=28)
+2023-11-02 15:43:03,132: Current target location: inheritance.py, LocIndex(ast_class='Compare', lineno=76, col_offset=15, op_type=<class '_ast.Eq'>, end_lineno=76, end_col_offset=48)
+2023-11-02 15:43:03,146: Current target location: base.py, LocIndex(ast_class='If', lineno=122, col_offset=8, op_type='If_Statement', end_lineno=123, end_col_offset=45)
+2023-11-02 15:43:03,181: Current target location: utils.py, LocIndex(ast_class='BinOp', lineno=283, col_offset=24, op_type=<class '_ast.Sub'>, end_lineno=283, end_col_offset=57)
+2023-11-02 15:43:03,186: Current target location: utils.py, LocIndex(ast_class='If', lineno=299, col_offset=8, op_type='If_Statement', end_lineno=300, end_col_offset=47)
+2023-11-02 15:43:03,218: Current target location: utils.py, LocIndex(ast_class='If', lineno=106, col_offset=8, op_type='If_Statement', end_lineno=107, end_col_offset=41)
+2023-11-02 15:43:03,242: Current target location: utils.py, LocIndex(ast_class='If', lineno=375, col_offset=4, op_type='If_Statement', end_lineno=378, end_col_offset=40)
+2023-11-02 15:43:03,276: Current target location: base.py, LocIndex(ast_class='NameConstant', lineno=72, col_offset=26, op_type=None, end_lineno=72, end_col_offset=30)
+2023-11-02 15:43:03,283: Current target location: pytest_runner.py, LocIndex(ast_class='If', lineno=73, col_offset=8, op_type='If_Statement', end_lineno=76, end_col_offset=48)
+2023-11-02 15:43:24,288: [91mResult: Survived at mutpy/utils.py: (283, 24)[0m
+2023-11-02 15:43:24,348: [91mResult: Survived at mutpy/utils.py: (375, 4)[0m
+2023-11-02 15:43:24,441: [92mResult: Detected at mutpy/utils.py: (299, 8)[0m
+2023-11-02 15:43:24,447: [91mResult: Survived at mutpy/operators/inheritance.py: (76, 15)[0m
+2023-11-02 15:43:24,459: [91mResult: Survived at mutpy/test_runners/pytest_runner.py: (73, 8)[0m
+2023-11-02 15:43:24,491: [92mResult: Detected at mutpy/utils.py: (66, 12)[0m
+2023-11-02 15:43:24,527: [91mResult: Survived at mutpy/utils.py: (106, 8)[0m
+2023-11-02 15:43:24,709: [91mResult: Survived at mutpy/operators/arithmetic.py: (51, 8)[0m
+2023-11-02 15:43:24,818: [91mResult: Survived at mutpy/operators/base.py: (122, 8)[0m
+2023-11-02 15:43:24,856: [92mResult: Detected at mutpy/test_runners/base.py: (72, 26)[0m
+2023-11-02 15:43:39,849: [91mResult: Survived at mutpy/operators/inheritance.py: (76, 15)[0m
+2023-11-02 15:43:41,071: [92mResult: Detected at mutpy/utils.py: (299, 8)[0m
+2023-11-02 15:43:41,102: [92mResult: Detected at mutpy/utils.py: (66, 12)[0m
+2023-11-02 15:43:41,131: [91mResult: Survived at mutpy/utils.py: (375, 4)[0m
+2023-11-02 15:43:41,156: [92mResult: Detected at mutpy/utils.py: (283, 24)[0m
+2023-11-02 15:43:41,200: [92mResult: Detected at mutpy/test_runners/pytest_runner.py: (73, 8)[0m
+2023-11-02 15:43:41,207: [91mResult: Survived at mutpy/operators/base.py: (122, 8)[0m
+2023-11-02 15:43:41,216: [91mResult: Survived at mutpy/operators/arithmetic.py: (51, 8)[0m
+2023-11-02 15:43:41,252: [92mResult: Detected at mutpy/utils.py: (106, 8)[0m
+2023-11-02 15:43:41,266: [92mResult: Detected at mutpy/test_runners/base.py: (72, 26)[0m
+2023-11-02 15:43:50,773: [91mResult: Survived at mutpy/operators/inheritance.py: (76, 15)[0m
+2023-11-02 15:43:53,611: [91mResult: Survived at mutpy/utils.py: (283, 24)[0m
+2023-11-02 15:44:02,032: [91mResult: Survived at mutpy/operators/inheritance.py: (76, 15)[0m
+2023-11-02 15:44:06,367: [92mResult: Detected at mutpy/utils.py: (283, 24)[0m
+2023-11-02 15:44:14,228: [91mResult: Survived at mutpy/operators/inheritance.py: (76, 15)[0m
+2023-11-02 15:44:16,232: [92mResult: Detected at mutpy/utils.py: (283, 24)[0m
+2023-11-02 15:44:28,971: [91mResult: Survived at mutpy/utils.py: (283, 24)[0m
+2023-11-02 15:44:29,001: Cleaning up parallel cache dir .mutatest_cache.
+2023-11-02 15:44:29,183: Running clean trial
+============================= test session starts ==============================
+platform linux -- Python 3.8.16, pytest-6.2.5, py-1.11.0, pluggy-1.0.0 -- /usr/local/python-env/py38/bin/python3.8
+cachedir: .pytest_cache
+rootdir: /s/bach/m/under/bdavis43/CS514/Project/mutpy
+plugins: cov-3.0.0
+collecting ... collected 169 items
+
+example/test/simple_good_test.py::SimpleGoodTest::test_add PASSED        [  0%]
+example/test/simple_good_test.py::SimpleGoodTest::test_add_etc PASSED    [  1%]
+example/test/simple_good_test.py::SimpleGoodTest::test_add_str PASSED    [  1%]
+example/test/simple_good_test.py::SimpleGoodTest::test_add_two PASSED    [  2%]
+example/test/simple_good_test.py::SimpleGoodTest::test_bitwise_conjunction PASSED [  2%]
+example/test/simple_good_test.py::SimpleGoodTest::test_bool_conjunction PASSED [  3%]
+example/test/simple_good_test.py::SimpleGoodTest::test_class_variable PASSED [  4%]
+example/test/simple_good_test.py::SimpleGoodTest::test_empty_string PASSED [  4%]
+example/test/simple_good_test.py::SimpleGoodTest::test_get_const PASSED  [  5%]
+example/test/simple_good_test.py::SimpleGoodTest::test_get_inc_const PASSED [  5%]
+example/test/simple_good_test.py::SimpleGoodTest::test_get_magic PASSED  [  6%]
+example/test/simple_good_test.py::SimpleGoodTest::test_handle_exception PASSED [  7%]
+example/test/simple_good_test.py::SimpleGoodTest::test_is_not_odd PASSED [  7%]
+example/test/simple_good_test.py::SimpleGoodTest::test_is_odd PASSED     [  8%]
+example/test/simple_good_test.py::SimpleGoodTest::test_last_two PASSED   [  8%]
+example/test/simple_good_test.py::SimpleGoodTest::test_loop PASSED       [  9%]
+example/test/simple_good_test.py::SimpleGoodTest::test_negate_bitwise PASSED [ 10%]
+example/test/simple_good_test.py::SimpleGoodTest::test_negate_bool PASSED [ 10%]
+example/test/simple_good_test.py::SimpleGoodTest::test_negate_number PASSED [ 11%]
+example/test/simple_good_test.py::SimpleGoodTest::test_overridden_call PASSED [ 11%]
+example/test/simple_good_test.py::SimpleGoodTest::test_override PASSED   [ 12%]
+example/test/simple_week_test.py::SimpleWeekTest::test_add PASSED        [ 13%]
+mutpy/test/test_commandline.py::CommandLineTest::test_build_mutator_with_disable_operator PASSED [ 13%]
+mutpy/test/test_commandline.py::CommandLineTest::test_build_mutator_with_operator PASSED [ 14%]
+mutpy/test/test_controller.py::MutationScoreTest::test_count PASSED      [ 14%]
+mutpy/test/test_controller.py::MutationScoreTest::test_count_after_inc PASSED [ 15%]
+mutpy/test/test_controller.py::MutationScoreTest::test_count_if_incompetent PASSED [ 15%]
+mutpy/test/test_controller.py::MutationScoreTest::test_count_if_timeout PASSED [ 16%]
+mutpy/test/test_controller.py::MutationScoreTest::test_count_if_zero_score PASSED [ 17%]
+mutpy/test/test_controller.py::MutationScoreTest::test_update_coverage PASSED [ 17%]
+mutpy/test/test_controller.py::MutationControllerTest::test_run PASSED   [ 18%]
+mutpy/test/test_controller.py::FirstToLastHOMStrategyTest::test_generate PASSED [ 18%]
+mutpy/test/test_controller.py::FirstToLastHOMStrategyTest::test_generate_if_node_child PASSED [ 19%]
+mutpy/test/test_controller.py::FirstToLastHOMStrategyTest::test_generate_if_same_node PASSED [ 20%]
+mutpy/test/test_controller.py::EachChoiceHOMStrategyTest::test_generate PASSED [ 20%]
+mutpy/test/test_controller.py::BetweenOperatorsHOMStrategyTest::test_generate_if_one_operator PASSED [ 21%]
+mutpy/test/test_controller.py::BetweenOperatorsHOMStrategyTest::test_generate_if_three_operators PASSED [ 21%]
+mutpy/test/test_controller.py::BetweenOperatorsHOMStrategyTest::test_generate_if_two_operators PASSED [ 22%]
+mutpy/test/test_controller.py::RandomHOMStrategyTest::test_generate PASSED [ 23%]
+mutpy/test/test_controller.py::FirstOrderMutatorTest::test_first_order_mutation PASSED [ 23%]
+mutpy/test/test_controller.py::HighOrderMutatorTest::test_second_order_mutation PASSED [ 24%]
+mutpy/test/test_controller.py::HighOrderMutatorTest::test_second_order_mutation_with_same_node_as_target PASSED [ 24%]
+mutpy/test/test_coverage.py::MarkerNodeTransformerTest::test_visit PASSED [ 25%]
+mutpy/test/test_coverage.py::CoverageInjectorTest::test_class_def_coverage PASSED [ 26%]
+mutpy/test/test_coverage.py::CoverageInjectorTest::test_covered_node PASSED [ 26%]
+mutpy/test/test_coverage.py::CoverageInjectorTest::test_docstring_coverage PASSED [ 27%]
+mutpy/test/test_coverage.py::CoverageInjectorTest::test_except_coverage PASSED [ 27%]
+mutpy/test/test_coverage.py::CoverageInjectorTest::test_for_coverage PASSED [ 28%]
+mutpy/test/test_coverage.py::CoverageInjectorTest::test_func_def_coverage PASSED [ 28%]
+mutpy/test/test_coverage.py::CoverageInjectorTest::test_future_statement_coverage PASSED [ 29%]
+mutpy/test/test_coverage.py::CoverageInjectorTest::test_if_coverage PASSED [ 30%]
+mutpy/test/test_coverage.py::CoverageInjectorTest::test_not_covered_node PASSED [ 30%]
+mutpy/test/test_coverage.py::CoverageInjectorTest::test_result PASSED    [ 31%]
+mutpy/test/test_coverage.py::CoverageInjectorTest::test_try_coverage PASSED [ 31%]
+mutpy/test/test_coverage.py::CoverageInjectorTest::test_while__coverage PASSED [ 32%]
+mutpy/test/test_coverage.py::UnittestCoverageResultTest::test_run PASSED [ 33%]
+mutpy/test/test_operators.py::MutationOperatorTest::test_generate_all_mutations_if_always_sampler PASSED [ 33%]
+mutpy/test/test_operators.py::MutationOperatorTest::test_no_mutations_if_never_sampler PASSED [ 34%]
+mutpy/test/test_operators.py::ConstantReplacementTest::test_not_mutate_class PASSED [ 34%]
+mutpy/test/test_operators.py::ConstantReplacementTest::test_not_mutate_docstring PASSED [ 35%]
+mutpy/test/test_operators.py::ConstantReplacementTest::test_not_mutate_function PASSED [ 36%]
+mutpy/test/test_operators.py::ArithmeticOperatorReplacementTest::test_add_to_sub_replacement PASSED [ 36%]
+mutpy/test/test_operators.py::ArithmeticOperatorReplacementTest::test_div_replacement PASSED [ 37%]
+mutpy/test/test_operators.py::ArithmeticOperatorReplacementTest::test_floor_div_to_div PASSED [ 37%]
+mutpy/test/test_operators.py::ArithmeticOperatorReplacementTest::test_mod_to_mult PASSED [ 38%]
+mutpy/test/test_operators.py::ArithmeticOperatorReplacementTest::test_mult_to_div_and_pow_replacement PASSED [ 39%]
+mutpy/test/test_operators.py::ArithmeticOperatorReplacementTest::test_mutation_lineno PASSED [ 39%]
+mutpy/test/test_operators.py::ArithmeticOperatorReplacementTest::test_not_mutate_augmented_assign PASSED [ 40%]
+mutpy/test/test_operators.py::ArithmeticOperatorReplacementTest::test_pow_to_mult PASSED [ 40%]
+mutpy/test/test_operators.py::ArithmeticOperatorReplacementTest::test_sub_to_add_replacement PASSED [ 41%]
+mutpy/test/test_operators.py::ArithmeticOperatorReplacementTest::test_uadd PASSED [ 42%]
+mutpy/test/test_operators.py::ArithmeticOperatorReplacementTest::test_usub PASSED [ 42%]
+mutpy/test/test_operators.py::AssignmentOperatorReplacementTest::test_add_to_sub_replacement PASSED [ 43%]
+mutpy/test/test_operators.py::AssignmentOperatorReplacementTest::test_not_mutate_normal_use PASSED [ 43%]
+mutpy/test/test_operators.py::ArithmeticOperatorDeletionTest::test_uadd PASSED [ 44%]
+mutpy/test/test_operators.py::ArithmeticOperatorDeletionTest::test_usub PASSED [ 44%]
+mutpy/test/test_operators.py::LogicalOperatorReplacementTest::test_bin_and_to_bit_or PASSED [ 45%]
+mutpy/test/test_operators.py::LogicalOperatorReplacementTest::test_bit_or_to_bit_and PASSED [ 46%]
+mutpy/test/test_operators.py::LogicalOperatorReplacementTest::test_bit_xor_to_bit_and PASSED [ 46%]
+mutpy/test/test_operators.py::LogicalOperatorReplacementTest::test_lshift_to_rshift PASSED [ 47%]
+mutpy/test/test_operators.py::LogicalOperatorReplacementTest::test_rshift_to_lshift PASSED [ 47%]
+mutpy/test/test_operators.py::LogicalOperatorDeletionTest::test_invert PASSED [ 48%]
+mutpy/test/test_operators.py::LogicalConnectorReplacementTest::test_and_to_or PASSED [ 49%]
+mutpy/test/test_operators.py::LogicalConnectorReplacementTest::test_or_to_and PASSED [ 49%]
+mutpy/test/test_operators.py::RelationalOperatorReplacementTest::test_eq PASSED [ 50%]
+mutpy/test/test_operators.py::RelationalOperatorReplacementTest::test_gt PASSED [ 50%]
+mutpy/test/test_operators.py::RelationalOperatorReplacementTest::test_gte PASSED [ 51%]
+mutpy/test/test_operators.py::RelationalOperatorReplacementTest::test_lt PASSED [ 52%]
+mutpy/test/test_operators.py::RelationalOperatorReplacementTest::test_lte PASSED [ 52%]
+mutpy/test/test_operators.py::RelationalOperatorReplacementTest::test_not_eq PASSED [ 53%]
+mutpy/test/test_operators.py::SliceIndexRemoveTest::test_slice_indexes_remove PASSED [ 53%]
+mutpy/test/test_operators.py::ConditionalOperatorInsertionTest::test_in_to_not_in PASSED [ 54%]
+mutpy/test/test_operators.py::ConditionalOperatorInsertionTest::test_negate_if_and_elif_condition PASSED [ 55%]
+mutpy/test/test_operators.py::ConditionalOperatorInsertionTest::test_negate_if_condition PASSED [ 55%]
+mutpy/test/test_operators.py::ConditionalOperatorInsertionTest::test_negate_while_condition PASSED [ 56%]
+mutpy/test/test_operators.py::ConditionalOperatorDeletionTest::test_not PASSED [ 56%]
+mutpy/test/test_operators.py::ConditionalOperatorDeletionTest::test_not_in_to_in PASSED [ 57%]
+mutpy/test/test_operators.py::ExceptionSwallowingTest::test_not_swallow_if_pass PASSED [ 57%]
+mutpy/test/test_operators.py::ExceptionSwallowingTest::test_swallow_exception PASSED [ 58%]
+mutpy/test/test_operators.py::ExceptionHandlerDeletionTest::test_delete_except PASSED [ 59%]
+mutpy/test/test_operators.py::ExceptionHandlerDeletionTest::test_delete_two_except PASSED [ 59%]
+mutpy/test/test_operators.py::ExceptionHandlerDeletionTest::test_not_delete_if_raise PASSED [ 60%]
+mutpy/test/test_operators.py::DecoratorDeletionTest::test_deletion_with_arguments PASSED [ 60%]
+mutpy/test/test_operators.py::DecoratorDeletionTest::test_double_decorators_deletion PASSED [ 61%]
+mutpy/test/test_operators.py::DecoratorDeletionTest::test_single_decorator_deletion PASSED [ 62%]
+mutpy/test/test_operators.py::MutateOnlyCoveredNodesTest::test_not_covered_assign_node PASSED [ 62%]
+mutpy/test/test_operators.py::MutateOnlyCoveredNodesTest::test_not_covered_except_handler_node PASSED [ 63%]
+mutpy/test/test_operators.py::MutateOnlyCoveredNodesTest::test_not_covered_expr_node PASSED [ 63%]
+mutpy/test/test_operators.py::MutateOnlyCoveredNodesTest::test_not_covered_if_node PASSED [ 64%]
+mutpy/test/test_operators.py::MutateOnlyCoveredNodesTest::test_not_covered_return_node PASSED [ 65%]
+mutpy/test/test_operators.py::MutateOnlyCoveredNodesTest::test_not_covered_while_node PASSED [ 65%]
+mutpy/test/test_operators.py::OverridingMethodDeletionTest::test_delete_overriding_method PASSED [ 66%]
+mutpy/test/test_operators.py::OverridingMethodDeletionTest::test_delete_overriding_method_in_inner_class PASSED [ 66%]
+mutpy/test/test_operators.py::OverridingMethodDeletionTest::test_delete_overriding_method_when_base_class_from_other_module PASSED [ 67%]
+mutpy/test/test_operators.py::OverriddenMethodCallingPositionChangeTest::test_change_position_from_first_to_last PASSED [ 68%]
+mutpy/test/test_operators.py::OverriddenMethodCallingPositionChangeTest::test_change_position_from_last_to_first PASSED [ 68%]
+mutpy/test/test_operators.py::OverriddenMethodCallingPositionChangeTest::test_not_change_position_if_single_statement PASSED [ 69%]
+mutpy/test/test_operators.py::SuperCallingDeletionTest::test_change_position_from_first_to_last PASSED [ 69%]
+mutpy/test/test_operators.py::SuperCallingInsertTest::test_change_position_from_first_to_last PASSED [ 70%]
+mutpy/test/test_operators.py::HidingVariableDeletionTest::test_delete_variable PASSED [ 71%]
+mutpy/test/test_operators.py::HidingVariableDeletionTest::test_delete_variable_if_one_hiding_in_three_targets PASSED [ 71%]
+mutpy/test/test_operators.py::HidingVariableDeletionTest::test_delete_variable_if_one_hiding_in_two_targets PASSED [ 72%]
+mutpy/test/test_operators.py::HidingVariableDeletionTest::test_delete_variable_if_two_hiding_in_two_targets PASSED [ 72%]
+mutpy/test/test_operators.py::BreakContinueReplacementTest::test_replace_break_by_continue PASSED [ 73%]
+mutpy/test/test_operators.py::BreakContinueReplacementTest::test_replace_continue_by_break PASSED [ 73%]
+mutpy/test/test_operators.py::SelfVariableDeletionTest::test_self_deletion_with_attribute PASSED [ 74%]
+mutpy/test/test_operators.py::SelfVariableDeletionTest::test_self_deletion_with_method PASSED [ 75%]
+mutpy/test/test_operators.py::SelfVariableDeletionTest::test_self_deletion_with_multi_attribute PASSED [ 75%]
+mutpy/test/test_operators.py::SelfVariableDeletionTest::test_self_deletion_with_multi_attribute_after_method PASSED [ 76%]
+mutpy/test/test_operators.py::StaticmethodDecoratorInsertionTest::test_add_staticmethod_decorator PASSED [ 76%]
+mutpy/test/test_operators.py::StaticmethodDecoratorInsertionTest::test_not_add_if_already_has_staticmethod PASSED [ 77%]
+mutpy/test/test_operators.py::StatementDeletionTest::test_assign_deletion PASSED [ 78%]
+mutpy/test/test_operators.py::StatementDeletionTest::test_assign_with_call_deletion PASSED [ 78%]
+mutpy/test/test_operators.py::StatementDeletionTest::test_fuction_call_deletion PASSED [ 79%]
+mutpy/test/test_operators.py::StatementDeletionTest::test_not_mutate_docstring PASSED [ 79%]
+mutpy/test/test_operators.py::StatementDeletionTest::test_return_deletion PASSED [ 80%]
+mutpy/test/test_operators.py::ZeroIterationLoopTest::test_for_zero_iteration PASSED [ 81%]
+mutpy/test/test_operators.py::ZeroIterationLoopTest::test_multiline_for_zero_iteration PASSED [ 81%]
+mutpy/test/test_operators.py::ZeroIterationLoopTest::test_while_zero_iteration PASSED [ 82%]
+mutpy/test/test_operators.py::OneIterationLoopTest::test_double_mutation PASSED [ 82%]
+mutpy/test/test_operators.py::OneIterationLoopTest::test_for_one_iteration PASSED [ 83%]
+mutpy/test/test_operators.py::OneIterationLoopTest::test_while_one_iteration PASSED [ 84%]
+mutpy/test/test_operators.py::ReverseIterationLoopTest::test_for_reverse PASSED [ 84%]
+mutpy/test/test_runners.py::UnittestTestRunnerTest::test_run_test_fail PASSED [ 85%]
+mutpy/test/test_runners.py::UnittestTestRunnerTest::test_run_test_skip PASSED [ 85%]
+mutpy/test/test_runners.py::UnittestTestRunnerTest::test_run_test_success PASSED [ 86%]
+mutpy/test/test_runners.py::PytestTestRunnerTest::test_run_test_fail PASSED [ 86%]
+mutpy/test/test_runners.py::PytestTestRunnerTest::test_run_test_skip PASSED [ 87%]
+mutpy/test/test_runners.py::PytestTestRunnerTest::test_run_test_success PASSED [ 88%]
+mutpy/test/test_utils.py::ModulesLoaderTest::test_bad_module PASSED      [ 88%]
+mutpy/test/test_utils.py::ModulesLoaderTest::test_bad_target_class PASSED [ 89%]
+mutpy/test/test_utils.py::ModulesLoaderTest::test_bad_target_method PASSED [ 89%]
+mutpy/test/test_utils.py::ModulesLoaderTest::test_load_file PASSED       [ 90%]
+mutpy/test/test_utils.py::ModulesLoaderTest::test_load_module PASSED     [ 91%]
+mutpy/test/test_utils.py::ModulesLoaderTest::test_load_package PASSED    [ 91%]
+mutpy/test/test_utils.py::ModulesLoaderTest::test_target_class PASSED    [ 92%]
+mutpy/test/test_utils.py::ModulesLoaderTest::test_target_method PASSED   [ 92%]
+mutpy/test/test_utils.py::TimeRegisterTest::test_function_with_yield PASSED [ 93%]
+mutpy/test/test_utils.py::TimeRegisterTest::test_normal_function PASSED  [ 94%]
+mutpy/test/test_utils.py::TimeRegisterTest::test_recursion PASSED        [ 94%]
+mutpy/test/test_utils.py::GetByPythonVersionTest::test_empty_classes PASSED [ 95%]
+mutpy/test/test_utils.py::GetByPythonVersionTest::test_get_lower_class PASSED [ 95%]
+mutpy/test/test_utils.py::GetByPythonVersionTest::test_get_proper_class PASSED [ 96%]
+mutpy/test/test_utils.py::GetByPythonVersionTest::test_no_proper_class PASSED [ 97%]
+mutpy/test/test_utils.py::SortOperatorsTest::test_sort_operators PASSED  [ 97%]
+mutpy/test/test_utils.py::TestF::test_f PASSED                           [ 98%]
+mutpy/test/test_utils.py::InjectImporterTest::test_inject PASSED         [ 98%]
+mutpy/test/test_views.py::QuietTextViewTest::test_decorate_with_color PASSED [ 99%]
+mutpy/test/test_views.py::TextViewTest::test_print_code PASSED           [100%]
+
+=============================== warnings summary ===============================
+mutpy/utils.py:421
+  /s/bach/m/under/bdavis43/CS514/Project/mutpy/mutpy/utils.py:421: DeprecationWarning: invalid escape sequence \s
+    indention = re.search('(\s*).*', lines[0]).group(1)
+
+mutpy/operators/base.py:132
+  /s/bach/m/under/bdavis43/CS514/Project/mutpy/mutpy/operators/base.py:132: DeprecationWarning: invalid escape sequence \w
+    pattern = re.compile(attr_like + "($|(_\w+)+$)")
+
+mutpy/test_runners/__init__.py:6
+  /s/bach/m/under/bdavis43/CS514/Project/mutpy/mutpy/test_runners/__init__.py:6: DeprecationWarning: Deprecated since Python 3.4. Use importlib.util.find_spec() instead.
+    pytest_loader = importlib.find_loader('pytest')
+
+mutpy/test/test_operators.py: 22 warnings
+mutpy/test/test_views.py: 2 warnings
+  /usr/lib64/python3.8/ast.py:371: PendingDeprecationWarning: visit_Num is deprecated; add visit_Constant
+    return visitor(node)
+
+mutpy/test/test_operators.py::MutateOnlyCoveredNodesTest::test_not_covered_assign_node
+mutpy/test/test_operators.py::MutateOnlyCoveredNodesTest::test_not_covered_expr_node
+mutpy/test/test_operators.py::MutateOnlyCoveredNodesTest::test_not_covered_if_node
+mutpy/test/test_operators.py::MutateOnlyCoveredNodesTest::test_not_covered_if_node
+mutpy/test/test_operators.py::MutateOnlyCoveredNodesTest::test_not_covered_while_node
+mutpy/test/test_operators.py::MutateOnlyCoveredNodesTest::test_not_covered_while_node
+  /usr/lib64/python3.8/ast.py:371: PendingDeprecationWarning: visit_NameConstant is deprecated; add visit_Constant
+    return visitor(node)
+
+-- Docs: https://docs.pytest.org/en/stable/warnings.html
+======================= 169 passed, 33 warnings in 5.34s =======================
+2023-11-02 15:44:35,687: CLI Report:
+
+Mutatest diagnostic summary
+===========================
+ - Source location: /s/bach/m/under/bdavis43/CS514/Project/mutpy/mutpy
+ - Test commands: ['py.test', '-v']
+ - Mode: f
+ - Excluded files: []
+ - N locations input: 10
+ - Random seed: 514
+
+Random sample details
+---------------------
+ - Total locations mutated: 10
+ - Total locations identified: 530
+ - Location sample coverage: 1.89 %
+
+
+Running time details
+--------------------
+ - Clean trial 1 run time: 0:00:07.272658
+ - Clean trial 2 run time: 0:00:06.503040
+ - Mutation trials total run time: 0:01:26.220989
+
+2023-11-02 15:44:35,688: Trial Summary Report:
+
+Overall mutation trial summary
+==============================
+ - DETECTED: 11
+ - SURVIVED: 16
+ - TOTAL RUNS: 27
+ - RUN DATETIME: 2023-11-02 15:44:35.687492
+
+2023-11-02 15:44:35,688: Detected mutations:[92m
+
+DETECTED
+--------
+ - mutpy/test_runners/base.py: (l: 72, c: 26) - mutation from None to False
+ - mutpy/test_runners/base.py: (l: 72, c: 26) - mutation from None to True
+ - mutpy/test_runners/pytest_runner.py: (l: 73, c: 8) - mutation from If_Statement to If_False
+ - mutpy/utils.py: (l: 66, c: 12) - mutation from If_Statement to If_True
+ - mutpy/utils.py: (l: 66, c: 12) - mutation from If_Statement to If_False
+ - mutpy/utils.py: (l: 106, c: 8) - mutation from If_Statement to If_False
+ - mutpy/utils.py: (l: 283, c: 24) - mutation from <class '_ast.Sub'> to <class '_ast.Mult'>
+ - mutpy/utils.py: (l: 283, c: 24) - mutation from <class '_ast.Sub'> to <class '_ast.Add'>
+ - mutpy/utils.py: (l: 283, c: 24) - mutation from <class '_ast.Sub'> to <class '_ast.Pow'>
+ - mutpy/utils.py: (l: 299, c: 8) - mutation from If_Statement to If_True
+ - mutpy/utils.py: (l: 299, c: 8) - mutation from If_Statement to If_False[0m
+
+2023-11-02 15:44:35,688: Timedout mutations:
+
+2023-11-02 15:44:35,688: Surviving mutations:[91m
+
+SURVIVED
+--------
+ - mutpy/operators/arithmetic.py: (l: 51, c: 8) - mutation from If_Statement to If_True
+ - mutpy/operators/arithmetic.py: (l: 51, c: 8) - mutation from If_Statement to If_False
+ - mutpy/operators/base.py: (l: 122, c: 8) - mutation from If_Statement to If_False
+ - mutpy/operators/base.py: (l: 122, c: 8) - mutation from If_Statement to If_True
+ - mutpy/operators/inheritance.py: (l: 76, c: 15) - mutation from <class '_ast.Eq'> to <class '_ast.Gt'>
+ - mutpy/operators/inheritance.py: (l: 76, c: 15) - mutation from <class '_ast.Eq'> to <class '_ast.GtE'>
+ - mutpy/operators/inheritance.py: (l: 76, c: 15) - mutation from <class '_ast.Eq'> to <class '_ast.LtE'>
+ - mutpy/operators/inheritance.py: (l: 76, c: 15) - mutation from <class '_ast.Eq'> to <class '_ast.NotEq'>
+ - mutpy/operators/inheritance.py: (l: 76, c: 15) - mutation from <class '_ast.Eq'> to <class '_ast.Lt'>
+ - mutpy/test_runners/pytest_runner.py: (l: 73, c: 8) - mutation from If_Statement to If_True
+ - mutpy/utils.py: (l: 106, c: 8) - mutation from If_Statement to If_True
+ - mutpy/utils.py: (l: 283, c: 24) - mutation from <class '_ast.Sub'> to <class '_ast.FloorDiv'>
+ - mutpy/utils.py: (l: 283, c: 24) - mutation from <class '_ast.Sub'> to <class '_ast.Div'>
+ - mutpy/utils.py: (l: 283, c: 24) - mutation from <class '_ast.Sub'> to <class '_ast.Mod'>
+ - mutpy/utils.py: (l: 375, c: 4) - mutation from If_Statement to If_False
+ - mutpy/utils.py: (l: 375, c: 4) - mutation from If_Statement to If_True[0m
+

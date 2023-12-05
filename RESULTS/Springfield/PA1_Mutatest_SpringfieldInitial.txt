@@ -1,0 +1,162 @@
+2023-11-04 11:05:48,504: Running clean trial
+============================= test session starts ==============================
+platform linux -- Python 3.8.16, pytest-7.4.3, pluggy-1.0.0 -- /usr/bin/python3.8
+cachedir: .pytest_cache
+hypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/s/bach/m/under/bdavis43/CS514/Project/PA1_220/.hypothesis/examples'))
+rootdir: /s/bach/m/under/bdavis43/CS514/Project/PA1_220
+plugins: hypothesis-6.88.1, cov-3.0.0
+collecting ... collected 8 items
+
+test_PA1.py::PA1Tests::test_iff PASSED                                   [ 12%]
+test_PA1.py::PA1Tests::test_implies PASSED                               [ 25%]
+test_PA1.py::PA1Tests::test_nand PASSED                                  [ 37%]
+test_PA1.py::PA1Tests::test_nor PASSED                                   [ 50%]
+test_PA1.py::PA1Tests::test_npANDnq PASSED                               [ 62%]
+test_PA1.py::PA1Tests::test_npIMPnq PASSED                               [ 75%]
+test_PA1.py::PA1Tests::test_npORnq PASSED                                [ 87%]
+test_PA1.py::PA1Tests::test_nqIMPnp PASSED                               [100%]
+
+============================== 8 passed in 0.21s ===============================
+2023-11-04 11:05:49,009: [92m115 mutation targets found in PA1.py AST.[0m
+2023-11-04 11:05:49,009: Setting random.seed to: 514
+2023-11-04 11:05:49,009: Coverage file does not exist, proceeding to sample from all targets.
+2023-11-04 11:05:49,009: Total sample space size: 115
+2023-11-04 11:05:49,009: [92mSelecting 10 locations from 115 potentials.[0m
+2023-11-04 11:05:49,009: Starting individual mutation trials!
+2023-11-04 11:05:49,009: Running serial (single processor) dispatch mode.
+2023-11-04 11:05:49,009: Current target location: PA1.py, LocIndex(ast_class='Compare', lineno=76, col_offset=8, op_type=<class '_ast.Eq'>, end_lineno=76, end_col_offset=20)
+2023-11-04 11:05:49,468: [92mResult: Detected at PA1.py: (76, 8)[0m
+2023-11-04 11:05:49,925: [92mResult: Detected at PA1.py: (76, 8)[0m
+2023-11-04 11:05:50,385: [91mResult: Survived at PA1.py: (76, 8)[0m
+2023-11-04 11:05:50,834: [91mResult: Survived at PA1.py: (76, 8)[0m
+2023-11-04 11:05:51,302: [92mResult: Detected at PA1.py: (76, 8)[0m
+2023-11-04 11:05:51,302: Current target location: PA1.py, LocIndex(ast_class='If', lineno=52, col_offset=4, op_type='If_Statement', end_lineno=55, end_col_offset=20)
+2023-11-04 11:05:51,758: [92mResult: Detected at PA1.py: (52, 4)[0m
+2023-11-04 11:05:52,218: [92mResult: Detected at PA1.py: (52, 4)[0m
+2023-11-04 11:05:52,218: Current target location: PA1.py, LocIndex(ast_class='BinOp', lineno=128, col_offset=24, op_type=<class '_ast.Sub'>, end_lineno=128, end_col_offset=29)
+2023-11-04 11:05:52,668: [91mResult: Survived at PA1.py: (128, 24)[0m
+2023-11-04 11:05:53,113: [91mResult: Survived at PA1.py: (128, 24)[0m
+2023-11-04 11:05:53,556: [91mResult: Survived at PA1.py: (128, 24)[0m
+2023-11-04 11:05:54,009: [91mResult: Survived at PA1.py: (128, 24)[0m
+2023-11-04 11:05:54,460: [91mResult: Survived at PA1.py: (128, 24)[0m
+2023-11-04 11:05:54,908: [91mResult: Survived at PA1.py: (128, 24)[0m
+2023-11-04 11:05:54,908: Current target location: PA1.py, LocIndex(ast_class='NameConstant', lineno=129, col_offset=56, op_type=True, end_lineno=129, end_col_offset=60)
+2023-11-04 11:05:55,361: [91mResult: Survived at PA1.py: (129, 56)[0m
+2023-11-04 11:05:55,808: [91mResult: Survived at PA1.py: (129, 56)[0m
+2023-11-04 11:05:55,808: Current target location: PA1.py, LocIndex(ast_class='Compare', lineno=62, col_offset=25, op_type=<class '_ast.Eq'>, end_lineno=62, end_col_offset=37)
+2023-11-04 11:05:56,271: [92mResult: Detected at PA1.py: (62, 25)[0m
+2023-11-04 11:05:56,727: [92mResult: Detected at PA1.py: (62, 25)[0m
+2023-11-04 11:05:57,179: [91mResult: Survived at PA1.py: (62, 25)[0m
+2023-11-04 11:05:57,641: [92mResult: Detected at PA1.py: (62, 25)[0m
+2023-11-04 11:05:58,100: [92mResult: Detected at PA1.py: (62, 25)[0m
+2023-11-04 11:05:58,100: Current target location: PA1.py, LocIndex(ast_class='NameConstant', lineno=52, col_offset=30, op_type=False, end_lineno=52, end_col_offset=35)
+2023-11-04 11:05:58,560: [92mResult: Detected at PA1.py: (52, 30)[0m
+2023-11-04 11:05:59,026: [92mResult: Detected at PA1.py: (52, 30)[0m
+2023-11-04 11:05:59,026: Current target location: PA1.py, LocIndex(ast_class='Compare', lineno=78, col_offset=10, op_type=<class '_ast.Eq'>, end_lineno=78, end_col_offset=23)
+2023-11-04 11:05:59,475: [91mResult: Survived at PA1.py: (78, 10)[0m
+2023-11-04 11:05:59,926: [91mResult: Survived at PA1.py: (78, 10)[0m
+2023-11-04 11:06:00,390: [92mResult: Detected at PA1.py: (78, 10)[0m
+2023-11-04 11:06:00,850: [92mResult: Detected at PA1.py: (78, 10)[0m
+2023-11-04 11:06:01,313: [92mResult: Detected at PA1.py: (78, 10)[0m
+2023-11-04 11:06:01,313: Current target location: PA1.py, LocIndex(ast_class='BoolOp', lineno=78, col_offset=10, op_type=<class '_ast.And'>, end_lineno=78, end_col_offset=40)
+2023-11-04 11:06:01,857: [91mResult: Survived at PA1.py: (78, 10)[0m
+2023-11-04 11:06:01,857: Current target location: PA1.py, LocIndex(ast_class='NameConstant', lineno=129, col_offset=49, op_type=False, end_lineno=129, end_col_offset=54)
+2023-11-04 11:06:02,328: [91mResult: Survived at PA1.py: (129, 49)[0m
+2023-11-04 11:06:02,798: [91mResult: Survived at PA1.py: (129, 49)[0m
+2023-11-04 11:06:02,798: Current target location: PA1.py, LocIndex(ast_class='BoolOp', lineno=76, col_offset=8, op_type=<class '_ast.And'>, end_lineno=76, end_col_offset=37)
+2023-11-04 11:06:03,263: [92mResult: Detected at PA1.py: (76, 8)[0m
+2023-11-04 11:06:03,264: Running clean trial
+============================= test session starts ==============================
+platform linux -- Python 3.8.16, pytest-7.4.3, pluggy-1.0.0 -- /usr/bin/python3.8
+cachedir: .pytest_cache
+hypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/s/bach/m/under/bdavis43/CS514/Project/PA1_220/.hypothesis/examples'))
+rootdir: /s/bach/m/under/bdavis43/CS514/Project/PA1_220
+plugins: hypothesis-6.88.1, cov-3.0.0
+collecting ... collected 8 items
+
+test_PA1.py::PA1Tests::test_iff PASSED                                   [ 12%]
+test_PA1.py::PA1Tests::test_implies PASSED                               [ 25%]
+test_PA1.py::PA1Tests::test_nand PASSED                                  [ 37%]
+test_PA1.py::PA1Tests::test_nor PASSED                                   [ 50%]
+test_PA1.py::PA1Tests::test_npANDnq PASSED                               [ 62%]
+test_PA1.py::PA1Tests::test_npIMPnq PASSED                               [ 75%]
+test_PA1.py::PA1Tests::test_npORnq PASSED                                [ 87%]
+test_PA1.py::PA1Tests::test_nqIMPnp PASSED                               [100%]
+
+============================== 8 passed in 0.18s ===============================
+2023-11-04 11:06:03,711: CLI Report:
+
+Mutatest diagnostic summary
+===========================
+ - Source location: /s/bach/m/under/bdavis43/CS514/Project/PA1_220/PA1.py
+ - Test commands: ['py.test', '-v']
+ - Mode: f
+ - Excluded files: []
+ - N locations input: 10
+ - Random seed: 514
+
+Random sample details
+---------------------
+ - Total locations mutated: 10
+ - Total locations identified: 115
+ - Location sample coverage: 8.70 %
+
+
+Running time details
+--------------------
+ - Clean trial 1 run time: 0:00:00.501961
+ - Clean trial 2 run time: 0:00:00.447213
+ - Mutation trials total run time: 0:00:14.257294
+
+2023-11-04 11:06:03,711: Trial Summary Report:
+
+Overall mutation trial summary
+==============================
+ - DETECTED: 15
+ - SURVIVED: 16
+ - TOTAL RUNS: 31
+ - RUN DATETIME: 2023-11-04 11:06:03.711647
+
+2023-11-04 11:06:03,711: Detected mutations:[92m
+
+DETECTED
+--------
+ - PA1.py: (l: 52, c: 4) - mutation from If_Statement to If_False
+ - PA1.py: (l: 52, c: 4) - mutation from If_Statement to If_True
+ - PA1.py: (l: 52, c: 30) - mutation from False to True
+ - PA1.py: (l: 52, c: 30) - mutation from False to None
+ - PA1.py: (l: 62, c: 25) - mutation from <class '_ast.Eq'> to <class '_ast.LtE'>
+ - PA1.py: (l: 62, c: 25) - mutation from <class '_ast.Eq'> to <class '_ast.Lt'>
+ - PA1.py: (l: 62, c: 25) - mutation from <class '_ast.Eq'> to <class '_ast.NotEq'>
+ - PA1.py: (l: 62, c: 25) - mutation from <class '_ast.Eq'> to <class '_ast.Gt'>
+ - PA1.py: (l: 76, c: 8) - mutation from <class '_ast.Eq'> to <class '_ast.NotEq'>
+ - PA1.py: (l: 76, c: 8) - mutation from <class '_ast.Eq'> to <class '_ast.Lt'>
+ - PA1.py: (l: 76, c: 8) - mutation from <class '_ast.Eq'> to <class '_ast.Gt'>
+ - PA1.py: (l: 76, c: 8) - mutation from <class '_ast.And'> to <class '_ast.Or'>
+ - PA1.py: (l: 78, c: 10) - mutation from <class '_ast.Eq'> to <class '_ast.Gt'>
+ - PA1.py: (l: 78, c: 10) - mutation from <class '_ast.Eq'> to <class '_ast.NotEq'>
+ - PA1.py: (l: 78, c: 10) - mutation from <class '_ast.Eq'> to <class '_ast.Lt'>[0m
+
+2023-11-04 11:06:03,711: Timedout mutations:
+
+2023-11-04 11:06:03,711: Surviving mutations:[91m
+
+SURVIVED
+--------
+ - PA1.py: (l: 62, c: 25) - mutation from <class '_ast.Eq'> to <class '_ast.GtE'>
+ - PA1.py: (l: 76, c: 8) - mutation from <class '_ast.Eq'> to <class '_ast.GtE'>
+ - PA1.py: (l: 76, c: 8) - mutation from <class '_ast.Eq'> to <class '_ast.LtE'>
+ - PA1.py: (l: 78, c: 10) - mutation from <class '_ast.Eq'> to <class '_ast.GtE'>
+ - PA1.py: (l: 78, c: 10) - mutation from <class '_ast.Eq'> to <class '_ast.LtE'>
+ - PA1.py: (l: 78, c: 10) - mutation from <class '_ast.And'> to <class '_ast.Or'>
+ - PA1.py: (l: 128, c: 24) - mutation from <class '_ast.Sub'> to <class '_ast.Add'>
+ - PA1.py: (l: 128, c: 24) - mutation from <class '_ast.Sub'> to <class '_ast.Div'>
+ - PA1.py: (l: 128, c: 24) - mutation from <class '_ast.Sub'> to <class '_ast.Mult'>
+ - PA1.py: (l: 128, c: 24) - mutation from <class '_ast.Sub'> to <class '_ast.Mod'>
+ - PA1.py: (l: 128, c: 24) - mutation from <class '_ast.Sub'> to <class '_ast.Pow'>
+ - PA1.py: (l: 128, c: 24) - mutation from <class '_ast.Sub'> to <class '_ast.FloorDiv'>
+ - PA1.py: (l: 129, c: 49) - mutation from False to None
+ - PA1.py: (l: 129, c: 49) - mutation from False to True
+ - PA1.py: (l: 129, c: 56) - mutation from True to None
+ - PA1.py: (l: 129, c: 56) - mutation from True to False[0m
+

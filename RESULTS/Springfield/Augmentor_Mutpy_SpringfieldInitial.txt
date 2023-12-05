@@ -1,0 +1,1396 @@
+[*] Start mutation process:
+   - targets: Augmentor
+   - tests: tests
+[*] 58 tests passed:
+   - test_resize [0.31287 s]
+   - util_funcs [0.17055 s]
+   - test_generators [2.44815 s]
+   - test_multi_threading [1.59224 s]
+   - test_user_operation_parameter_input [0.17605 s]
+   - test_ground_truth_augmentation [0.22030 s]
+   - test_ground_truth_by_class [0.96206 s]
+   - test_custom_operations [0.18216 s]
+   - test_pipeline_add_operations [0.16867 s]
+   - test_datapipeline [0.17169 s]
+   - test_rotate [0.17464 s]
+   - test_torch_transform [1.49707 s]
+   - test_distortion [0.25227 s]
+   - test_array_fuctions [0.16897 s]
+   - test_gaussian [0.16543 s]
+   - test_pipeline_utilities [0.16602 s]
+   - test_load [0.63584 s]
+   - test_random_color_brightness_contrast [0.32966 s]
+[*] Start mutants generation and execution:
+   - [#   1] AOR Augmentor.ImageUtilities: [3.56468 s] survived
+   - [#   2] ASR Augmentor.ImageUtilities: [3.81821 s] survived
+   - [#   3] ASR Augmentor.ImageUtilities: [6.57266 s] survived
+   - [#   4] COI Augmentor.ImageUtilities: [4.42774 s] survived
+   - [#   5] COI Augmentor.ImageUtilities: [3.66760 s] survived
+   - [#   6] COI Augmentor.ImageUtilities: [6.42657 s] survived
+   - [#   7] COI Augmentor.ImageUtilities: [5.17094 s] survived
+   - [#   8] COI Augmentor.ImageUtilities: [6.03000 s] survived
+   - [#   9] COI Augmentor.ImageUtilities: [6.16527 s] survived
+   - [#  10] COI Augmentor.ImageUtilities: [5.26610 s] survived
+   - [#  11] COI Augmentor.ImageUtilities: [4.93853 s] survived
+   - [#  12] COI Augmentor.ImageUtilities: [5.39797 s] survived
+   - [#  13] COI Augmentor.ImageUtilities: [6.53952 s] survived
+   - [#  14] COI Augmentor.ImageUtilities: [4.51327 s] survived
+   - [#  15] COI Augmentor.ImageUtilities: [4.57203 s] survived
+   - [#  16] COI Augmentor.ImageUtilities: [1.12821 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [#  17] COI Augmentor.ImageUtilities: [0.62100 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [#  18] DDL Augmentor.ImageUtilities: [0.00000 s] incompetent
+   - [#  19] DDL Augmentor.ImageUtilities: [5.27530 s] survived
+   - [#  20] DDL Augmentor.ImageUtilities: [0.00000 s] incompetent
+   - [#  21] DDL Augmentor.ImageUtilities: [3.41983 s] survived
+   - [#  22] DDL Augmentor.ImageUtilities: [0.00000 s] incompetent
+   - [#  23] DDL Augmentor.ImageUtilities: [5.54173 s] survived
+   - [#  24] DDL Augmentor.ImageUtilities: [0.00000 s] incompetent
+   - [#  25] DDL Augmentor.ImageUtilities: [6.06803 s] survived
+   - [#  26] DDL Augmentor.ImageUtilities: [0.00000 s] incompetent
+   - [#  27] DDL Augmentor.ImageUtilities: [4.18150 s] survived
+   - [#  28] DDL Augmentor.ImageUtilities: [5.59589 s] survived
+   - [#  29] DDL Augmentor.ImageUtilities: [3.54170 s] survived
+   - [#  30] DDL Augmentor.ImageUtilities: [0.00000 s] incompetent
+   - [#  31] DDL Augmentor.ImageUtilities: [4.79613 s] survived
+   - [#  32] DDL Augmentor.ImageUtilities: [0.00000 s] incompetent
+   - [#  33] DDL Augmentor.ImageUtilities: [4.75890 s] survived
+   - [#  34] DDL Augmentor.ImageUtilities: [0.00000 s] incompetent
+   - [#  35] DDL Augmentor.ImageUtilities: [4.52309 s] survived
+   - [#  36] DDL Augmentor.ImageUtilities: [0.00000 s] incompetent
+   - [#  37] DDL Augmentor.ImageUtilities: [3.73753 s] survived
+   - [#  38] DDL Augmentor.ImageUtilities: [4.12361 s] survived
+   - [#  39] DDL Augmentor.ImageUtilities: [0.00000 s] incompetent
+   - [#  40] DDL Augmentor.ImageUtilities: [4.59195 s] survived
+   - [#  41] EXS Augmentor.ImageUtilities: [4.99216 s] survived
+   - [#  42] ROR Augmentor.ImageUtilities: [6.17388 s] survived
+   - [#  43] ROR Augmentor.ImageUtilities: [4.16769 s] survived
+   - [#  44] ROR Augmentor.ImageUtilities: [6.43282 s] survived
+   - [#  45] ROR Augmentor.ImageUtilities: [1.12425 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [#  46] AOD Augmentor.Operations: [0.62172 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [#  47] AOD Augmentor.Operations: [0.62477 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [#  48] AOD Augmentor.Operations: [0.61822 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [#  49] AOD Augmentor.Operations: [0.62342 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [#  50] AOD Augmentor.Operations: [0.62193 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [#  51] AOD Augmentor.Operations: [0.61623 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [#  52] AOD Augmentor.Operations: [0.61266 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [#  53] AOD Augmentor.Operations: [0.62140 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [#  54] AOD Augmentor.Operations: [0.61920 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [#  55] AOD Augmentor.Operations: [0.61582 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [#  56] AOD Augmentor.Operations: [0.61389 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [#  57] AOD Augmentor.Operations: [0.61569 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [#  58] AOD Augmentor.Operations: [0.61382 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [#  59] AOD Augmentor.Operations: [0.61155 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [#  60] AOD Augmentor.Operations: [0.61311 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [#  61] AOD Augmentor.Operations: [0.62450 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [#  62] AOD Augmentor.Operations: [0.61985 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [#  63] AOD Augmentor.Operations: [0.63396 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [#  64] AOD Augmentor.Operations: [0.61962 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [#  65] AOD Augmentor.Operations: [0.61438 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [#  66] AOD Augmentor.Operations: [0.61698 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [#  67] AOR Augmentor.Operations: [0.61964 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [#  68] AOR Augmentor.Operations: [0.61814 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [#  69] AOR Augmentor.Operations: [0.61617 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [#  70] AOR Augmentor.Operations: [0.61950 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [#  71] AOR Augmentor.Operations: [0.61623 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [#  72] AOR Augmentor.Operations: [0.61426 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [#  73] AOR Augmentor.Operations: [0.63069 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [#  74] AOR Augmentor.Operations: [0.62622 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [#  75] AOR Augmentor.Operations: [0.61902 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [#  76] AOR Augmentor.Operations: [0.62432 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [#  77] AOR Augmentor.Operations: [0.62452 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [#  78] AOR Augmentor.Operations: [0.67264 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [#  79] AOR Augmentor.Operations: [0.65738 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [#  80] AOR Augmentor.Operations: [0.65387 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [#  81] AOR Augmentor.Operations: [0.65369 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [#  82] AOR Augmentor.Operations: [0.65547 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [#  83] AOR Augmentor.Operations: [0.96829 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [#  84] AOR Augmentor.Operations: [0.65159 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [#  85] AOR Augmentor.Operations: [0.65672 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [#  86] AOR Augmentor.Operations: [0.65229 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [#  87] AOR Augmentor.Operations: [0.64744 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [#  88] AOR Augmentor.Operations: [0.64706 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [#  89] AOR Augmentor.Operations: [0.61699 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [#  90] AOR Augmentor.Operations: [0.61967 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [#  91] AOR Augmentor.Operations: [0.61859 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [#  92] AOR Augmentor.Operations: [0.61815 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [#  93] AOR Augmentor.Operations: [0.61569 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [#  94] AOR Augmentor.Operations: [0.61438 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [#  95] AOR Augmentor.Operations: [0.61609 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [#  96] AOR Augmentor.Operations: [0.61269 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [#  97] AOR Augmentor.Operations: [0.61543 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [#  98] AOR Augmentor.Operations: [0.61436 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [#  99] AOR Augmentor.Operations: [0.61506 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 100] AOR Augmentor.Operations: [0.61496 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 101] AOR Augmentor.Operations: [0.61517 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 102] AOR Augmentor.Operations: [0.62087 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 103] AOR Augmentor.Operations: [0.62438 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 104] AOR Augmentor.Operations: [0.61864 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 105] AOR Augmentor.Operations: [0.61907 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 106] AOR Augmentor.Operations: [0.62315 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 107] AOR Augmentor.Operations: [0.62919 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 108] AOR Augmentor.Operations: [0.62054 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 109] AOR Augmentor.Operations: [0.61449 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 110] AOR Augmentor.Operations: [0.62170 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 111] AOR Augmentor.Operations: [0.61981 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 112] AOR Augmentor.Operations: [0.61725 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 113] AOR Augmentor.Operations: [0.61137 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 114] AOR Augmentor.Operations: [0.62152 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 115] AOR Augmentor.Operations: [0.64733 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 116] AOR Augmentor.Operations: [0.65152 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 117] AOR Augmentor.Operations: [0.64868 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 118] AOR Augmentor.Operations: [0.65917 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 119] AOR Augmentor.Operations: [0.65396 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 120] AOR Augmentor.Operations: [0.68567 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 121] AOR Augmentor.Operations: [0.65804 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 122] AOR Augmentor.Operations: [0.65443 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 123] AOR Augmentor.Operations: [0.64950 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 124] AOR Augmentor.Operations: [0.65756 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 125] AOR Augmentor.Operations: [0.65205 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 126] AOR Augmentor.Operations: [0.65052 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 127] AOR Augmentor.Operations: [0.66713 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 128] AOR Augmentor.Operations: [0.65778 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 129] AOR Augmentor.Operations: [0.62281 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 130] AOR Augmentor.Operations: [0.61461 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 131] AOR Augmentor.Operations: [0.61477 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 132] AOR Augmentor.Operations: [0.61878 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 133] AOR Augmentor.Operations: [0.61752 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 134] AOR Augmentor.Operations: [0.64369 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 135] AOR Augmentor.Operations: [0.62396 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 136] AOR Augmentor.Operations: [0.62118 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 137] AOR Augmentor.Operations: [0.63076 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 138] AOR Augmentor.Operations: [0.75974 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 139] AOR Augmentor.Operations: [0.67470 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 140] AOR Augmentor.Operations: [0.61925 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 141] AOR Augmentor.Operations: [0.62524 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 142] AOR Augmentor.Operations: [0.61990 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 143] AOR Augmentor.Operations: [0.61811 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 144] AOR Augmentor.Operations: [0.62291 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 145] AOR Augmentor.Operations: [0.61849 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 146] AOR Augmentor.Operations: [0.61293 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 147] AOR Augmentor.Operations: [0.61327 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 148] AOR Augmentor.Operations: [0.62718 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 149] AOR Augmentor.Operations: [0.62020 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 150] AOR Augmentor.Operations: [0.61661 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 151] AOR Augmentor.Operations: [0.61708 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 152] AOR Augmentor.Operations: [0.65674 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 153] AOR Augmentor.Operations: [0.65546 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 154] AOR Augmentor.Operations: [0.65964 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 155] AOR Augmentor.Operations: [0.65212 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 156] AOR Augmentor.Operations: [0.65653 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 157] AOR Augmentor.Operations: [0.66684 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 158] AOR Augmentor.Operations: [0.97472 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 159] AOR Augmentor.Operations: [0.65781 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 160] AOR Augmentor.Operations: [0.65567 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 161] AOR Augmentor.Operations: [0.65213 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 162] AOR Augmentor.Operations: [0.64957 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 163] AOR Augmentor.Operations: [0.65298 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 164] AOR Augmentor.Operations: [0.65617 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 165] AOR Augmentor.Operations: [0.65589 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 166] AOR Augmentor.Operations: [0.64945 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 167] AOR Augmentor.Operations: [0.65627 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 168] AOR Augmentor.Operations: [0.65543 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 169] AOR Augmentor.Operations: [0.67099 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 170] AOR Augmentor.Operations: [0.72388 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 171] AOR Augmentor.Operations: [0.65652 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 172] AOR Augmentor.Operations: [0.65717 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 173] AOR Augmentor.Operations: [0.66138 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 174] AOR Augmentor.Operations: [0.65840 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 175] AOR Augmentor.Operations: [0.61356 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 176] AOR Augmentor.Operations: [0.62370 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 177] AOR Augmentor.Operations: [0.62332 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 178] AOR Augmentor.Operations: [0.61764 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 179] AOR Augmentor.Operations: [0.65941 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 180] AOR Augmentor.Operations: [0.65681 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 181] AOR Augmentor.Operations: [0.61089 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 182] AOR Augmentor.Operations: [0.64766 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 183] AOR Augmentor.Operations: [0.65222 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 184] AOR Augmentor.Operations: [0.65286 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 185] AOR Augmentor.Operations: [0.65120 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 186] AOR Augmentor.Operations: [0.64808 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 187] AOR Augmentor.Operations: [0.65320 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 188] AOR Augmentor.Operations: [0.65336 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 189] AOR Augmentor.Operations: [0.65282 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 190] AOR Augmentor.Operations: [0.64609 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 191] AOR Augmentor.Operations: [0.64540 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 192] AOR Augmentor.Operations: [0.65523 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 193] AOR Augmentor.Operations: [0.65441 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 194] AOR Augmentor.Operations: [0.65301 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 195] AOR Augmentor.Operations: [0.64554 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 196] AOR Augmentor.Operations: [0.65166 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 197] AOR Augmentor.Operations: [0.65946 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 198] AOR Augmentor.Operations: [0.67025 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 199] AOR Augmentor.Operations: [0.65745 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 200] AOR Augmentor.Operations: [0.64942 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 201] AOR Augmentor.Operations: [0.66500 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 202] AOR Augmentor.Operations: [0.65391 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 203] AOR Augmentor.Operations: [0.65567 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 204] AOR Augmentor.Operations: [0.65427 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 205] AOR Augmentor.Operations: [0.66351 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 206] AOR Augmentor.Operations: [0.65306 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 207] AOR Augmentor.Operations: [0.65597 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 208] AOR Augmentor.Operations: [0.65896 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 209] AOR Augmentor.Operations: [0.65242 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 210] AOR Augmentor.Operations: [0.65059 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 211] AOR Augmentor.Operations: [0.65777 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 212] AOR Augmentor.Operations: [0.67783 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 213] AOR Augmentor.Operations: [0.65702 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 214] AOR Augmentor.Operations: [0.66244 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 215] AOR Augmentor.Operations: [0.65599 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 216] AOR Augmentor.Operations: [0.64722 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 217] AOR Augmentor.Operations: [0.64750 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 218] AOR Augmentor.Operations: [0.64999 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 219] AOR Augmentor.Operations: [0.65084 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 220] AOR Augmentor.Operations: [0.64899 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 221] AOR Augmentor.Operations: [0.64838 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 222] AOR Augmentor.Operations: [0.64726 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 223] AOR Augmentor.Operations: [0.64926 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 224] AOR Augmentor.Operations: [0.64429 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 225] AOR Augmentor.Operations: [0.65254 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 226] AOR Augmentor.Operations: [0.65171 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 227] AOR Augmentor.Operations: [0.64667 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 228] AOR Augmentor.Operations: [0.66500 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 229] AOR Augmentor.Operations: [0.79414 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 230] AOR Augmentor.Operations: [0.69871 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 231] AOR Augmentor.Operations: [0.67824 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 232] AOR Augmentor.Operations: [0.66697 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 233] AOR Augmentor.Operations: [0.65215 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 234] AOR Augmentor.Operations: [0.66122 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 235] AOR Augmentor.Operations: [0.65337 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 236] AOR Augmentor.Operations: [0.65705 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 237] AOR Augmentor.Operations: [0.64787 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 238] AOR Augmentor.Operations: [0.65167 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 239] AOR Augmentor.Operations: [0.64939 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 240] AOR Augmentor.Operations: [0.65971 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 241] AOR Augmentor.Operations: [0.64785 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 242] AOR Augmentor.Operations: [0.65651 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 243] AOR Augmentor.Operations: [0.65641 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 244] AOR Augmentor.Operations: [0.65975 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 245] AOR Augmentor.Operations: [0.64802 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 246] AOR Augmentor.Operations: [0.66177 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 247] AOR Augmentor.Operations: [0.65620 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 248] AOR Augmentor.Operations: [0.65542 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 249] AOR Augmentor.Operations: [0.99125 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 250] AOR Augmentor.Operations: [0.65554 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 251] AOR Augmentor.Operations: [0.65760 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 252] AOR Augmentor.Operations: [0.65632 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 253] AOR Augmentor.Operations: [0.65291 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 254] AOR Augmentor.Operations: [0.66321 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 255] AOR Augmentor.Operations: [0.65388 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 256] AOR Augmentor.Operations: [0.65527 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 257] AOR Augmentor.Operations: [0.65296 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 258] AOR Augmentor.Operations: [0.66104 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 259] AOR Augmentor.Operations: [0.66235 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 260] AOR Augmentor.Operations: [0.65067 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 261] AOR Augmentor.Operations: [0.73063 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 262] AOR Augmentor.Operations: [0.64811 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 263] AOR Augmentor.Operations: [0.64948 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 264] AOR Augmentor.Operations: [0.65874 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 265] AOR Augmentor.Operations: [0.65797 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 266] AOR Augmentor.Operations: [0.65595 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 267] AOR Augmentor.Operations: [0.61421 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 268] AOR Augmentor.Operations: [0.61323 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 269] AOR Augmentor.Operations: [0.62630 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 270] AOR Augmentor.Operations: [0.61782 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 271] AOR Augmentor.Operations: [0.62436 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 272] AOR Augmentor.Operations: [0.62123 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 273] AOR Augmentor.Operations: [0.61109 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 274] AOR Augmentor.Operations: [0.61419 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 275] AOR Augmentor.Operations: [0.62475 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 276] AOR Augmentor.Operations: [0.61824 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 277] AOR Augmentor.Operations: [0.61864 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 278] AOR Augmentor.Operations: [0.61596 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 279] AOR Augmentor.Operations: [0.61646 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 280] AOR Augmentor.Operations: [0.62273 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 281] AOR Augmentor.Operations: [0.61495 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 282] AOR Augmentor.Operations: [0.62751 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 283] AOR Augmentor.Operations: [0.62199 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 284] AOR Augmentor.Operations: [0.62331 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 285] AOR Augmentor.Operations: [0.62051 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 286] AOR Augmentor.Operations: [0.61983 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 287] AOR Augmentor.Operations: [0.62384 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 288] AOR Augmentor.Operations: [0.62364 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 289] AOR Augmentor.Operations: [0.63904 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 290] AOR Augmentor.Operations: [0.64015 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 291] AOR Augmentor.Operations: [0.62345 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 292] AOR Augmentor.Operations: [0.63313 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 293] AOR Augmentor.Operations: [0.61711 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 294] AOR Augmentor.Operations: [0.61197 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 295] AOR Augmentor.Operations: [0.62106 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 296] AOR Augmentor.Operations: [0.61887 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 297] AOR Augmentor.Operations: [0.60454 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 298] AOR Augmentor.Operations: [0.60669 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 299] AOR Augmentor.Operations: [0.61958 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 300] AOR Augmentor.Operations: [0.61754 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 301] AOR Augmentor.Operations: [0.62870 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 302] AOR Augmentor.Operations: [0.61729 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 303] AOR Augmentor.Operations: [0.61856 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 304] AOR Augmentor.Operations: [0.63772 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 305] AOR Augmentor.Operations: [0.61773 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 306] AOR Augmentor.Operations: [0.62110 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 307] AOR Augmentor.Operations: [0.61972 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 308] AOR Augmentor.Operations: [0.62144 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 309] AOR Augmentor.Operations: [0.61504 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 310] AOR Augmentor.Operations: [0.62477 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 311] AOR Augmentor.Operations: [0.62413 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 312] AOR Augmentor.Operations: [0.61768 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 313] AOR Augmentor.Operations: [0.62444 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 314] AOR Augmentor.Operations: [0.62492 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 315] AOR Augmentor.Operations: [0.62077 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 316] AOR Augmentor.Operations: [0.61378 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 317] AOR Augmentor.Operations: [0.62227 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 318] AOR Augmentor.Operations: [0.61527 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 319] AOR Augmentor.Operations: [0.61657 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 320] AOR Augmentor.Operations: [0.63093 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 321] AOR Augmentor.Operations: [0.62435 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 322] AOR Augmentor.Operations: [0.76948 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 323] AOR Augmentor.Operations: [0.66927 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 324] AOR Augmentor.Operations: [0.62251 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 325] AOR Augmentor.Operations: [0.62724 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 326] AOR Augmentor.Operations: [0.62470 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 327] AOR Augmentor.Operations: [0.62724 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 328] AOR Augmentor.Operations: [0.62068 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 329] AOR Augmentor.Operations: [0.61657 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 330] AOR Augmentor.Operations: [0.62745 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 331] AOR Augmentor.Operations: [0.62517 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 332] AOR Augmentor.Operations: [0.61774 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 333] AOR Augmentor.Operations: [0.61625 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 334] AOR Augmentor.Operations: [0.61138 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 335] AOR Augmentor.Operations: [0.61628 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 336] AOR Augmentor.Operations: [0.62445 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 337] AOR Augmentor.Operations: [0.61595 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 338] AOR Augmentor.Operations: [0.62887 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 339] AOR Augmentor.Operations: [0.62307 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 340] AOR Augmentor.Operations: [0.62221 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 341] AOR Augmentor.Operations: [0.61940 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 342] AOR Augmentor.Operations: [0.61985 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 343] AOR Augmentor.Operations: [0.94738 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 344] AOR Augmentor.Operations: [0.63151 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 345] AOR Augmentor.Operations: [0.62895 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 346] AOR Augmentor.Operations: [0.62076 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 347] AOR Augmentor.Operations: [0.62679 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 348] AOR Augmentor.Operations: [0.61675 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 349] AOR Augmentor.Operations: [0.61975 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 350] AOR Augmentor.Operations: [0.64146 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 351] AOR Augmentor.Operations: [0.63086 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 352] AOR Augmentor.Operations: [0.62521 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 353] AOR Augmentor.Operations: [0.62307 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 354] AOR Augmentor.Operations: [0.61947 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 355] AOR Augmentor.Operations: [0.62306 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 356] AOR Augmentor.Operations: [0.69484 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 357] AOR Augmentor.Operations: [0.61471 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 358] AOR Augmentor.Operations: [0.62305 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 359] AOR Augmentor.Operations: [0.61565 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 360] AOR Augmentor.Operations: [0.61496 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 361] AOR Augmentor.Operations: [0.61616 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 362] AOR Augmentor.Operations: [0.63147 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 363] AOR Augmentor.Operations: [0.61727 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 364] AOR Augmentor.Operations: [0.62122 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 365] AOR Augmentor.Operations: [0.61586 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 366] AOR Augmentor.Operations: [0.61758 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 367] AOR Augmentor.Operations: [0.62160 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 368] AOR Augmentor.Operations: [0.62276 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 369] AOR Augmentor.Operations: [0.61633 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 370] AOR Augmentor.Operations: [0.61496 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 371] AOR Augmentor.Operations: [0.62631 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 372] AOR Augmentor.Operations: [0.63315 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 373] AOR Augmentor.Operations: [0.64163 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 374] AOR Augmentor.Operations: [0.62358 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 375] AOR Augmentor.Operations: [0.61201 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 376] AOR Augmentor.Operations: [0.62077 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 377] AOR Augmentor.Operations: [0.62291 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 378] AOR Augmentor.Operations: [0.62091 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 379] AOR Augmentor.Operations: [0.62010 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 380] AOR Augmentor.Operations: [0.62277 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 381] AOR Augmentor.Operations: [0.62822 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 382] AOR Augmentor.Operations: [0.61460 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 383] AOR Augmentor.Operations: [0.64702 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 384] AOR Augmentor.Operations: [0.66902 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 385] AOR Augmentor.Operations: [0.61809 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 386] AOR Augmentor.Operations: [0.62133 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 387] AOR Augmentor.Operations: [0.61957 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 388] AOR Augmentor.Operations: [0.62097 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 389] AOR Augmentor.Operations: [0.61878 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 390] AOR Augmentor.Operations: [0.61621 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 391] AOR Augmentor.Operations: [0.62460 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 392] AOR Augmentor.Operations: [0.61570 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 393] AOR Augmentor.Operations: [0.61768 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 394] AOR Augmentor.Operations: [0.62165 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 395] AOR Augmentor.Operations: [0.62163 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 396] AOR Augmentor.Operations: [0.61909 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 397] AOR Augmentor.Operations: [0.61597 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 398] AOR Augmentor.Operations: [0.62258 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 399] AOR Augmentor.Operations: [0.64351 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 400] AOR Augmentor.Operations: [0.62547 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 401] AOR Augmentor.Operations: [0.62054 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 402] AOR Augmentor.Operations: [0.61725 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 403] AOR Augmentor.Operations: [0.62168 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 404] AOR Augmentor.Operations: [0.61492 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 405] AOR Augmentor.Operations: [0.61556 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 406] AOR Augmentor.Operations: [0.61810 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 407] AOR Augmentor.Operations: [0.61688 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 408] AOR Augmentor.Operations: [0.61793 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 409] AOR Augmentor.Operations: [0.61876 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 410] AOR Augmentor.Operations: [0.61912 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 411] AOR Augmentor.Operations: [0.61843 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 412] AOR Augmentor.Operations: [0.62550 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 413] AOR Augmentor.Operations: [0.63168 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 414] AOR Augmentor.Operations: [0.61768 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 415] AOR Augmentor.Operations: [0.61135 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 416] AOR Augmentor.Operations: [0.62552 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 417] AOR Augmentor.Operations: [0.76409 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 418] AOR Augmentor.Operations: [0.66947 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 419] AOR Augmentor.Operations: [0.61975 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 420] AOR Augmentor.Operations: [0.61624 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 421] AOR Augmentor.Operations: [0.61696 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 422] AOR Augmentor.Operations: [0.61817 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 423] AOR Augmentor.Operations: [0.62417 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 424] AOR Augmentor.Operations: [0.62304 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 425] AOR Augmentor.Operations: [0.62022 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 426] AOR Augmentor.Operations: [0.61952 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 427] AOR Augmentor.Operations: [0.62560 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 428] AOR Augmentor.Operations: [0.62622 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 429] AOR Augmentor.Operations: [0.61887 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 430] AOR Augmentor.Operations: [0.61457 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 431] AOR Augmentor.Operations: [0.61933 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 432] AOR Augmentor.Operations: [0.62230 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 433] AOR Augmentor.Operations: [0.62072 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 434] AOR Augmentor.Operations: [0.62442 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 435] AOR Augmentor.Operations: [0.62259 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 436] AOR Augmentor.Operations: [0.61930 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 437] AOR Augmentor.Operations: [0.62927 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 438] AOR Augmentor.Operations: [0.94985 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 439] AOR Augmentor.Operations: [0.62116 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 440] AOR Augmentor.Operations: [0.64353 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 441] AOR Augmentor.Operations: [0.61807 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 442] AOR Augmentor.Operations: [0.61297 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 443] AOR Augmentor.Operations: [0.61743 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 444] AOR Augmentor.Operations: [0.62064 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 445] AOR Augmentor.Operations: [0.60783 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 446] AOR Augmentor.Operations: [0.62421 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 447] AOR Augmentor.Operations: [0.62071 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 448] AOR Augmentor.Operations: [0.62426 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 449] AOR Augmentor.Operations: [0.61468 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 450] AOR Augmentor.Operations: [0.60649 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 451] AOR Augmentor.Operations: [0.69593 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 452] AOR Augmentor.Operations: [0.61730 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 453] AOR Augmentor.Operations: [0.61624 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 454] AOR Augmentor.Operations: [0.61609 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 455] AOR Augmentor.Operations: [0.61887 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 456] AOR Augmentor.Operations: [0.60896 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 457] AOR Augmentor.Operations: [0.61322 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 458] AOR Augmentor.Operations: [0.61246 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 459] AOR Augmentor.Operations: [0.60982 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 460] AOR Augmentor.Operations: [0.61445 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 461] AOR Augmentor.Operations: [0.61204 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 462] AOR Augmentor.Operations: [0.62189 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 463] AOR Augmentor.Operations: [0.62051 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 464] AOR Augmentor.Operations: [0.62073 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 465] AOR Augmentor.Operations: [0.61334 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 466] AOR Augmentor.Operations: [0.62333 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 467] AOR Augmentor.Operations: [0.61460 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 468] AOR Augmentor.Operations: [0.62683 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 469] AOR Augmentor.Operations: [0.61226 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 470] AOR Augmentor.Operations: [0.61633 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 471] AOR Augmentor.Operations: [0.61826 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 472] AOR Augmentor.Operations: [0.60906 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 473] AOR Augmentor.Operations: [0.62450 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 474] AOR Augmentor.Operations: [0.61569 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 475] AOR Augmentor.Operations: [0.61394 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 476] AOR Augmentor.Operations: [0.62301 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 477] AOR Augmentor.Operations: [0.61074 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 478] AOR Augmentor.Operations: [0.62069 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 479] AOR Augmentor.Operations: [0.62902 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 480] AOR Augmentor.Operations: [0.62627 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 481] AOR Augmentor.Operations: [0.62395 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 482] AOR Augmentor.Operations: [0.62619 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 483] AOR Augmentor.Operations: [0.61591 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 484] AOR Augmentor.Operations: [0.61977 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 485] AOR Augmentor.Operations: [0.61629 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 486] AOR Augmentor.Operations: [0.61508 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 487] AOR Augmentor.Operations: [0.62026 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 488] AOR Augmentor.Operations: [0.61398 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 489] AOR Augmentor.Operations: [0.61770 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 490] AOR Augmentor.Operations: [0.61949 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 491] AOR Augmentor.Operations: [0.62065 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 492] AOR Augmentor.Operations: [0.63089 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 493] AOR Augmentor.Operations: [0.63020 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 494] AOR Augmentor.Operations: [0.64668 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 495] AOR Augmentor.Operations: [0.63714 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 496] AOR Augmentor.Operations: [0.62652 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 497] AOR Augmentor.Operations: [0.62815 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 498] AOR Augmentor.Operations: [0.62657 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 499] AOR Augmentor.Operations: [0.64396 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 500] AOR Augmentor.Operations: [0.63459 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 501] AOR Augmentor.Operations: [0.63165 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 502] AOR Augmentor.Operations: [0.62692 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 503] AOR Augmentor.Operations: [0.62345 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 504] AOR Augmentor.Operations: [0.63442 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 505] AOR Augmentor.Operations: [0.61284 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 506] AOR Augmentor.Operations: [0.62001 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 507] AOR Augmentor.Operations: [0.62980 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 508] AOR Augmentor.Operations: [0.62403 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 509] AOR Augmentor.Operations: [0.61935 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 510] AOR Augmentor.Operations: [0.63020 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 511] AOR Augmentor.Operations: [0.62248 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 512] AOR Augmentor.Operations: [0.77492 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 513] AOR Augmentor.Operations: [0.67838 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 514] AOR Augmentor.Operations: [0.61849 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 515] AOR Augmentor.Operations: [0.62057 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 516] AOR Augmentor.Operations: [0.61873 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 517] AOR Augmentor.Operations: [0.62343 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 518] AOR Augmentor.Operations: [0.62111 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 519] AOR Augmentor.Operations: [0.62927 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 520] AOR Augmentor.Operations: [0.62344 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 521] AOR Augmentor.Operations: [0.61491 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 522] AOR Augmentor.Operations: [0.61820 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 523] AOR Augmentor.Operations: [0.62161 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 524] AOR Augmentor.Operations: [0.62010 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 525] AOR Augmentor.Operations: [0.62002 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 526] AOR Augmentor.Operations: [0.62146 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 527] AOR Augmentor.Operations: [0.61499 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 528] AOR Augmentor.Operations: [0.62510 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 529] AOR Augmentor.Operations: [0.62111 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 530] AOR Augmentor.Operations: [0.61804 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 531] AOR Augmentor.Operations: [0.61730 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 532] AOR Augmentor.Operations: [0.61829 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 533] AOR Augmentor.Operations: [0.95976 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 534] AOR Augmentor.Operations: [0.61310 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 535] AOR Augmentor.Operations: [0.62063 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 536] AOR Augmentor.Operations: [0.62642 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 537] AOR Augmentor.Operations: [0.63460 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 538] AOR Augmentor.Operations: [0.62421 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 539] AOR Augmentor.Operations: [0.62255 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 540] AOR Augmentor.Operations: [0.61891 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 541] AOR Augmentor.Operations: [0.62575 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 542] AOR Augmentor.Operations: [0.61540 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 543] AOR Augmentor.Operations: [0.61349 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 544] AOR Augmentor.Operations: [0.61813 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 545] AOR Augmentor.Operations: [0.61536 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 546] AOR Augmentor.Operations: [0.70310 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 547] AOR Augmentor.Operations: [0.62532 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 548] AOR Augmentor.Operations: [0.62628 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 549] AOR Augmentor.Operations: [0.61772 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 550] AOR Augmentor.Operations: [0.62662 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 551] AOR Augmentor.Operations: [0.62333 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 552] AOR Augmentor.Operations: [0.62681 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 553] AOR Augmentor.Operations: [0.62383 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 554] AOR Augmentor.Operations: [0.62132 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 555] AOR Augmentor.Operations: [0.62338 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 556] AOR Augmentor.Operations: [0.61795 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 557] AOR Augmentor.Operations: [0.62001 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 558] AOR Augmentor.Operations: [0.62679 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 559] AOR Augmentor.Operations: [0.62047 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 560] AOR Augmentor.Operations: [0.61652 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 561] AOR Augmentor.Operations: [0.61928 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 562] AOR Augmentor.Operations: [0.61285 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 563] AOR Augmentor.Operations: [0.61657 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 564] AOR Augmentor.Operations: [0.61366 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 565] AOR Augmentor.Operations: [0.61158 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 566] AOR Augmentor.Operations: [0.61700 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 567] AOR Augmentor.Operations: [0.62259 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 568] AOR Augmentor.Operations: [0.62578 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 569] AOR Augmentor.Operations: [0.61956 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 570] AOR Augmentor.Operations: [0.61894 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 571] AOR Augmentor.Operations: [0.62971 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 572] AOR Augmentor.Operations: [0.62388 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 573] AOR Augmentor.Operations: [0.62616 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 574] AOR Augmentor.Operations: [0.62176 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 575] AOR Augmentor.Operations: [0.61511 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 576] AOR Augmentor.Operations: [0.62093 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 577] AOR Augmentor.Operations: [0.61882 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 578] AOR Augmentor.Operations: [0.63455 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 579] AOR Augmentor.Operations: [0.63719 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 580] AOR Augmentor.Operations: [0.62624 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 581] AOR Augmentor.Operations: [0.62191 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 582] AOR Augmentor.Operations: [0.61376 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 583] AOR Augmentor.Operations: [0.61423 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 584] AOR Augmentor.Operations: [0.62042 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 585] AOR Augmentor.Operations: [0.61636 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 586] AOR Augmentor.Operations: [0.62196 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 587] AOR Augmentor.Operations: [0.61875 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 588] AOR Augmentor.Operations: [0.62070 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 589] AOR Augmentor.Operations: [0.64458 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 590] AOR Augmentor.Operations: [0.62900 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 591] AOR Augmentor.Operations: [0.62182 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 592] AOR Augmentor.Operations: [0.61745 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 593] AOR Augmentor.Operations: [0.62274 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 594] AOR Augmentor.Operations: [0.61982 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 595] AOR Augmentor.Operations: [0.61754 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 596] AOR Augmentor.Operations: [0.62033 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 597] AOR Augmentor.Operations: [0.62214 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 598] AOR Augmentor.Operations: [0.61840 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 599] AOR Augmentor.Operations: [0.61908 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 600] AOR Augmentor.Operations: [0.61425 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 601] AOR Augmentor.Operations: [0.61217 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 602] AOR Augmentor.Operations: [0.61510 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 603] AOR Augmentor.Operations: [0.62010 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 604] AOR Augmentor.Operations: [0.62596 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 605] AOR Augmentor.Operations: [0.62308 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 606] AOR Augmentor.Operations: [0.63013 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 607] AOR Augmentor.Operations: [0.83492 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 608] AOR Augmentor.Operations: [0.66465 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 609] AOR Augmentor.Operations: [0.64304 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 610] AOR Augmentor.Operations: [0.62365 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 611] ASR Augmentor.Operations: [0.62496 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 612] ASR Augmentor.Operations: [0.62299 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 613] ASR Augmentor.Operations: [0.60578 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 614] ASR Augmentor.Operations: [0.62292 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 615] ASR Augmentor.Operations: [0.62705 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 616] ASR Augmentor.Operations: [0.63036 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 617] ASR Augmentor.Operations: [0.62458 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 618] ASR Augmentor.Operations: [0.62366 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 619] ASR Augmentor.Operations: [0.62324 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 620] ASR Augmentor.Operations: [0.62237 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 621] ASR Augmentor.Operations: [0.61901 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 622] ASR Augmentor.Operations: [0.62593 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 623] COD Augmentor.Operations: [0.62856 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 624] COD Augmentor.Operations: [0.62771 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 625] COD Augmentor.Operations: [0.62908 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 626] COD Augmentor.Operations: [0.62431 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 627] COI Augmentor.Operations: [0.62211 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 628] COI Augmentor.Operations: [0.93731 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 629] COI Augmentor.Operations: [0.62196 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 630] COI Augmentor.Operations: [0.62356 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 631] COI Augmentor.Operations: [0.62179 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 632] COI Augmentor.Operations: [0.64670 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 633] COI Augmentor.Operations: [0.63824 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 634] COI Augmentor.Operations: [0.62859 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 635] COI Augmentor.Operations: [0.62560 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 636] COI Augmentor.Operations: [0.63052 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 637] COI Augmentor.Operations: [0.61934 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 638] COI Augmentor.Operations: [0.63122 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 639] COI Augmentor.Operations: [0.62375 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 640] COI Augmentor.Operations: [0.68381 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 641] COI Augmentor.Operations: [0.62156 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 642] COI Augmentor.Operations: [0.62371 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 643] COI Augmentor.Operations: [0.62581 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 644] COI Augmentor.Operations: [0.62864 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 645] COI Augmentor.Operations: [0.61865 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 646] COI Augmentor.Operations: [0.61652 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 647] COI Augmentor.Operations: [0.62744 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 648] COI Augmentor.Operations: [0.62160 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 649] COI Augmentor.Operations: [0.63337 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 650] COI Augmentor.Operations: [0.62949 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 651] COI Augmentor.Operations: [0.62460 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 652] COI Augmentor.Operations: [0.62104 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 653] COI Augmentor.Operations: [0.61961 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 654] COI Augmentor.Operations: [0.62204 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 655] COI Augmentor.Operations: [0.63132 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 656] COI Augmentor.Operations: [0.62516 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 657] COI Augmentor.Operations: [0.61727 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 658] COI Augmentor.Operations: [0.62060 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 659] COI Augmentor.Operations: [0.62427 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 660] COI Augmentor.Operations: [0.61890 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 661] COI Augmentor.Operations: [0.62882 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 662] COI Augmentor.Operations: [0.62808 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 663] COI Augmentor.Operations: [0.62854 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 664] COI Augmentor.Operations: [0.62864 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 665] COI Augmentor.Operations: [0.62217 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 666] COI Augmentor.Operations: [0.63391 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 667] COI Augmentor.Operations: [0.62681 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 668] COI Augmentor.Operations: [0.62414 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 669] COI Augmentor.Operations: [0.62448 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 670] COI Augmentor.Operations: [0.62077 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 671] COI Augmentor.Operations: [0.61526 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 672] COI Augmentor.Operations: [0.61603 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 673] COI Augmentor.Operations: [0.62729 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 674] COI Augmentor.Operations: [0.62021 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 675] COI Augmentor.Operations: [0.62124 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 676] COI Augmentor.Operations: [0.62630 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 677] COI Augmentor.Operations: [0.62913 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 678] COI Augmentor.Operations: [0.62421 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 679] IOD Augmentor.Operations: [0.62972 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 680] IOD Augmentor.Operations: [0.62003 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 681] IOD Augmentor.Operations: [0.61838 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 682] IOD Augmentor.Operations: [0.61534 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 683] IOD Augmentor.Operations: [0.65052 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 684] IOD Augmentor.Operations: [0.62095 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 685] IOD Augmentor.Operations: [0.62469 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 686] IOD Augmentor.Operations: [0.61220 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 687] IOD Augmentor.Operations: [0.61349 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 688] IOD Augmentor.Operations: [0.62211 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 689] IOD Augmentor.Operations: [0.62699 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 690] IOD Augmentor.Operations: [0.62229 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 691] IOD Augmentor.Operations: [0.62333 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 692] IOD Augmentor.Operations: [0.61045 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 693] IOD Augmentor.Operations: [0.62298 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 694] IOD Augmentor.Operations: [0.61679 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 695] IOD Augmentor.Operations: [0.63063 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 696] IOD Augmentor.Operations: [0.62933 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 697] IOD Augmentor.Operations: [0.63765 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 698] IOD Augmentor.Operations: [0.62694 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 699] IOD Augmentor.Operations: [0.62912 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 700] IOD Augmentor.Operations: [0.63998 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 701] IOD Augmentor.Operations: [0.74519 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 702] IOD Augmentor.Operations: [0.66875 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 703] IOD Augmentor.Operations: [0.62413 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 704] IOD Augmentor.Operations: [0.62221 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 705] IOD Augmentor.Operations: [0.61543 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 706] IOD Augmentor.Operations: [0.62153 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 707] IOD Augmentor.Operations: [0.62325 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 708] IOD Augmentor.Operations: [0.61945 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 709] IOD Augmentor.Operations: [0.62772 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 710] IOD Augmentor.Operations: [0.62068 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 711] IOD Augmentor.Operations: [0.62486 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 712] IOD Augmentor.Operations: [0.61808 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 713] IOD Augmentor.Operations: [0.61831 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 714] IOD Augmentor.Operations: [0.62163 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 715] IOD Augmentor.Operations: [0.62457 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 716] IOD Augmentor.Operations: [0.62493 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 717] IOD Augmentor.Operations: [0.62294 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 718] IOD Augmentor.Operations: [0.62393 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 719] IOD Augmentor.Operations: [0.61980 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 720] IOD Augmentor.Operations: [0.61927 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 721] IOD Augmentor.Operations: [0.62758 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 722] IOD Augmentor.Operations: [0.92235 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 723] IOD Augmentor.Operations: [0.61097 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 724] IOD Augmentor.Operations: [0.63489 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 725] IOD Augmentor.Operations: [0.62412 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 726] IOD Augmentor.Operations: [0.62082 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 727] IOD Augmentor.Operations: [0.63429 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 728] IOD Augmentor.Operations: [0.71017 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 729] IOD Augmentor.Operations: [0.62949 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 730] IOD Augmentor.Operations: [0.63060 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 731] IOD Augmentor.Operations: [0.62621 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 732] IOD Augmentor.Operations: [0.63182 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 733] IOD Augmentor.Operations: [0.62671 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 734] IOD Augmentor.Operations: [0.69739 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 735] LCR Augmentor.Operations: [0.62560 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 736] LCR Augmentor.Operations: [0.61724 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 737] LCR Augmentor.Operations: [0.63045 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 738] LCR Augmentor.Operations: [0.61655 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 739] LCR Augmentor.Operations: [0.62560 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 740] LCR Augmentor.Operations: [0.62718 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 741] ROR Augmentor.Operations: [0.62460 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 742] ROR Augmentor.Operations: [0.61812 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 743] ROR Augmentor.Operations: [0.62209 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 744] ROR Augmentor.Operations: [0.62159 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 745] ROR Augmentor.Operations: [0.62005 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 746] ROR Augmentor.Operations: [0.63612 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 747] ROR Augmentor.Operations: [0.62724 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 748] ROR Augmentor.Operations: [0.62536 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 749] ROR Augmentor.Operations: [0.62718 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 750] ROR Augmentor.Operations: [0.62452 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 751] ROR Augmentor.Operations: [0.62281 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 752] ROR Augmentor.Operations: [0.62276 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 753] ROR Augmentor.Operations: [0.62040 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 754] ROR Augmentor.Operations: [0.62803 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 755] ROR Augmentor.Operations: [0.62713 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 756] ROR Augmentor.Operations: [0.62251 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 757] ROR Augmentor.Operations: [0.64029 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 758] ROR Augmentor.Operations: [0.62348 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 759] ROR Augmentor.Operations: [0.62511 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 760] ROR Augmentor.Operations: [0.65115 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 761] ROR Augmentor.Operations: [0.62751 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 762] ROR Augmentor.Operations: [0.62928 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 763] ROR Augmentor.Operations: [0.61990 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 764] ROR Augmentor.Operations: [0.62513 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 765] ROR Augmentor.Operations: [0.61908 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 766] ROR Augmentor.Operations: [0.62017 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 767] ROR Augmentor.Operations: [0.62479 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 768] ROR Augmentor.Operations: [0.62040 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 769] ROR Augmentor.Operations: [0.62177 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 770] ROR Augmentor.Operations: [0.62214 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 771] ROR Augmentor.Operations: [0.61687 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 772] ROR Augmentor.Operations: [0.62054 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 773] ROR Augmentor.Operations: [0.61905 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 774] ROR Augmentor.Operations: [0.62130 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 775] ROR Augmentor.Operations: [0.62111 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 776] ROR Augmentor.Operations: [0.63510 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 777] ROR Augmentor.Operations: [0.64251 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 778] ROR Augmentor.Operations: [0.62228 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 779] ROR Augmentor.Operations: [0.62347 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 780] ROR Augmentor.Operations: [0.62329 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 781] ROR Augmentor.Operations: [0.62595 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 782] ROR Augmentor.Operations: [0.62343 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 783] ROR Augmentor.Operations: [0.62773 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 784] ROR Augmentor.Operations: [0.62342 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 785] ROR Augmentor.Operations: [0.62252 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 786] ROR Augmentor.Operations: [0.62315 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 787] ROR Augmentor.Operations: [0.62773 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 788] ROR Augmentor.Operations: [0.63232 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 789] ROR Augmentor.Operations: [0.62465 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 790] ROR Augmentor.Operations: [0.63192 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 791] ROR Augmentor.Operations: [0.63590 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 792] ROR Augmentor.Operations: [0.63430 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 793] ROR Augmentor.Operations: [0.63153 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 794] ROR Augmentor.Operations: [0.65543 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 795] ROR Augmentor.Operations: [0.77797 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 796] ROR Augmentor.Operations: [0.68412 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 797] ROR Augmentor.Operations: [0.62738 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 798] ROR Augmentor.Operations: [0.62466 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 799] ROR Augmentor.Operations: [0.62793 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 800] SCI Augmentor.Operations: [0.63056 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 801] SCI Augmentor.Operations: [0.63676 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 802] SCI Augmentor.Operations: [0.62368 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 803] SCI Augmentor.Operations: [0.63681 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 804] SCI Augmentor.Operations: [0.63064 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 805] SCI Augmentor.Operations: [0.62054 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 806] SCI Augmentor.Operations: [0.63160 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 807] SCI Augmentor.Operations: [0.61902 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 808] SCI Augmentor.Operations: [0.62540 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 809] SCI Augmentor.Operations: [0.62393 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 810] SCI Augmentor.Operations: [0.62207 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 811] SCI Augmentor.Operations: [0.62806 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 812] SCI Augmentor.Operations: [0.62350 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 813] SCI Augmentor.Operations: [0.62322 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 814] SCI Augmentor.Operations: [0.61994 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 815] SCI Augmentor.Operations: [0.94208 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 816] SCI Augmentor.Operations: [0.62851 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 817] SCI Augmentor.Operations: [0.62203 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 818] SCI Augmentor.Operations: [0.62024 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 819] SCI Augmentor.Operations: [0.62182 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 820] SCI Augmentor.Operations: [0.61501 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 821] SCI Augmentor.Operations: [0.60947 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 822] SCI Augmentor.Operations: [0.64592 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 823] SCI Augmentor.Operations: [0.62210 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 824] SCI Augmentor.Operations: [0.62416 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 825] SCI Augmentor.Operations: [0.62413 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 826] SCI Augmentor.Operations: [0.62203 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 827] SCI Augmentor.Operations: [0.68615 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 828] SCI Augmentor.Operations: [0.62326 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 829] SCI Augmentor.Operations: [0.61503 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 830] SCI Augmentor.Operations: [0.62214 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 831] SCI Augmentor.Operations: [0.62552 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 832] SCI Augmentor.Operations: [0.62518 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 833] SCI Augmentor.Operations: [0.61623 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 834] SCI Augmentor.Operations: [0.61386 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 835] SCI Augmentor.Operations: [0.62848 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 836] SCI Augmentor.Operations: [0.62591 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 837] SCI Augmentor.Operations: [0.62984 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 838] SCI Augmentor.Operations: [0.63450 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 839] SCI Augmentor.Operations: [0.62287 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 840] SCI Augmentor.Operations: [0.62832 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 841] SCI Augmentor.Operations: [0.62675 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 842] SCI Augmentor.Operations: [0.62515 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 843] SCI Augmentor.Operations: [0.62384 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 844] SCI Augmentor.Operations: [0.63087 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 845] SCI Augmentor.Operations: [0.62199 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 846] SCI Augmentor.Operations: [0.62217 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 847] SCI Augmentor.Operations: [0.61879 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 848] SCI Augmentor.Operations: [0.62934 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 849] SCI Augmentor.Operations: [0.63001 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 850] SCI Augmentor.Operations: [0.62516 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 851] SCI Augmentor.Operations: [0.64421 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 852] SCI Augmentor.Operations: [0.62422 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 853] SCI Augmentor.Operations: [0.61999 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 854] SCI Augmentor.Operations: [0.63136 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 855] SCI Augmentor.Operations: [0.62002 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 856] AOD Augmentor.Pipeline: [0.66822 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 857] AOD Augmentor.Pipeline: [0.67087 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 858] AOD Augmentor.Pipeline: [0.67062 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 859] AOR Augmentor.Pipeline: [0.66721 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 860] AOR Augmentor.Pipeline: [0.65794 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 861] AOR Augmentor.Pipeline: [0.65174 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 862] AOR Augmentor.Pipeline: [0.66313 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 863] AOR Augmentor.Pipeline: [0.66392 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 864] AOR Augmentor.Pipeline: [0.62221 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 865] AOR Augmentor.Pipeline: [0.61935 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 866] AOR Augmentor.Pipeline: [0.62579 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 867] AOR Augmentor.Pipeline: [0.62042 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 868] AOR Augmentor.Pipeline: [0.62355 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 869] AOR Augmentor.Pipeline: [0.62003 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 870] AOR Augmentor.Pipeline: [0.63795 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 871] AOR Augmentor.Pipeline: [0.62163 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 872] AOR Augmentor.Pipeline: [0.63794 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 873] AOR Augmentor.Pipeline: [0.61717 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 874] AOR Augmentor.Pipeline: [0.61975 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 875] AOR Augmentor.Pipeline: [0.61634 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 876] AOR Augmentor.Pipeline: [0.62096 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 877] AOR Augmentor.Pipeline: [0.62390 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 878] AOR Augmentor.Pipeline: [0.62271 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 879] AOR Augmentor.Pipeline: [0.62287 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 880] AOR Augmentor.Pipeline: [0.61903 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 881] AOR Augmentor.Pipeline: [0.62484 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 882] AOR Augmentor.Pipeline: [0.63139 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 883] AOR Augmentor.Pipeline: [0.62699 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 884] AOR Augmentor.Pipeline: [0.61916 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 885] AOR Augmentor.Pipeline: [0.62371 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 886] AOR Augmentor.Pipeline: [0.61910 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 887] AOR Augmentor.Pipeline: [0.63995 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 888] AOR Augmentor.Pipeline: [0.74623 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 889] AOR Augmentor.Pipeline: [0.66446 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 890] AOR Augmentor.Pipeline: [0.61605 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 891] AOR Augmentor.Pipeline: [0.62141 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 892] AOR Augmentor.Pipeline: [0.61201 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 893] AOR Augmentor.Pipeline: [0.61736 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 894] AOR Augmentor.Pipeline: [0.61147 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 895] AOR Augmentor.Pipeline: [0.62141 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 896] AOR Augmentor.Pipeline: [0.60810 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 897] AOR Augmentor.Pipeline: [0.61472 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 898] AOR Augmentor.Pipeline: [0.61852 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 899] AOR Augmentor.Pipeline: [0.61797 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 900] AOR Augmentor.Pipeline: [0.61317 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 901] AOR Augmentor.Pipeline: [0.61217 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 902] AOR Augmentor.Pipeline: [0.62842 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 903] AOR Augmentor.Pipeline: [0.62048 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 904] AOR Augmentor.Pipeline: [0.62465 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 905] AOR Augmentor.Pipeline: [0.61673 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 906] AOR Augmentor.Pipeline: [0.61174 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 907] ASR Augmentor.Pipeline: [0.60830 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 908] ASR Augmentor.Pipeline: [0.62519 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 909] ASR Augmentor.Pipeline: [0.93971 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 910] ASR Augmentor.Pipeline: [0.62112 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 911] ASR Augmentor.Pipeline: [0.62571 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 912] ASR Augmentor.Pipeline: [0.61860 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 913] ASR Augmentor.Pipeline: [0.62795 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 914] ASR Augmentor.Pipeline: [0.62820 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 915] COD Augmentor.Pipeline: [0.63009 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 916] COD Augmentor.Pipeline: [0.63583 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 917] COD Augmentor.Pipeline: [0.63612 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 918] COD Augmentor.Pipeline: [0.63124 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 919] COD Augmentor.Pipeline: [0.62479 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 920] COD Augmentor.Pipeline: [0.63003 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 921] COD Augmentor.Pipeline: [0.69066 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 922] COD Augmentor.Pipeline: [0.62862 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 923] COD Augmentor.Pipeline: [0.62432 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 924] COD Augmentor.Pipeline: [0.63032 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 925] COD Augmentor.Pipeline: [0.60872 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 926] COD Augmentor.Pipeline: [0.62324 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 927] COD Augmentor.Pipeline: [0.62228 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 928] COD Augmentor.Pipeline: [0.62597 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 929] COD Augmentor.Pipeline: [0.62333 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 930] COD Augmentor.Pipeline: [0.61620 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 931] COD Augmentor.Pipeline: [0.62076 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 932] COD Augmentor.Pipeline: [0.62780 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 933] COD Augmentor.Pipeline: [0.63258 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 934] COD Augmentor.Pipeline: [0.63068 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 935] COD Augmentor.Pipeline: [0.62635 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 936] COD Augmentor.Pipeline: [0.61851 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 937] COD Augmentor.Pipeline: [0.61361 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 938] COD Augmentor.Pipeline: [0.61327 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 939] COD Augmentor.Pipeline: [0.62738 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 940] COD Augmentor.Pipeline: [0.62153 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 941] COD Augmentor.Pipeline: [0.61976 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 942] COD Augmentor.Pipeline: [0.62012 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 943] COD Augmentor.Pipeline: [0.61611 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 944] COD Augmentor.Pipeline: [0.61501 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 945] COD Augmentor.Pipeline: [0.62998 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 946] COD Augmentor.Pipeline: [0.62101 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 947] COD Augmentor.Pipeline: [0.61353 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 948] COD Augmentor.Pipeline: [0.62484 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 949] COD Augmentor.Pipeline: [0.63839 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 950] COD Augmentor.Pipeline: [0.62183 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 951] COD Augmentor.Pipeline: [0.61767 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 952] COD Augmentor.Pipeline: [0.62258 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 953] COD Augmentor.Pipeline: [0.63425 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 954] COD Augmentor.Pipeline: [0.62378 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 955] COD Augmentor.Pipeline: [0.62630 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 956] COD Augmentor.Pipeline: [0.60409 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 957] COD Augmentor.Pipeline: [0.61431 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 958] COD Augmentor.Pipeline: [0.61481 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 959] COD Augmentor.Pipeline: [0.61354 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 960] COD Augmentor.Pipeline: [0.62114 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 961] COD Augmentor.Pipeline: [0.63099 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 962] COD Augmentor.Pipeline: [0.61802 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 963] COD Augmentor.Pipeline: [0.61906 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 964] COD Augmentor.Pipeline: [0.62370 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 965] COD Augmentor.Pipeline: [0.62937 s] killed by tests/test_load.py::test_initialise_with_subfolders
+   - [# 966] COD Augmentor.Pipeline: [0.24803 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [# 967] COD Augmentor.Pipeline: [0.25256 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [# 968] COD Augmentor.Pipeline: [0.24952 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [# 969] COD Augmentor.Pipeline: [0.25299 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [# 970] COD Augmentor.Pipeline: [0.24903 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [# 971] COD Augmentor.Pipeline: [0.24698 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [# 972] COD Augmentor.Pipeline: [0.25023 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [# 973] COD Augmentor.Pipeline: [0.24798 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [# 974] COD Augmentor.Pipeline: [0.25016 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [# 975] COD Augmentor.Pipeline: [0.25336 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [# 976] COD Augmentor.Pipeline: [0.27469 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [# 977] COD Augmentor.Pipeline: [0.25085 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [# 978] COD Augmentor.Pipeline: [0.24812 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [# 979] COI Augmentor.Pipeline: [0.25859 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [# 980] COI Augmentor.Pipeline: [0.25457 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [# 981] COI Augmentor.Pipeline: [0.24615 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [# 982] COI Augmentor.Pipeline: [0.25460 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [# 983] COI Augmentor.Pipeline: [0.25080 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [# 984] COI Augmentor.Pipeline: [0.25998 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [# 985] COI Augmentor.Pipeline: [0.25428 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [# 986] COI Augmentor.Pipeline: [0.24725 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [# 987] COI Augmentor.Pipeline: [0.24489 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [# 988] COI Augmentor.Pipeline: [0.23684 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [# 989] COI Augmentor.Pipeline: [0.24546 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [# 990] COI Augmentor.Pipeline: [0.26401 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [# 991] COI Augmentor.Pipeline: [0.24192 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [# 992] COI Augmentor.Pipeline: [0.25275 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [# 993] COI Augmentor.Pipeline: [0.25077 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [# 994] COI Augmentor.Pipeline: [0.25556 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [# 995] COI Augmentor.Pipeline: [0.25337 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [# 996] COI Augmentor.Pipeline: [0.27642 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [# 997] COI Augmentor.Pipeline: [0.24486 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [# 998] COI Augmentor.Pipeline: [0.25161 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [# 999] COI Augmentor.Pipeline: [0.25665 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1000] COI Augmentor.Pipeline: [0.25292 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1001] COI Augmentor.Pipeline: [0.25080 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1002] COI Augmentor.Pipeline: [0.25443 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1003] COI Augmentor.Pipeline: [0.25234 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1004] COI Augmentor.Pipeline: [0.25245 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1005] COI Augmentor.Pipeline: [0.23701 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1006] COI Augmentor.Pipeline: [0.26621 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1007] COI Augmentor.Pipeline: [0.25735 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1008] COI Augmentor.Pipeline: [0.36560 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1009] COI Augmentor.Pipeline: [0.24662 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1010] COI Augmentor.Pipeline: [0.24751 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1011] COI Augmentor.Pipeline: [0.29350 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1012] COI Augmentor.Pipeline: [0.25454 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1013] COI Augmentor.Pipeline: [0.24730 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1014] COI Augmentor.Pipeline: [0.25118 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1015] COI Augmentor.Pipeline: [0.25032 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1016] COI Augmentor.Pipeline: [0.25032 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1017] COI Augmentor.Pipeline: [0.24910 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1018] COI Augmentor.Pipeline: [0.24401 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1019] COI Augmentor.Pipeline: [0.24989 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1020] COI Augmentor.Pipeline: [0.24822 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1021] COI Augmentor.Pipeline: [0.24982 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1022] COI Augmentor.Pipeline: [0.25107 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1023] COI Augmentor.Pipeline: [0.24969 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1024] COI Augmentor.Pipeline: [0.25345 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1025] COI Augmentor.Pipeline: [0.24969 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1026] COI Augmentor.Pipeline: [0.26060 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1027] COI Augmentor.Pipeline: [0.25324 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1028] COI Augmentor.Pipeline: [0.24259 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1029] COI Augmentor.Pipeline: [0.25877 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1030] COI Augmentor.Pipeline: [0.26250 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1031] COI Augmentor.Pipeline: [0.25201 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1032] COI Augmentor.Pipeline: [0.24371 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1033] COI Augmentor.Pipeline: [0.24852 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1034] COI Augmentor.Pipeline: [0.25619 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1035] COI Augmentor.Pipeline: [0.25520 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1036] COI Augmentor.Pipeline: [0.26356 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1037] COI Augmentor.Pipeline: [0.24112 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1038] COI Augmentor.Pipeline: [0.26361 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1039] COI Augmentor.Pipeline: [0.25303 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1040] COI Augmentor.Pipeline: [0.25038 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1041] COI Augmentor.Pipeline: [0.24875 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1042] COI Augmentor.Pipeline: [0.25393 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1043] COI Augmentor.Pipeline: [0.24268 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1044] COI Augmentor.Pipeline: [0.25902 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1045] COI Augmentor.Pipeline: [0.25870 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1046] COI Augmentor.Pipeline: [0.24719 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1047] COI Augmentor.Pipeline: [0.25149 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1048] COI Augmentor.Pipeline: [0.25906 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1049] COI Augmentor.Pipeline: [0.24461 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1050] COI Augmentor.Pipeline: [0.25382 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1051] COI Augmentor.Pipeline: [0.24987 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1052] COI Augmentor.Pipeline: [0.26308 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1053] COI Augmentor.Pipeline: [0.25291 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1054] COI Augmentor.Pipeline: [0.25881 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1055] COI Augmentor.Pipeline: [0.26044 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1056] COI Augmentor.Pipeline: [0.26530 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1057] COI Augmentor.Pipeline: [0.26424 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1058] COI Augmentor.Pipeline: [0.24653 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1059] COI Augmentor.Pipeline: [0.59799 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1060] COI Augmentor.Pipeline: [0.24347 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1061] COI Augmentor.Pipeline: [0.25941 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1062] COI Augmentor.Pipeline: [0.24994 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1063] COI Augmentor.Pipeline: [0.26147 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1064] COI Augmentor.Pipeline: [0.24440 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1065] COI Augmentor.Pipeline: [0.24180 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1066] COI Augmentor.Pipeline: [0.24127 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1067] COI Augmentor.Pipeline: [0.23809 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1068] COI Augmentor.Pipeline: [0.23775 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1069] COI Augmentor.Pipeline: [0.25036 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1070] COI Augmentor.Pipeline: [0.25990 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1071] COI Augmentor.Pipeline: [0.24943 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1072] COI Augmentor.Pipeline: [0.24717 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1073] COI Augmentor.Pipeline: [0.24437 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1074] COI Augmentor.Pipeline: [0.25062 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1075] COI Augmentor.Pipeline: [0.25888 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1076] COI Augmentor.Pipeline: [0.25566 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1077] COI Augmentor.Pipeline: [0.25070 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1078] COI Augmentor.Pipeline: [0.26159 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1079] COI Augmentor.Pipeline: [0.27544 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1080] COI Augmentor.Pipeline: [0.24736 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1081] COI Augmentor.Pipeline: [0.25272 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1082] COI Augmentor.Pipeline: [0.25789 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1083] COI Augmentor.Pipeline: [0.25717 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1084] COI Augmentor.Pipeline: [0.25221 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1085] COI Augmentor.Pipeline: [0.26762 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1086] COI Augmentor.Pipeline: [0.25537 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1087] COI Augmentor.Pipeline: [0.34141 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1088] COI Augmentor.Pipeline: [0.25113 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1089] COI Augmentor.Pipeline: [0.25821 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1090] COI Augmentor.Pipeline: [0.24663 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1091] COI Augmentor.Pipeline: [0.24787 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1092] COI Augmentor.Pipeline: [0.25629 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1093] COI Augmentor.Pipeline: [0.26191 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1094] COI Augmentor.Pipeline: [0.26050 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1095] COI Augmentor.Pipeline: [0.24998 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1096] COI Augmentor.Pipeline: [0.24602 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1097] DDL Augmentor.Pipeline: [0.25907 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1098] DDL Augmentor.Pipeline: [0.24469 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1099] DDL Augmentor.Pipeline: [0.00000 s] incompetent
+   - [#1100] DDL Augmentor.Pipeline: [0.25137 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1101] DDL Augmentor.Pipeline: [0.00000 s] incompetent
+   - [#1102] DDL Augmentor.Pipeline: [0.25118 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1103] EHD Augmentor.Pipeline: [0.24648 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1104] EHD Augmentor.Pipeline: [0.24464 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1105] EHD Augmentor.Pipeline: [0.25051 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1106] EHD Augmentor.Pipeline: [0.25741 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1107] EXS Augmentor.Pipeline: [0.25679 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1108] EXS Augmentor.Pipeline: [0.24631 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1109] EXS Augmentor.Pipeline: [0.24668 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1110] EXS Augmentor.Pipeline: [0.24977 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1111] IOD Augmentor.Pipeline: [0.25180 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1112] IOD Augmentor.Pipeline: [0.24488 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1113] IOD Augmentor.Pipeline: [0.24923 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1114] IOD Augmentor.Pipeline: [0.24580 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1115] IOD Augmentor.Pipeline: [0.24217 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1116] IOP Augmentor.Pipeline: [0.24872 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1117] ROR Augmentor.Pipeline: [0.24794 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1118] ROR Augmentor.Pipeline: [0.25776 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1119] ROR Augmentor.Pipeline: [0.25891 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1120] ROR Augmentor.Pipeline: [0.24911 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1121] ROR Augmentor.Pipeline: [0.25497 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1122] ROR Augmentor.Pipeline: [0.25657 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1123] ROR Augmentor.Pipeline: [0.25914 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1124] ROR Augmentor.Pipeline: [0.24206 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1125] ROR Augmentor.Pipeline: [0.26099 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1126] ROR Augmentor.Pipeline: [0.25927 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1127] ROR Augmentor.Pipeline: [0.25100 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1128] ROR Augmentor.Pipeline: [0.25855 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1129] ROR Augmentor.Pipeline: [0.24779 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1130] ROR Augmentor.Pipeline: [0.26108 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1131] ROR Augmentor.Pipeline: [0.24588 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1132] ROR Augmentor.Pipeline: [0.25339 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1133] ROR Augmentor.Pipeline: [0.25350 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1134] ROR Augmentor.Pipeline: [0.25667 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1135] ROR Augmentor.Pipeline: [0.25348 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1136] ROR Augmentor.Pipeline: [0.26239 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1137] ROR Augmentor.Pipeline: [0.26766 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1138] ROR Augmentor.Pipeline: [0.26413 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1139] ROR Augmentor.Pipeline: [0.25450 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1140] ROR Augmentor.Pipeline: [0.25998 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1141] ROR Augmentor.Pipeline: [0.24793 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1142] ROR Augmentor.Pipeline: [0.26123 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1143] ROR Augmentor.Pipeline: [0.26498 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1144] ROR Augmentor.Pipeline: [0.25486 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1145] ROR Augmentor.Pipeline: [0.25818 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1146] ROR Augmentor.Pipeline: [0.25530 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1147] ROR Augmentor.Pipeline: [0.25244 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1148] ROR Augmentor.Pipeline: [0.25569 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1149] ROR Augmentor.Pipeline: [0.25534 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1150] ROR Augmentor.Pipeline: [0.28156 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1151] ROR Augmentor.Pipeline: [0.26730 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1152] ROR Augmentor.Pipeline: [0.27025 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1153] ROR Augmentor.Pipeline: [0.26784 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1154] ROR Augmentor.Pipeline: [0.26718 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1155] ROR Augmentor.Pipeline: [0.26015 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1156] ROR Augmentor.Pipeline: [0.26421 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1157] ROR Augmentor.Pipeline: [0.25558 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1158] ROR Augmentor.Pipeline: [0.27413 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1159] ROR Augmentor.Pipeline: [0.25334 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1160] ROR Augmentor.Pipeline: [0.24862 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1161] ROR Augmentor.Pipeline: [0.24659 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1162] ROR Augmentor.Pipeline: [0.26253 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1163] ROR Augmentor.Pipeline: [0.25371 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1164] ROR Augmentor.Pipeline: [0.24285 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1165] ROR Augmentor.Pipeline: [0.26206 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1166] ROR Augmentor.Pipeline: [0.25801 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1167] ROR Augmentor.Pipeline: [0.26431 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1168] ROR Augmentor.Pipeline: [0.25876 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1169] ROR Augmentor.Pipeline: [0.25326 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1170] ROR Augmentor.Pipeline: [0.25400 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1171] ROR Augmentor.Pipeline: [0.24775 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1172] ROR Augmentor.Pipeline: [0.26156 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1173] ROR Augmentor.Pipeline: [0.26321 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1174] ROR Augmentor.Pipeline: [0.24751 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1175] ROR Augmentor.Pipeline: [0.26101 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1176] ROR Augmentor.Pipeline: [0.24453 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1177] ROR Augmentor.Pipeline: [0.24566 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1178] ROR Augmentor.Pipeline: [0.25424 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1179] ROR Augmentor.Pipeline: [0.25446 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1180] ROR Augmentor.Pipeline: [0.24650 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1181] ROR Augmentor.Pipeline: [0.24259 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1182] ROR Augmentor.Pipeline: [0.24445 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1183] ROR Augmentor.Pipeline: [0.25063 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1184] ROR Augmentor.Pipeline: [0.25577 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1185] ROR Augmentor.Pipeline: [0.24464 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1186] ROR Augmentor.Pipeline: [0.25405 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1187] ROR Augmentor.Pipeline: [0.25244 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1188] ROR Augmentor.Pipeline: [0.26236 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1189] ROR Augmentor.Pipeline: [0.26473 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1190] ROR Augmentor.Pipeline: [0.25903 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1191] ROR Augmentor.Pipeline: [0.25445 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1192] ROR Augmentor.Pipeline: [0.24422 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1193] ROR Augmentor.Pipeline: [0.25100 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1194] ROR Augmentor.Pipeline: [0.25814 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1195] ROR Augmentor.Pipeline: [0.26630 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1196] ROR Augmentor.Pipeline: [0.25100 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1197] ROR Augmentor.Pipeline: [0.25020 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1198] ROR Augmentor.Pipeline: [0.24783 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1199] ROR Augmentor.Pipeline: [0.24817 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1200] ROR Augmentor.Pipeline: [0.24525 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1201] ROR Augmentor.Pipeline: [0.25280 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1202] ROR Augmentor.Pipeline: [0.24692 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1203] ROR Augmentor.Pipeline: [0.24474 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1204] ROR Augmentor.Pipeline: [0.26446 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1205] ROR Augmentor.Pipeline: [0.26337 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1206] ROR Augmentor.Pipeline: [0.25332 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1207] ROR Augmentor.Pipeline: [0.25306 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1208] ROR Augmentor.Pipeline: [0.26532 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1209] ROR Augmentor.Pipeline: [0.25076 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1210] ROR Augmentor.Pipeline: [0.24191 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1211] ROR Augmentor.Pipeline: [0.24666 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1212] ROR Augmentor.Pipeline: [0.26149 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1213] ROR Augmentor.Pipeline: [0.25220 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1214] ROR Augmentor.Pipeline: [0.26710 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1215] ROR Augmentor.Pipeline: [0.25532 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1216] ROR Augmentor.Pipeline: [0.26037 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1217] ROR Augmentor.Pipeline: [0.24080 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1218] ROR Augmentor.Pipeline: [0.25849 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1219] ROR Augmentor.Pipeline: [0.26344 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1220] ROR Augmentor.Pipeline: [0.24713 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1221] ROR Augmentor.Pipeline: [0.24260 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1222] ROR Augmentor.Pipeline: [0.25371 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1223] ROR Augmentor.Pipeline: [0.25684 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1224] ROR Augmentor.Pipeline: [0.25837 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1225] ROR Augmentor.Pipeline: [0.25899 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1226] ROR Augmentor.Pipeline: [0.25531 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1227] ROR Augmentor.Pipeline: [0.25696 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1228] ROR Augmentor.Pipeline: [0.26764 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1229] ROR Augmentor.Pipeline: [0.24817 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1230] ROR Augmentor.Pipeline: [0.24028 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1231] ROR Augmentor.Pipeline: [0.25024 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1232] ROR Augmentor.Pipeline: [0.25836 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1233] ROR Augmentor.Pipeline: [0.25382 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1234] ROR Augmentor.Pipeline: [0.26452 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1235] ROR Augmentor.Pipeline: [0.26779 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1236] ROR Augmentor.Pipeline: [0.25782 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1237] ROR Augmentor.Pipeline: [0.40091 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1238] ROR Augmentor.Pipeline: [0.24997 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1239] ROR Augmentor.Pipeline: [0.24431 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1240] ROR Augmentor.Pipeline: [0.31089 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1241] ROR Augmentor.Pipeline: [0.24951 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1242] ROR Augmentor.Pipeline: [0.26141 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1243] ROR Augmentor.Pipeline: [0.26290 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1244] ROR Augmentor.Pipeline: [0.25992 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1245] ROR Augmentor.Pipeline: [0.26030 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1246] ROR Augmentor.Pipeline: [0.25741 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1247] ROR Augmentor.Pipeline: [0.26160 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1248] ROR Augmentor.Pipeline: [0.25675 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1249] ROR Augmentor.Pipeline: [0.26999 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1250] ROR Augmentor.Pipeline: [0.25825 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1251] ROR Augmentor.Pipeline: [0.26951 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1252] ROR Augmentor.Pipeline: [0.25568 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1253] ROR Augmentor.Pipeline: [0.25740 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1254] ROR Augmentor.Pipeline: [0.25951 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1255] ROR Augmentor.Pipeline: [0.25737 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1256] ROR Augmentor.Pipeline: [0.25938 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1257] ROR Augmentor.Pipeline: [0.24604 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1258] ROR Augmentor.Pipeline: [0.25038 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1259] ROR Augmentor.Pipeline: [0.25177 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1260] ROR Augmentor.Pipeline: [0.26642 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1261] ROR Augmentor.Pipeline: [0.25690 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1262] ROR Augmentor.Pipeline: [0.24534 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1263] ROR Augmentor.Pipeline: [0.24960 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1264] ROR Augmentor.Pipeline: [0.26194 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1265] ROR Augmentor.Pipeline: [0.25416 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1266] ROR Augmentor.Pipeline: [0.24340 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1267] ROR Augmentor.Pipeline: [0.24914 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1268] ROR Augmentor.Pipeline: [0.24915 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1269] ROR Augmentor.Pipeline: [0.25730 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1270] ROR Augmentor.Pipeline: [0.26308 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1271] ROR Augmentor.Pipeline: [0.25457 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1272] ROR Augmentor.Pipeline: [0.25762 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1273] ROR Augmentor.Pipeline: [0.25159 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1274] ROR Augmentor.Pipeline: [0.25455 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1275] ROR Augmentor.Pipeline: [0.24351 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1276] ROR Augmentor.Pipeline: [0.25853 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1277] ROR Augmentor.Pipeline: [0.25100 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1278] ROR Augmentor.Pipeline: [0.25065 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1279] ROR Augmentor.Pipeline: [0.25393 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1280] ROR Augmentor.Pipeline: [0.24600 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1281] ROR Augmentor.Pipeline: [0.25007 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1282] ROR Augmentor.Pipeline: [0.24947 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1283] ROR Augmentor.Pipeline: [0.24999 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1284] ROR Augmentor.Pipeline: [0.25895 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1285] ROR Augmentor.Pipeline: [0.25819 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1286] ROR Augmentor.Pipeline: [0.25307 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1287] ROR Augmentor.Pipeline: [0.24598 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1288] ROR Augmentor.Pipeline: [0.58264 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1289] ROR Augmentor.Pipeline: [0.24935 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1290] ROR Augmentor.Pipeline: [0.25934 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1291] ROR Augmentor.Pipeline: [0.25025 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1292] ROR Augmentor.Pipeline: [0.25497 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1293] ROR Augmentor.Pipeline: [0.25127 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1294] ROR Augmentor.Pipeline: [0.23789 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1295] ROR Augmentor.Pipeline: [0.24375 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1296] ROR Augmentor.Pipeline: [0.26277 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1297] ROR Augmentor.Pipeline: [0.25722 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1298] ROR Augmentor.Pipeline: [0.24256 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1299] ROR Augmentor.Pipeline: [0.24798 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1300] ROR Augmentor.Pipeline: [0.24586 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1301] ROR Augmentor.Pipeline: [0.24177 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1302] ROR Augmentor.Pipeline: [0.24527 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1303] ROR Augmentor.Pipeline: [0.25757 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1304] ROR Augmentor.Pipeline: [0.25576 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1305] ROR Augmentor.Pipeline: [0.24842 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1306] ROR Augmentor.Pipeline: [0.24662 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1307] ROR Augmentor.Pipeline: [0.25435 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1308] ROR Augmentor.Pipeline: [0.25012 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1309] ROR Augmentor.Pipeline: [0.25481 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1310] ROR Augmentor.Pipeline: [0.26909 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1311] ROR Augmentor.Pipeline: [0.28214 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1312] ROR Augmentor.Pipeline: [0.26299 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1313] ROR Augmentor.Pipeline: [0.24941 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1314] ROR Augmentor.Pipeline: [0.24846 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1315] ROR Augmentor.Pipeline: [0.25500 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1316] ROR Augmentor.Pipeline: [0.32507 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1317] ROR Augmentor.Pipeline: [0.25427 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1318] ROR Augmentor.Pipeline: [0.25003 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1319] ROR Augmentor.Pipeline: [0.26246 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1320] ROR Augmentor.Pipeline: [0.25709 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1321] ROR Augmentor.Pipeline: [0.25262 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1322] ROR Augmentor.Pipeline: [0.25784 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1323] ROR Augmentor.Pipeline: [0.23907 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1324] ROR Augmentor.Pipeline: [0.24384 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1325] ROR Augmentor.Pipeline: [0.25093 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1326] ROR Augmentor.Pipeline: [0.25708 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1327] ROR Augmentor.Pipeline: [0.24339 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1328] ROR Augmentor.Pipeline: [0.25032 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1329] ROR Augmentor.Pipeline: [0.25138 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1330] ROR Augmentor.Pipeline: [0.25700 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1331] ROR Augmentor.Pipeline: [0.24623 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1332] ROR Augmentor.Pipeline: [0.23988 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1333] ROR Augmentor.Pipeline: [0.25031 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1334] ROR Augmentor.Pipeline: [0.25294 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1335] ROR Augmentor.Pipeline: [0.24297 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1336] ROR Augmentor.Pipeline: [0.24577 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1337] ROR Augmentor.Pipeline: [0.24154 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1338] ROR Augmentor.Pipeline: [0.24371 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1339] ROR Augmentor.Pipeline: [0.24501 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1340] ROR Augmentor.Pipeline: [0.24307 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1341] ROR Augmentor.Pipeline: [0.24471 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1342] ROR Augmentor.Pipeline: [0.25834 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1343] ROR Augmentor.Pipeline: [0.24419 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1344] ROR Augmentor.Pipeline: [0.25326 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1345] ROR Augmentor.Pipeline: [0.24074 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1346] ROR Augmentor.Pipeline: [0.26629 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1347] ROR Augmentor.Pipeline: [0.24852 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1348] ROR Augmentor.Pipeline: [0.25299 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1349] ROR Augmentor.Pipeline: [0.25158 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1350] ROR Augmentor.Pipeline: [0.23242 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1351] ROR Augmentor.Pipeline: [0.24188 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1352] ROR Augmentor.Pipeline: [0.23697 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1353] ROR Augmentor.Pipeline: [0.24588 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1354] ROR Augmentor.Pipeline: [0.25052 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1355] ROR Augmentor.Pipeline: [0.24172 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1356] ROR Augmentor.Pipeline: [0.24308 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1357] ROR Augmentor.Pipeline: [0.24436 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1358] ROR Augmentor.Pipeline: [0.24058 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1359] ROR Augmentor.Pipeline: [0.24059 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1360] ROR Augmentor.Pipeline: [0.25795 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1361] ROR Augmentor.Pipeline: [0.25757 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1362] ROR Augmentor.Pipeline: [0.25382 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1363] SCD Augmentor.Pipeline: [0.25042 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1364] SCI Augmentor.Pipeline: [0.25097 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1365] SCI Augmentor.Pipeline: [0.24327 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1366] SCI Augmentor.Pipeline: [0.23986 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+   - [#1367] SCI Augmentor.Pipeline: [0.25522 s] killed by tests/test_load.py::test_initialise_with_nondefault_output_directory
+[*] Mutation score [868.33733 s]: 97.6%
+   - all: 1367
+   - killed: 1323 (96.8%)
+   - survived: 32 (2.3%)
+   - incompetent: 12 (0.9%)
+   - timeout: 0 (0.0%)

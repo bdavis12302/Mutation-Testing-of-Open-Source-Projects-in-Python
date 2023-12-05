@@ -1,0 +1,408 @@
+2023-11-24 17:04:51,292: Running clean trial
+============================= test session starts ==============================
+platform linux -- Python 3.8.16, pytest-6.2.5, py-1.11.0, pluggy-1.3.0 -- /usr/local/python-env/py38/bin/python3.8
+cachedir: .pytest_cache
+hypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/s/bach/m/under/bdavis43/CS514/Project/mutatest/.hypothesis/examples'))
+rootdir: /s/bach/m/under/bdavis43/CS514/Project/mutatest, configfile: pytest.ini
+plugins: hypothesis-6.88.1, cov-3.0.0
+collecting ... collected 117 items
+
+mutatest/tests_80/test_all_op_types.py::test_all_op_types PASSED         [  0%]
+mutatest/tests_80/test_api.py::test_genome_ast PASSED                    [  1%]
+mutatest/tests_80/test_api.py::test_create_mutant_with_cache PASSED      [  2%]
+mutatest/tests_80/test_api.py::test_filter_codes_ValueError PASSED       [  3%]
+mutatest/tests_80/test_api.py::test_targets_TypeError PASSED             [  4%]
+mutatest/tests_80/test_api.py::test_covered_targets_source_file_TypeError PASSED [  5%]
+mutatest/tests_80/test_api.py::test_covered_targets_coverage_file_TypeError PASSED [  5%]
+mutatest/tests_80/test_api.py::test_mutate_MutationException PASSED      [  6%]
+mutatest/tests_80/test_api.py::test_mutate_TypeError_source_file PASSED  [  7%]
+mutatest/tests_80/test_api.py::test_mutate_ValueError_target PASSED      [  8%]
+mutatest/tests_80/test_api.py::test_covered_targets[Filter Empty Set] PASSED [  9%]
+mutatest/tests_80/test_api.py::test_covered_targets[Filter BinOp] PASSED [ 10%]
+mutatest/tests_80/test_api.py::test_init_GenomeGroup_from_flat_folder PASSED [ 11%]
+mutatest/tests_80/test_api.py::test_init_GenomeGroup_from_recursive_folder PASSED [ 11%]
+mutatest/tests_80/test_api.py::test_init_GenomeGroup_from_single_file PASSED [ 12%]
+mutatest/tests_80/test_api.py::test_init_GenomeGroup_raise_TypeError PASSED [ 13%]
+mutatest/tests_80/test_api.py::test_GenomeGroup_folder_exception PASSED  [ 14%]
+mutatest/tests_80/test_api.py::test_GenomeGroup_key_TypeError[int] PASSED [ 15%]
+mutatest/tests_80/test_api.py::test_GenomeGroup_key_TypeError[str] PASSED [ 16%]
+mutatest/tests_80/test_api.py::test_GenomeGroup_key_TypeError[float] PASSED [ 17%]
+mutatest/tests_80/test_api.py::test_GenomeGroup_key_TypeError[bool] PASSED [ 17%]
+mutatest/tests_80/test_api.py::test_GenomeGroup_value_TypeError[int] PASSED [ 18%]
+mutatest/tests_80/test_api.py::test_GenomeGroup_value_TypeError[str] PASSED [ 19%]
+mutatest/tests_80/test_api.py::test_GenomeGroup_value_TypeError[float] PASSED [ 20%]
+mutatest/tests_80/test_api.py::test_GenomeGroup_value_TypeError[bool] PASSED [ 21%]
+mutatest/tests_80/test_api.py::test_GenomeGroup_add_folder_with_exclusions PASSED [ 22%]
+mutatest/tests_80/test_api.py::test_GenomeGroup_covered_targets[Filter Empty Set] PASSED [ 23%]
+mutatest/tests_80/test_api.py::test_GenomeGroup_covered_targets[Filter BinOp] PASSED [ 23%]
+mutatest/tests_80/test_api.py::test_GenomeGroup_TypeError_source_file PASSED [ 24%]
+mutatest/tests_80/test_api.py::test_GenomeGroup_basic_properties PASSED  [ 25%]
+mutatest/tests_80/test_cache.py::test_check_cache_invalidation_mode_error PASSED [ 26%]
+mutatest/tests_80/test_cache.py::test_check_cache_invalidation_mode_ok PASSED [ 27%]
+mutatest/tests_80/test_cache.py::test_get_cache_file_loc PASSED          [ 28%]
+mutatest/tests_80/test_cache.py::test_get_cache_file_loc_invalid PASSED  [ 29%]
+mutatest/tests_80/test_cache.py::test_get_cache_file_loc_link_exception PASSED [ 29%]
+mutatest/tests_80/test_cache.py::test_get_cache_file_loc_not_file PASSED [ 30%]
+mutatest/tests_80/test_cache.py::test_create_cache_dirs PASSED           [ 31%]
+mutatest/tests_80/test_cache.py::test_remove_existing_cache_files PASSED [ 32%]
+mutatest/tests_80/test_cache.py::test_remove_existing_cache_files_from_folder PASSED [ 33%]
+mutatest/tests_80/test_cache.py::test_get_cache_file_loc_invariant PASSED [ 34%]
+mutatest/tests_80/test_report.py::test_get_reported_results[SURVIVED] PASSED [ 35%]
+mutatest/tests_80/test_report.py::test_get_reported_results[DETECTED] PASSED [ 35%]
+mutatest/tests_80/test_report.py::test_get_reported_results[ERROR] PASSED [ 36%]
+mutatest/tests_80/test_report.py::test_get_reported_results[TIMEOUT] PASSED [ 37%]
+mutatest/tests_80/test_report.py::test_get_reported_results[UNKNOWN] PASSED [ 38%]
+mutatest/tests_80/test_report.py::test_get_status_summary PASSED         [ 39%]
+mutatest/tests_80/test_report.py::test_build_report_section PASSED       [ 40%]
+mutatest/tests_80/test_report.py::test_analyze_mutant_trials PASSED      [ 41%]
+mutatest/tests_80/test_report.py::test_write_report PASSED               [ 41%]
+mutatest/tests_80/test_run.py::test_capture_output PASSED                [ 42%]
+mutatest/tests_80/test_run.py::test_MutantTrialResult[0-SURVIVED] PASSED [ 43%]
+mutatest/tests_80/test_run.py::test_MutantTrialResult[1-DETECTED] PASSED [ 44%]
+mutatest/tests_80/test_run.py::test_MutantTrialResult[2-ERROR] PASSED    [ 45%]
+mutatest/tests_80/test_run.py::test_MutantTrialResult[3-TIMEOUT] PASSED  [ 46%]
+mutatest/tests_80/test_run.py::test_MutantTrialResult[4-UNKNOWN] PASSED  [ 47%]
+mutatest/tests_80/test_run.py::test_create_mutation_and_run_trial[0-SURVIVED] PASSED [ 47%]
+mutatest/tests_80/test_run.py::test_create_mutation_and_run_trial[1-DETECTED] PASSED [ 48%]
+mutatest/tests_80/test_run.py::test_create_mutation_and_run_trial[2-ERROR] PASSED [ 49%]
+mutatest/tests_80/test_run.py::test_create_mutation_and_run_trial[3-TIMEOUT] PASSED [ 50%]
+mutatest/tests_80/test_run.py::test_create_mutation_and_run_trial[4-UNKNOWN] PASSED [ 51%]
+mutatest/tests_80/test_run.py::test_clean_trial_exception PASSED         [ 52%]
+mutatest/tests_80/test_run.py::test_clean_trial_timedelta PASSED         [ 52%]
+mutatest/tests_80/test_run.py::test_generate_sample PASSED               [ 53%]
+mutatest/tests_80/test_run.py::test_generate_sample_FileNotFoundError PASSED [ 54%]
+mutatest/tests_80/test_run.py::test_get_mutation_sample_locations[3-1-1] PASSED [ 55%]
+mutatest/tests_80/test_run.py::test_get_mutation_sample_locations[3-2-2] PASSED [ 56%]
+mutatest/tests_80/test_run.py::test_get_mutation_sample_locations[3-5-3] PASSED [ 57%]
+mutatest/tests_80/test_run.py::test_get_mutation_sample_locations_ValueError[zero] PASSED [ 58%]
+mutatest/tests_80/test_run.py::test_get_mutation_sample_locations_ValueError[negative integer] PASSED [ 58%]
+mutatest/tests_80/test_run.py::test_get_genome_group_folder_and_file PASSED [ 59%]
+mutatest/tests_80/test_run.py::test_break_on_check[survival] PASSED      [ 60%]
+mutatest/tests_80/test_run.py::test_break_on_check[detected] PASSED      [ 61%]
+mutatest/tests_80/test_run.py::test_break_on_check[err] PASSED           [ 62%]
+mutatest/tests_80/test_run.py::test_break_on_check[timeout] PASSED       [ 63%]
+mutatest/tests_80/test_run.py::test_break_on_check[unknown] PASSED       [ 64%]
+mutatest/tests_80/test_run.py::test_colorize_output_invariant_return PASSED [ 64%]
+mutatest/tests_80/test_run.py::test_colorize_output_invariant_valid[red] PASSED [ 65%]
+mutatest/tests_80/test_run.py::test_colorize_output_invariant_valid[green] PASSED [ 66%]
+mutatest/tests_80/test_run.py::test_colorize_output_invariant_valid[yellow] PASSED [ 67%]
+mutatest/tests_80/test_run.py::test_colorize_output_invariant_valid[blue] PASSED [ 68%]
+mutatest/tests_80/test_run.py::test_run_mutation_trials_good_binop[False-False-False-6] PASSED [ 69%]
+mutatest/tests_80/test_run.py::test_run_mutation_trials_good_binop[False-True-True-1] PASSED [ 70%]
+mutatest/tests_80/test_run.py::test_run_mutation_trials_good_binop[False-False-True-1] PASSED [ 70%]
+mutatest/tests_80/test_run.py::test_run_mutation_trials_good_binop[True-False-False-6] PASSED [ 71%]
+mutatest/tests_80/test_run.py::test_run_mutation_trials_good_binop[True-True-True-1] PASSED [ 72%]
+mutatest/tests_80/test_run.py::test_run_mutation_trials_good_binop[True-False-True-1] PASSED [ 73%]
+mutatest/tests_80/test_run.py::test_run_mutation_trials_bad_binop[False-False-False-6] PASSED [ 74%]
+mutatest/tests_80/test_run.py::test_run_mutation_trials_bad_binop[False-True-True-1] PASSED [ 75%]
+mutatest/tests_80/test_run.py::test_run_mutation_trials_bad_binop[False-True-False-1] PASSED [ 76%]
+mutatest/tests_80/test_run.py::test_run_mutation_trials_bad_binop[True-False-False-6] PASSED [ 76%]
+mutatest/tests_80/test_run.py::test_run_mutation_trials_bad_binop[True-True-True-1] PASSED [ 77%]
+mutatest/tests_80/test_run.py::test_run_mutation_trials_bad_binop[True-True-False-1] PASSED [ 78%]
+mutatest/tests_80/test_run.py::test_run_mutation_trials_timeout[False-3] PASSED [ 79%]
+mutatest/tests_80/test_run.py::test_run_mutation_trials_timeout[True-2] PASSED [ 80%]
+mutatest/tests_80/test_transformers.py::test_get_mutations_for_target[Sub] PASSED [ 81%]
+mutatest/tests_80/test_transformers.py::test_get_mutations_for_target[Add] PASSED [ 82%]
+mutatest/tests_80/test_transformers.py::test_get_mutations_for_target[Pow] PASSED [ 82%]
+mutatest/tests_80/test_transformers.py::test_get_mutations_for_target[FloorDiv] PASSED [ 83%]
+mutatest/tests_80/test_transformers.py::test_get_mutations_for_target[Mod] PASSED [ 84%]
+mutatest/tests_80/test_transformers.py::test_get_mutations_for_target[Div] PASSED [ 85%]
+mutatest/tests_80/test_transformers.py::test_get_mutations_for_target[Mult] PASSED [ 86%]
+mutatest/tests_80/test_transformers.py::test_MutateAST_visit_read_only PASSED [ 87%]
+mutatest/tests_80/test_transformers.py::test_MutateAST_visit_augassign PASSED [ 88%]
+mutatest/tests_80/test_transformers.py::test_MutateAST_visit_binop_37 PASSED [ 88%]
+mutatest/tests_80/test_transformers.py::test_MutateAST_visit_boolop PASSED [ 89%]
+mutatest/tests_80/test_transformers.py::test_MutateAST_visit_compare[Compare] PASSED [ 90%]
+mutatest/tests_80/test_transformers.py::test_MutateAST_visit_compare[CompareIs] PASSED [ 91%]
+mutatest/tests_80/test_transformers.py::test_MutateAST_visit_compare[CompareIn] PASSED [ 92%]
+mutatest/tests_80/test_transformers.py::test_MutateAST_visit_if PASSED   [ 93%]
+mutatest/tests_80/test_transformers.py::test_MutateAST_visit_index_neg[NumNeg to NumPos] PASSED [ 94%]
+mutatest/tests_80/test_transformers.py::test_MutateAST_visit_index_neg[NumNeg to NumZero] PASSED [ 94%]
+mutatest/tests_80/test_transformers.py::test_MutateAST_visit_index_neg[NumZero to NumNeg] PASSED [ 95%]
+mutatest/tests_80/test_transformers.py::test_MutateAST_visit_index_neg[NumZero to NumPos] PASSED [ 96%]
+mutatest/tests_80/test_transformers.py::test_MutateAST_visit_index_neg[NumPos to NumNeg] PASSED [ 97%]
+mutatest/tests_80/test_transformers.py::test_MutateAST_visit_index_neg[NumPos to NumZero] PASSED [ 98%]
+mutatest/tests_80/test_transformers.py::test_MutateAST_visit_nameconst PASSED [ 99%]
+mutatest/tests_80/test_transformers.py::test_MutateAST_visit_subscript PASSED [100%]
+
+=============================== warnings summary ===============================
+mutatest/tests_80/test_api.py:108
+  /s/bach/m/under/bdavis43/CS514/Project/mutatest/mutatest/tests_80/test_api.py:108: PytestUnknownMarkWarning: Unknown pytest.mark.coverage - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+    @pytest.mark.coverage
+
+mutatest/tests_80/test_api.py:255
+  /s/bach/m/under/bdavis43/CS514/Project/mutatest/mutatest/tests_80/test_api.py:255: PytestUnknownMarkWarning: Unknown pytest.mark.coverage - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+    @pytest.mark.coverage
+
+mutatest/tests_80/test_run.py:271
+  /s/bach/m/under/bdavis43/CS514/Project/mutatest/mutatest/tests_80/test_run.py:271: PytestUnknownMarkWarning: Unknown pytest.mark.slow - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+    @pytest.mark.slow
+
+mutatest/tests_80/test_run.py:312
+  /s/bach/m/under/bdavis43/CS514/Project/mutatest/mutatest/tests_80/test_run.py:312: PytestUnknownMarkWarning: Unknown pytest.mark.slow - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+    @pytest.mark.slow
+
+mutatest/tests_80/test_run.py:353
+  /s/bach/m/under/bdavis43/CS514/Project/mutatest/mutatest/tests_80/test_run.py:353: PytestUnknownMarkWarning: Unknown pytest.mark.slow - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+    @pytest.mark.slow
+
+-- Docs: https://docs.pytest.org/en/stable/warnings.html
+======================= 117 passed, 5 warnings in 27.33s =======================
+2023-11-24 17:05:19,386: [92m78 mutation targets found in mutatest/cli.py AST.[0m
+2023-11-24 17:05:19,390: [92m71 mutation targets found in mutatest/api.py AST.[0m
+2023-11-24 17:05:19,391: [92m11 mutation targets found in mutatest/_devtools.py AST.[0m
+2023-11-24 17:05:19,391: [92m3 mutation targets found in mutatest/__init__.py AST.[0m
+2023-11-24 17:05:19,392: [92m16 mutation targets found in mutatest/report.py AST.[0m
+2023-11-24 17:05:19,394: [92m28 mutation targets found in mutatest/filters.py AST.[0m
+2023-11-24 17:05:19,397: [92m15 mutation targets found in mutatest/cache.py AST.[0m
+2023-11-24 17:05:19,400: [92m45 mutation targets found in mutatest/run.py AST.[0m
+2023-11-24 17:05:19,405: [92m90 mutation targets found in mutatest/transformers.py AST.[0m
+2023-11-24 17:05:19,406: [92m39 mutation targets found in mutatest/tests_80/all_op_types.py AST.[0m
+2023-11-24 17:05:19,412: [92m54 mutation targets found in mutatest/tests_80/conftest.py AST.[0m
+2023-11-24 17:05:19,412: [93m0 mutation targets found in mutatest/tests_80/__init__.py AST.[0m
+2023-11-24 17:05:19,413: [92m39 mutation targets found in mutatest/tests_90/all_op_types.py AST.[0m
+2023-11-24 17:05:19,417: [92m54 mutation targets found in mutatest/tests_90/conftest.py AST.[0m
+2023-11-24 17:05:19,417: [93m0 mutation targets found in mutatest/tests_90/__init__.py AST.[0m
+2023-11-24 17:05:19,418: [92m39 mutation targets found in mutatest/tests/all_op_types.py AST.[0m
+2023-11-24 17:05:19,428: [92m54 mutation targets found in mutatest/tests/conftest.py AST.[0m
+2023-11-24 17:05:19,428: [93m0 mutation targets found in mutatest/tests/__init__.py AST.[0m
+2023-11-24 17:05:19,429: [92m39 mutation targets found in mutatest/tests_60/all_op_types.py AST.[0m
+2023-11-24 17:05:19,433: [92m54 mutation targets found in mutatest/tests_60/conftest.py AST.[0m
+2023-11-24 17:05:19,434: [93m0 mutation targets found in mutatest/tests_60/__init__.py AST.[0m
+2023-11-24 17:05:19,436: [92m39 mutation targets found in mutatest/tests_70/all_op_types.py AST.[0m
+2023-11-24 17:05:19,440: [92m54 mutation targets found in mutatest/tests_70/conftest.py AST.[0m
+2023-11-24 17:05:19,440: [93m0 mutation targets found in mutatest/tests_70/__init__.py AST.[0m
+2023-11-24 17:05:19,441: [92m39 mutation targets found in mutatest/tests_50/all_op_types.py AST.[0m
+2023-11-24 17:05:19,445: [92m54 mutation targets found in mutatest/tests_50/conftest.py AST.[0m
+2023-11-24 17:05:19,446: [93m0 mutation targets found in mutatest/tests_50/__init__.py AST.[0m
+2023-11-24 17:05:19,446: Setting random.seed to: 514
+2023-11-24 17:05:20,042: Total sample space size: 4
+2023-11-24 17:05:20,042: [93m10 exceeds sample space, using full sample: 4.[0m
+2023-11-24 17:05:20,042: Starting individual mutation trials!
+2023-11-24 17:05:20,042: Running parallel (multi-processor) dispatch mode. CPUs: 20
+2023-11-24 17:05:20,098: Current target location: report.py, LocIndex(ast_class='Compare', lineno=49, col_offset=50, op_type=<class '_ast.Eq'>, end_lineno=49, end_col_offset=68)
+2023-11-24 17:05:20,110: Current target location: conftest.py, LocIndex(ast_class='NameConstant', lineno=54, col_offset=20, op_type=None, end_lineno=54, end_col_offset=24)
+2023-11-24 17:05:20,120: Current target location: conftest.py, LocIndex(ast_class='BinOp', lineno=56, col_offset=14, op_type=<class '_ast.Div'>, end_lineno=56, end_col_offset=45)
+2023-11-24 17:05:20,129: Current target location: conftest.py, LocIndex(ast_class='NameConstant', lineno=57, col_offset=15, op_type=None, end_lineno=57, end_col_offset=19)
+2023-11-24 17:05:58,254: [92mResult: Detected at mutatest/tests/conftest.py: (57, 15)[0m
+2023-11-24 17:05:58,288: [92mResult: Detected at mutatest/tests/conftest.py: (56, 14)[0m
+2023-11-24 17:05:58,330: [92mResult: Detected at mutatest/tests/conftest.py: (54, 20)[0m
+2023-11-24 17:05:58,429: [92mResult: Detected at mutatest/report.py: (49, 50)[0m
+2023-11-24 17:06:38,344: [92mResult: Detected at mutatest/report.py: (49, 50)[0m
+2023-11-24 17:06:38,819: [92mResult: Detected at mutatest/tests/conftest.py: (54, 20)[0m
+2023-11-24 17:06:38,858: [92mResult: Detected at mutatest/tests/conftest.py: (57, 15)[0m
+2023-11-24 17:06:39,330: [92mResult: Detected at mutatest/tests/conftest.py: (56, 14)[0m
+2023-11-24 17:07:15,893: [92mResult: Detected at mutatest/report.py: (49, 50)[0m
+2023-11-24 17:07:16,589: [92mResult: Detected at mutatest/tests/conftest.py: (56, 14)[0m
+2023-11-24 17:07:48,876: [92mResult: Detected at mutatest/report.py: (49, 50)[0m
+2023-11-24 17:07:49,951: [92mResult: Detected at mutatest/tests/conftest.py: (56, 14)[0m
+2023-11-24 17:08:22,408: [92mResult: Detected at mutatest/report.py: (49, 50)[0m
+2023-11-24 17:08:22,910: [92mResult: Detected at mutatest/tests/conftest.py: (56, 14)[0m
+2023-11-24 17:08:58,367: [92mResult: Detected at mutatest/tests/conftest.py: (56, 14)[0m
+2023-11-24 17:08:58,372: Cleaning up parallel cache dir .mutatest_cache.
+2023-11-24 17:08:58,442: Running clean trial
+============================= test session starts ==============================
+platform linux -- Python 3.8.16, pytest-6.2.5, py-1.11.0, pluggy-1.3.0 -- /usr/local/python-env/py38/bin/python3.8
+cachedir: .pytest_cache
+hypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/s/bach/m/under/bdavis43/CS514/Project/mutatest/.hypothesis/examples'))
+rootdir: /s/bach/m/under/bdavis43/CS514/Project/mutatest, configfile: pytest.ini
+plugins: hypothesis-6.88.1, cov-3.0.0
+collecting ... collected 117 items
+
+mutatest/tests_80/test_all_op_types.py::test_all_op_types PASSED         [  0%]
+mutatest/tests_80/test_api.py::test_genome_ast PASSED                    [  1%]
+mutatest/tests_80/test_api.py::test_create_mutant_with_cache PASSED      [  2%]
+mutatest/tests_80/test_api.py::test_filter_codes_ValueError PASSED       [  3%]
+mutatest/tests_80/test_api.py::test_targets_TypeError PASSED             [  4%]
+mutatest/tests_80/test_api.py::test_covered_targets_source_file_TypeError PASSED [  5%]
+mutatest/tests_80/test_api.py::test_covered_targets_coverage_file_TypeError PASSED [  5%]
+mutatest/tests_80/test_api.py::test_mutate_MutationException PASSED      [  6%]
+mutatest/tests_80/test_api.py::test_mutate_TypeError_source_file PASSED  [  7%]
+mutatest/tests_80/test_api.py::test_mutate_ValueError_target PASSED      [  8%]
+mutatest/tests_80/test_api.py::test_covered_targets[Filter Empty Set] PASSED [  9%]
+mutatest/tests_80/test_api.py::test_covered_targets[Filter BinOp] PASSED [ 10%]
+mutatest/tests_80/test_api.py::test_init_GenomeGroup_from_flat_folder PASSED [ 11%]
+mutatest/tests_80/test_api.py::test_init_GenomeGroup_from_recursive_folder PASSED [ 11%]
+mutatest/tests_80/test_api.py::test_init_GenomeGroup_from_single_file PASSED [ 12%]
+mutatest/tests_80/test_api.py::test_init_GenomeGroup_raise_TypeError PASSED [ 13%]
+mutatest/tests_80/test_api.py::test_GenomeGroup_folder_exception PASSED  [ 14%]
+mutatest/tests_80/test_api.py::test_GenomeGroup_key_TypeError[int] PASSED [ 15%]
+mutatest/tests_80/test_api.py::test_GenomeGroup_key_TypeError[str] PASSED [ 16%]
+mutatest/tests_80/test_api.py::test_GenomeGroup_key_TypeError[float] PASSED [ 17%]
+mutatest/tests_80/test_api.py::test_GenomeGroup_key_TypeError[bool] PASSED [ 17%]
+mutatest/tests_80/test_api.py::test_GenomeGroup_value_TypeError[int] PASSED [ 18%]
+mutatest/tests_80/test_api.py::test_GenomeGroup_value_TypeError[str] PASSED [ 19%]
+mutatest/tests_80/test_api.py::test_GenomeGroup_value_TypeError[float] PASSED [ 20%]
+mutatest/tests_80/test_api.py::test_GenomeGroup_value_TypeError[bool] PASSED [ 21%]
+mutatest/tests_80/test_api.py::test_GenomeGroup_add_folder_with_exclusions PASSED [ 22%]
+mutatest/tests_80/test_api.py::test_GenomeGroup_covered_targets[Filter Empty Set] PASSED [ 23%]
+mutatest/tests_80/test_api.py::test_GenomeGroup_covered_targets[Filter BinOp] PASSED [ 23%]
+mutatest/tests_80/test_api.py::test_GenomeGroup_TypeError_source_file PASSED [ 24%]
+mutatest/tests_80/test_api.py::test_GenomeGroup_basic_properties PASSED  [ 25%]
+mutatest/tests_80/test_cache.py::test_check_cache_invalidation_mode_error PASSED [ 26%]
+mutatest/tests_80/test_cache.py::test_check_cache_invalidation_mode_ok PASSED [ 27%]
+mutatest/tests_80/test_cache.py::test_get_cache_file_loc PASSED          [ 28%]
+mutatest/tests_80/test_cache.py::test_get_cache_file_loc_invalid PASSED  [ 29%]
+mutatest/tests_80/test_cache.py::test_get_cache_file_loc_link_exception PASSED [ 29%]
+mutatest/tests_80/test_cache.py::test_get_cache_file_loc_not_file PASSED [ 30%]
+mutatest/tests_80/test_cache.py::test_create_cache_dirs PASSED           [ 31%]
+mutatest/tests_80/test_cache.py::test_remove_existing_cache_files PASSED [ 32%]
+mutatest/tests_80/test_cache.py::test_remove_existing_cache_files_from_folder PASSED [ 33%]
+mutatest/tests_80/test_cache.py::test_get_cache_file_loc_invariant PASSED [ 34%]
+mutatest/tests_80/test_report.py::test_get_reported_results[SURVIVED] PASSED [ 35%]
+mutatest/tests_80/test_report.py::test_get_reported_results[DETECTED] PASSED [ 35%]
+mutatest/tests_80/test_report.py::test_get_reported_results[ERROR] PASSED [ 36%]
+mutatest/tests_80/test_report.py::test_get_reported_results[TIMEOUT] PASSED [ 37%]
+mutatest/tests_80/test_report.py::test_get_reported_results[UNKNOWN] PASSED [ 38%]
+mutatest/tests_80/test_report.py::test_get_status_summary PASSED         [ 39%]
+mutatest/tests_80/test_report.py::test_build_report_section PASSED       [ 40%]
+mutatest/tests_80/test_report.py::test_analyze_mutant_trials PASSED      [ 41%]
+mutatest/tests_80/test_report.py::test_write_report PASSED               [ 41%]
+mutatest/tests_80/test_run.py::test_capture_output PASSED                [ 42%]
+mutatest/tests_80/test_run.py::test_MutantTrialResult[0-SURVIVED] PASSED [ 43%]
+mutatest/tests_80/test_run.py::test_MutantTrialResult[1-DETECTED] PASSED [ 44%]
+mutatest/tests_80/test_run.py::test_MutantTrialResult[2-ERROR] PASSED    [ 45%]
+mutatest/tests_80/test_run.py::test_MutantTrialResult[3-TIMEOUT] PASSED  [ 46%]
+mutatest/tests_80/test_run.py::test_MutantTrialResult[4-UNKNOWN] PASSED  [ 47%]
+mutatest/tests_80/test_run.py::test_create_mutation_and_run_trial[0-SURVIVED] PASSED [ 47%]
+mutatest/tests_80/test_run.py::test_create_mutation_and_run_trial[1-DETECTED] PASSED [ 48%]
+mutatest/tests_80/test_run.py::test_create_mutation_and_run_trial[2-ERROR] PASSED [ 49%]
+mutatest/tests_80/test_run.py::test_create_mutation_and_run_trial[3-TIMEOUT] PASSED [ 50%]
+mutatest/tests_80/test_run.py::test_create_mutation_and_run_trial[4-UNKNOWN] PASSED [ 51%]
+mutatest/tests_80/test_run.py::test_clean_trial_exception PASSED         [ 52%]
+mutatest/tests_80/test_run.py::test_clean_trial_timedelta PASSED         [ 52%]
+mutatest/tests_80/test_run.py::test_generate_sample PASSED               [ 53%]
+mutatest/tests_80/test_run.py::test_generate_sample_FileNotFoundError PASSED [ 54%]
+mutatest/tests_80/test_run.py::test_get_mutation_sample_locations[3-1-1] PASSED [ 55%]
+mutatest/tests_80/test_run.py::test_get_mutation_sample_locations[3-2-2] PASSED [ 56%]
+mutatest/tests_80/test_run.py::test_get_mutation_sample_locations[3-5-3] PASSED [ 57%]
+mutatest/tests_80/test_run.py::test_get_mutation_sample_locations_ValueError[zero] PASSED [ 58%]
+mutatest/tests_80/test_run.py::test_get_mutation_sample_locations_ValueError[negative integer] PASSED [ 58%]
+mutatest/tests_80/test_run.py::test_get_genome_group_folder_and_file PASSED [ 59%]
+mutatest/tests_80/test_run.py::test_break_on_check[survival] PASSED      [ 60%]
+mutatest/tests_80/test_run.py::test_break_on_check[detected] PASSED      [ 61%]
+mutatest/tests_80/test_run.py::test_break_on_check[err] PASSED           [ 62%]
+mutatest/tests_80/test_run.py::test_break_on_check[timeout] PASSED       [ 63%]
+mutatest/tests_80/test_run.py::test_break_on_check[unknown] PASSED       [ 64%]
+mutatest/tests_80/test_run.py::test_colorize_output_invariant_return PASSED [ 64%]
+mutatest/tests_80/test_run.py::test_colorize_output_invariant_valid[red] PASSED [ 65%]
+mutatest/tests_80/test_run.py::test_colorize_output_invariant_valid[green] PASSED [ 66%]
+mutatest/tests_80/test_run.py::test_colorize_output_invariant_valid[yellow] PASSED [ 67%]
+mutatest/tests_80/test_run.py::test_colorize_output_invariant_valid[blue] PASSED [ 68%]
+mutatest/tests_80/test_run.py::test_run_mutation_trials_good_binop[False-False-False-6] PASSED [ 69%]
+mutatest/tests_80/test_run.py::test_run_mutation_trials_good_binop[False-True-True-1] PASSED [ 70%]
+mutatest/tests_80/test_run.py::test_run_mutation_trials_good_binop[False-False-True-1] PASSED [ 70%]
+mutatest/tests_80/test_run.py::test_run_mutation_trials_good_binop[True-False-False-6] PASSED [ 71%]
+mutatest/tests_80/test_run.py::test_run_mutation_trials_good_binop[True-True-True-1] PASSED [ 72%]
+mutatest/tests_80/test_run.py::test_run_mutation_trials_good_binop[True-False-True-1] PASSED [ 73%]
+mutatest/tests_80/test_run.py::test_run_mutation_trials_bad_binop[False-False-False-6] PASSED [ 74%]
+mutatest/tests_80/test_run.py::test_run_mutation_trials_bad_binop[False-True-True-1] PASSED [ 75%]
+mutatest/tests_80/test_run.py::test_run_mutation_trials_bad_binop[False-True-False-1] PASSED [ 76%]
+mutatest/tests_80/test_run.py::test_run_mutation_trials_bad_binop[True-False-False-6] PASSED [ 76%]
+mutatest/tests_80/test_run.py::test_run_mutation_trials_bad_binop[True-True-True-1] PASSED [ 77%]
+mutatest/tests_80/test_run.py::test_run_mutation_trials_bad_binop[True-True-False-1] PASSED [ 78%]
+mutatest/tests_80/test_run.py::test_run_mutation_trials_timeout[False-3] PASSED [ 79%]
+mutatest/tests_80/test_run.py::test_run_mutation_trials_timeout[True-2] PASSED [ 80%]
+mutatest/tests_80/test_transformers.py::test_get_mutations_for_target[Sub] PASSED [ 81%]
+mutatest/tests_80/test_transformers.py::test_get_mutations_for_target[Add] PASSED [ 82%]
+mutatest/tests_80/test_transformers.py::test_get_mutations_for_target[Pow] PASSED [ 82%]
+mutatest/tests_80/test_transformers.py::test_get_mutations_for_target[FloorDiv] PASSED [ 83%]
+mutatest/tests_80/test_transformers.py::test_get_mutations_for_target[Mod] PASSED [ 84%]
+mutatest/tests_80/test_transformers.py::test_get_mutations_for_target[Div] PASSED [ 85%]
+mutatest/tests_80/test_transformers.py::test_get_mutations_for_target[Mult] PASSED [ 86%]
+mutatest/tests_80/test_transformers.py::test_MutateAST_visit_read_only PASSED [ 87%]
+mutatest/tests_80/test_transformers.py::test_MutateAST_visit_augassign PASSED [ 88%]
+mutatest/tests_80/test_transformers.py::test_MutateAST_visit_binop_37 PASSED [ 88%]
+mutatest/tests_80/test_transformers.py::test_MutateAST_visit_boolop PASSED [ 89%]
+mutatest/tests_80/test_transformers.py::test_MutateAST_visit_compare[Compare] PASSED [ 90%]
+mutatest/tests_80/test_transformers.py::test_MutateAST_visit_compare[CompareIs] PASSED [ 91%]
+mutatest/tests_80/test_transformers.py::test_MutateAST_visit_compare[CompareIn] PASSED [ 92%]
+mutatest/tests_80/test_transformers.py::test_MutateAST_visit_if PASSED   [ 93%]
+mutatest/tests_80/test_transformers.py::test_MutateAST_visit_index_neg[NumNeg to NumPos] PASSED [ 94%]
+mutatest/tests_80/test_transformers.py::test_MutateAST_visit_index_neg[NumNeg to NumZero] PASSED [ 94%]
+mutatest/tests_80/test_transformers.py::test_MutateAST_visit_index_neg[NumZero to NumNeg] PASSED [ 95%]
+mutatest/tests_80/test_transformers.py::test_MutateAST_visit_index_neg[NumZero to NumPos] PASSED [ 96%]
+mutatest/tests_80/test_transformers.py::test_MutateAST_visit_index_neg[NumPos to NumNeg] PASSED [ 97%]
+mutatest/tests_80/test_transformers.py::test_MutateAST_visit_index_neg[NumPos to NumZero] PASSED [ 98%]
+mutatest/tests_80/test_transformers.py::test_MutateAST_visit_nameconst PASSED [ 99%]
+mutatest/tests_80/test_transformers.py::test_MutateAST_visit_subscript PASSED [100%]
+
+=============================== warnings summary ===============================
+mutatest/tests_80/test_api.py:108
+  /s/bach/m/under/bdavis43/CS514/Project/mutatest/mutatest/tests_80/test_api.py:108: PytestUnknownMarkWarning: Unknown pytest.mark.coverage - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+    @pytest.mark.coverage
+
+mutatest/tests_80/test_api.py:255
+  /s/bach/m/under/bdavis43/CS514/Project/mutatest/mutatest/tests_80/test_api.py:255: PytestUnknownMarkWarning: Unknown pytest.mark.coverage - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+    @pytest.mark.coverage
+
+mutatest/tests_80/test_run.py:271
+  /s/bach/m/under/bdavis43/CS514/Project/mutatest/mutatest/tests_80/test_run.py:271: PytestUnknownMarkWarning: Unknown pytest.mark.slow - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+    @pytest.mark.slow
+
+mutatest/tests_80/test_run.py:312
+  /s/bach/m/under/bdavis43/CS514/Project/mutatest/mutatest/tests_80/test_run.py:312: PytestUnknownMarkWarning: Unknown pytest.mark.slow - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+    @pytest.mark.slow
+
+mutatest/tests_80/test_run.py:353
+  /s/bach/m/under/bdavis43/CS514/Project/mutatest/mutatest/tests_80/test_run.py:353: PytestUnknownMarkWarning: Unknown pytest.mark.slow - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+    @pytest.mark.slow
+
+-- Docs: https://docs.pytest.org/en/stable/warnings.html
+======================= 117 passed, 5 warnings in 26.09s =======================
+2023-11-24 17:09:25,248: CLI Report:
+
+Mutatest diagnostic summary
+===========================
+ - Source location: /s/bach/m/under/bdavis43/CS514/Project/mutatest/mutatest
+ - Test commands: ['py.test', './mutatest/tests_80', '-v']
+ - Mode: f
+ - Excluded files: []
+ - N locations input: 10
+ - Random seed: 514
+
+Random sample details
+---------------------
+ - Total locations mutated: 4
+ - Total locations identified: 4
+ - Location sample coverage: 100.00 %
+
+
+Running time details
+--------------------
+ - Clean trial 1 run time: 0:00:28.050873
+ - Clean trial 2 run time: 0:00:26.805635
+ - Mutation trials total run time: 0:03:39.028561
+
+2023-11-24 17:09:25,248: Trial Summary Report:
+
+Overall mutation trial summary
+==============================
+ - DETECTED: 15
+ - TOTAL RUNS: 15
+ - RUN DATETIME: 2023-11-24 17:09:25.248263
+
+2023-11-24 17:09:25,248: Detected mutations:[92m
+
+DETECTED
+--------
+ - mutatest/tests/conftest.py: (l: 54, c: 20) - mutation from None to True
+ - mutatest/tests/conftest.py: (l: 54, c: 20) - mutation from None to False
+ - mutatest/tests/conftest.py: (l: 56, c: 14) - mutation from <class '_ast.Div'> to <class '_ast.Mult'>
+ - mutatest/tests/conftest.py: (l: 56, c: 14) - mutation from <class '_ast.Div'> to <class '_ast.Add'>
+ - mutatest/tests/conftest.py: (l: 56, c: 14) - mutation from <class '_ast.Div'> to <class '_ast.Mod'>
+ - mutatest/tests/conftest.py: (l: 56, c: 14) - mutation from <class '_ast.Div'> to <class '_ast.Sub'>
+ - mutatest/tests/conftest.py: (l: 56, c: 14) - mutation from <class '_ast.Div'> to <class '_ast.Pow'>
+ - mutatest/tests/conftest.py: (l: 56, c: 14) - mutation from <class '_ast.Div'> to <class '_ast.FloorDiv'>
+ - mutatest/tests/conftest.py: (l: 57, c: 15) - mutation from None to True
+ - mutatest/tests/conftest.py: (l: 57, c: 15) - mutation from None to False
+ - mutatest/report.py: (l: 49, c: 50) - mutation from <class '_ast.Eq'> to <class '_ast.NotEq'>
+ - mutatest/report.py: (l: 49, c: 50) - mutation from <class '_ast.Eq'> to <class '_ast.LtE'>
+ - mutatest/report.py: (l: 49, c: 50) - mutation from <class '_ast.Eq'> to <class '_ast.GtE'>
+ - mutatest/report.py: (l: 49, c: 50) - mutation from <class '_ast.Eq'> to <class '_ast.Lt'>
+ - mutatest/report.py: (l: 49, c: 50) - mutation from <class '_ast.Eq'> to <class '_ast.Gt'>[0m
+
+2023-11-24 17:09:25,248: Timedout mutations:
+
+2023-11-24 17:09:25,248: Surviving mutations:
+

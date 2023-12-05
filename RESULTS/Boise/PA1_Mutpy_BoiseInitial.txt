@@ -1,0 +1,130 @@
+[*] Start mutation process:
+   - targets: PA1.py
+   - tests: test_PA1.py
+[*] 8 tests passed:
+   - test_PA1 [0.28243 s]
+[*] Start mutants generation and execution:
+   - [#   1] AOR PA1: [0.18726 s] survived
+   - [#   2] AOR PA1: [0.19863 s] survived
+   - [#   3] COD PA1: [0.21666 s] killed by test_PA1.py::PA1Tests::test_npIMPnq
+   - [#   4] COD PA1: [0.19870 s] killed by test_PA1.py::PA1Tests::test_npIMPnq
+   - [#   5] COD PA1: [0.19982 s] killed by test_PA1.py::PA1Tests::test_nqIMPnp
+   - [#   6] COD PA1: [0.21253 s] killed by test_PA1.py::PA1Tests::test_nqIMPnp
+   - [#   7] COD PA1: [0.20879 s] killed by test_PA1.py::PA1Tests::test_nand
+   - [#   8] COD PA1: [0.21553 s] killed by test_PA1.py::PA1Tests::test_npANDnq
+   - [#   9] COD PA1: [0.22748 s] killed by test_PA1.py::PA1Tests::test_npANDnq
+   - [#  10] COD PA1: [0.30392 s] killed by test_PA1.py::PA1Tests::test_nor
+   - [#  11] COD PA1: [0.21721 s] killed by test_PA1.py::PA1Tests::test_npORnq
+   - [#  12] COD PA1: [0.20172 s] killed by test_PA1.py::PA1Tests::test_npORnq
+   - [#  13] COI PA1: [0.21621 s] killed by test_PA1.py::PA1Tests::test_iff
+   - [#  14] COI PA1: [0.21011 s] killed by test_PA1.py::PA1Tests::test_implies
+   - [#  15] COI PA1: [0.20730 s] killed by test_PA1.py::PA1Tests::test_iff
+   - [#  16] COI PA1: [0.20004 s] killed by test_PA1.py::PA1Tests::test_npIMPnq
+   - [#  17] COI PA1: [0.20701 s] killed by test_PA1.py::PA1Tests::test_npIMPnq
+   - [#  18] COI PA1: [0.20078 s] killed by test_PA1.py::PA1Tests::test_npIMPnq
+   - [#  19] COI PA1: [0.19414 s] killed by test_PA1.py::PA1Tests::test_nqIMPnp
+   - [#  20] COI PA1: [0.20571 s] killed by test_PA1.py::PA1Tests::test_nqIMPnp
+   - [#  21] COI PA1: [0.20561 s] killed by test_PA1.py::PA1Tests::test_nqIMPnp
+   - [#  22] COI PA1: [0.20636 s] killed by test_PA1.py::PA1Tests::test_iff
+   - [#  23] COI PA1: [0.20202 s] survived
+   - [#  24] COI PA1: program /s/bach/m/under/bdavis43/.local/bin/mut.py
+--target
+[0.18759 s] survived
+   - [#  25] COI PA1: [0.19613 s] survived
+   - [#  26] COI PA1: [0.19917 s] survived
+   - [#  27] COI PA1: [0.19933 s] survived
+   - [#  28] COI PA1: [0.18915 s] survived
+   - [#  29] COI PA1: [0.20604 s] survived
+   - [#  30] COI PA1: [0.18416 s] survived
+   - [#  31] COI PA1: [0.20890 s] survived
+   - [#  32] COI PA1: [0.20025 s] survived
+   - [#  33] COI PA1: [0.20300 s] survived
+   - [#  34] CRP PA1: [0.20596 s] survived
+   - [#  35] CRP PA1: [0.19355 s] survived
+   - [#  36] CRP PA1: [0.18656 s] survived
+   - [#  37] CRP PA1: [0.18851 s] survived
+   - [#  38] CRP PA1: [0.17991 s] survived
+   - [#  39] CRP PA1: [0.19096 s] survived
+   - [#  40] CRP PA1: [0.19791 s] survived
+   - [#  41] CRP PA1: [0.18914 s] survived
+   - [#  42] CRP PA1: [0.20176 s] survived
+   - [#  43] CRP PA1: [0.18445 s] survived
+   - [#  44] CRP PA1: [0.19355 s] survived
+   - [#  45] CRP PA1: [0.19739 s] survived
+   - [#  46] CRP PA1: [0.18978 s] survived
+   - [#  47] CRP PA1: [0.20002 s] survived
+   - [#  48] CRP PA1: [0.20108 s] survived
+   - [#  49] CRP PA1: [0.19609 s] survived
+   - [#  50] CRP PA1: [0.19963 s] survived
+   - [#  51] CRP PA1: [0.19010 s] survived
+   - [#  52] CRP PA1: [0.19874 s] survived
+   - [#  53] CRP PA1: [0.19075 s] survived
+   - [#  54] CRP PA1: [0.19685 s] survived
+   - [#  55] CRP PA1: [0.20038 s] survived
+   - [#  56] CRP PA1: [0.19887 s] survived
+   - [#  57] CRP PA1: [0.19148 s] survived
+   - [#  58] CRP PA1: [0.20731 s] survived
+   - [#  59] CRP PA1: [0.20088 s] survived
+   - [#  60] CRP PA1: [0.19529 s] survived
+   - [#  61] CRP PA1: [0.19289 s] survived
+   - [#  62] CRP PA1: [0.19882 s] survived
+   - [#  63] CRP PA1: [0.20014 s] survived
+   - [#  64] CRP PA1: [0.18706 s] survived
+   - [#  65] CRP PA1: [0.19252 s] survived
+   - [#  66] CRP PA1: [0.19586 s] survived
+   - [#  67] CRP PA1: [0.19065 s] survived
+   - [#  68] CRP PA1: [0.19846 s] survived
+   - [#  69] LCR PA1: [0.21478 s] killed by test_PA1.py::PA1Tests::test_iff
+   - [#  70] LCR PA1: [0.20355 s] survived
+   - [#  71] LCR PA1: [0.20420 s] killed by test_PA1.py::PA1Tests::test_iff
+   - [#  72] LCR PA1: [0.20483 s] killed by test_PA1.py::PA1Tests::test_npIMPnq
+   - [#  73] LCR PA1: [0.18535 s] survived
+   - [#  74] LCR PA1: [0.21121 s] killed by test_PA1.py::PA1Tests::test_npIMPnq
+   - [#  75] LCR PA1: [0.22791 s] killed by test_PA1.py::PA1Tests::test_nqIMPnp
+   - [#  76] LCR PA1: [0.19825 s] survived
+   - [#  77] LCR PA1: [0.19255 s] killed by test_PA1.py::PA1Tests::test_nqIMPnp
+   - [#  78] LCR PA1: [0.19702 s] killed by test_PA1.py::PA1Tests::test_iff
+   - [#  79] LCR PA1: [0.20760 s] killed by test_PA1.py::PA1Tests::test_nand
+   - [#  80] LCR PA1: [0.20156 s] killed by test_PA1.py::PA1Tests::test_npANDnq
+   - [#  81] LCR PA1: [0.20142 s] killed by test_PA1.py::PA1Tests::test_nor
+   - [#  82] LCR PA1: [0.21224 s] killed by test_PA1.py::PA1Tests::test_npORnq
+   - [#  83] ROR PA1: [0.21148 s] killed by test_PA1.py::PA1Tests::test_iff
+   - [#  84] ROR PA1: [0.20908 s] killed by test_PA1.py::PA1Tests::test_iff
+   - [#  85] ROR PA1: [0.21150 s] killed by test_PA1.py::PA1Tests::test_implies
+   - [#  86] ROR PA1: [0.21070 s] killed by test_PA1.py::PA1Tests::test_implies
+   - [#  87] ROR PA1: [0.22215 s] killed by test_PA1.py::PA1Tests::test_iff
+   - [#  88] ROR PA1: [0.20569 s] killed by test_PA1.py::PA1Tests::test_iff
+   - [#  89] ROR PA1: [0.21723 s] killed by test_PA1.py::PA1Tests::test_npIMPnq
+   - [#  90] ROR PA1: [0.21889 s] killed by test_PA1.py::PA1Tests::test_npIMPnq
+   - [#  91] ROR PA1: [0.20013 s] killed by test_PA1.py::PA1Tests::test_npIMPnq
+   - [#  92] ROR PA1: [0.19595 s] killed by test_PA1.py::PA1Tests::test_npIMPnq
+   - [#  93] ROR PA1: [0.20417 s] killed by test_PA1.py::PA1Tests::test_npIMPnq
+   - [#  94] ROR PA1: [0.19581 s] killed by test_PA1.py::PA1Tests::test_npIMPnq
+   - [#  95] ROR PA1: [0.21177 s] killed by test_PA1.py::PA1Tests::test_nqIMPnp
+   - [#  96] ROR PA1: [0.20243 s] killed by test_PA1.py::PA1Tests::test_nqIMPnp
+   - [#  97] ROR PA1: [0.19712 s] killed by test_PA1.py::PA1Tests::test_nqIMPnp
+   - [#  98] ROR PA1: [0.20116 s] killed by test_PA1.py::PA1Tests::test_nqIMPnp
+   - [#  99] ROR PA1: [0.20569 s] killed by test_PA1.py::PA1Tests::test_nqIMPnp
+   - [# 100] ROR PA1: [0.19470 s] killed by test_PA1.py::PA1Tests::test_nqIMPnp
+   - [# 101] ROR PA1: [0.21973 s] killed by test_PA1.py::PA1Tests::test_iff
+   - [# 102] ROR PA1: [0.20928 s] killed by test_PA1.py::PA1Tests::test_iff
+   - [# 103] ROR PA1: [0.20795 s] survived
+   - [# 104] ROR PA1: [0.20085 s] survived
+   - [# 105] ROR PA1: program /s/bach/m/under/bdavis43/.local/bin/mut.py
+--target
+[0.20684 s] survived
+   - [# 106] ROR PA1: [0.20218 s] survived
+   - [# 107] ROR PA1: [0.19740 s] survived
+   - [# 108] ROR PA1: [0.20036 s] survived
+   - [# 109] ROR PA1: [0.19906 s] survived
+   - [# 110] ROR PA1: [0.18938 s] survived
+   - [# 111] ROR PA1: [0.19781 s] survived
+   - [# 112] ROR PA1: [0.19924 s] survived
+   - [# 113] ROR PA1: [0.19946 s] survived
+   - [# 114] ROR PA1: [0.20143 s] survived
+[*] Mutation score [23.54811 s]: 44.7%
+   - all: 114
+   - killed: 51 (44.7%)
+   - survived: 63 (55.3%)
+   - incompetent: 0 (0.0%)
+   - timeout: 0 (0.0%)

@@ -1,0 +1,691 @@
+2023-11-04 16:23:03,692: Running clean trial
+============================= test session starts ==============================
+platform linux -- Python 3.8.16, pytest-7.4.3, pluggy-1.0.0 -- /usr/bin/python3.8
+cachedir: .pytest_cache
+hypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/s/bach/m/under/bdavis43/CS514/Project/python-fire/.hypothesis/examples'))
+rootdir: /s/bach/m/under/bdavis43/CS514/Project/python-fire
+configfile: setup.cfg
+plugins: hypothesis-6.88.1, cov-3.0.0
+collecting ... collected 261 items
+
+tests/completion_test.py::TabCompletionTest::testClassCompletions PASSED [  0%]
+tests/completion_test.py::TabCompletionTest::testClassFishScript PASSED  [  0%]
+tests/completion_test.py::TabCompletionTest::testClassScript PASSED      [  1%]
+tests/completion_test.py::TabCompletionTest::testCompletionBashScript PASSED [  1%]
+tests/completion_test.py::TabCompletionTest::testCompletionFishScript PASSED [  1%]
+tests/completion_test.py::TabCompletionTest::testDeepDictCompletions PASSED [  2%]
+tests/completion_test.py::TabCompletionTest::testDeepDictFishScript PASSED [  2%]
+tests/completion_test.py::TabCompletionTest::testDeepDictScript PASSED   [  3%]
+tests/completion_test.py::TabCompletionTest::testDictCompletions PASSED  [  3%]
+tests/completion_test.py::TabCompletionTest::testDictCompletionsVerbose PASSED [  3%]
+tests/completion_test.py::TabCompletionTest::testFnCompletions PASSED    [  4%]
+tests/completion_test.py::TabCompletionTest::testFnFishScript PASSED     [  4%]
+tests/completion_test.py::TabCompletionTest::testFnScript PASSED         [  4%]
+tests/completion_test.py::TabCompletionTest::testGeneratorCompletions PASSED [  5%]
+tests/completion_test.py::TabCompletionTest::testListCompletions PASSED  [  5%]
+tests/completion_test.py::TabCompletionTest::testMethodCompletions PASSED [  6%]
+tests/completion_test.py::TabCompletionTest::testNonStringDictCompletions PASSED [  6%]
+tests/completion_test.py::TabCompletionTest::testObjectCompletions PASSED [  6%]
+tests/core_test.py::CoreTest::testCallable PASSED                        [  7%]
+tests/core_test.py::CoreTest::testCallableWithPositionalArgs PASSED      [  7%]
+tests/core_test.py::CoreTest::testClassMethod PASSED                     [  8%]
+tests/core_test.py::CoreTest::testCustomSerialize PASSED                 [  8%]
+tests/core_test.py::CoreTest::testErrorRaising PASSED                    [  8%]
+tests/core_test.py::CoreTest::testFireError PASSED                       [  9%]
+tests/core_test.py::CoreTest::testFireErrorMultipleValues PASSED         [  9%]
+tests/core_test.py::CoreTest::testHelpOnErrorInConstructor PASSED        [  9%]
+tests/core_test.py::CoreTest::testHelpWithClass PASSED                   [ 10%]
+tests/core_test.py::CoreTest::testHelpWithMember PASSED                  [ 10%]
+tests/core_test.py::CoreTest::testHelpWithNamespaceCollision PASSED      [ 11%]
+tests/core_test.py::CoreTest::testInteractiveMode PASSED                 [ 11%]
+tests/core_test.py::CoreTest::testInteractiveModeFullArgument PASSED     [ 11%]
+tests/core_test.py::CoreTest::testInteractiveModeVariables PASSED        [ 12%]
+tests/core_test.py::CoreTest::testInteractiveModeVariablesWithName PASSED [ 12%]
+tests/core_test.py::CoreTest::testInvalidParameterRaisesFireExit PASSED  [ 13%]
+tests/core_test.py::CoreTest::testLruCacheDecorator PASSED               [ 13%]
+tests/core_test.py::CoreTest::testLruCacheDecoratorBoundArg PASSED       [ 13%]
+tests/core_test.py::CoreTest::testOneLineResult PASSED                   [ 14%]
+tests/core_test.py::CoreTest::testOneLineResultCircularRef PASSED        [ 14%]
+tests/core_test.py::CoreTest::testPrintEmptyDict PASSED                  [ 14%]
+tests/core_test.py::CoreTest::testPrintFrozenSet PASSED                  [ 15%]
+tests/core_test.py::CoreTest::testPrintNamedTupleField PASSED            [ 15%]
+tests/core_test.py::CoreTest::testPrintNamedTupleFieldNameEqualsValue PASSED [ 16%]
+tests/core_test.py::CoreTest::testPrintNamedTupleIndex PASSED            [ 16%]
+tests/core_test.py::CoreTest::testPrintNamedTupleNegativeIndex PASSED    [ 16%]
+tests/core_test.py::CoreTest::testPrintOrderedDict PASSED                [ 17%]
+tests/core_test.py::CoreTest::testPrintSet PASSED                        [ 17%]
+tests/core_test.py::CoreTest::testStaticMethod PASSED                    [ 18%]
+tests/custom_descriptions_test.py::CustomDescriptionTest::test_string_type_description_enough_space PASSED [ 18%]
+tests/custom_descriptions_test.py::CustomDescriptionTest::test_string_type_description_not_enough_space_new_line PASSED [ 18%]
+tests/custom_descriptions_test.py::CustomDescriptionTest::test_string_type_description_not_enough_space_truncated PASSED [ 19%]
+tests/custom_descriptions_test.py::CustomDescriptionTest::test_string_type_summary_enough_space PASSED [ 19%]
+tests/custom_descriptions_test.py::CustomDescriptionTest::test_string_type_summary_not_enough_space_long_truncated PASSED [ 19%]
+tests/custom_descriptions_test.py::CustomDescriptionTest::test_string_type_summary_not_enough_space_new_line PASSED [ 20%]
+tests/custom_descriptions_test.py::CustomDescriptionTest::test_string_type_summary_not_enough_space_truncated PASSED [ 20%]
+tests/decorators_test.py::FireDecoratorsTest::testSetParseFn PASSED      [ 21%]
+tests/decorators_test.py::FireDecoratorsTest::testSetParseFnsDefaultsFromFire PASSED [ 21%]
+tests/decorators_test.py::FireDecoratorsTest::testSetParseFnsDefaultsFromPython PASSED [ 21%]
+tests/decorators_test.py::FireDecoratorsTest::testSetParseFnsFnWithPositionalArgs PASSED [ 22%]
+tests/decorators_test.py::FireDecoratorsTest::testSetParseFnsForKeywordArgs PASSED [ 22%]
+tests/decorators_test.py::FireDecoratorsTest::testSetParseFnsNamedArgs PASSED [ 22%]
+tests/decorators_test.py::FireDecoratorsTest::testSetParseFnsNamedDefaultsFromFire PASSED [ 23%]
+tests/decorators_test.py::FireDecoratorsTest::testSetParseFnsNamedDefaultsFromPython PASSED [ 23%]
+tests/decorators_test.py::FireDecoratorsTest::testSetParseFnsOnlySomeTypes PASSED [ 24%]
+tests/decorators_test.py::FireDecoratorsTest::testSetParseFnsPositionalAndNamed PASSED [ 24%]
+tests/decorators_test.py::FireDecoratorsTest::testSetParseFnsPositionalArgs PASSED [ 24%]
+tests/docstrings_fuzz_test.py::DocstringsFuzzTest::test_fuzz_parse PASSED [ 25%]
+tests/docstrings_test.py::DocstringsTest::test_google_format_arg_named_args PASSED [ 25%]
+tests/docstrings_test.py::DocstringsTest::test_google_format_args_only PASSED [ 26%]
+tests/docstrings_test.py::DocstringsTest::test_google_format_multiline_arg_description PASSED [ 26%]
+tests/docstrings_test.py::DocstringsTest::test_google_format_typed_args_and_returns PASSED [ 26%]
+tests/docstrings_test.py::DocstringsTest::test_google_section_with_blank_first_line PASSED [ 27%]
+tests/docstrings_test.py::DocstringsTest::test_ill_formed_docstring PASSED [ 27%]
+tests/docstrings_test.py::DocstringsTest::test_multisection_docstring PASSED [ 27%]
+tests/docstrings_test.py::DocstringsTest::test_numpy_colon_in_description PASSED [ 28%]
+tests/docstrings_test.py::DocstringsTest::test_numpy_format_multiline_arg_description PASSED [ 28%]
+tests/docstrings_test.py::DocstringsTest::test_numpy_format_typed_args_and_returns PASSED [ 29%]
+tests/docstrings_test.py::DocstringsTest::test_one_line_runs_over PASSED [ 29%]
+tests/docstrings_test.py::DocstringsTest::test_one_line_runs_over_whitespace PASSED [ 29%]
+tests/docstrings_test.py::DocstringsTest::test_one_line_simple PASSED    [ 30%]
+tests/docstrings_test.py::DocstringsTest::test_one_line_simple_whitespace PASSED [ 30%]
+tests/docstrings_test.py::DocstringsTest::test_one_line_too_long PASSED  [ 31%]
+tests/docstrings_test.py::DocstringsTest::test_rst_format_typed_args_and_kwargs PASSED [ 31%]
+tests/docstrings_test.py::DocstringsTest::test_rst_format_typed_args_and_returns PASSED [ 31%]
+tests/docstrings_test.py::DocstringsTest::test_strip_blank_lines PASSED  [ 32%]
+tests/fire_import_test.py::FireImportTest::testFire PASSED               [ 32%]
+tests/fire_import_test.py::FireImportTest::testFireMethods PASSED        [ 32%]
+tests/fire_import_test.py::FireImportTest::testNoPrivateMethods PASSED   [ 33%]
+tests/fire_test.py::FireTest::testBasicSeparator PASSED                  [ 33%]
+tests/fire_test.py::FireTest::testBoolParsing PASSED                     [ 34%]
+tests/fire_test.py::FireTest::testBoolParsingContinued PASSED            [ 34%]
+tests/fire_test.py::FireTest::testBoolParsingLessExpectedCases PASSED    [ 34%]
+tests/fire_test.py::FireTest::testBoolParsingSingleHyphen PASSED         [ 35%]
+tests/fire_test.py::FireTest::testBoolParsingWithNo PASSED               [ 35%]
+tests/fire_test.py::FireTest::testClassInstantiation PASSED              [ 36%]
+tests/fire_test.py::FireTest::testClassWithDefaultMethod PASSED          [ 36%]
+tests/fire_test.py::FireTest::testClassWithInvalidProperty PASSED        [ 36%]
+tests/fire_test.py::FireTest::testExtraSeparators PASSED                 [ 37%]
+tests/fire_test.py::FireTest::testFire PASSED                            [ 37%]
+tests/fire_test.py::FireTest::testFireAllNamedArgs PASSED                [ 37%]
+tests/fire_test.py::FireTest::testFireAllNamedArgsOneMissing PASSED      [ 38%]
+tests/fire_test.py::FireTest::testFireAnnotatedArgs PASSED               [ 38%]
+tests/fire_test.py::FireTest::testFireAsyncio PASSED                     [ 39%]
+tests/fire_test.py::FireTest::testFireDefaultName PASSED                 [ 39%]
+tests/fire_test.py::FireTest::testFireDict PASSED                        [ 39%]
+tests/fire_test.py::FireTest::testFireExceptions PASSED                  [ 40%]
+tests/fire_test.py::FireTest::testFireFrozenset PASSED                   [ 40%]
+tests/fire_test.py::FireTest::testFireInvalidCommandArg PASSED           [ 40%]
+tests/fire_test.py::FireTest::testFireKeywordArgs PASSED                 [ 41%]
+tests/fire_test.py::FireTest::testFireKeywordArgsWithMissingPositionalArgs PASSED [ 41%]
+tests/fire_test.py::FireTest::testFireKeywordOnlyArgs PASSED             [ 42%]
+tests/fire_test.py::FireTest::testFireList PASSED                        [ 42%]
+tests/fire_test.py::FireTest::testFireNamedArgs PASSED                   [ 42%]
+tests/fire_test.py::FireTest::testFireNamedArgsSingleHyphen PASSED       [ 43%]
+tests/fire_test.py::FireTest::testFireNamedArgsWithEquals PASSED         [ 43%]
+tests/fire_test.py::FireTest::testFireNamedArgsWithEqualsSingleHyphen PASSED [ 44%]
+tests/fire_test.py::FireTest::testFireNoArgs PASSED                      [ 44%]
+tests/fire_test.py::FireTest::testFireNoComponent PASSED                 [ 44%]
+tests/fire_test.py::FireTest::testFireObject PASSED                      [ 45%]
+tests/fire_test.py::FireTest::testFireObjectWithDict PASSED              [ 45%]
+tests/fire_test.py::FireTest::testFireObjectWithList PASSED              [ 45%]
+tests/fire_test.py::FireTest::testFireObjectWithListAsObject PASSED      [ 46%]
+tests/fire_test.py::FireTest::testFireObjectWithTuple PASSED             [ 46%]
+tests/fire_test.py::FireTest::testFireObjectWithTupleAsObject PASSED     [ 47%]
+tests/fire_test.py::FireTest::testFirePartialNamedArgs PASSED            [ 47%]
+tests/fire_test.py::FireTest::testFirePartialNamedArgsOneMissing PASSED  [ 47%]
+tests/fire_test.py::FireTest::testFirePositionalCommand PASSED           [ 48%]
+tests/fire_test.py::FireTest::testFireProperties PASSED                  [ 48%]
+tests/fire_test.py::FireTest::testFireRecursion PASSED                   [ 49%]
+tests/fire_test.py::FireTest::testFireSet PASSED                         [ 49%]
+tests/fire_test.py::FireTest::testFireUnderscores PASSED                 [ 49%]
+tests/fire_test.py::FireTest::testFireUnderscoresInArg PASSED            [ 50%]
+tests/fire_test.py::FireTest::testFireVarArgs PASSED                     [ 50%]
+tests/fire_test.py::FireTest::testFireVarArgsWithNamedArgs PASSED        [ 50%]
+tests/fire_test.py::FireTest::testFloatForExpectedInt PASSED             [ 51%]
+tests/fire_test.py::FireTest::testHelpFlag PASSED                        [ 51%]
+tests/fire_test.py::FireTest::testHelpFlagAndTraceFlag PASSED            [ 52%]
+tests/fire_test.py::FireTest::testHelpKwargsDecorator PASSED             [ 52%]
+tests/fire_test.py::FireTest::testNegativeNumbers PASSED                 [ 52%]
+tests/fire_test.py::FireTest::testNonComparable PASSED                   [ 53%]
+tests/fire_test.py::FireTest::testSeparatorForChaining PASSED            [ 53%]
+tests/fire_test.py::FireTest::testSingleCharFlagParsing PASSED           [ 54%]
+tests/fire_test.py::FireTest::testSingleCharFlagParsingCapitalLetter PASSED [ 54%]
+tests/fire_test.py::FireTest::testSingleCharFlagParsingEqualSign PASSED  [ 54%]
+tests/fire_test.py::FireTest::testSingleCharFlagParsingExactMatch PASSED [ 55%]
+tests/fire_test.py::FireTest::testTabCompletion PASSED                   [ 55%]
+tests/fire_test.py::FireTest::testTabCompletionNoName PASSED             [ 55%]
+tests/fire_test.py::FireTest::testTabCompletionWithDict PASSED           [ 56%]
+tests/fire_test.py::FireTest::testTraceErrors PASSED                     [ 56%]
+tests/fire_test.py::FireTest::testTraceFlag PASSED                       [ 57%]
+tests/formatting_test.py::FormattingTest::test_bold PASSED               [ 57%]
+tests/formatting_test.py::FormattingTest::test_ellipsis_middle_truncate PASSED [ 57%]
+tests/formatting_test.py::FormattingTest::test_ellipsis_middle_truncate_not_enough_space PASSED [ 58%]
+tests/formatting_test.py::FormattingTest::test_ellipsis_truncate PASSED  [ 58%]
+tests/formatting_test.py::FormattingTest::test_ellipsis_truncate_not_enough_space PASSED [ 59%]
+tests/formatting_test.py::FormattingTest::test_indent PASSED             [ 59%]
+tests/formatting_test.py::FormattingTest::test_indent_multiple_lines PASSED [ 59%]
+tests/formatting_test.py::FormattingTest::test_underline PASSED          [ 60%]
+tests/formatting_test.py::FormattingTest::test_wrap_multiple_items PASSED [ 60%]
+tests/formatting_test.py::FormattingTest::test_wrap_one_item PASSED      [ 60%]
+tests/helptext_test.py::HelpTest::testHelpScreen PASSED                  [ 61%]
+tests/helptext_test.py::HelpTest::testHelpScreenForFunctionDocstringWithLineBreak PASSED [ 61%]
+tests/helptext_test.py::HelpTest::testHelpScreenForFunctionFunctionWithDefaultArgs PASSED [ 62%]
+tests/helptext_test.py::HelpTest::testHelpTextBoldCommandName PASSED     [ 62%]
+tests/helptext_test.py::HelpTest::testHelpTextEmptyList PASSED           [ 62%]
+tests/helptext_test.py::HelpTest::testHelpTextFunction PASSED            [ 63%]
+tests/helptext_test.py::HelpTest::testHelpTextFunctionIntType PASSED     [ 63%]
+tests/helptext_test.py::HelpTest::testHelpTextFunctionMixedDefaults PASSED [ 63%]
+tests/helptext_test.py::HelpTest::testHelpTextFunctionWithBuiltin PASSED [ 64%]
+tests/helptext_test.py::HelpTest::testHelpTextFunctionWithDefaults PASSED [ 64%]
+tests/helptext_test.py::HelpTest::testHelpTextFunctionWithDefaultsAndTypes PASSED [ 65%]
+tests/helptext_test.py::HelpTest::testHelpTextFunctionWithKwargs PASSED  [ 65%]
+tests/helptext_test.py::HelpTest::testHelpTextFunctionWithKwargsAndDefaults PASSED [ 65%]
+tests/helptext_test.py::HelpTest::testHelpTextFunctionWithLongDefaults PASSED [ 66%]
+tests/helptext_test.py::HelpTest::testHelpTextFunctionWithLongTypes PASSED [ 66%]
+tests/helptext_test.py::HelpTest::testHelpTextFunctionWithTypes PASSED   [ 67%]
+tests/helptext_test.py::HelpTest::testHelpTextFunctionWithTypesAndDefaultNone PASSED [ 67%]
+tests/helptext_test.py::HelpTest::testHelpTextInt PASSED                 [ 67%]
+tests/helptext_test.py::HelpTest::testHelpTextKeywordOnlyArgumentsWithDefault PASSED [ 68%]
+tests/helptext_test.py::HelpTest::testHelpTextKeywordOnlyArgumentsWithoutDefault PASSED [ 68%]
+tests/helptext_test.py::HelpTest::testHelpTextMultipleKeywoardArgumentsWithShortArgs PASSED [ 68%]
+tests/helptext_test.py::HelpTest::testHelpTextNameSectionCommandWithSeparator PASSED [ 69%]
+tests/helptext_test.py::HelpTest::testHelpTextNameSectionCommandWithSeparatorVerbose PASSED [ 69%]
+tests/helptext_test.py::HelpTest::testHelpTextNoDefaults PASSED          [ 70%]
+tests/helptext_test.py::HelpTest::testHelpTextNoDefaultsObject PASSED    [ 70%]
+tests/helptext_test.py::HelpTest::testHelpTextNoInit PASSED              [ 70%]
+tests/helptext_test.py::HelpTest::testHelpTextObjectWithGroupAndValues PASSED [ 71%]
+tests/helptext_test.py::HelpTest::testHelpTextShortList PASSED           [ 71%]
+tests/helptext_test.py::HelpTest::testHelpTextUnderlineFlag PASSED       [ 72%]
+tests/helptext_test.py::UsageTest::testInitRequiresFlagSyntaxSubclassNamedTuple PASSED [ 72%]
+tests/helptext_test.py::UsageTest::testUsageOutput PASSED                [ 72%]
+tests/helptext_test.py::UsageTest::testUsageOutputCallable PASSED        [ 73%]
+tests/helptext_test.py::UsageTest::testUsageOutputConstructorWithParameter PASSED [ 73%]
+tests/helptext_test.py::UsageTest::testUsageOutputConstructorWithParameterVerbose PASSED [ 73%]
+tests/helptext_test.py::UsageTest::testUsageOutputEmptyDict PASSED       [ 74%]
+tests/helptext_test.py::UsageTest::testUsageOutputFunctionMixedDefaults PASSED [ 74%]
+tests/helptext_test.py::UsageTest::testUsageOutputFunctionWithDocstring PASSED [ 75%]
+tests/helptext_test.py::UsageTest::testUsageOutputFunctionWithHelp PASSED [ 75%]
+tests/helptext_test.py::UsageTest::testUsageOutputMethod PASSED          [ 75%]
+tests/helptext_test.py::UsageTest::testUsageOutputNone PASSED            [ 76%]
+tests/helptext_test.py::UsageTest::testUsageOutputVerbose PASSED         [ 76%]
+tests/inspectutils_test.py::InspectUtilsTest::testGetFullArgSpec PASSED  [ 77%]
+tests/inspectutils_test.py::InspectUtilsTest::testGetFullArgSpecFromBuiltin PASSED [ 77%]
+tests/inspectutils_test.py::InspectUtilsTest::testGetFullArgSpecFromClassNoInit PASSED [ 77%]
+tests/inspectutils_test.py::InspectUtilsTest::testGetFullArgSpecFromMethod PASSED [ 78%]
+tests/inspectutils_test.py::InspectUtilsTest::testGetFullArgSpecFromNamedTuple PASSED [ 78%]
+tests/inspectutils_test.py::InspectUtilsTest::testGetFullArgSpecFromNamedTupleSubclass PASSED [ 78%]
+tests/inspectutils_test.py::InspectUtilsTest::testGetFullArgSpecFromSlotWrapper PASSED [ 79%]
+tests/inspectutils_test.py::InspectUtilsTest::testGetFullArgSpecPy3 PASSED [ 79%]
+tests/inspectutils_test.py::InspectUtilsTest::testInfoClass PASSED       [ 80%]
+tests/inspectutils_test.py::InspectUtilsTest::testInfoClassNoInit PASSED [ 80%]
+tests/inspectutils_test.py::InspectUtilsTest::testInfoNoDocstring PASSED [ 80%]
+tests/inspectutils_test.py::InspectUtilsTest::testInfoOne PASSED         [ 81%]
+tests/interact_test.py::InteractTest::testInteract PASSED                [ 81%]
+tests/interact_test.py::InteractTest::testInteractVariables PASSED       [ 81%]
+tests/main_test.py::MainModuleTest::testArgPassing PASSED                [ 82%]
+tests/main_test.py::MainModuleTest::testNameSetting PASSED               [ 82%]
+tests/main_test.py::MainModuleFileTest::testFileNameFailure PASSED       [ 83%]
+tests/main_test.py::MainModuleFileTest::testFileNameFire PASSED          [ 83%]
+tests/main_test.py::MainModuleFileTest::testFileNameModuleDuplication PASSED [ 83%]
+tests/main_test.py::MainModuleFileTest::testFileNameModuleFileFailure PASSED [ 84%]
+tests/parser_test.py::ParserTest::testCreateParser PASSED                [ 84%]
+tests/parser_test.py::ParserTest::testDefaultParseValueBadLiteral PASSED [ 85%]
+tests/parser_test.py::ParserTest::testDefaultParseValueBareWordsLists PASSED [ 85%]
+tests/parser_test.py::ParserTest::testDefaultParseValueBareWordsTuple PASSED [ 85%]
+tests/parser_test.py::ParserTest::testDefaultParseValueBool PASSED       [ 86%]
+tests/parser_test.py::ParserTest::testDefaultParseValueComments PASSED   [ 86%]
+tests/parser_test.py::ParserTest::testDefaultParseValueDict PASSED       [ 86%]
+tests/parser_test.py::ParserTest::testDefaultParseValueIgnoreBinOp PASSED [ 87%]
+tests/parser_test.py::ParserTest::testDefaultParseValueLists PASSED      [ 87%]
+tests/parser_test.py::ParserTest::testDefaultParseValueNestedContainers PASSED [ 88%]
+tests/parser_test.py::ParserTest::testDefaultParseValueNone PASSED       [ 88%]
+tests/parser_test.py::ParserTest::testDefaultParseValueNumbers PASSED    [ 88%]
+tests/parser_test.py::ParserTest::testDefaultParseValueOtherNumbers PASSED [ 89%]
+tests/parser_test.py::ParserTest::testDefaultParseValueQuotedStringNumbers PASSED [ 89%]
+tests/parser_test.py::ParserTest::testDefaultParseValueQuotedStrings PASSED [ 90%]
+tests/parser_test.py::ParserTest::testDefaultParseValueSpecialStrings PASSED [ 90%]
+tests/parser_test.py::ParserTest::testDefaultParseValueStringNumbers PASSED [ 90%]
+tests/parser_test.py::ParserTest::testDefaultParseValueStrings PASSED    [ 91%]
+tests/parser_test.py::ParserTest::testDefaultParseValueSyntaxError PASSED [ 91%]
+tests/parser_test.py::ParserTest::testSeparateFlagArgs PASSED            [ 91%]
+tests/test_components_test.py::TestComponentsTest::testNonComparable PASSED [ 92%]
+tests/test_components_test.py::TestComponentsTest::testTestComponents PASSED [ 92%]
+tests/testutils_test.py::TestTestUtils::testCheckStdoutOrStderrNone PASSED [ 93%]
+tests/testutils_test.py::TestTestUtils::testCorrectOrderingOfAssertRaises PASSED [ 93%]
+tests/testutils_test.py::TestTestUtils::testNoCheckOnException PASSED    [ 93%]
+tests/trace_test.py::FireTraceTest::testAddAccessedProperty PASSED       [ 94%]
+tests/trace_test.py::FireTraceTest::testAddCalledCallable PASSED         [ 94%]
+tests/trace_test.py::FireTraceTest::testAddCalledRoutine PASSED          [ 95%]
+tests/trace_test.py::FireTraceTest::testAddCompletionScript PASSED       [ 95%]
+tests/trace_test.py::FireTraceTest::testAddInstantiatedClass PASSED      [ 95%]
+tests/trace_test.py::FireTraceTest::testAddInteractiveMode PASSED        [ 96%]
+tests/trace_test.py::FireTraceTest::testFireTraceGetResult PASSED        [ 96%]
+tests/trace_test.py::FireTraceTest::testFireTraceHasError PASSED         [ 96%]
+tests/trace_test.py::FireTraceTest::testFireTraceInitialization PASSED   [ 97%]
+tests/trace_test.py::FireTraceTest::testGetCommand PASSED                [ 97%]
+tests/trace_test.py::FireTraceTest::testGetCommandWithFlagQuotes PASSED  [ 98%]
+tests/trace_test.py::FireTraceTest::testGetCommandWithQuotes PASSED      [ 98%]
+tests/trace_test.py::FireTraceElementTest::testFireTraceElementAsStringNoMetadata PASSED [ 98%]
+tests/trace_test.py::FireTraceElementTest::testFireTraceElementAsStringWithTarget PASSED [ 99%]
+tests/trace_test.py::FireTraceElementTest::testFireTraceElementAsStringWithTargetAndLineNo PASSED [ 99%]
+tests/trace_test.py::FireTraceElementTest::testFireTraceElementHasError PASSED [100%]
+
+=============================== warnings summary ===============================
+fire/test_components_py3.py:61
+  /s/bach/m/under/bdavis43/CS514/Project/python-fire/fire/test_components_py3.py:61: DeprecationWarning: "@coroutine" decorator is deprecated since Python 3.8, use "async def" instead
+    def double(self, count=0):
+
+tests/test_components_py3.py:61
+  /s/bach/m/under/bdavis43/CS514/Project/python-fire/tests/test_components_py3.py:61: DeprecationWarning: "@coroutine" decorator is deprecated since Python 3.8, use "async def" instead
+    def double(self, count=0):
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+======================= 261 passed, 2 warnings in 2.01s ========================
+2023-11-04 16:23:06,080: [92m20 mutation targets found in fire/__main__.py AST.[0m
+2023-11-04 16:23:06,081: [92m4 mutation targets found in fire/decorators.py AST.[0m
+2023-11-04 16:23:06,082: [92m15 mutation targets found in fire/testutils.py AST.[0m
+2023-11-04 16:23:06,084: [92m89 mutation targets found in fire/inspectutils.py AST.[0m
+2023-11-04 16:23:06,085: [92m35 mutation targets found in fire/formatting.py AST.[0m
+2023-11-04 16:23:06,086: [92m12 mutation targets found in fire/interact.py AST.[0m
+2023-11-04 16:23:06,091: [92m185 mutation targets found in fire/docstrings.py AST.[0m
+2023-11-04 16:23:06,097: [92m264 mutation targets found in fire/core.py AST.[0m
+2023-11-04 16:23:06,097: [92m15 mutation targets found in fire/value_types.py AST.[0m
+2023-11-04 16:23:06,098: [92m32 mutation targets found in fire/custom_descriptions.py AST.[0m
+2023-11-04 16:23:06,099: [92m14 mutation targets found in fire/parser.py AST.[0m
+2023-11-04 16:23:06,100: [92m18 mutation targets found in fire/formatting_windows.py AST.[0m
+2023-11-04 16:23:06,101: [92m53 mutation targets found in fire/trace.py AST.[0m
+2023-11-04 16:23:06,106: [92m180 mutation targets found in fire/helptext.py AST.[0m
+2023-11-04 16:23:06,107: [93m0 mutation targets found in fire/__init__.py AST.[0m
+2023-11-04 16:23:06,109: [92m87 mutation targets found in fire/completion.py AST.[0m
+2023-11-04 16:23:06,110: [92m36 mutation targets found in fire/console/console_attr_os.py AST.[0m
+2023-11-04 16:23:06,111: [92m6 mutation targets found in fire/console/text.py AST.[0m
+2023-11-04 16:23:06,113: [92m116 mutation targets found in fire/console/console_pager.py AST.[0m
+2023-11-04 16:23:06,122: [92m125 mutation targets found in fire/console/console_attr.py AST.[0m
+2023-11-04 16:23:06,124: [92m98 mutation targets found in fire/console/platforms.py AST.[0m
+2023-11-04 16:23:06,126: [93m0 mutation targets found in fire/console/__init__.py AST.[0m
+2023-11-04 16:23:06,127: [92m29 mutation targets found in fire/console/encoding.py AST.[0m
+2023-11-04 16:23:06,128: [92m38 mutation targets found in fire/console/console_io.py AST.[0m
+2023-11-04 16:23:06,128: [92m19 mutation targets found in fire/console/files.py AST.[0m
+2023-11-04 16:23:06,128: Setting random.seed to: 514
+2023-11-04 16:23:06,129: Coverage file does not exist, proceeding to sample from all targets.
+2023-11-04 16:23:06,131: Total sample space size: 1490
+2023-11-04 16:23:06,132: [92mSelecting 10 locations from 1490 potentials.[0m
+2023-11-04 16:23:06,132: Starting individual mutation trials!
+2023-11-04 16:23:06,132: Running parallel (multi-processor) dispatch mode. CPUs: 20
+2023-11-04 16:23:06,165: Current target location: core.py, LocIndex(ast_class='Index', lineno=648, col_offset=13, op_type='Index_NumZero', end_lineno=648, end_col_offset=14)
+2023-11-04 16:23:06,174: Current target location: console_attr.py, LocIndex(ast_class='NameConstant', lineno=741, col_offset=13, op_type=None, end_lineno=741, end_col_offset=17)
+2023-11-04 16:23:06,182: Current target location: inspectutils.py, LocIndex(ast_class='NameConstant', lineno=36, col_offset=40, op_type=None, end_lineno=36, end_col_offset=44)
+2023-11-04 16:23:06,190: Current target location: inspectutils.py, LocIndex(ast_class='CompareIs', lineno=164, col_offset=9, op_type=<class '_ast.Is'>, end_lineno=164, end_col_offset=38)
+2023-11-04 16:23:06,199: Current target location: encoding.py, LocIndex(ast_class='NameConstant', lineno=39, col_offset=11, op_type=None, end_lineno=39, end_col_offset=15)
+2023-11-04 16:23:06,208: Current target location: console_pager.py, LocIndex(ast_class='CompareIn', lineno=144, col_offset=9, op_type=<class '_ast.In'>, end_lineno=144, end_col_offset=32)
+2023-11-04 16:23:06,217: Current target location: custom_descriptions.py, LocIndex(ast_class='CompareIn', lineno=71, col_offset=9, op_type=<class '_ast.In'>, end_lineno=71, end_col_offset=40)
+2023-11-04 16:23:06,226: Current target location: custom_descriptions.py, LocIndex(ast_class='BinOp', lineno=94, col_offset=5, op_type=<class '_ast.Add'>, end_lineno=94, end_col_offset=38)
+2023-11-04 16:23:06,234: Current target location: inspectutils.py, LocIndex(ast_class='CompareIs', lineno=144, col_offset=5, op_type=<class '_ast.IsNot'>, end_lineno=144, end_col_offset=43)
+2023-11-04 16:23:06,243: Current target location: core.py, LocIndex(ast_class='BoolOp', lineno=736, col_offset=7, op_type=<class '_ast.Or'>, end_lineno=736, end_col_offset=39)
+2023-11-04 16:23:15,879: [91mResult: Survived at fire/inspectutils.py: (36, 40)[0m
+2023-11-04 16:23:15,921: [91mResult: Survived at fire/console/console_attr.py: (741, 13)[0m
+2023-11-04 16:23:15,959: [91mResult: Survived at fire/console/console_pager.py: (144, 9)[0m
+2023-11-04 16:23:15,982: [92mResult: Detected at fire/custom_descriptions.py: (94, 5)[0m
+2023-11-04 16:23:16,002: [92mResult: Detected at fire/inspectutils.py: (144, 5)[0m
+2023-11-04 16:23:16,063: [91mResult: Survived at fire/console/encoding.py: (39, 11)[0m
+2023-11-04 16:23:16,231: [92mResult: Detected at fire/inspectutils.py: (164, 9)[0m
+2023-11-04 16:23:16,254: [91mResult: Survived at fire/core.py: (736, 7)[0m
+2023-11-04 16:23:16,359: [92mResult: Detected at fire/custom_descriptions.py: (71, 9)[0m
+2023-11-04 16:23:16,671: [92mResult: Detected at fire/core.py: (648, 13)[0m
+2023-11-04 16:23:23,887: [92mResult: Detected at fire/inspectutils.py: (36, 40)[0m
+2023-11-04 16:23:23,909: [91mResult: Survived at fire/console/console_attr.py: (741, 13)[0m
+2023-11-04 16:23:24,004: [92mResult: Detected at fire/custom_descriptions.py: (94, 5)[0m
+2023-11-04 16:23:24,037: [91mResult: Survived at fire/console/encoding.py: (39, 11)[0m
+2023-11-04 16:23:25,289: [92mResult: Detected at fire/core.py: (648, 13)[0m
+2023-11-04 16:23:30,921: [91mResult: Survived at fire/custom_descriptions.py: (94, 5)[0m
+2023-11-04 16:23:37,901: [91mResult: Survived at fire/custom_descriptions.py: (94, 5)[0m
+2023-11-04 16:23:44,708: [92mResult: Detected at fire/custom_descriptions.py: (94, 5)[0m
+2023-11-04 16:23:51,382: [92mResult: Detected at fire/custom_descriptions.py: (94, 5)[0m
+2023-11-04 16:23:51,387: Cleaning up parallel cache dir .mutatest_cache.
+2023-11-04 16:23:51,418: Running clean trial
+============================= test session starts ==============================
+platform linux -- Python 3.8.16, pytest-7.4.3, pluggy-1.0.0 -- /usr/bin/python3.8
+cachedir: .pytest_cache
+hypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/s/bach/m/under/bdavis43/CS514/Project/python-fire/.hypothesis/examples'))
+rootdir: /s/bach/m/under/bdavis43/CS514/Project/python-fire
+configfile: setup.cfg
+plugins: hypothesis-6.88.1, cov-3.0.0
+collecting ... collected 261 items
+
+tests/completion_test.py::TabCompletionTest::testClassCompletions PASSED [  0%]
+tests/completion_test.py::TabCompletionTest::testClassFishScript PASSED  [  0%]
+tests/completion_test.py::TabCompletionTest::testClassScript PASSED      [  1%]
+tests/completion_test.py::TabCompletionTest::testCompletionBashScript PASSED [  1%]
+tests/completion_test.py::TabCompletionTest::testCompletionFishScript PASSED [  1%]
+tests/completion_test.py::TabCompletionTest::testDeepDictCompletions PASSED [  2%]
+tests/completion_test.py::TabCompletionTest::testDeepDictFishScript PASSED [  2%]
+tests/completion_test.py::TabCompletionTest::testDeepDictScript PASSED   [  3%]
+tests/completion_test.py::TabCompletionTest::testDictCompletions PASSED  [  3%]
+tests/completion_test.py::TabCompletionTest::testDictCompletionsVerbose PASSED [  3%]
+tests/completion_test.py::TabCompletionTest::testFnCompletions PASSED    [  4%]
+tests/completion_test.py::TabCompletionTest::testFnFishScript PASSED     [  4%]
+tests/completion_test.py::TabCompletionTest::testFnScript PASSED         [  4%]
+tests/completion_test.py::TabCompletionTest::testGeneratorCompletions PASSED [  5%]
+tests/completion_test.py::TabCompletionTest::testListCompletions PASSED  [  5%]
+tests/completion_test.py::TabCompletionTest::testMethodCompletions PASSED [  6%]
+tests/completion_test.py::TabCompletionTest::testNonStringDictCompletions PASSED [  6%]
+tests/completion_test.py::TabCompletionTest::testObjectCompletions PASSED [  6%]
+tests/core_test.py::CoreTest::testCallable PASSED                        [  7%]
+tests/core_test.py::CoreTest::testCallableWithPositionalArgs PASSED      [  7%]
+tests/core_test.py::CoreTest::testClassMethod PASSED                     [  8%]
+tests/core_test.py::CoreTest::testCustomSerialize PASSED                 [  8%]
+tests/core_test.py::CoreTest::testErrorRaising PASSED                    [  8%]
+tests/core_test.py::CoreTest::testFireError PASSED                       [  9%]
+tests/core_test.py::CoreTest::testFireErrorMultipleValues PASSED         [  9%]
+tests/core_test.py::CoreTest::testHelpOnErrorInConstructor PASSED        [  9%]
+tests/core_test.py::CoreTest::testHelpWithClass PASSED                   [ 10%]
+tests/core_test.py::CoreTest::testHelpWithMember PASSED                  [ 10%]
+tests/core_test.py::CoreTest::testHelpWithNamespaceCollision PASSED      [ 11%]
+tests/core_test.py::CoreTest::testInteractiveMode PASSED                 [ 11%]
+tests/core_test.py::CoreTest::testInteractiveModeFullArgument PASSED     [ 11%]
+tests/core_test.py::CoreTest::testInteractiveModeVariables PASSED        [ 12%]
+tests/core_test.py::CoreTest::testInteractiveModeVariablesWithName PASSED [ 12%]
+tests/core_test.py::CoreTest::testInvalidParameterRaisesFireExit PASSED  [ 13%]
+tests/core_test.py::CoreTest::testLruCacheDecorator PASSED               [ 13%]
+tests/core_test.py::CoreTest::testLruCacheDecoratorBoundArg PASSED       [ 13%]
+tests/core_test.py::CoreTest::testOneLineResult PASSED                   [ 14%]
+tests/core_test.py::CoreTest::testOneLineResultCircularRef PASSED        [ 14%]
+tests/core_test.py::CoreTest::testPrintEmptyDict PASSED                  [ 14%]
+tests/core_test.py::CoreTest::testPrintFrozenSet PASSED                  [ 15%]
+tests/core_test.py::CoreTest::testPrintNamedTupleField PASSED            [ 15%]
+tests/core_test.py::CoreTest::testPrintNamedTupleFieldNameEqualsValue PASSED [ 16%]
+tests/core_test.py::CoreTest::testPrintNamedTupleIndex PASSED            [ 16%]
+tests/core_test.py::CoreTest::testPrintNamedTupleNegativeIndex PASSED    [ 16%]
+tests/core_test.py::CoreTest::testPrintOrderedDict PASSED                [ 17%]
+tests/core_test.py::CoreTest::testPrintSet PASSED                        [ 17%]
+tests/core_test.py::CoreTest::testStaticMethod PASSED                    [ 18%]
+tests/custom_descriptions_test.py::CustomDescriptionTest::test_string_type_description_enough_space PASSED [ 18%]
+tests/custom_descriptions_test.py::CustomDescriptionTest::test_string_type_description_not_enough_space_new_line PASSED [ 18%]
+tests/custom_descriptions_test.py::CustomDescriptionTest::test_string_type_description_not_enough_space_truncated PASSED [ 19%]
+tests/custom_descriptions_test.py::CustomDescriptionTest::test_string_type_summary_enough_space PASSED [ 19%]
+tests/custom_descriptions_test.py::CustomDescriptionTest::test_string_type_summary_not_enough_space_long_truncated PASSED [ 19%]
+tests/custom_descriptions_test.py::CustomDescriptionTest::test_string_type_summary_not_enough_space_new_line PASSED [ 20%]
+tests/custom_descriptions_test.py::CustomDescriptionTest::test_string_type_summary_not_enough_space_truncated PASSED [ 20%]
+tests/decorators_test.py::FireDecoratorsTest::testSetParseFn PASSED      [ 21%]
+tests/decorators_test.py::FireDecoratorsTest::testSetParseFnsDefaultsFromFire PASSED [ 21%]
+tests/decorators_test.py::FireDecoratorsTest::testSetParseFnsDefaultsFromPython PASSED [ 21%]
+tests/decorators_test.py::FireDecoratorsTest::testSetParseFnsFnWithPositionalArgs PASSED [ 22%]
+tests/decorators_test.py::FireDecoratorsTest::testSetParseFnsForKeywordArgs PASSED [ 22%]
+tests/decorators_test.py::FireDecoratorsTest::testSetParseFnsNamedArgs PASSED [ 22%]
+tests/decorators_test.py::FireDecoratorsTest::testSetParseFnsNamedDefaultsFromFire PASSED [ 23%]
+tests/decorators_test.py::FireDecoratorsTest::testSetParseFnsNamedDefaultsFromPython PASSED [ 23%]
+tests/decorators_test.py::FireDecoratorsTest::testSetParseFnsOnlySomeTypes PASSED [ 24%]
+tests/decorators_test.py::FireDecoratorsTest::testSetParseFnsPositionalAndNamed PASSED [ 24%]
+tests/decorators_test.py::FireDecoratorsTest::testSetParseFnsPositionalArgs PASSED [ 24%]
+tests/docstrings_fuzz_test.py::DocstringsFuzzTest::test_fuzz_parse PASSED [ 25%]
+tests/docstrings_test.py::DocstringsTest::test_google_format_arg_named_args PASSED [ 25%]
+tests/docstrings_test.py::DocstringsTest::test_google_format_args_only PASSED [ 26%]
+tests/docstrings_test.py::DocstringsTest::test_google_format_multiline_arg_description PASSED [ 26%]
+tests/docstrings_test.py::DocstringsTest::test_google_format_typed_args_and_returns PASSED [ 26%]
+tests/docstrings_test.py::DocstringsTest::test_google_section_with_blank_first_line PASSED [ 27%]
+tests/docstrings_test.py::DocstringsTest::test_ill_formed_docstring PASSED [ 27%]
+tests/docstrings_test.py::DocstringsTest::test_multisection_docstring PASSED [ 27%]
+tests/docstrings_test.py::DocstringsTest::test_numpy_colon_in_description PASSED [ 28%]
+tests/docstrings_test.py::DocstringsTest::test_numpy_format_multiline_arg_description PASSED [ 28%]
+tests/docstrings_test.py::DocstringsTest::test_numpy_format_typed_args_and_returns PASSED [ 29%]
+tests/docstrings_test.py::DocstringsTest::test_one_line_runs_over PASSED [ 29%]
+tests/docstrings_test.py::DocstringsTest::test_one_line_runs_over_whitespace PASSED [ 29%]
+tests/docstrings_test.py::DocstringsTest::test_one_line_simple PASSED    [ 30%]
+tests/docstrings_test.py::DocstringsTest::test_one_line_simple_whitespace PASSED [ 30%]
+tests/docstrings_test.py::DocstringsTest::test_one_line_too_long PASSED  [ 31%]
+tests/docstrings_test.py::DocstringsTest::test_rst_format_typed_args_and_kwargs PASSED [ 31%]
+tests/docstrings_test.py::DocstringsTest::test_rst_format_typed_args_and_returns PASSED [ 31%]
+tests/docstrings_test.py::DocstringsTest::test_strip_blank_lines PASSED  [ 32%]
+tests/fire_import_test.py::FireImportTest::testFire PASSED               [ 32%]
+tests/fire_import_test.py::FireImportTest::testFireMethods PASSED        [ 32%]
+tests/fire_import_test.py::FireImportTest::testNoPrivateMethods PASSED   [ 33%]
+tests/fire_test.py::FireTest::testBasicSeparator PASSED                  [ 33%]
+tests/fire_test.py::FireTest::testBoolParsing PASSED                     [ 34%]
+tests/fire_test.py::FireTest::testBoolParsingContinued PASSED            [ 34%]
+tests/fire_test.py::FireTest::testBoolParsingLessExpectedCases PASSED    [ 34%]
+tests/fire_test.py::FireTest::testBoolParsingSingleHyphen PASSED         [ 35%]
+tests/fire_test.py::FireTest::testBoolParsingWithNo PASSED               [ 35%]
+tests/fire_test.py::FireTest::testClassInstantiation PASSED              [ 36%]
+tests/fire_test.py::FireTest::testClassWithDefaultMethod PASSED          [ 36%]
+tests/fire_test.py::FireTest::testClassWithInvalidProperty PASSED        [ 36%]
+tests/fire_test.py::FireTest::testExtraSeparators PASSED                 [ 37%]
+tests/fire_test.py::FireTest::testFire PASSED                            [ 37%]
+tests/fire_test.py::FireTest::testFireAllNamedArgs PASSED                [ 37%]
+tests/fire_test.py::FireTest::testFireAllNamedArgsOneMissing PASSED      [ 38%]
+tests/fire_test.py::FireTest::testFireAnnotatedArgs PASSED               [ 38%]
+tests/fire_test.py::FireTest::testFireAsyncio PASSED                     [ 39%]
+tests/fire_test.py::FireTest::testFireDefaultName PASSED                 [ 39%]
+tests/fire_test.py::FireTest::testFireDict PASSED                        [ 39%]
+tests/fire_test.py::FireTest::testFireExceptions PASSED                  [ 40%]
+tests/fire_test.py::FireTest::testFireFrozenset PASSED                   [ 40%]
+tests/fire_test.py::FireTest::testFireInvalidCommandArg PASSED           [ 40%]
+tests/fire_test.py::FireTest::testFireKeywordArgs PASSED                 [ 41%]
+tests/fire_test.py::FireTest::testFireKeywordArgsWithMissingPositionalArgs PASSED [ 41%]
+tests/fire_test.py::FireTest::testFireKeywordOnlyArgs PASSED             [ 42%]
+tests/fire_test.py::FireTest::testFireList PASSED                        [ 42%]
+tests/fire_test.py::FireTest::testFireNamedArgs PASSED                   [ 42%]
+tests/fire_test.py::FireTest::testFireNamedArgsSingleHyphen PASSED       [ 43%]
+tests/fire_test.py::FireTest::testFireNamedArgsWithEquals PASSED         [ 43%]
+tests/fire_test.py::FireTest::testFireNamedArgsWithEqualsSingleHyphen PASSED [ 44%]
+tests/fire_test.py::FireTest::testFireNoArgs PASSED                      [ 44%]
+tests/fire_test.py::FireTest::testFireNoComponent PASSED                 [ 44%]
+tests/fire_test.py::FireTest::testFireObject PASSED                      [ 45%]
+tests/fire_test.py::FireTest::testFireObjectWithDict PASSED              [ 45%]
+tests/fire_test.py::FireTest::testFireObjectWithList PASSED              [ 45%]
+tests/fire_test.py::FireTest::testFireObjectWithListAsObject PASSED      [ 46%]
+tests/fire_test.py::FireTest::testFireObjectWithTuple PASSED             [ 46%]
+tests/fire_test.py::FireTest::testFireObjectWithTupleAsObject PASSED     [ 47%]
+tests/fire_test.py::FireTest::testFirePartialNamedArgs PASSED            [ 47%]
+tests/fire_test.py::FireTest::testFirePartialNamedArgsOneMissing PASSED  [ 47%]
+tests/fire_test.py::FireTest::testFirePositionalCommand PASSED           [ 48%]
+tests/fire_test.py::FireTest::testFireProperties PASSED                  [ 48%]
+tests/fire_test.py::FireTest::testFireRecursion PASSED                   [ 49%]
+tests/fire_test.py::FireTest::testFireSet PASSED                         [ 49%]
+tests/fire_test.py::FireTest::testFireUnderscores PASSED                 [ 49%]
+tests/fire_test.py::FireTest::testFireUnderscoresInArg PASSED            [ 50%]
+tests/fire_test.py::FireTest::testFireVarArgs PASSED                     [ 50%]
+tests/fire_test.py::FireTest::testFireVarArgsWithNamedArgs PASSED        [ 50%]
+tests/fire_test.py::FireTest::testFloatForExpectedInt PASSED             [ 51%]
+tests/fire_test.py::FireTest::testHelpFlag PASSED                        [ 51%]
+tests/fire_test.py::FireTest::testHelpFlagAndTraceFlag PASSED            [ 52%]
+tests/fire_test.py::FireTest::testHelpKwargsDecorator PASSED             [ 52%]
+tests/fire_test.py::FireTest::testNegativeNumbers PASSED                 [ 52%]
+tests/fire_test.py::FireTest::testNonComparable PASSED                   [ 53%]
+tests/fire_test.py::FireTest::testSeparatorForChaining PASSED            [ 53%]
+tests/fire_test.py::FireTest::testSingleCharFlagParsing PASSED           [ 54%]
+tests/fire_test.py::FireTest::testSingleCharFlagParsingCapitalLetter PASSED [ 54%]
+tests/fire_test.py::FireTest::testSingleCharFlagParsingEqualSign PASSED  [ 54%]
+tests/fire_test.py::FireTest::testSingleCharFlagParsingExactMatch PASSED [ 55%]
+tests/fire_test.py::FireTest::testTabCompletion PASSED                   [ 55%]
+tests/fire_test.py::FireTest::testTabCompletionNoName PASSED             [ 55%]
+tests/fire_test.py::FireTest::testTabCompletionWithDict PASSED           [ 56%]
+tests/fire_test.py::FireTest::testTraceErrors PASSED                     [ 56%]
+tests/fire_test.py::FireTest::testTraceFlag PASSED                       [ 57%]
+tests/formatting_test.py::FormattingTest::test_bold PASSED               [ 57%]
+tests/formatting_test.py::FormattingTest::test_ellipsis_middle_truncate PASSED [ 57%]
+tests/formatting_test.py::FormattingTest::test_ellipsis_middle_truncate_not_enough_space PASSED [ 58%]
+tests/formatting_test.py::FormattingTest::test_ellipsis_truncate PASSED  [ 58%]
+tests/formatting_test.py::FormattingTest::test_ellipsis_truncate_not_enough_space PASSED [ 59%]
+tests/formatting_test.py::FormattingTest::test_indent PASSED             [ 59%]
+tests/formatting_test.py::FormattingTest::test_indent_multiple_lines PASSED [ 59%]
+tests/formatting_test.py::FormattingTest::test_underline PASSED          [ 60%]
+tests/formatting_test.py::FormattingTest::test_wrap_multiple_items PASSED [ 60%]
+tests/formatting_test.py::FormattingTest::test_wrap_one_item PASSED      [ 60%]
+tests/helptext_test.py::HelpTest::testHelpScreen PASSED                  [ 61%]
+tests/helptext_test.py::HelpTest::testHelpScreenForFunctionDocstringWithLineBreak PASSED [ 61%]
+tests/helptext_test.py::HelpTest::testHelpScreenForFunctionFunctionWithDefaultArgs PASSED [ 62%]
+tests/helptext_test.py::HelpTest::testHelpTextBoldCommandName PASSED     [ 62%]
+tests/helptext_test.py::HelpTest::testHelpTextEmptyList PASSED           [ 62%]
+tests/helptext_test.py::HelpTest::testHelpTextFunction PASSED            [ 63%]
+tests/helptext_test.py::HelpTest::testHelpTextFunctionIntType PASSED     [ 63%]
+tests/helptext_test.py::HelpTest::testHelpTextFunctionMixedDefaults PASSED [ 63%]
+tests/helptext_test.py::HelpTest::testHelpTextFunctionWithBuiltin PASSED [ 64%]
+tests/helptext_test.py::HelpTest::testHelpTextFunctionWithDefaults PASSED [ 64%]
+tests/helptext_test.py::HelpTest::testHelpTextFunctionWithDefaultsAndTypes PASSED [ 65%]
+tests/helptext_test.py::HelpTest::testHelpTextFunctionWithKwargs PASSED  [ 65%]
+tests/helptext_test.py::HelpTest::testHelpTextFunctionWithKwargsAndDefaults PASSED [ 65%]
+tests/helptext_test.py::HelpTest::testHelpTextFunctionWithLongDefaults PASSED [ 66%]
+tests/helptext_test.py::HelpTest::testHelpTextFunctionWithLongTypes PASSED [ 66%]
+tests/helptext_test.py::HelpTest::testHelpTextFunctionWithTypes PASSED   [ 67%]
+tests/helptext_test.py::HelpTest::testHelpTextFunctionWithTypesAndDefaultNone PASSED [ 67%]
+tests/helptext_test.py::HelpTest::testHelpTextInt PASSED                 [ 67%]
+tests/helptext_test.py::HelpTest::testHelpTextKeywordOnlyArgumentsWithDefault PASSED [ 68%]
+tests/helptext_test.py::HelpTest::testHelpTextKeywordOnlyArgumentsWithoutDefault PASSED [ 68%]
+tests/helptext_test.py::HelpTest::testHelpTextMultipleKeywoardArgumentsWithShortArgs PASSED [ 68%]
+tests/helptext_test.py::HelpTest::testHelpTextNameSectionCommandWithSeparator PASSED [ 69%]
+tests/helptext_test.py::HelpTest::testHelpTextNameSectionCommandWithSeparatorVerbose PASSED [ 69%]
+tests/helptext_test.py::HelpTest::testHelpTextNoDefaults PASSED          [ 70%]
+tests/helptext_test.py::HelpTest::testHelpTextNoDefaultsObject PASSED    [ 70%]
+tests/helptext_test.py::HelpTest::testHelpTextNoInit PASSED              [ 70%]
+tests/helptext_test.py::HelpTest::testHelpTextObjectWithGroupAndValues PASSED [ 71%]
+tests/helptext_test.py::HelpTest::testHelpTextShortList PASSED           [ 71%]
+tests/helptext_test.py::HelpTest::testHelpTextUnderlineFlag PASSED       [ 72%]
+tests/helptext_test.py::UsageTest::testInitRequiresFlagSyntaxSubclassNamedTuple PASSED [ 72%]
+tests/helptext_test.py::UsageTest::testUsageOutput PASSED                [ 72%]
+tests/helptext_test.py::UsageTest::testUsageOutputCallable PASSED        [ 73%]
+tests/helptext_test.py::UsageTest::testUsageOutputConstructorWithParameter PASSED [ 73%]
+tests/helptext_test.py::UsageTest::testUsageOutputConstructorWithParameterVerbose PASSED [ 73%]
+tests/helptext_test.py::UsageTest::testUsageOutputEmptyDict PASSED       [ 74%]
+tests/helptext_test.py::UsageTest::testUsageOutputFunctionMixedDefaults PASSED [ 74%]
+tests/helptext_test.py::UsageTest::testUsageOutputFunctionWithDocstring PASSED [ 75%]
+tests/helptext_test.py::UsageTest::testUsageOutputFunctionWithHelp PASSED [ 75%]
+tests/helptext_test.py::UsageTest::testUsageOutputMethod PASSED          [ 75%]
+tests/helptext_test.py::UsageTest::testUsageOutputNone PASSED            [ 76%]
+tests/helptext_test.py::UsageTest::testUsageOutputVerbose PASSED         [ 76%]
+tests/inspectutils_test.py::InspectUtilsTest::testGetFullArgSpec PASSED  [ 77%]
+tests/inspectutils_test.py::InspectUtilsTest::testGetFullArgSpecFromBuiltin PASSED [ 77%]
+tests/inspectutils_test.py::InspectUtilsTest::testGetFullArgSpecFromClassNoInit PASSED [ 77%]
+tests/inspectutils_test.py::InspectUtilsTest::testGetFullArgSpecFromMethod PASSED [ 78%]
+tests/inspectutils_test.py::InspectUtilsTest::testGetFullArgSpecFromNamedTuple PASSED [ 78%]
+tests/inspectutils_test.py::InspectUtilsTest::testGetFullArgSpecFromNamedTupleSubclass PASSED [ 78%]
+tests/inspectutils_test.py::InspectUtilsTest::testGetFullArgSpecFromSlotWrapper PASSED [ 79%]
+tests/inspectutils_test.py::InspectUtilsTest::testGetFullArgSpecPy3 PASSED [ 79%]
+tests/inspectutils_test.py::InspectUtilsTest::testInfoClass PASSED       [ 80%]
+tests/inspectutils_test.py::InspectUtilsTest::testInfoClassNoInit PASSED [ 80%]
+tests/inspectutils_test.py::InspectUtilsTest::testInfoNoDocstring PASSED [ 80%]
+tests/inspectutils_test.py::InspectUtilsTest::testInfoOne PASSED         [ 81%]
+tests/interact_test.py::InteractTest::testInteract PASSED                [ 81%]
+tests/interact_test.py::InteractTest::testInteractVariables PASSED       [ 81%]
+tests/main_test.py::MainModuleTest::testArgPassing PASSED                [ 82%]
+tests/main_test.py::MainModuleTest::testNameSetting PASSED               [ 82%]
+tests/main_test.py::MainModuleFileTest::testFileNameFailure PASSED       [ 83%]
+tests/main_test.py::MainModuleFileTest::testFileNameFire PASSED          [ 83%]
+tests/main_test.py::MainModuleFileTest::testFileNameModuleDuplication PASSED [ 83%]
+tests/main_test.py::MainModuleFileTest::testFileNameModuleFileFailure PASSED [ 84%]
+tests/parser_test.py::ParserTest::testCreateParser PASSED                [ 84%]
+tests/parser_test.py::ParserTest::testDefaultParseValueBadLiteral PASSED [ 85%]
+tests/parser_test.py::ParserTest::testDefaultParseValueBareWordsLists PASSED [ 85%]
+tests/parser_test.py::ParserTest::testDefaultParseValueBareWordsTuple PASSED [ 85%]
+tests/parser_test.py::ParserTest::testDefaultParseValueBool PASSED       [ 86%]
+tests/parser_test.py::ParserTest::testDefaultParseValueComments PASSED   [ 86%]
+tests/parser_test.py::ParserTest::testDefaultParseValueDict PASSED       [ 86%]
+tests/parser_test.py::ParserTest::testDefaultParseValueIgnoreBinOp PASSED [ 87%]
+tests/parser_test.py::ParserTest::testDefaultParseValueLists PASSED      [ 87%]
+tests/parser_test.py::ParserTest::testDefaultParseValueNestedContainers PASSED [ 88%]
+tests/parser_test.py::ParserTest::testDefaultParseValueNone PASSED       [ 88%]
+tests/parser_test.py::ParserTest::testDefaultParseValueNumbers PASSED    [ 88%]
+tests/parser_test.py::ParserTest::testDefaultParseValueOtherNumbers PASSED [ 89%]
+tests/parser_test.py::ParserTest::testDefaultParseValueQuotedStringNumbers PASSED [ 89%]
+tests/parser_test.py::ParserTest::testDefaultParseValueQuotedStrings PASSED [ 90%]
+tests/parser_test.py::ParserTest::testDefaultParseValueSpecialStrings PASSED [ 90%]
+tests/parser_test.py::ParserTest::testDefaultParseValueStringNumbers PASSED [ 90%]
+tests/parser_test.py::ParserTest::testDefaultParseValueStrings PASSED    [ 91%]
+tests/parser_test.py::ParserTest::testDefaultParseValueSyntaxError PASSED [ 91%]
+tests/parser_test.py::ParserTest::testSeparateFlagArgs PASSED            [ 91%]
+tests/test_components_test.py::TestComponentsTest::testNonComparable PASSED [ 92%]
+tests/test_components_test.py::TestComponentsTest::testTestComponents PASSED [ 92%]
+tests/testutils_test.py::TestTestUtils::testCheckStdoutOrStderrNone PASSED [ 93%]
+tests/testutils_test.py::TestTestUtils::testCorrectOrderingOfAssertRaises PASSED [ 93%]
+tests/testutils_test.py::TestTestUtils::testNoCheckOnException PASSED    [ 93%]
+tests/trace_test.py::FireTraceTest::testAddAccessedProperty PASSED       [ 94%]
+tests/trace_test.py::FireTraceTest::testAddCalledCallable PASSED         [ 94%]
+tests/trace_test.py::FireTraceTest::testAddCalledRoutine PASSED          [ 95%]
+tests/trace_test.py::FireTraceTest::testAddCompletionScript PASSED       [ 95%]
+tests/trace_test.py::FireTraceTest::testAddInstantiatedClass PASSED      [ 95%]
+tests/trace_test.py::FireTraceTest::testAddInteractiveMode PASSED        [ 96%]
+tests/trace_test.py::FireTraceTest::testFireTraceGetResult PASSED        [ 96%]
+tests/trace_test.py::FireTraceTest::testFireTraceHasError PASSED         [ 96%]
+tests/trace_test.py::FireTraceTest::testFireTraceInitialization PASSED   [ 97%]
+tests/trace_test.py::FireTraceTest::testGetCommand PASSED                [ 97%]
+tests/trace_test.py::FireTraceTest::testGetCommandWithFlagQuotes PASSED  [ 98%]
+tests/trace_test.py::FireTraceTest::testGetCommandWithQuotes PASSED      [ 98%]
+tests/trace_test.py::FireTraceElementTest::testFireTraceElementAsStringNoMetadata PASSED [ 98%]
+tests/trace_test.py::FireTraceElementTest::testFireTraceElementAsStringWithTarget PASSED [ 99%]
+tests/trace_test.py::FireTraceElementTest::testFireTraceElementAsStringWithTargetAndLineNo PASSED [ 99%]
+tests/trace_test.py::FireTraceElementTest::testFireTraceElementHasError PASSED [100%]
+
+=============================== warnings summary ===============================
+fire/test_components_py3.py:61
+  /s/bach/m/under/bdavis43/CS514/Project/python-fire/fire/test_components_py3.py:61: DeprecationWarning: "@coroutine" decorator is deprecated since Python 3.8, use "async def" instead
+    def double(self, count=0):
+
+tests/test_components_py3.py:61
+  /s/bach/m/under/bdavis43/CS514/Project/python-fire/tests/test_components_py3.py:61: DeprecationWarning: "@coroutine" decorator is deprecated since Python 3.8, use "async def" instead
+    def double(self, count=0):
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+======================= 261 passed, 2 warnings in 1.77s ========================
+2023-11-04 16:23:53,516: CLI Report:
+
+Mutatest diagnostic summary
+===========================
+ - Source location: /s/bach/m/under/bdavis43/CS514/Project/python-fire/fire
+ - Test commands: ['py.test', 'tests', '-v']
+ - Mode: f
+ - Excluded files: []
+ - N locations input: 10
+ - Random seed: 514
+
+Random sample details
+---------------------
+ - Total locations mutated: 10
+ - Total locations identified: 1490
+ - Location sample coverage: 0.67 %
+
+
+Running time details
+--------------------
+ - Clean trial 1 run time: 0:00:02.379173
+ - Clean trial 2 run time: 0:00:02.096677
+ - Mutation trials total run time: 0:00:45.315897
+
+2023-11-04 16:23:53,516: Trial Summary Report:
+
+Overall mutation trial summary
+==============================
+ - DETECTED: 10
+ - SURVIVED: 9
+ - TOTAL RUNS: 19
+ - RUN DATETIME: 2023-11-04 16:23:53.515946
+
+2023-11-04 16:23:53,516: Detected mutations:[92m
+
+DETECTED
+--------
+ - fire/core.py: (l: 648, c: 13) - mutation from Index_NumZero to Index_NumNeg
+ - fire/core.py: (l: 648, c: 13) - mutation from Index_NumZero to Index_NumPos
+ - fire/custom_descriptions.py: (l: 71, c: 9) - mutation from <class '_ast.In'> to <class '_ast.NotIn'>
+ - fire/custom_descriptions.py: (l: 94, c: 5) - mutation from <class '_ast.Add'> to <class '_ast.Sub'>
+ - fire/custom_descriptions.py: (l: 94, c: 5) - mutation from <class '_ast.Add'> to <class '_ast.FloorDiv'>
+ - fire/custom_descriptions.py: (l: 94, c: 5) - mutation from <class '_ast.Add'> to <class '_ast.Mod'>
+ - fire/custom_descriptions.py: (l: 94, c: 5) - mutation from <class '_ast.Add'> to <class '_ast.Div'>
+ - fire/inspectutils.py: (l: 36, c: 40) - mutation from None to True
+ - fire/inspectutils.py: (l: 144, c: 5) - mutation from <class '_ast.IsNot'> to <class '_ast.Is'>
+ - fire/inspectutils.py: (l: 164, c: 9) - mutation from <class '_ast.Is'> to <class '_ast.IsNot'>[0m
+
+2023-11-04 16:23:53,516: Timedout mutations:
+
+2023-11-04 16:23:53,516: Surviving mutations:[91m
+
+SURVIVED
+--------
+ - fire/console/console_attr.py: (l: 741, c: 13) - mutation from None to True
+ - fire/console/console_attr.py: (l: 741, c: 13) - mutation from None to False
+ - fire/console/console_pager.py: (l: 144, c: 9) - mutation from <class '_ast.In'> to <class '_ast.NotIn'>
+ - fire/core.py: (l: 736, c: 7) - mutation from <class '_ast.Or'> to <class '_ast.And'>
+ - fire/custom_descriptions.py: (l: 94, c: 5) - mutation from <class '_ast.Add'> to <class '_ast.Mult'>
+ - fire/custom_descriptions.py: (l: 94, c: 5) - mutation from <class '_ast.Add'> to <class '_ast.Pow'>
+ - fire/console/encoding.py: (l: 39, c: 11) - mutation from None to False
+ - fire/console/encoding.py: (l: 39, c: 11) - mutation from None to True
+ - fire/inspectutils.py: (l: 36, c: 40) - mutation from None to False[0m
+
