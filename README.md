@@ -15,3 +15,9 @@ README.md: This file.
 directoryScript.py: This is the script that was used on the 5 open-source projects to subset the large test suites that were provided with each open-source project.
 
 directorScript_PA1.py: This is the script that was used on the Python program from CS220: Discrete Structures and their Applications to subset the test suite that I wrote at the beginning of this project.
+
+MutationProjectResults.xlsx: This is the Excel file that was used to complete all data analysis.
+
+Term Paper - CS 514 - Blake Davis.pdf: This is the Term Paper that clearly states how the study was designed and all of my findings.
+
+Term Project Presentation - CS 514 - Blake Davis.pdf: This is the presentation that outlines my study design, results, and conclusions. 
